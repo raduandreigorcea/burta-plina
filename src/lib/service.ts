@@ -283,8 +283,8 @@ export async function optimizeAll(
 
   // Most food first; ties -> cheaper; failures last.
   return outcomes.sort((a, b) => {
-    const ga = a.result?.best?.score ?? -1;
-    const gb = b.result?.best?.score ?? -1;
+    const ga = a.result?.best?.grams ?? -1;
+    const gb = b.result?.best?.grams ?? -1;
     if (ga !== gb) return gb - ga;
     return (a.result?.best?.cost.counted ?? 0) - (b.result?.best?.cost.counted ?? 0);
   });

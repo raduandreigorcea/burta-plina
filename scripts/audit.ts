@@ -52,7 +52,6 @@ for (const q of process.argv.slice(2)) {
       ["70", { budget: 7000 }],
       ["70 cu de toate", { budget: 7000, ...everything }],
       ["120", { budget: 12000 }],
-      ["70 proteine", { budget: 7000, objective: "protein" }],
     ];
     for (const [label, o] of runs) {
       const r = optimize(items, menu.fees, menu.offers, { ...base, ...o });
@@ -61,7 +60,7 @@ for (const q of process.argv.slice(2)) {
         ` [${label}] ` +
           (b
             ? b.lines.map((l) => `${l.qty}x ${l.name}${l.weightUncertain ? "~" : ""} (${l.kind} ${l.lineGrams}g ${lei(l.lineTotal)})`).join(" + ") +
-              ` => ${b.grams}g, ${Math.round(b.protein)}g proteine${b.proteinEstimated ? "~" : ""}, ${lei(b.cost.total)}`
+              ` => ${b.grams}g ${lei(b.cost.total)}`
             : r.reason),
       );
     }
