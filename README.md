@@ -1,6 +1,6 @@
 # Cât mai multă mâncare
 
-Alegi un fast-food și un buget; aplicația compară Wolt și Glovo și îți spune de unde și ce să
+Alegi un fast-food și un buget; aplicația compară Wolt, Glovo și Bolt Food și îți spune de unde și ce să
 comanzi ca să primești cele mai multe grame de mâncare.
 
 ## Pornire
@@ -38,9 +38,8 @@ strică un lanț, se vede în `tests/__snapshots__/`.
 ## Limitări
 
 - Sursele sunt neoficiale și se pot schimba oricând; de folosit personal, cu trafic mic.
-- Bolt Food nu e inclus încă. food.bolt.eu își încarcă datele dintr-un API web neoficial
-  (`deliveryuser.live.boltsvc.net/deliveryClient/public`: `deliverySearch`, `getMenuCategories`,
-  `getProviderDetails`), dar adaptorul nu e scris.
+- Bolt Food: meniul și taxa de livrare vin din API-ul web neoficial (`deliveryuser.live.boltsvc.net`);
+  taxa de servicii și suprataxa de coș mic nu sunt publice și nu sunt incluse. Linkurile merg doar pentru București.
 - Ofertele legate de cont (utilizatori noi, Wolt+, Glovo Prime, coduri promo) nu intră în calcul.
 - Glovo: taxa de livrare e cea afișată pe oraș (la adresa ta poate fi cu 1–2 lei mai mare). Taxa de
   servicii și suprataxa de coș mic nu sunt publice; sunt cele citite dintr-un coș real (`glovo.ts`).
