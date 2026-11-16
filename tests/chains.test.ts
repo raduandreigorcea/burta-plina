@@ -31,6 +31,7 @@ describe("resolveChain", () => {
     expect(resolveChain("mec")).toBe("McDonald's");
     expect(resolveChain(" kfc ")).toBe("KFC");
     expect(resolveChain("popey")).toBe("Popeyes");
+    expect(resolveChain("burger")).toBe("Burger King");
   });
 
   it("leaves other restaurants as typed", () => {

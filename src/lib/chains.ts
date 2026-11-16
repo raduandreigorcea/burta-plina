@@ -69,5 +69,8 @@ export function resolveChain(text: string): string {
   const exact = CHAINS.find((c) => [c.name, ...c.aliases].some((k) => squash(k) === q));
   if (exact) return exact.name;
   const hits = suggestChains(text);
-  return hits.length === 1 && q.length >= 3 ? hits[0].name : text.trim();
+  if (q.length < 3 || hits.length === 0) return text.trim();
+  // One candidate, or the text is the beginning of a name ("burger" -> Burger King).
+  const begins = [hits[0].name, ...hits[0].aliases].some((k) => squash(k).startsWith(q));
+  return hits.length === 1 || begins ? hits[0].name : text.trim();
 }
