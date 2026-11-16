@@ -4,7 +4,7 @@
  "venue": "Subway",
  "savedOn": "2026-11-16",
  "fees": {
-  "deliveryFee": 799,
+  "deliveryFee": 999,
   "minOrder": 0,
   "serviceFee": {
    "pct": 10,
@@ -30,16 +30,16 @@
    "price": 4840
   },
   {
-   "name": "Ton Ø 30cm",
-   "description": "Un favorit al fanilor SUBWAY. Ton amestecat cu maioneză, servit pe pâine proaspăt coaptă, cu legume la alegere, cum ar fi salată verde, roșii, ceapă și castraveți murați\n\nPentru informații privind Gramaje, Ingrediente, Alergeni consultă mysubway.ro/menu - Informatii despre produs.",
-   "category": "SUB cu TON",
-   "price": 4600
-  },
-  {
    "name": "Italian BMT Ø 30cm",
    "description": "Un SUB pentru iubitorii de carne. Italian B.M.T.® este un SUB clasic cu salam de Genova, pepperoni picant și șuncă de porc, acoperit în mod tradițional cu legume și brânză, pe pâine proaspăt coaptă, la alegere. Se servește cel mai bine cu sos Chipotle.\n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, vă rugăm să vizitați: mysubway.ro/menu - Informații despre produs",
    "category": "SUB cu PORC",
    "price": 4280
+  },
+  {
+   "name": "Picant Italian Ø 30cm",
+   "description": "Trezește-ți papilele gustative cu SUB-ul Picant Italian, cu pepperoni și salam de Genova, salată verde proaspătă, roșii suculente, castraveți murați și ceapă, pe pâine proaspăt coaptă, la alegere. \n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, vă rugăm să vizitați: mysubway.ro/menu - Informații despre produs",
+   "category": "SUB cu PORC",
+   "price": 3880
   },
   {
    "name": "Pulled Pork BBQ Ø 30 cm",
@@ -102,22 +102,22 @@
    "price": 2480
   },
   {
-   "name": "Ton  15cm",
-   "description": "Un favorit al fanilor SUBWAY. Ton amestecat cu maioneză, servit pe pâine proaspăt coaptă, cu legume la alegere, cum ar fi salată verde, roșii, ceapă și castraveți murați\n\nPentru informații privind Gramaje, Ingrediente, Alergeni consultă mysubway.ro/menu - Informatii despre produs.",
-   "category": "SUB cu TON",
-   "price": 2690
+   "name": "Vită și brânză Ø 30cm",
+   "description": "SUB cu Vită și brânză conține felii delicioase de friptură slabă și fragedă, cu salată crocantă, felii de ceapă, roșii proaspete și brânză topită. Se recomanda Toasted, cu legume și condimente la alegere, pe pâine proaspăt coaptă.\n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, vă rugăm să vizitați: mysubway.ro/menu - Informații despre produs",
+   "category": "SUB cu VITĂ",
+   "price": 5080
+  },
+  {
+   "name": "Vită și brânză Ø 15cm",
+   "description": "SUB cu Vită și brânză conține felii delicioase de friptură slabă și fragedă, cu salată crocantă, felii de ceapă, roșii proaspete și brânză topită. Se recomanda Toasted, cu legume și condimente la alegere, pe pâine proaspăt coaptă.\n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, vă rugăm să vizitați: mysubway.ro/menu - Informații despre produs",
+   "category": "SUB cu VITĂ",
+   "price": 2980
   },
   {
    "name": "BBQ Ribs Ø 30cm",
    "description": "Nu trebuie să aprinzi grătarul pentru a simți aroma suculentă și afumată de BBQ cu acest sandviș. Adaugă sos BBQ sau brânză pentru a crea un plus de savoare!\n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, te rugăm să vizitezi: mysubway.ro/menu - Informații despre produs",
    "category": "SUB cu PORC",
    "price": 4540
-  },
-  {
-   "name": "Picant Italian Ø 30cm",
-   "description": "Trezește-ți papilele gustative cu SUB-ul Picant Italian, cu pepperoni și salam de Genova, salată verde proaspătă, roșii suculente, castraveți murați și ceapă, pe pâine proaspăt coaptă, la alegere. \n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, vă rugăm să vizitați: mysubway.ro/menu - Informații despre produs",
-   "category": "SUB cu PORC",
-   "price": 3880
   },
   {
    "name": "Șuncă Ø 30cm",
@@ -150,34 +150,16 @@
    "price": 2000
   },
   {
-   "name": "Cartofi copti  (portie mare)",
-   "description": "WAFFLE FRIES 120g",
-   "category": "CARTOFI LA CUPTOR",
-   "price": 1310
+   "name": "Sunca de Curcan 30cm",
+   "description": "Acest SUB cu felii de șuncă de curcan, servite cu legume și condimente la alegere pe pâine proaspăt coaptă este o opțiune delicioasă pentru cei care caută o masă echilibrată. Indiferent dacă sunteți în căutarea unui mic dejun rapid sau a unui prânz delicios, acest SUB vă va plăcea cu siguranță.\n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, te rugăm să vizitezi: mysubway.ro/menu - Informații despre produs",
+   "category": "SUB cu CURCAN",
+   "price": 4140
   },
   {
-   "name": "Cartofi copti (portie mica)",
-   "description": "WAFFLE FRIES 80g",
-   "category": "CARTOFI LA CUPTOR",
-   "price": 1080
-  },
-  {
-   "name": "TLC Teriyaki 30cm",
-   "description": "0% Carne , 100% Gust\nSubway’s T.L.C.® (Tastes Like Chicken) Teriyaki este o alternativă vegană, pe bază de plante, la clasicul Chicken Teriyaki, conține fâșii marinate pe bază de soia, cu o glazură savuroasă dulce-acrișoară în stil asiatic, acoperite cu legume și condimente la alegere, pe pâine proaspăt coaptă\n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, vă rugăm să vizitați: mysubway.ro/menu - Informații despre produs",
-   "category": "TASTY VEGGIE",
-   "price": 5130
-  },
-  {
-   "name": "Vegan Spicy Veggie Ø 30cm",
-   "description": "Spicy Veggie este un sandviș Vegan, cu o chiftea de legume usor picant condimentată, servită cu legume proaspete și condimente la alegere, pe pâine proaspăt coaptă. Recomandat cu jalapeño, murături și ceapă crocantă\n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, vă rugăm să vizitați: mysubway.ro/menu - Informații despre produs",
-   "category": "TASTY VEGGIE",
-   "price": 4540
-  },
-  {
-   "name": "TLC Teriyaki Salata",
-   "description": "0% Carne , 100% Gust\nSubway’s T.L.C.® (Tastes Like Chicken) Teriyaki Salad este o alternativă vegană, pe bază de plante, la clasicul Chicken Teriyaki, conține fâșii marinate pe bază de soia, cu o glazură savuroasă în stil asiatic, acoperite cu legume și condimente la alegere, pregatită la comandă. \n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, vă rugăm să vizitați: mysubway.ro/menu - Informații despre produs",
-   "category": "TASTY VEGGIE",
-   "price": 3500
+   "name": "Sunca de Curcan  - 15cm",
+   "description": "Acest SUB cu felii de șuncă de curcan, servite cu legume și condimente la alegere pe pâine proaspăt coaptă este o opțiune delicioasă pentru cei care caută o masă echilibrată. Indiferent dacă sunteți în căutarea unui mic dejun rapid sau a unui prânz delicios, acest SUB vă va plăcea cu siguranță.\n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, te rugăm să vizitezi: mysubway.ro/menu - Informații despre produs",
+   "category": "SUB cu CURCAN",
+   "price": 2430
   },
   {
    "name": "Veggie Delite Ø 30cm",
@@ -186,34 +168,16 @@
    "price": 3090
   },
   {
-   "name": "TLC Teriyaki 15cm",
-   "description": "0% Carne , 100% Gust\nSubway’s T.L.C.® (Tastes Like Chicken) Teriyaki este o alternativă vegană, pe bază de plante, la clasicul Chicken Teriyaki, conține fâșii marinate pe bază de soia, cu o glazură savuroasă dulce-acrișoară în stil asiatic, acoperite cu legume și condimente la alegere, pe pâine proaspăt coaptă\n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, vă rugăm să vizitați: mysubway.ro/menu - Informații despre produs",
-   "category": "TASTY VEGGIE",
-   "price": 3000
-  },
-  {
-   "name": "TLC Teriyaki Wrap",
-   "description": "0% Carne , 100% Gust\nSubway’s T.L.C.® (Tastes Like Chicken) Teriyaki Wrap este o alternativă vegană, pe bază de plante, la clasicul Chicken Teriyaki, conține fâșii marinate pe bază de soia, cu o glazură savuroasă în stil asiatic, acoperite cu legume și condimente la alegere, pe un wrap classic, pregătit la comandă\n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, vă rugăm să vizitați: mysubway.ro/menu - Informații despre produs",
-   "category": "TASTY VEGGIE",
-   "price": 3000
-  },
-  {
-   "name": "Vegan Spicy Veggie Ø 15cm",
-   "description": "Spicy Veggie este un sandviș Vegan, cu o chiftea de legume usor picant condimentată, servită cu legume proaspete și condimente la alegere, pe pâine proaspăt coaptă. Recomandat cu jalapeño, murături și ceapă crocantă\n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, vă rugăm să vizitați: mysubway.ro/menu - Informații despre produs",
-   "category": "TASTY VEGGIE",
-   "price": 2650
-  },
-  {
    "name": "Veggie Delite Ø 15cm",
    "description": "SUB plin cu legume \"la alegere\". O combinație delicios de crocantă și proaspătă, cu condimente și sosuri la alegere, servită pe pâine proaspăt coaptă. Adaugă brânză, dacă vrei ca masa ta să conțină proteine\n\nPentru informații privind Gramaje, Ingrediente, Alergeni consultă: mysubway.ro/menu - Informații despre produs.",
    "category": "TASTY VEGGIE",
    "price": 1790
   },
   {
-   "name": "Signature Wrap Spicy Veggie Queen",
-   "description": "Rețetă predefinită : două patty picant vegan (cubulețe), guacamole și legume proaspete: salată Iceberg, roșii, ardei, castraveți murați, toate asezonate cu sos Sweet onion și învelite într-o tortilla",
+   "name": "Signature Wrap Vită și Brânză",
+   "description": "Rețetă predefinită : felii delicioase de friptură de vită, mix de mozzarella și cheddar, guacamole, salată Iceberg, roșii, ardei, ceapă, jalapenos picanți, asezonate cu sos Chipotle Southwest și învelite într-o tortilla.",
    "category": "XL SIGNATURE WRAPS",
-   "price": 3770
+   "price": 4450
   },
   {
    "name": "Signature Wrap Pui Teryaki",
@@ -222,10 +186,28 @@
    "price": 3770
   },
   {
+   "name": "Signature Salata Chipotle Cheese Steak",
+   "description": "Rețetă predefinită : vită marunțită (112g), brânză in stil american, pe un pat de legume proaspete: Salată iceberg (110g), roșii (60g), castraveți (36g), porumb dulce, fulgi ceapă crocantă și sos Chipotle Southwest",
+   "category": "XL SIGNATURE SALADS",
+   "price": 4450
+  },
+  {
    "name": "Signature Salată Pui Sweet Onion",
    "description": "Rețetă predefinită : fâșii de pui (112g) și mix brânză Mozzarella & Cheddar (28g), pe un pat de legume proaspete: Salată iceberg (110g), roșii (60g), castraveți (36g), ardei (24g), măsline, ceapă, piper, fulgi ceapă crocantă totul asezonat cu un dressing de ceapă dulce",
    "category": "XL SIGNATURE SALADS",
    "price": 3770
+  },
+  {
+   "name": "Signature Salată Spicy Guacamole",
+   "description": "Rețetă predefinită : Salată iceberg (110g), Guacamole (70g), roșii (60g), castraveți (36g), ardei (24g), jalapenos, porumb dulce, piper, ulei de măsline",
+   "category": "XL SIGNATURE SALADS",
+   "price": 3770
+  },
+  {
+   "name": "Salata Vită și brânză",
+   "description": "Salata cu Vită și brânză conține felii delicioase de friptură slabă și fragedă, cu legume la alegere: salată crocantă, felii de ceapă, roșii proaspete și brânză topită. \n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, vă rugăm să vizitați: mysubway.ro/menu - Informații despre produs",
+   "category": "SALATE",
+   "price": 3480
   },
   {
    "name": "Salata Pui teriyaki",
@@ -240,20 +222,8 @@
    "price": 3320
   },
   {
-   "name": "Salata Ton",
-   "description": "O favorită a fanilor SUBWAY. Ton amestecat cu maioneză pe un pat de legume la alegere: salată verde, roșii, ceapă și castraveți murați\n\nPentru informații privind Gramaje, Ingrediente, Alergeni consultă: mysubway.ro/menu - Informatii despre produs.",
-   "category": "SALATE",
-   "price": 3190
-  },
-  {
    "name": "Salata BBQ Ribs",
    "description": "Nu trebuie să aprinzi grătarul pentru a simți aroma suculentă și afumată de BBQ cu această salată. Adaugă sos BBQ sau brânză pentru a crea un plus de savoare!\n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, te rugăm să vizitezi: mysubway.ro/menu - Informații despre produs",
-   "category": "SALATE",
-   "price": 3150
-  },
-  {
-   "name": "Salata Spicy Veggie",
-   "description": "Spicy Veggie este o salată Vegană, cu o chiftea de legume usor picant condimentată, servită cu legume proaspete și condimente la alegere Recomandat cu jalapeño, castraveți murați și ceapă crocantă.\n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, vă rugăm să vizitați: mysubway.ro/menu - Informații despre produs",
    "category": "SALATE",
    "price": 3150
   },
@@ -270,6 +240,12 @@
    "price": 2980
   },
   {
+   "name": "Salata cu sunca de curcan",
+   "description": "Felii de șuncă de curcan, servite cu legume și condimente la alegere; este o opțiune delicioasă pentru cei care caută o masă echilibrată. Indiferent dacă sunteți în căutarea unui mic dejun rapid sau a unui prânz delicios, această salata vă va plăcea cu siguranță.\n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, te rugăm să vizitezi: mysubway.ro/menu - Informații despre produs",
+   "category": "SALATE",
+   "price": 2930
+  },
+  {
    "name": "Salata Picant Italian",
    "description": "Trezește-ți papilele gustative cu Salata Picant Italian, cu pepperoni și salam de Genova, salată verde proaspătă, roșii suculente, castraveți murați și ceapă, la alegere. \n\nPentru mai multe informații despre porții, alergeni și valori nutriționale, vă rugăm să vizitați: mysubway.ro/menu - Informații despre produs",
    "category": "SALATE",
@@ -282,19 +258,13 @@
    "price": 2500
   },
   {
-   "name": "Double Chocolate Cookie 45g",
-   "description": "Fursec vegan cu dublu ciocolată",
-   "category": "FURSECURI SI CHIPS-URI",
-   "price": 510
-  },
-  {
-   "name": "Raspberry Cookie 45g",
-   "description": "Fursec cheesecake cu zmeură",
-   "category": "FURSECURI SI CHIPS-URI",
-   "price": 510
-  },
-  {
    "name": "Lipton de lămâie",
+   "description": "500ml",
+   "category": "BAUTURI",
+   "price": 1080
+  },
+  {
+   "name": "Lipton de piersici",
    "description": "500ml",
    "category": "BAUTURI",
    "price": 1080
@@ -302,6 +272,18 @@
   {
    "name": "Prigat Visine&Struguri",
    "description": "Prigat Visine&Struguri 500ml",
+   "category": "BAUTURI",
+   "price": 1080
+  },
+  {
+   "name": "Pepsi Zero Zahar, Bautura Cola, 500ML",
+   "description": "500ml",
+   "category": "BAUTURI",
+   "price": 1080
+  },
+  {
+   "name": "Pepsi 0.5",
+   "description": "500ml",
    "category": "BAUTURI",
    "price": 1080
   },
@@ -340,6 +322,18 @@
    "description": "500ml",
    "category": "BAUTURI",
    "price": 860
+  },
+  {
+   "name": "Aqua Carpatica Plata",
+   "description": "500ml",
+   "category": "BAUTURI",
+   "price": 860
+  },
+  {
+   "name": "Pepsi Zero Zahăr doza",
+   "description": "330ml",
+   "category": "BAUTURI",
+   "price": 840
   },
   {
    "name": "Pepsi doza",

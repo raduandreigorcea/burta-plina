@@ -6,8 +6,12 @@
  "fees": {
   "deliveryFee": 499,
   "minOrder": 0,
+  "serviceFee": {
+   "pct": 7.23,
+   "flat": 35
+  },
   "notes": [
-   "Bolt Food: taxa de livrare e cea din căutare pentru adresa ta; taxa de servicii și suprataxa de coș mic nu sunt publice și nu sunt incluse."
+   "Bolt Food: taxa de servicii (≈ 0.35 lei + 7.23%) e dedusă din două comenzi reale (40 și 120 lei), deci e sigură doar între aceste valori; garanția pentru sticle (0,50 lei) nu e inclusă."
   ]
  },
  "offers": [],
@@ -71,24 +75,6 @@
    "description": "300 G CARNE, 80 G CARTOFI",
    "category": "LIPIE DRISTOR",
    "price": 8099
-  },
-  {
-   "name": "BAGHETA VITA DRISTOR",
-   "description": "CARNE 100 GR, CARTFI 100 GR",
-   "category": "BAGHETA DRISTOR",
-   "price": 5749
-  },
-  {
-   "name": "DRISTOR MIX BAGUETTE",
-   "description": "CARNE 100 GR, CARTOFI 100 GR",
-   "category": "BAGHETA DRISTOR",
-   "price": 5449
-  },
-  {
-   "name": "BAGHETA PUI DRISTOR",
-   "description": "CARNE 100 GR, CARTOFI 100 GR",
-   "category": "BAGHETA DRISTOR",
-   "price": 5049
   },
   {
    "name": "Cutie Doner Pui",
@@ -171,12 +157,6 @@
   {
    "name": "Lipie",
    "description": "LIPIE 60 GR",
-   "category": "Sides and Sauces",
-   "price": 749
-  },
-  {
-   "name": "Baguetă",
-   "description": "BAGHETĂ 100 GR",
    "category": "Sides and Sauces",
    "price": 749
   },

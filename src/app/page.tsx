@@ -493,7 +493,7 @@ export default function Home() {
         <p className="muted offGrid">
           {winner.platform === "glovo"
             ? "Atenție: la Glovo taxa de livrare e cea afișată pe oraș; la adresa ta poate fi cu 1–2 lei mai mare."
-            : "Atenție: la Bolt Food taxa de servicii și suprataxa de coș mic nu sunt publice și nu sunt incluse, deci totalul real poate fi mai mare."}
+            : "Atenție: la Bolt Food taxa de servicii e estimată din două comenzi reale (între 40 și 120 lei) și garanția pentru sticle nu e inclusă."}
         </p>
       )}
 

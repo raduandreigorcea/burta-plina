@@ -62,18 +62,6 @@
  ],
  "items": [
   {
-   "name": "BAGHETA",
-   "description": "BAGHETA 100 GR",
-   "category": "GARNITURI SI SOSURI",
-   "price": 749
-  },
-  {
-   "name": "BAGHETA AMESTEC DRISTOR",
-   "description": "CARNE 100 GR, CARTOFI 100 GR",
-   "category": "BAGHETA DRISTOR",
-   "price": 5449
-  },
-  {
    "name": "KETCHUP DRISTOR",
    "description": "KETCHUP 35 GRAME",
    "category": "GARNITURI SI SOSURI",
@@ -176,18 +164,6 @@
    "price": 7949
   },
   {
-   "name": "BAGHETA VEGETARIANA DRISTOR",
-   "description": "CARTOFI 200 GR, SALATE, SOS",
-   "category": "DE POST",
-   "price": 3799
-  },
-  {
-   "name": "BAGHETA VITA DRISTOR",
-   "description": "CARNE 100 GR, CARTOFI 100 GR",
-   "category": "BAGHETA DRISTOR",
-   "price": 5749
-  },
-  {
    "name": "LIPIE PUI DRISTOR",
    "description": "CARNE 180 GR, CARTOFI 120 GR",
    "category": "LIPIE DRISTOR",
@@ -210,12 +186,6 @@
    "description": "CARNE 200 GR, CARTOFI 170 GR, LIPIE",
    "category": "FARFURIE DRISTOR",
    "price": 7149
-  },
-  {
-   "name": "BAGHETA PUI DRISTOR",
-   "description": "CARNE 100 GR, CARTOFI 100 GR",
-   "category": "BAGHETA DRISTOR",
-   "price": 5049
   },
   {
    "name": "MUJDEI USTUROI",

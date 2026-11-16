@@ -226,5 +226,8 @@ describe("Bolt Food menu", () => {
       ["Whopper 269 g", 2690, "Burgeri", "", 269],
     ]);
     expect(m.fees.deliveryFee).toBe(449);
+    // Real Bolt checkouts: 39.90 lei of products paid 3.23 service, 119.70 paid 9.00.
+    expect(computeCost(3990, m.fees, [], "total").serviceFee).toBe(323);
+    expect(computeCost(11970, m.fees, [], "total").serviceFee).toBe(900);
   });
 });

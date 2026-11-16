@@ -11,6 +11,15 @@ const COMMON =
   "&device_name=web&device_os_version=web&deviceId=aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee&deviceType=web";
 const HEADERS = { origin: "https://food.bolt.eu" };
 
+/**
+ * Bolt's service fee is not public. Two real checkouts (Bucharest, 2026-11) gave
+ * 3.23 lei on 39.90 and 9.00 lei on 119.70, which a line through both reproduces:
+ * 0.35 lei + 7.23% of the products. Reliable between roughly 40 and 120 lei;
+ * outside that it is an extrapolation. The returnable-packaging deposit
+ * (0.50 lei per bottle) is not counted.
+ */
+const BOLT_SERVICE_FEE = { pct: 7.23, flat: 35 };
+
 // Bolt links carry the city; only Bucharest (id 325) was verified.
 const CITY_PATH = "325-bucharest";
 
@@ -79,11 +88,11 @@ export function parseBoltMenu(menu: BMenu, deliveryFee: number | null, venueName
   }
 
   const notes = [
-    "Bolt Food: taxa de livrare e cea din căutare pentru adresa ta; taxa de servicii și suprataxa de coș mic nu sunt publice și nu sunt incluse.",
+    "Bolt Food: taxa de servicii (≈ 0.35 lei + 7.23%) e dedusă din două comenzi reale (40 și 120 lei), deci e sigură doar între aceste valori; garanția pentru sticle (0,50 lei) nu e inclusă.",
   ];
   if (deliveryFee == null) notes.push("Taxa de livrare nu a putut fi citită; am presupus 0.");
 
-  const fees: FeeRules = { deliveryFee: deliveryFee ?? 0, minOrder: 0, notes };
+  const fees: FeeRules = { deliveryFee: deliveryFee ?? 0, minOrder: 0, serviceFee: BOLT_SERVICE_FEE, notes };
   return { items: raws.map((r) => enrichItem(r, venueName)), fees, offers: [] };
 }
 

@@ -39,7 +39,8 @@ strică un lanț, se vede în `tests/__snapshots__/`.
 
 - Sursele sunt neoficiale și se pot schimba oricând; de folosit personal, cu trafic mic.
 - Bolt Food: meniul și taxa de livrare vin din API-ul web neoficial (`deliveryuser.live.boltsvc.net`);
-  taxa de servicii și suprataxa de coș mic nu sunt publice și nu sunt incluse. Linkurile merg doar pentru București.
+  taxa de servicii nu e publică: formula (≈ 0.35 lei + 7.23% din produse) e potrivită pe două comenzi reale, la 40 și 120 lei,
+  iar garanția pentru sticle nu e inclusă. Linkurile merg doar pentru București.
 - Ofertele legate de cont (utilizatori noi, Wolt+, Glovo Prime, coduri promo) nu intră în calcul.
 - Glovo: taxa de livrare e cea afișată pe oraș (la adresa ta poate fi cu 1–2 lei mai mare). Taxa de
   servicii și suprataxa de coș mic nu sunt publice; sunt cele citite dintr-un coș real (`glovo.ts`).

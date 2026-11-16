@@ -6,8 +6,12 @@
  "fees": {
   "deliveryFee": 789,
   "minOrder": 0,
+  "serviceFee": {
+   "pct": 7.23,
+   "flat": 35
+  },
   "notes": [
-   "Bolt Food: taxa de livrare e cea din căutare pentru adresa ta; taxa de servicii și suprataxa de coș mic nu sunt publice și nu sunt incluse."
+   "Bolt Food: taxa de servicii (≈ 0.35 lei + 7.23%) e dedusă din două comenzi reale (40 și 120 lei), deci e sigură doar între aceste valori; garanția pentru sticle (0,50 lei) nu e inclusă."
   ]
  },
  "offers": [],
