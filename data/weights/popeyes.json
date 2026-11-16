@@ -1,0 +1,11 @@
+{
+  "match": ["popeyes"],
+  "source": "popeyesromania.ro, pagina fiecărui produs → Nutritional Information (2026-11-16). Gramaj = energia pe porție / energia la 100 g, deci ±3%. Doar produsele fără gramaj în Wolt/Glovo. Produsele Nashville au tabelul gol pe site (0 peste tot), deci lipsesc și de aici.",
+  "items": {
+    "Naked Chicken Sandwich": 270,
+    "Naked Spicy Chicken Sandwich": 270,
+    "Naked Chicken Wrap": 270,
+    "Naked Spicy Chicken Wrap": 270,
+    "Spicy Chicken Sandwich": 214
+  }
+}

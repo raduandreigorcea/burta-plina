@@ -1,0 +1,20 @@
+{
+  "match": ["burger king"],
+  "source": "burgerking.ro, pagina fiecărui produs → Informații nutriționale (2026-11-16). Gramaj = energia pe porție / energia la 100 g, deci ±3%. Doar produsele fără gramaj în Wolt/Glovo.",
+  "items": {
+    "Whopper": 269,
+    "Whopper Jr.": 135,
+    "Dublu Whopper": 349,
+    "Bacon& Cheese Whopper": 299,
+    "Bacon & Cheese Whopper": 299,
+    "Dublu Bacon & Cheese Whopper": 379,
+    "Big King": 160,
+    "Big King XXL": 362,
+    "Dublu Cheeseburger": 149,
+    "Crispy Chicken": 161,
+    "Chicken Royal": 224,
+    "Lord Pepper": 265,
+    "Nuggets 6 buc.": 85,
+    "Nuggets 9 buc.": 127
+  }
+}

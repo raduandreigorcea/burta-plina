@@ -1,0 +1,1505 @@
+{
+ "categories": [
+  {
+   "name": "Dragon Ball",
+   "item_ids": [
+    "152b939beaabd74e27402767"
+   ],
+   "subcategories": []
+  },
+  {
+   "name": "Oferte",
+   "item_ids": [
+    "11aa8ff81ce4ad8d5ff40ffb",
+    "7568d461a87efd8f6a528ee6",
+    "a8ac8da9f6b6ccd3378c953e",
+    "db05a9e59061336ced112d00"
+   ],
+   "subcategories": []
+  },
+  {
+   "name": "Meniuri",
+   "item_ids": [
+    "53196ecfed4f16e8483b6deb",
+    "6826bfe43b79db3bb234bdcb",
+    "6826bfe43b79db3bb234bdcd",
+    "6826bfe43b79db3bb234bdd1",
+    "6826bfe43b79db3bb234bdd3",
+    "6826bfe43b79db3bb234bde7",
+    "6826bfe43b79db3bb234bded",
+    "1577afd194cb140ba8744211"
+   ],
+   "subcategories": []
+  },
+  {
+   "name": "Garnituri",
+   "item_ids": [
+    "aa37e746cd637386b818dd20"
+   ],
+   "subcategories": []
+  }
+ ],
+ "items": [
+  {
+   "id": "11aa8ff81ce4ad8d5ff40ffb",
+   "name": "Snack Share",
+   "description": "Cartofi prăjiți porție medie, 6 Chilli Cheese Nuggets, 6 inele de ceapa, 6 Chicken Nuggets și 2 sosuri la alegere.",
+   "price": 7420,
+   "original_price": null,
+   "disabled_info": null,
+   "is_cutlery": false,
+   "is_wolt_plus_only": false,
+   "alcohol_permille": 0,
+   "options": [
+    {
+     "option_id": "3e050d44b068a3a860dfa45a",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "7d81a032eeef9cd6612b1cdc",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "6305fa821cf7b813e539ad88",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "10f48b1159e6d95dc359d8dc",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "6c496f335c0fd701d3608a81",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "af113800d7898a02fdde51cb",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "152b939beaabd74e27402767",
+   "name": "Cheesy Bacon Dragon Balls",
+   "description": "7 bucăți de biluțe crocante cu brânză și bucățele de bacon, învelite într-o crustă aurie.",
+   "price": 2190,
+   "original_price": null,
+   "disabled_info": null,
+   "is_cutlery": false,
+   "is_wolt_plus_only": false,
+   "alcohol_permille": 0,
+   "options": []
+  },
+  {
+   "id": "1577afd194cb140ba8744211",
+   "name": "Meniu Plant-based Royale",
+   "description": "Burger pe bază de plante într-un înveliș crocant, salată proaspătă și maioneză, totul într-o chiflă baghetă cu semințe de SUSAN. *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folosite pentru prepararea produselor din carne. Porție (185g).",
+   "price": 4390,
+   "original_price": null,
+   "disabled_info": null,
+   "is_cutlery": false,
+   "is_wolt_plus_only": false,
+   "alcohol_permille": 0,
+   "options": [
+    {
+     "option_id": "85f0c7af8b3159d027219a6d",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "556d83d14478f449ea271127",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "475a302a7d060b85972da299",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "434ce12934d99fd950be48cb",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "c49f83061bf7c531269cf7d8",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "53196ecfed4f16e8483b6deb",
+   "name": "5 bucăți Krispper® Tenders + Sos",
+   "description": "Cinci bucăți suculente din piept de pui, în înveliș crocant, cu sos la alegere.",
+   "price": 4590,
+   "original_price": null,
+   "disabled_info": null,
+   "is_cutlery": false,
+   "is_wolt_plus_only": false,
+   "alcohol_permille": 0,
+   "options": [
+    {
+     "option_id": "c1d5e2977e69b26dc88e9bea",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "8701cf5db96e631624b273eb",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "6826bfe43b79db3bb234bdcb",
+   "name": "Meniu Plant-Based Nuggets + 2x sos",
+   "description": "9 Nuggets pe bază de plante în înveliș auriu si crocant, alături de dOUA sosuri la alegere. Portie (9buc/ 120g). *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folosite pentru prepararea produselor din carne. INGREDIENTE: Bucăți vegetale pane pe bază de proteine vegetale ⊛ Structura vegetală [apă, proteina de SOIA, amidon, gluten de GRAU] (37%) , făină (GRÂU, porumb), apă, uleiuri vegetale (ulei de floarea-soarelui, ulei de rapiță in proportii variate ), fulgi de porumb (porumb, extract de malt de Orz, sare), fibre de OVĂZ, amidon, agent de îngroșare (metilceluloză), sare, arome naturale, agenți de creștere (E500, E450), dextroza, ierburi aromatice, coaja de Psyllium, piper, usturoi pudra, extract de drojdie, drojdie, ceapa prajita pudra, zahar. -(80g/120g) ,Ulei: (ulei de palmier, ulei de floarea soarelui cu continut ridicat de acid oleic, agent antispumant E900). Valori nutriționale 100g: Valoare energetică (KJ) 942, Valoare energetică (KCAL) 225, Grăsimi (G) 12, Grăsimi  saturate (G) 0.8, Grăsimi nesaturate (G) 0.1, Carbohidrați (G) 19., Zahăr (G) 0.8, Fibre (G) 4.8, Proteine (G) 7.3, Sare (G) 1.1 . Contine alergeni :GLUTEN , SOIA, LAPTE, TELINA. Poate Contine Alergeni :MUSTAR salbatic, ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi  saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G)  0.3. Contine 3E-uri.",
+   "price": 4650,
+   "original_price": null,
+   "disabled_info": null,
+   "is_cutlery": false,
+   "is_wolt_plus_only": false,
+   "alcohol_permille": 0,
+   "options": [
+    {
+     "option_id": "a86cd80a0f13060c2bede1ab",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "556d83d14478f449ea271127",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "da288f1ccb1127ab4fec70f9",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "65940f2764901ae92e4faeca",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "a74dbaa4698266f466f28712",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "b0fbed75938a7290079ae0e5",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "6826bfe43b79db3bb234bdcd",
+   "name": "Meniu Plant-Based Nuggets + 1x sos",
+   "description": "6 Nuggets pe bază de plante în înveliș auriu si crocant, alături de un sos la alegere. Portie (6buc/ 80g). *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folosite pentru prepararea produselor din carne. INGREDIENTE: Bucăți vegetale pane pe bază de proteine vegetale ⊛ Structura vegetală [apă, proteina de SOIA, amidon, gluten de GRAU] (37%) , făină (GRÂU, porumb), apă, uleiuri vegetale (ulei de floarea-soarelui, ulei de rapiță in proportii variate ), fulgi de porumb (porumb, extract de malt de Orz, sare), fibre de OVĂZ, amidon, agent de îngroșare (metilceluloză), sare, arome naturale, agenți de creștere (E500, E450), dextroza, ierburi aromatice, coaja de Psyllium, piper, usturoi pudra, extract de drojdie, drojdie, ceapa prajita pudra, zahar. -(80g/120g) ,Ulei: (ulei de palmier, ulei de floarea soarelui cu continut ridicat de acid oleic, agent antispumant E900). Valori nutriționale 100g: Valoare energetică (KJ) 942, Valoare energetică (KCAL) 225, Grăsimi (G) 12, Grăsimi  saturate (G) 0.8, Grăsimi nesaturate (G) 0.1, Carbohidrați (G) 19., Zahăr (G) 0.8, Fibre (G) 4.8, Proteine (G) 7.3, Sare (G) 1.1 . Contine alergeni :GLUTEN , SOIA, LAPTE, TELINA. Poate Contine Alergeni :MUSTAR salbatic, ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi  saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G)  0.3. Contine 3E-uri.",
+   "price": 4250,
+   "original_price": null,
+   "disabled_info": null,
+   "is_cutlery": false,
+   "is_wolt_plus_only": false,
+   "alcohol_permille": 0,
+   "options": [
+    {
+     "option_id": "b8bc960dd5337adaaa182e6f",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "556d83d14478f449ea271127",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "da288f1ccb1127ab4fec70f9",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "65940f2764901ae92e4faeca",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "a74dbaa4698266f466f28712",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "05b0e11944c17f1c827e187e",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "59315a86a4dff24fe0167464",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "6826bfe43b79db3bb234bdd1",
+   "name": "Meniu Beef Wrap",
+   "description": "Carne de vită la grătar, castraveți murați, ketchup, ceapă, roșii, salată și maioneză. Toate învelite într-o tortilla la grill. Porție (213g). INGREDIENTE: Carne de vită ⊛: (carne de vită 100%)-(70g), Tortilla ⊛: (făină de GRÂU, apă, ulei vegetal de rapiță, stabilizatori: E422, E412, sare, agenți de creștere: E450, E500; glucoză (din GRÂU) emulgator: E471, agent de prelucrare a făinii E920)-(60g), Mix de Sare si Piper, Roșii-(10g), Sos de Maioneza Vegana fara ou: (ulei de rapita, apa, otet din alcool, amidon modificat, sare, sirop de glucoza-fructoza, agent de ingrosare: E415, concentrat de suc de lamaie, corector de aciditate E270, condimente, aroma naturala)-(21g), Salată verde iceberg-(14g), Ceapă albă (14g), Ketchup: (roșii, oțet, zahăr, sare, extracte de condimente și ierburi (conțin ȚELINĂ), condimente) (14g), Castraveți murați: (castraveți, apă, oțet spirt, (4,7%), sare, stabilizator (E509), arome naturale) (10g). Valoare energetică (KJ) 1000, Valoare energetică (KCAL) 239, Grăsimi (G) 15, Grăsimi  saturate (G) 4.1, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 16, Zahăr (G) 2.4, Fibre (G) 0, Proteine (G) 10, Sare (G) 1.5 .  Contine alergeni :GLUTEN , TELINA, ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi  saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G)  0.3. Contine 3E-uri.",
+   "price": 4690,
+   "original_price": null,
+   "disabled_info": null,
+   "is_cutlery": false,
+   "is_wolt_plus_only": false,
+   "alcohol_permille": 0,
+   "options": [
+    {
+     "option_id": "3286c8e34e51b1a3e9b0e861",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "556d83d14478f449ea271127",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "475a302a7d060b85972da299",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "1edeb53f015642ec1df0a364",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "d3a87cf6e5cc8e92786f1ba1",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "6826bfe43b79db3bb234bdd3",
+   "name": "Meniu Chicken Wrap",
+   "description": "Pui crocant delicios, salată, maioneză și roșii proaspete. Toate învelite într-o tortilla la grill.  Porție (181g). INGREDIENTE: Carne de pui în pesmet ⊛: (carne de pui fiartă (64%), fulgi de porumb (porumb, zahăr, sare, sare, extract de malț de ORZ), ulei de rapiță, apă, făină de GRÂU, amidon modificat (extract de drojdie), făină de orez, sare, condimente (contin TELINA), arome, agenti de crestere: E450, E500, zahar, drojdie)-(75g), Tortilla ⊛: (făină de GRÂU, apă, ulei vegetal de rapiță, stabilizatori: E422, E412, sare, agenți de creștere: E450, E500; emulgator de glucoză (din GRÂU): E471, agent de prelucrare a făinii E920)-(60g), Rosii (10g), Sos de Maioneza Vegana fara ou: (ulei de rapita, apa, otet din alcool, amidon modificat, sare, sirop de glucoza-fructoza, agent de ingrosare: E415, concentrat de suc de lamaie, corector de aciditate E270, condimente, aroma naturala)-(22g), Salată verde iceberg-(14g), Ulei: (ulei de palmier, ulei de floarea soarelui cu continut ridicat de acid oleic, agent antispumant E900). Valori nutriționale 100g: Valoare energetică (KJ) 1190, Valoare energetică (KCAL) 285, Grăsimi (G) 16, Grăsimi  saturate (G) 3.1, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25, Zahăr (G) 1.3, Fibre (G) 1.7, Proteine (G) 8.6, Sare (G) 1.2 .  Contine alergeni :GLUTEN , TELINA, ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi  saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G)  0.3. Contine 3E-uri.",
+   "price": 4690,
+   "original_price": null,
+   "disabled_info": null,
+   "is_cutlery": false,
+   "is_wolt_plus_only": false,
+   "alcohol_permille": 0,
+   "options": [
+    {
+     "option_id": "f74477b599c06f0a91858ec6",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "556d83d14478f449ea271127",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "475a302a7d060b85972da299",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "1edeb53f015642ec1df0a364",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "d3a87cf6e5cc8e92786f1ba1",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "6826bfe43b79db3bb234bde7",
+   "name": "Meniu Double Cheeseburger",
+   "description": "O porție dublă de 100% carne de vită la grătar, dOUă felii de brânză, castraveți murați, ketchup și MUȘTAR. Porție (149g). INGREDIENTE: Carne de vită ⊛: (carne de vită 100%)-(60g), Chifla ⊛: ), Chifla ⊛: (faina de GRAU, apa, zahar, ulei de rapita, drojdie, seminte de SUSAN 2%, sare, emulgator: E427e, agent de prelucrare a fainii: E300)-(54g), Branza feliata (BRANZA cheddar (51%): (LAPTE, apa, UNT, lapte praf degresat, emulgatori: E331,), Proteine LAPTE, aroma BRANZA naturala, sare, regulator de aciditate E330, coloranti: E160a, E160c)-(20g), Ketchup: (rosii, otet, zahăr, sare, extracte de condimente și ierburi (conțin ȚELINĂ), condimente)(9g), Castraveți murați: (castraveți, apă, sare, regulator de aciditate: E260, arome naturale, culoare: E100)(5g), Mustar: (apă, oțet , MUȘTAR, sare, condimente, sirop de caramel, aromă naturală)(3g) ▲ATENTIE : Contine Lactoza. Valori nutriționale 100g: Valoare energetică (KJ) 1089, Valoare energetică (KCAL) 261, Grăsimi (G) 14, Grăsimi  saturate (G) 5.6, Grăsimi nesaturate (G) 0.1, Carbohidrați (G) 18, Zahăr (G) 3.2, Fibre (G) 0.9, Proteine (G) 15, Sare (G) 1.4 .  Contine alergeni :GLUTEN , LAPTE, MUSTAR salbatic, seminte de SUSAN; Poate Contine Alergeni : TELINA ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi  saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G)  0.3. Contine 3E-uri.",
+   "price": 4150,
+   "original_price": null,
+   "disabled_info": null,
+   "is_cutlery": false,
+   "is_wolt_plus_only": false,
+   "alcohol_permille": 0,
+   "options": [
+    {
+     "option_id": "b30f6449154d1ed6e13dd034",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "556d83d14478f449ea271127",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "475a302a7d060b85972da299",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "fc5b8f86052b834a3f89e045",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "6826bfe43b79db3bb234bded",
+   "name": "Meniu Whopper Jr.",
+   "description": "Gustul unic BK în varianta junior. Carne de vită 100% facută la grătar, roșii, ceapă proaspătă și castraveți murați, totul asezonat cu maioneză și ketchup, într-o chiflă cu SUSAN. Porție (135g).INGREDIENTE: Carne de vită ⊛: (carne de vită 100%)-(30g) Chifla ⊛: (făină de GRÂU, apă, zahăr, ulei de rapiță, drojdie, semințe de SUSAN 2%, sare, emulgator: E427e, agent de prelucrare a făinii: E300)-(54g), Roșii (10g), Sos de Maioneza Vegana fara ou: (ulei de rapita, apa, otet din alcool, amidon modificat, sare, sirop de glucoza-fructoza, agent de ingrosare: E415, concentrat de suc de lamaie, corector de aciditate E270, condimente, aroma naturala)(11g), salată iceberg(11g), ceapă albă(7g), ketchup: (roșii, oțet, zahăr, sare, extracte de condimente și ierburi (conțin ȚELINĂ), condimente)(7g), Castraveți murați: (castraveți, apă, oțet, (4,7%), sare, stabilizator (E509), arome naturale)(5g).  Valori nutriționale 100g: Valoare energetică (KJ) 887, Valoare energetică (KCAL) 210, Grăsimi (G) 11, Grăsimi  saturate (G) 2.2, Grăsimi nesaturate (G) 0.2, Carbohidrați (G) 19, Zahăr (G) 3.3, Fibre (G) 1.3, Proteine (G) 8.4, Sare (G)  0.83.  Contine alergeni :GLUTEN , SOIA , LAPTE, seminte de SUSAN; Poate Contine Alergeni : TELINA ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi  saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G)  0.3. Contine 3E-uri.",
+   "price": 3550,
+   "original_price": null,
+   "disabled_info": null,
+   "is_cutlery": false,
+   "is_wolt_plus_only": false,
+   "alcohol_permille": 0,
+   "options": [
+    {
+     "option_id": "b9cda99a7d645df5495d2396",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "556d83d14478f449ea271127",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "da288f1ccb1127ab4fec70f9",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "65940f2764901ae92e4faeca",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "d3a87cf6e5cc8e92786f1ba1",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "7568d461a87efd8f6a528ee6",
+   "name": "2Gether Combo",
+   "description": "1Crispy Chicken Burger, 1 Whopper, 2 porții medii de cartofi prăjiți, 6 Chicken Nuggets și sos la alegere.",
+   "price": 10570,
+   "original_price": null,
+   "disabled_info": null,
+   "is_cutlery": false,
+   "is_wolt_plus_only": false,
+   "alcohol_permille": 0,
+   "options": [
+    {
+     "option_id": "d66d59b37a64bb9b127aea7b",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "fe3794abebb3321f9f73b68a",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "cdad6ef72ebe786174ea33c4",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "5fe21740acfd417206662629",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "7b06b9e7778d595ffff54749",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "af113800d7898a02fdde51cb",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "a8ac8da9f6b6ccd3378c953e",
+   "name": "Three Friends Menu",
+   "description": "Ideal pentru grupuri. 2 Crispy Chicken Burger, 1 Steakhouse Burger, 2 porții medii de cartofi prăjiți, 1 Bacon & Cheese Fries, 6 Chicken Nuggets, 6 inele de ceapa, 3 băuturi răcoritoare 0.33L și sos la algere.",
+   "price": 19480,
+   "original_price": null,
+   "disabled_info": null,
+   "is_cutlery": false,
+   "is_wolt_plus_only": false,
+   "alcohol_permille": 0,
+   "options": [
+    {
+     "option_id": "46be0c38b1f4167fd78f5e13",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "a0666d1170833ef2ce635985",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "4b62b1e4da1520a3040341da",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "5fe21740acfd417206662629",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "ea9c094d6c06f283f6f3f9ea",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "234a0907d478408c5f32cdde",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "dd26de2a97708563d2c746ab",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "af70ebb5ec957bba9394e60a",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "445052ccdbb5be30dc6ae0f2",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "8451b6acf6a114ffe98eec57",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "342730c5fa6b0921fb3c4240",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "37277bb25d7c19a0bed67f90",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "223c2db57c35bd3d632edae2",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "25241e07594f7718048d27c4",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "aa37e746cd637386b818dd20",
+   "name": "Cartofi Prime 160 g",
+   "description": "Cartofi prăjiți, crocanți la exterior și moi și pufoși la interior. Gustarea perfectă și o alegere excelentă pentru orice meniu. Se savurează cel mai bine cu sosul tău preferat.",
+   "price": 1590,
+   "original_price": null,
+   "disabled_info": null,
+   "is_cutlery": false,
+   "is_wolt_plus_only": false,
+   "alcohol_permille": 0,
+   "options": []
+  },
+  {
+   "id": "db05a9e59061336ced112d00",
+   "name": "Triple Deal",
+   "description": "Ideal pentru grupuri. 2 Crispy Chicken Burger, 1 Big King Burger, 3 porții medii de cartofi prăjiți, 6 inele de ceapa, 6 Chicken Nuggets și 2 sosuri la alegere.",
+   "price": 15680,
+   "original_price": null,
+   "disabled_info": null,
+   "is_cutlery": false,
+   "is_wolt_plus_only": false,
+   "alcohol_permille": 0,
+   "options": [
+    {
+     "option_id": "e09621acb63f4a681c6ab598",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "a0666d1170833ef2ce635985",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "c06b1c10f88e411025ea2b49",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "5fe21740acfd417206662629",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "ea9c094d6c06f283f6f3f9ea",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "f739faeb2a83427018febcec",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "2fc49d600fde049f1b2b98c2",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "77be111e74459c67fa53afff",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "e25a66eb56f6d90ab6341495",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    },
+    {
+     "option_id": "281595baa27e70f7203ac3e1",
+     "multi_choice_config": {
+      "total_range": {
+       "min": 1,
+       "max": 1
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "options": [
+  {
+   "id": "05b0e11944c17f1c827e187e",
+   "values": [
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "10f48b1159e6d95dc359d8dc",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "1edeb53f015642ec1df0a364",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "223c2db57c35bd3d632edae2",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "234a0907d478408c5f32cdde",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "25241e07594f7718048d27c4",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "281595baa27e70f7203ac3e1",
+   "values": [
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "2fc49d600fde049f1b2b98c2",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "3286c8e34e51b1a3e9b0e861",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "342730c5fa6b0921fb3c4240",
+   "values": [
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "37277bb25d7c19a0bed67f90",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "3e050d44b068a3a860dfa45a",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "434ce12934d99fd950be48cb",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "445052ccdbb5be30dc6ae0f2",
+   "values": [
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "46be0c38b1f4167fd78f5e13",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "475a302a7d060b85972da299",
+   "values": [
+    {
+     "price": 0
+    },
+    {
+     "price": 300
+    },
+    {
+     "price": 300
+    },
+    {
+     "price": 300
+    },
+    {
+     "price": 300
+    }
+   ]
+  },
+  {
+   "id": "4b62b1e4da1520a3040341da",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "556d83d14478f449ea271127",
+   "values": [
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 100
+    },
+    {
+     "price": 100
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "59315a86a4dff24fe0167464",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "5fe21740acfd417206662629",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "6305fa821cf7b813e539ad88",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "65940f2764901ae92e4faeca",
+   "values": [
+    {
+     "price": 0
+    },
+    {
+     "price": 300
+    },
+    {
+     "price": 300
+    },
+    {
+     "price": 300
+    },
+    {
+     "price": 300
+    }
+   ]
+  },
+  {
+   "id": "6c496f335c0fd701d3608a81",
+   "values": [
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "77be111e74459c67fa53afff",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "7b06b9e7778d595ffff54749",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "7d81a032eeef9cd6612b1cdc",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "8451b6acf6a114ffe98eec57",
+   "values": [
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "85f0c7af8b3159d027219a6d",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "8701cf5db96e631624b273eb",
+   "values": [
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "a0666d1170833ef2ce635985",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "a74dbaa4698266f466f28712",
+   "values": [
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "a86cd80a0f13060c2bede1ab",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "af113800d7898a02fdde51cb",
+   "values": [
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "af70ebb5ec957bba9394e60a",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "b0fbed75938a7290079ae0e5",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "b30f6449154d1ed6e13dd034",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "b8bc960dd5337adaaa182e6f",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "b9cda99a7d645df5495d2396",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "c06b1c10f88e411025ea2b49",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "c1d5e2977e69b26dc88e9bea",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "c49f83061bf7c531269cf7d8",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "cdad6ef72ebe786174ea33c4",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "d3a87cf6e5cc8e92786f1ba1",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "d66d59b37a64bb9b127aea7b",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "da288f1ccb1127ab4fec70f9",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "dd26de2a97708563d2c746ab",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "e09621acb63f4a681c6ab598",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "e25a66eb56f6d90ab6341495",
+   "values": [
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    },
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "ea9c094d6c06f283f6f3f9ea",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "f739faeb2a83427018febcec",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "f74477b599c06f0a91858ec6",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "fc5b8f86052b834a3f89e045",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  },
+  {
+   "id": "fe3794abebb3321f9f73b68a",
+   "values": [
+    {
+     "price": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,660 @@
+/*
+  The look: a supermarket scale sticker on a mustard counter.
+  Mustard ground, paper stickers, ink type; ketchup is kept for the one
+  action button and the winner's stamp.
+*/
+:root {
+  --ground: #f0b323; /* mustard */
+  --paper: #fffdf6;
+  --ink: #1f1608;
+  --soft: #5a4410; /* quiet text on the ground; stickers override it */
+  --soft-on-paper: #6a5c40;
+  --hairline: #e2d9c2;
+  --tint: #fbf1d0;
+  --action: #c8201a; /* ketchup */
+  --action-ink: #ffffff;
+  --stamp: #c8201a;
+  --good: #2f6b3a; /* pickle */
+  --error: #a3140f;
+  --error-bg: #fbe3dc;
+  --pressed-bg: #1f1608;
+  --pressed-ink: #fffdf6;
+  --scale-bg: #1f1608;
+  --scale-ink: #f0b323;
+
+  --display: var(--font-display), "Arial Narrow", "Roboto Condensed", sans-serif;
+  --text: var(--font-body), system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ground: #2b2118;
+    --paper: #3a2d20;
+    --ink: #f6ebd2;
+    --soft: #b9a888;
+    --soft-on-paper: #bdae90;
+    --hairline: #55452f;
+    --tint: #47381f;
+    --action: #d4302a;
+    --stamp: #ff8a75;
+    --good: #8fcb7a;
+    --error: #ffb4a8;
+    --error-bg: #522019;
+    --pressed-bg: #f0b323;
+    --pressed-ink: #1f1608;
+    --scale-bg: #f0b323;
+    --scale-ink: #1f1608;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--text);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 28px 16px 72px;
+}
+
+/* Title */
+
+h1 {
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: clamp(3.25rem, 11vw, 7rem);
+  line-height: 0.88;
+  letter-spacing: -0.01em;
+  margin: 0 0 14px;
+  text-wrap: balance;
+}
+
+.sub {
+  font-size: 1.125rem;
+  max-width: 46ch;
+  margin: 0 0 28px;
+}
+
+/* Page frame: order form on the left, results on the right */
+
+.bench {
+  display: grid;
+  gap: 28px;
+}
+
+@media (min-width: 960px) {
+  main {
+    padding: 44px 32px 96px;
+  }
+
+  .bench {
+    grid-template-columns: minmax(340px, 400px) minmax(0, 1fr);
+    gap: 40px;
+    align-items: start;
+  }
+
+  .ticket {
+    position: sticky;
+    top: 24px;
+  }
+}
+
+.ticket,
+.sticker {
+  --soft: var(--soft-on-paper);
+  background: var(--paper);
+  border-radius: 6px;
+}
+
+.ticketPart {
+  padding: 20px;
+}
+
+.ticketPart + .ticketPart {
+  border-top: 2px dashed var(--ground);
+}
+
+.results {
+  display: grid;
+  gap: 20px;
+  min-width: 0;
+}
+
+.sticker {
+  padding: 20px;
+}
+
+.sticker.winner {
+  outline: 3px solid var(--ink);
+}
+
+.blank {
+  border: 2px dashed var(--soft);
+  border-radius: 6px;
+  padding: 28px 20px;
+  color: var(--soft);
+  max-width: 44ch;
+}
+
+/* Form */
+
+.field {
+  display: block;
+  margin-bottom: 14px;
+}
+
+.field > span:first-child,
+.field > label:first-child {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--soft);
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px 12px;
+  font: inherit;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1.5px solid var(--ink);
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: var(--soft);
+  opacity: 0.8;
+}
+
+.budget input {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.75rem;
+  line-height: 1;
+  padding: 7px 12px 6px;
+  font-variant-numeric: tabular-nums;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--ink);
+  width: 1rem;
+  height: 1rem;
+  margin: 0 6px 0 0;
+  vertical-align: -0.12em;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.row > * {
+  flex: 1 1 150px;
+  min-width: 0;
+}
+
+/* The two-option switches need room for their words; they stack in the narrow ticket. */
+.row > div.field {
+  flex-basis: 240px;
+}
+
+.inline {
+  display: flex;
+  gap: 8px;
+}
+
+.inline > input {
+  flex: 1;
+  min-width: 0;
+}
+
+button {
+  font: inherit;
+  font-weight: 600;
+  padding: 10px 14px;
+  border-radius: 4px;
+  border: 1.5px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+button.primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 14px 11px;
+  border: 0;
+  background: var(--action);
+  color: var(--action-ink);
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.625rem;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  white-space: normal;
+}
+
+button.iconBtn {
+  padding: 10px 12px;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Chain suggestions under the fast-food field */
+
+.combo {
+  position: relative;
+}
+
+.comboList {
+  position: absolute;
+  z-index: 5;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 4px 0 0;
+  padding: 4px;
+  list-style: none;
+  max-height: 264px;
+  overflow-y: auto;
+  background: var(--paper);
+  border: 1.5px solid var(--ink);
+  border-radius: 4px;
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+.comboList li {
+  padding: 8px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.comboList li[aria-selected="true"] {
+  background: var(--pressed-bg);
+  color: var(--pressed-ink);
+}
+
+.hits {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.hits button {
+  text-align: left;
+  white-space: normal;
+  font-weight: 400;
+}
+
+.seg {
+  display: flex;
+  border: 1.5px solid var(--ink);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.seg button {
+  flex: 1;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 8px;
+  font-size: 0.94rem;
+  font-weight: 500;
+}
+
+.seg button + button {
+  border-left: 1.5px solid var(--ink);
+}
+
+.toggles {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.toggles button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  font-weight: 500;
+}
+
+.seg button[aria-pressed="true"],
+.toggles button[aria-pressed="true"] {
+  background: var(--pressed-bg);
+  border-color: var(--pressed-bg);
+  color: var(--pressed-ink);
+  font-weight: 700;
+}
+
+.muted {
+  color: var(--soft);
+  font-size: 0.875rem;
+}
+
+.error {
+  color: var(--error);
+  background: var(--error-bg);
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 10px 0 0;
+  font-size: 0.94rem;
+}
+
+.field + .error,
+.hits + .error {
+  margin: 0 0 10px;
+}
+
+/* Results */
+
+.verdict {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(1.75rem, 4.2vw, 2.75rem);
+  line-height: 1;
+  margin: 0;
+  max-width: 24ch;
+  text-wrap: balance;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background: var(--paper);
+  border-color: var(--paper);
+  font-size: 0.875rem;
+  font-weight: 500;
+  white-space: normal;
+  text-align: left;
+}
+
+.chip.ghost {
+  background: transparent;
+  border: 1.5px dashed var(--soft);
+  color: var(--soft);
+}
+
+.stickerHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+h2 {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 2.25rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.venue {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 0.94rem;
+}
+
+a {
+  color: var(--ink);
+  text-underline-offset: 0.18em;
+}
+
+.stamp {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: var(--stamp);
+  border: 2.5px solid var(--stamp);
+  border-radius: 4px;
+  padding: 5px 10px 4px;
+  transform: rotate(-3deg);
+}
+
+/* The three boxes every scale sticker carries: weight, unit price, total. */
+
+.readout {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr 1fr;
+  margin: 0 0 14px;
+  border: 2px solid var(--ink);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.readout > div {
+  padding: 8px 10px 6px;
+  min-width: 0;
+}
+
+.readout > div + div {
+  border-left: 2px solid var(--ink);
+}
+
+.readout dt {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--soft);
+}
+
+.readout dd {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(1.625rem, 6.4vw, 2.75rem);
+  line-height: 1.05;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.readout .weight {
+  background: var(--scale-bg);
+}
+
+.readout .weight dt {
+  color: var(--scale-ink);
+  opacity: 0.85;
+}
+
+.readout .weight dd {
+  color: var(--scale-ink);
+  font-weight: 900;
+  font-size: clamp(2rem, 8.4vw, 3.75rem);
+  line-height: 0.95;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  font-size: 0.95rem;
+}
+
+td {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--hairline);
+  vertical-align: top;
+}
+
+td.num {
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  padding-left: 12px;
+}
+
+td.act {
+  width: 1%;
+  padding-left: 8px;
+}
+
+.costs {
+  font-size: 0.9rem;
+  color: var(--soft);
+}
+
+.costs td {
+  border: 0;
+  padding: 2px 0;
+}
+
+.costs tr.total td {
+  color: var(--ink);
+  font-weight: 700;
+  border-top: 2px solid var(--ink);
+  padding-top: 6px;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: var(--soft);
+  margin-right: 6px;
+}
+
+button.rm {
+  display: inline-flex;
+  padding: 4px;
+  border: 0;
+  color: var(--soft);
+}
+
+button.rm:hover:not(:disabled) {
+  color: var(--error);
+  background: var(--error-bg);
+}
+
+.stretch {
+  background: var(--tint);
+  border-radius: 4px;
+  padding: 12px 14px;
+  margin-top: 14px;
+  font-size: 0.94rem;
+}
+
+ul.notes {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  font-size: 0.875rem;
+  color: var(--soft);
+}
+
+ul.notes li {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+
+ul.notes li .icon {
+  margin-top: 0.22em;
+  color: var(--good);
+}
+
+ul.notes li.warnNote .icon {
+  color: var(--error);
+}
+
+details {
+  margin-top: 10px;
+  font-size: 0.875rem;
+  color: var(--soft);
+}
+
+summary {
+  cursor: pointer;
+}
+
+.offGrid {
+  margin: 0;
+}
+
+/* Icons */
+
+.icon {
+  flex: none;
+  vertical-align: -0.15em;
+}
+
+.withIcon {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+}
+
+.withIcon .icon {
+  margin-top: 0.22em;
+}
+
+.spin {
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spin {
+    animation-duration: 2.4s;
+  }
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+summary:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
+
+button.primary:focus-visible {
+  outline-offset: 3px;
+}
+
+/* The fast-food field shares its row with the budget, like a plain input would. */
+.row > div.field.combo {
+  flex: 2 1 150px;
+}

@@ -1,0 +1,365 @@
+{
+ "venue": {
+  "online": true
+ },
+ "venue_raw": {
+  "discounts": [
+   {
+    "effects": {
+     "basket_discount": null,
+     "delivery_discount": null,
+     "free_items": null,
+     "item_discount": {
+      "fraction": 0.25,
+      "max_amount": null,
+      "min_amount": null,
+      "max_amount_per_item": null,
+      "min_amount_per_item": null,
+      "amount_per_item": null,
+      "include": {
+       "categories": null,
+       "items": [
+        "db05a9e59061336ced112d00",
+        "7568d461a87efd8f6a528ee6"
+       ],
+       "cheapest_items": null
+      },
+      "exclude": null,
+      "exclude_options": true
+     }
+    },
+    "conditions": {
+     "basket_contains": [
+      {
+       "min_amount": null,
+       "max_amount": null,
+       "any_of_items": [
+        "db05a9e59061336ced112d00",
+        "7568d461a87efd8f6a528ee6"
+       ],
+       "items_from_categories": null,
+       "min_quantity": null,
+       "max_quantity": null,
+       "any_of_option_values": null,
+       "including_restricted_items": false
+      }
+     ],
+     "preorder": null,
+     "delivery_methods": null,
+     "min_distance": null,
+     "max_distance": null,
+     "weekly_time_restrictions": null,
+     "delivery_area": null,
+     "has_wolt_plus": null,
+     "payment_method": null,
+     "group_order_eligibility": null
+    },
+    "description": {
+     "title": "25% off for selected items",
+     "body": null,
+     "points": [
+      "Offer is valid from 28 Jul 2026 until 31 Dec 2026 or until the maximum limit for promotions is reached whichever is earlier",
+      "Add-ons to the main item are not included in this offer"
+     ],
+     "progress_bar": null
+    }
+   },
+   {
+    "effects": {
+     "basket_discount": null,
+     "delivery_discount": null,
+     "free_items": null,
+     "item_discount": {
+      "fraction": 0.2,
+      "max_amount": null,
+      "min_amount": null,
+      "max_amount_per_item": null,
+      "min_amount_per_item": null,
+      "amount_per_item": null,
+      "include": {
+       "categories": null,
+       "items": [
+        "11aa8ff81ce4ad8d5ff40ffb"
+       ],
+       "cheapest_items": null
+      },
+      "exclude": null,
+      "exclude_options": true
+     }
+    },
+    "conditions": {
+     "basket_contains": [
+      {
+       "min_amount": null,
+       "max_amount": null,
+       "any_of_items": [
+        "11aa8ff81ce4ad8d5ff40ffb"
+       ],
+       "items_from_categories": null,
+       "min_quantity": null,
+       "max_quantity": null,
+       "any_of_option_values": null,
+       "including_restricted_items": false
+      }
+     ],
+     "preorder": null,
+     "delivery_methods": null,
+     "min_distance": null,
+     "max_distance": null,
+     "weekly_time_restrictions": null,
+     "delivery_area": null,
+     "has_wolt_plus": null,
+     "payment_method": null,
+     "group_order_eligibility": null
+    },
+    "description": {
+     "title": "20% off for selected items",
+     "body": null,
+     "points": [
+      "Offer is valid from 28 Jul 2026 until 31 Dec 2026 or until the maximum limit for promotions is reached whichever is earlier",
+      "Add-ons to the main item are not included in this offer"
+     ],
+     "progress_bar": null
+    }
+   },
+   {
+    "effects": {
+     "basket_discount": null,
+     "delivery_discount": null,
+     "free_items": null,
+     "item_discount": {
+      "fraction": 0.35,
+      "max_amount": null,
+      "min_amount": null,
+      "max_amount_per_item": null,
+      "min_amount_per_item": null,
+      "amount_per_item": null,
+      "include": {
+       "categories": null,
+       "items": [
+        "a8ac8da9f6b6ccd3378c953e"
+       ],
+       "cheapest_items": null
+      },
+      "exclude": null,
+      "exclude_options": true
+     }
+    },
+    "conditions": {
+     "basket_contains": [
+      {
+       "min_amount": null,
+       "max_amount": null,
+       "any_of_items": [
+        "a8ac8da9f6b6ccd3378c953e"
+       ],
+       "items_from_categories": null,
+       "min_quantity": null,
+       "max_quantity": null,
+       "any_of_option_values": null,
+       "including_restricted_items": false
+      }
+     ],
+     "preorder": null,
+     "delivery_methods": null,
+     "min_distance": null,
+     "max_distance": null,
+     "weekly_time_restrictions": null,
+     "delivery_area": null,
+     "has_wolt_plus": null,
+     "payment_method": null,
+     "group_order_eligibility": null
+    },
+    "description": {
+     "title": "35% off for selected items",
+     "body": null,
+     "points": [
+      "Offer is valid from 28 Jul 2026 until 31 Dec 2026 or until the maximum limit for promotions is reached whichever is earlier",
+      "Add-ons to the main item are not included in this offer"
+     ],
+     "progress_bar": null
+    }
+   },
+   {
+    "effects": {
+     "basket_discount": null,
+     "delivery_discount": {
+      "amount": 0,
+      "fraction": 1,
+      "min_amount": null,
+      "max_amount": null
+     },
+     "free_items": null,
+     "item_discount": null
+    },
+    "conditions": {
+     "basket_contains": [],
+     "preorder": null,
+     "delivery_methods": null,
+     "min_distance": null,
+     "max_distance": null,
+     "weekly_time_restrictions": null,
+     "delivery_area": null,
+     "has_wolt_plus": null,
+     "payment_method": null,
+     "group_order_eligibility": null
+    },
+    "description": {
+     "title": "0 RON delivery fee",
+     "body": null,
+     "points": [
+      "For new users with a local phone number.",
+      "Offer is valid from 3 Nov 2026 until 1 Jan 2050 or until the maximum limit for promotions is reached whichever is earlier"
+     ],
+     "progress_bar": null
+    }
+   },
+   {
+    "effects": {
+     "basket_discount": {
+      "amount": 0,
+      "fraction": 0.3,
+      "min_amount": null,
+      "max_amount": 3000,
+      "include": null,
+      "exclude": null
+     },
+     "delivery_discount": null,
+     "free_items": null,
+     "item_discount": null
+    },
+    "conditions": {
+     "basket_contains": [
+      {
+       "min_amount": 7000,
+       "max_amount": null,
+       "any_of_items": null,
+       "items_from_categories": null,
+       "min_quantity": null,
+       "max_quantity": null,
+       "any_of_option_values": null,
+       "including_restricted_items": false
+      }
+     ],
+     "preorder": null,
+     "delivery_methods": [
+      "homedelivery"
+     ],
+     "min_distance": null,
+     "max_distance": null,
+     "weekly_time_restrictions": null,
+     "delivery_area": null,
+     "has_wolt_plus": null,
+     "payment_method": null,
+     "group_order_eligibility": null
+    },
+    "description": {
+     "title": "30% off (up to 30 RON) on orders over 70 RON",
+     "body": null,
+     "points": [
+      "70 RON minimum order",
+      "For home delivery orders only",
+      "For new users with a local phone number.",
+      "This promotion does not apply on Service fee, delivery fee, personal adjustments and age-restricted items. The basket discount is excluded from the calculation of the service fee",
+      "Cannot be combined with other promotions",
+      "Offer is valid from 3 Nov 2026 until 1 Jan 2050 or until the maximum limit for promotions is reached whichever is earlier"
+     ],
+     "progress_bar": null
+    }
+   },
+   {
+    "effects": {
+     "basket_discount": null,
+     "delivery_discount": null,
+     "free_items": null,
+     "item_discount": {
+      "fraction": 0.1,
+      "max_amount": null,
+      "min_amount": null,
+      "max_amount_per_item": null,
+      "min_amount_per_item": null,
+      "amount_per_item": null,
+      "include": {
+       "categories": null,
+       "items": [
+        "6826bfe43b79db3bb234bde7",
+        "6826bfe43b79db3bb234bded"
+       ],
+       "cheapest_items": null
+      },
+      "exclude": null,
+      "exclude_options": true
+     }
+    },
+    "conditions": {
+     "basket_contains": [
+      {
+       "min_amount": null,
+       "max_amount": null,
+       "any_of_items": [
+        "6826bfe43b79db3bb234bde7",
+        "6826bfe43b79db3bb234bded"
+       ],
+       "items_from_categories": null,
+       "min_quantity": null,
+       "max_quantity": null,
+       "any_of_option_values": null,
+       "including_restricted_items": false
+      }
+     ],
+     "preorder": null,
+     "delivery_methods": null,
+     "min_distance": null,
+     "max_distance": null,
+     "weekly_time_restrictions": null,
+     "delivery_area": null,
+     "has_wolt_plus": false,
+     "payment_method": null,
+     "group_order_eligibility": null
+    },
+    "description": {
+     "title": "10% off selected items | 20% with W+",
+     "body": null,
+     "points": [
+      "Offer is valid from 13 Nov 2026 until 19 Nov 2026 or until the maximum limit for promotions is reached whichever is earlier",
+      "Add-ons to the main item are not included in this offer"
+     ],
+     "progress_bar": null
+    }
+   }
+  ],
+  "delivery_specs": {
+   "order_minimum_possible": 0,
+   "original_delivery_price": 1179,
+   "delivery_pricing": {
+    "base_price": 179,
+    "price_ranges": [
+     {
+      "min": 0,
+      "max": 3113,
+      "a": 3362,
+      "b": -1,
+      "flag": null,
+      "custom_distance_ranges": null
+     },
+     {
+      "min": 3113,
+      "max": 9988,
+      "a": 0,
+      "b": 0.08,
+      "flag": null,
+      "custom_distance_ranges": null
+     },
+     {
+      "min": 9988,
+      "max": 0,
+      "a": 799,
+      "b": 0,
+      "flag": null,
+      "custom_distance_ranges": null
+     }
+    ]
+   }
+  }
+ }
+}
