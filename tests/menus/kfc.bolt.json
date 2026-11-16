@@ -1,0 +1,760 @@
+{
+ "chain": "KFC",
+ "platform": "bolt",
+ "venue": "KFC Unirea",
+ "savedOn": "2026-11-16",
+ "fees": {
+  "deliveryFee": 549,
+  "minOrder": 0,
+  "notes": [
+   "Bolt Food: taxa de livrare e cea din căutare pentru adresa ta; taxa de servicii și suprataxa de coș mic nu sunt publice și nu sunt incluse."
+  ]
+ },
+ "offers": [],
+ "items": [
+  {
+   "name": "Meniu Cheezy Twister Picant",
+   "description": "Cheezy Twister Picant (240g), 1 portie mare de  cartofi prăjiți (120g), 1 răcoritoare la pahar (0.5L)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 4640
+  },
+  {
+   "name": "Meniu Cheezy Twister Nepicant",
+   "description": "Cheezy Twister Nepicant (240g), 1 portie mare de  cartofi prăjiți (120g), 1 răcoritoare la pahar (0.5L)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 4640
+  },
+  {
+   "name": "Meniu Cheezy Burger Picant",
+   "description": "Cheezy Burger Picant (220g), 1 portie mare de  cartofi prăjiți (120g), 1 răcoritoare la pahar (0.5L)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 4490
+  },
+  {
+   "name": "Meniu Cheezy Burger Nepicant",
+   "description": "Cheezy Burger Nepicant (220G), 1 portie mare de  cartofi prăjiți (120g), 1 răcoritoare la pahar (0.5L)\n\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 4490
+  },
+  {
+   "name": "Loaded Chicken Fries Aioli Picant",
+   "description": "Cartofi prajiti acoperiti cu sos cald cu branza, sos aioli, branza Cheddar rasa si 2 Crispy Strips (260g)",
+   "category": "Noutati",
+   "price": 2550
+  },
+  {
+   "name": "Loaded Chicken Fries Aioli Nepicant",
+   "description": "Cartofi prajiti acoperiti cu sos cald cu branza, sos aioli, branza Cheddar rasa si 2 Strips Nepicanti (260g)",
+   "category": "Noutati",
+   "price": 2550
+  },
+  {
+   "name": "Loaded Chicken Fries BBQ Picant",
+   "description": "2 buc. Crispy Strips®, cartofi prăjiști, sos cald cu brânză, sos Barbecue, ceapă caramelizată (260g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 2550
+  },
+  {
+   "name": "Loaded Chicken Fries BBQ Nepicant",
+   "description": "2 buc. Strips Nepicanți, cartofi prăjiști, sos cald cu brânză, sos Barbecue, ceapă caramelizată (260g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 2550
+  },
+  {
+   "name": "Cheezy Twister Picant",
+   "description": "Crispy Strips®, sos cald cu brânză, cartofi prăjiți, castraveți murați, bacon, ceapă caramelizată, sos Aioli, tortilla (240g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 2850
+  },
+  {
+   "name": "Cheezy Twister Nepicant",
+   "description": "Strips Nepicanți, sos cald cu brânză, cartofi prăjiți, castraveți murați, bacon, ceapă caramelizată, sos Aioli,tortilla (240g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 2850
+  },
+  {
+   "name": "Cheezy Burger Picant",
+   "description": "Piept de pui nepicant, sos cald cu branza, branza Cheddar, bacon, castraveti murati, ceapa caramelizata, sos barbecue, chifla Brioche (220g)\n\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 2700
+  },
+  {
+   "name": "Cheezy Burger Nepicant",
+   "description": "Piept de pui nepicant, sos cald cu brânză, brânză Cheddar, bacon, castraveți murați,ceapă caramelizată, sos Barbecue, chiflă Brioche (220g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 2700
+  },
+  {
+   "name": "Top Bucket",
+   "description": "6 Hot Wings® 150g, 4 Crispy Strips® 120g, 4 Fillet Bites® 70g, 2 porții mari de cartofi prăjiți 2x120g, 2 băuturi răcoritoare 2x0,5L\n\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 8030
+  },
+  {
+   "name": "Top Box",
+   "description": "1 Dublu Booster (165g) sau 1 Dublu Hot Booster (165g) sau 1 Dublu Crispy Burger Nepicant (150g) sau1 Dublu Crispy Burger (150g), 2 Cripsy Strips (60g), 2 Hot Wings (50g), portie mare de cartofi prajiti (120g), racoritoare la pahar (0.5L)\n\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 4900
+  },
+  {
+   "name": "Doritos Loaded Spicy",
+   "description": "Doritos Nacho Cheese, 2 Crispy Strips, sos cu branza, sos Salsa, guacamole, jalapenos (250g)\n\n\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 2690
+  },
+  {
+   "name": "Doritos Loaded Non-Spicy",
+   "description": "Doritos Nacho Cheese, 2 Strips Nepicanti, sos cu branza, guacamole, rosii, porumb (250g)\n\n\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 2690
+  },
+  {
+   "name": "Sos Cheezy Dip Mare",
+   "description": "Sos cald cu branza (110g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 1350
+  },
+  {
+   "name": "Sos Cheezy Dip mic",
+   "description": "Sos cald cu branza 50g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Noutati",
+   "price": 750
+  },
+  {
+   "name": "Loaded Chicken Fries BBQ Picant",
+   "description": "2 buc. Crispy Strips®, cartofi prăjiști, sos cald cu brânză, sos Barbecue, ceapă caramelizată (260g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 2550
+  },
+  {
+   "name": "Loaded Chicken Fries BBQ Nepicant",
+   "description": "2 buc. Strips Nepicanți, cartofi prăjiști, sos cald cu brânză, sos Barbecue, ceapă caramelizată (260g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 2550
+  },
+  {
+   "name": "Loaded Chicken Fries Aioli Nepicant",
+   "description": "Cartofi prajiti acoperiti cu sos cald cu branza, sos aioli, branza Cheddar rasa si 2 Strips Nepicanti (260g)",
+   "category": "Pui",
+   "price": 2550
+  },
+  {
+   "name": "Loaded Chicken Fries Aioli Picant",
+   "description": "Cartofi prajiti acoperiti cu sos cald cu branza, sos aioli, branza Cheddar rasa si 2 Crispy Strips (260g)",
+   "category": "Pui",
+   "price": 2550
+  },
+  {
+   "name": "8 strips nepicanți",
+   "description": "8 bucăți din piept de pui condimentat nepicant 240g, un sos la alegere 25g/54g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 4650
+  },
+  {
+   "name": "5 strips nepicanți",
+   "description": "5 bucăți din piept de pui condimentat nepicant 150g, un sos la alegere 25g/54g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 3700
+  },
+  {
+   "name": "3 Strips Nepicanți",
+   "description": "3 bucăți din piept de pui condimentat nepicant 90g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 2050
+  },
+  {
+   "name": "3 Crispy Strips®",
+   "description": "3 bucăți picante din piept de pui 90g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 2050
+  },
+  {
+   "name": "3 Hot Wings®",
+   "description": "3 aripioare picante de pui 75g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 1800
+  },
+  {
+   "name": "1 bucată pui kentucky®",
+   "description": "1 buc. Pui kentucky® condimentat, nepicant (75g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 1450
+  },
+  {
+   "name": "2 bucăți pui kentucky®",
+   "description": "2 buc. Pui kentucky®, condimentate, nepicante (150g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 2240
+  },
+  {
+   "name": "3 bucăți pui kentucky®",
+   "description": "3 buc. Pui kentucky®, condimentate, nepicante (225g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 3000
+  },
+  {
+   "name": "5 hot wings®",
+   "description": "5 aripioare picante de pui (125g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 2850
+  },
+  {
+   "name": "8 hot wings®",
+   "description": "8 aripioare picante de pui (200g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 3550
+  },
+  {
+   "name": "6 fillet bites®",
+   "description": "6 fillet bites® din piept de pui, condimentat, nepicant (105g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 2850
+  },
+  {
+   "name": "9 fillet bites®",
+   "description": "9 fillet bites® din piept de pui, condimentat, nepicant (155g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 3550
+  },
+  {
+   "name": "5 crispy strips®",
+   "description": "5 bucăți picante din piept de pui 150g și un sos la alegere 25g/54g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 3700
+  },
+  {
+   "name": "8 crispy strips®",
+   "description": "8 bucăți picante din piept de pui 240g și un sos la alegere 25g/54g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Pui",
+   "price": 4650
+  },
+  {
+   "name": "Meniu 8 crispy strips®",
+   "description": "8 crispy strips® 240g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l și un sos la alegere 25g/54g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu pui",
+   "price": 6440
+  },
+  {
+   "name": "Meniu 5 crispy strips®",
+   "description": "5 crispy strips® 150g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l și un sos la alegere 25g/54g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu pui",
+   "price": 5490
+  },
+  {
+   "name": "Meniu 8 strips nepicanți",
+   "description": "8 strips nepicanți 240g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l, un sos la alegere 25g/54g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu pui",
+   "price": 6440
+  },
+  {
+   "name": "Meniu 5 strips nepicanți",
+   "description": "5 strips nepicanți 150g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l, un sos la alegere 25g/54g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu pui",
+   "price": 5490
+  },
+  {
+   "name": "Meniu 8 hot wings®",
+   "description": "8 hot wings® 200g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu pui",
+   "price": 5340
+  },
+  {
+   "name": "Meniu 5 hot wings®",
+   "description": "5 hot wings® 125g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu pui",
+   "price": 4640
+  },
+  {
+   "name": "Meniu 9 fillet bites®",
+   "description": "9 fillet bites® 155g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu pui",
+   "price": 5340
+  },
+  {
+   "name": "Meniu 6 fillet bites®",
+   "description": "6 fillet bites® 105g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu pui",
+   "price": 4640
+  },
+  {
+   "name": "Meniu kentucky®",
+   "description": "2 buc. Pui kentucky® 150g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu pui",
+   "price": 4030
+  },
+  {
+   "name": "Meniul pentru copii",
+   "description": "Booster junior 100g sau 4 fillet bites® 70g, alături de o porție mică de cartofi prăjiți 60g sau un mini porumb 90g și o răcoritoare la 0.3l. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu pui",
+   "price": 2650
+  },
+  {
+   "name": "Meniu Cheezy Twister Nepicant",
+   "description": "Cheezy Twister Nepicant (240g), 1 portie mare de  cartofi prăjiți (120g), 1 răcoritoare la pahar (0.5L)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 4640
+  },
+  {
+   "name": "Meniu Cheezy Twister Picant",
+   "description": "Cheezy Twister Picant (240g), 1 portie mare de  cartofi prăjiți (120g), 1 răcoritoare la pahar (0.5L)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 4640
+  },
+  {
+   "name": "Meniu Cheezy Burger Nepicant",
+   "description": "Cheezy Burger Nepicant (220G), 1 portie mare de  cartofi prăjiți (120g), 1 răcoritoare la pahar (0.5L)\n\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 4490
+  },
+  {
+   "name": "Meniu Cheezy Burger Picant",
+   "description": "Cheezy Burger Picant (220g), 1 portie mare de  cartofi prăjiți (120g), 1 răcoritoare la pahar (0.5L)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 4490
+  },
+  {
+   "name": "Meniu Classic Twister®",
+   "description": "Twister® Classic Picant/Nepicant (180g), 1 porție mare de cartofi prăjiți (120g), 1 răcoritoare mare 0.5L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 4240
+  },
+  {
+   "name": "Meniu Dublu Crispy Burger cu Strips Nepicanți",
+   "description": "Dublu Crispy Burger cu Strips Nepicanți 150g, 1 porție mare de cartofi prăjiți 120g, 1 băutură răcoritoare 0,5L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 3790
+  },
+  {
+   "name": "Meniu Meltz cu Strips Nepicanți",
+   "description": "Meltz Nepicant 190g, 1 porție mare de cartofi prăjiți 120g, 1 băutură răcoritoare 0,5L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 4490
+  },
+  {
+   "name": "Meniu zinger® burger",
+   "description": "Zinger® burger 150g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 3740
+  },
+  {
+   "name": "Meniu dublu booster",
+   "description": "Dublu booster 170g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 3790
+  },
+  {
+   "name": "Meniu fillet® burger",
+   "description": "Fillet® burger 150g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 3740
+  },
+  {
+   "name": "Meniu dublu hot booster",
+   "description": "Dublu hot booster 170g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 3790
+  },
+  {
+   "name": "Meniu dublu crispy burger",
+   "description": "Dublu crispy burger 140g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 3790
+  },
+  {
+   "name": "Meniu real burger nepicant",
+   "description": "Real burger nepicant 210g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 4390
+  },
+  {
+   "name": "Meniu real burger picant",
+   "description": "Real burger picant 210g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 4390
+  },
+  {
+   "name": "Meniu meltz",
+   "description": "Meltz picant/ nepicant 190g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Meniuri cu burgers & wraps",
+   "price": 4490
+  },
+  {
+   "name": "Cheezy Twister Nepicant",
+   "description": "Strips Nepicanți, sos cald cu brânză, cartofi prăjiți, castraveți murați, bacon, ceapă caramelizată, sos Aioli,tortilla (240g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 2850
+  },
+  {
+   "name": "Cheezy Twister Picant",
+   "description": "Crispy Strips®, sos cald cu brânză, cartofi prăjiți, castraveți murați, bacon, ceapă caramelizată, sos Aioli, tortilla (240g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 2850
+  },
+  {
+   "name": "Cheezy Burger Nepicant",
+   "description": "Piept de pui nepicant, sos cald cu brânză, brânză Cheddar, bacon, castraveți murați,ceapă caramelizată, sos Barbecue, chiflă Brioche (220g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 2700
+  },
+  {
+   "name": "Cheezy Burger Picant",
+   "description": "Piept de pui nepicant, sos cald cu branza, branza Cheddar, bacon, castraveti murati, ceapa caramelizata, sos barbecue, chifla Brioche (220g)\n\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 2700
+  },
+  {
+   "name": "Clasic Twister® Picant",
+   "description": "Tortilla, 2 bucăți Crispy Strips, roșii, sos burger, salată iceberg\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 2450
+  },
+  {
+   "name": "Classic Twister® Nepicant",
+   "description": "Tortilla, 2 bucăți Strips Nepicanti, roșii, sos burger, salată iceberg.\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 2450
+  },
+  {
+   "name": "Meltz Picant",
+   "description": "2 Crispy Strips®, brânză Cheddar, roșii, sos sweet & sour, tortilla - 190g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 2700
+  },
+  {
+   "name": "Meltz Nepicant",
+   "description": "2 Strips Nepicanți, brânză Cheddar, roșii, sos sweet & sour, tortilla - 190g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 2700
+  },
+  {
+   "name": "Real Burger Picant",
+   "description": "2 bucăți de pulpă de pui picantă, 2 felii brânză Cheddar & Emmentaler, ceapă, castraveți murați, jalapenos, salată Iceberg, sos burger, muștar și BBQ, chiflă cu susan - 210g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 2600
+  },
+  {
+   "name": "Real Burger Nepicant",
+   "description": "2 bucăți de pulpă de pui nepicantă, 2 felii de brânză Cheddar & Emmentaler, ceapă, castraveți proaspeți, salată Iceberg, sos burger, muștar și BBQ, chiflă cu susan - 210g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 2600
+  },
+  {
+   "name": "Dublu Crispy Burger",
+   "description": "2 Crispy Strips®, 1 felie de brânză Cheddar, castraveți murați, sos burger, chiflă cu susan - 150g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 2000
+  },
+  {
+   "name": "Dublu Crispy Burger cu Strips Nepicanti",
+   "description": "2 Strips Nepicanți, castraveți murați, brânză Cheddar, sos burger, chiflă cu susan 150g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 2000
+  },
+  {
+   "name": "Dublu Hot Booster",
+   "description": "2 bucăți pulpă de pui picantă, 2 felii de brânză Cheddar, muștar, ketchup, castraveți murați, chiflă - 165g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 2000
+  },
+  {
+   "name": "Dublu Booster",
+   "description": "2 bucăți pulpă de pui, condimentate, nepicante, 2 felii de brânză Cheddar, sos burger, ketchup, castraveți murați, chiflă - 165g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 2000
+  },
+  {
+   "name": "Fillet Burger",
+   "description": "piept de pui nepicant, salată Iceberg, sos burger, chiflă cu susan - 150g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 1950
+  },
+  {
+   "name": "Zinger Burger",
+   "description": "piept de pui picant, salată Iceberg, sos burger, chiflă cu susan - 150g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Burgers & Wraps",
+   "price": 1950
+  },
+  {
+   "name": "Classic Twister Box®",
+   "description": "Twister® Classic Picant/Nepicant (180g), 5 Hot Wings® (125g), 1 porție mare de cartofi prăjiți (120g), 1 răcoritoare mare 0.5L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Boxes",
+   "price": 5450
+  },
+  {
+   "name": "Real Burger Box",
+   "description": "Real Burger Picant/Real Burger Nepicant 210g, 4 Fillet Bites® 70g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Boxes",
+   "price": 5350
+  },
+  {
+   "name": "Box for one",
+   "description": "4 hot wings® 100g, 3 crispy strips® 90g, o porție mare de cartofi prăjiți 120g, o băutură răcoritoare 0.5l. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Boxes",
+   "price": 5250
+  },
+  {
+   "name": "Giant bucket",
+   "description": "10 crispy strips® 300g, 10 hot wings® 250g, 10 fillet bites® 170g, 4 porții mari de cartofi prăjiți 4x120g. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Buckets",
+   "price": 12700
+  },
+  {
+   "name": "Non-Spicy Bucket",
+   "description": "2 buc pui Kentucky® 150g, 4 Strips Nepicanți 120g, 2 porții mari de cartofi prăjiți, 2 băuturi răcoritoare 0.5l. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Buckets",
+   "price": 7300
+  },
+  {
+   "name": "American bucket",
+   "description": "10 crispy strips® 300g, 10 hot wings® 250g. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Buckets",
+   "price": 8350
+  },
+  {
+   "name": "So good bucket",
+   "description": "10 fillet bites® 170g, 10 hot wings® 250g, două porții medii de cartofi prăjiți 2x90g. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Buckets",
+   "price": 7600
+  },
+  {
+   "name": "Hot bucket",
+   "description": "20 bucăți hot wings® 500g. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Buckets",
+   "price": 6500
+  },
+  {
+   "name": "Variety bucket",
+   "description": "4 buc. pui kentucky® 300g, 6 crispy strips® 180g, 6 hot wings® 150g. \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Buckets",
+   "price": 8400
+  },
+  {
+   "name": "Greek salad",
+   "description": "Mix mediteranean cu salată verde și sfeclă roșie, celebra brânză feta, roșii, măsline, ceapă roșie și sosul tău preferat la alegere (210g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Salate",
+   "price": 2800
+  },
+  {
+   "name": "Salată cu fillet bites®",
+   "description": "Salată verde cu sfeclă roșie, roșii, boabe de porumb și 4 fillet bites® alături de sosul tău preferat la alegere (240g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Salate",
+   "price": 2800
+  },
+  {
+   "name": "Porumb mini",
+   "description": "Mini porumb (*produs/din produs decongelat)\nIngrediente: mini porumb fiert\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Garnituri",
+   "price": 620
+  },
+  {
+   "name": "Chifla imperială",
+   "description": "Chifla KAISER imperiala : 50g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Garnituri",
+   "price": 400
+  },
+  {
+   "name": "Cartofi mici",
+   "description": "Porție mică 60g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Garnituri",
+   "price": 790
+  },
+  {
+   "name": "Cartofi medii",
+   "description": "Porție medie 90g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Garnituri",
+   "price": 1170
+  },
+  {
+   "name": "Cartofi mari",
+   "description": "Porție mare 120g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Garnituri",
+   "price": 1390
+  },
+  {
+   "name": "Sos Cheezy Dip Mare",
+   "description": "Sos cald cu branza (110g)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Sosuri",
+   "price": 1350
+  },
+  {
+   "name": "Sos Cheezy Dip mic",
+   "description": "Sos cald cu branza 50g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Sosuri",
+   "price": 750
+  },
+  {
+   "name": "Sos Picant cu usturoi",
+   "description": "Sos picant cu usturoi 54g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Sosuri",
+   "price": 560
+  },
+  {
+   "name": "Sos Honey Mustard",
+   "description": "Sos Mustar cu Miere (HONEY MUSTARD) HEINZ 25g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Sosuri",
+   "price": 520
+  },
+  {
+   "name": "Sos Chilli Heinz",
+   "description": "54 g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Sosuri",
+   "price": 520
+  },
+  {
+   "name": "Sos curry mango heinz",
+   "description": "25g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Sosuri",
+   "price": 520
+  },
+  {
+   "name": "Sos maioneza heinz",
+   "description": "25g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Sosuri",
+   "price": 520
+  },
+  {
+   "name": "Sos sweet & sour heinz",
+   "description": "25g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Sosuri",
+   "price": 520
+  },
+  {
+   "name": "Sos barbecue heinz",
+   "description": "25g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Sosuri",
+   "price": 520
+  },
+  {
+   "name": "Sos ketchup",
+   "description": "54g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Sosuri",
+   "price": 560
+  },
+  {
+   "name": "Sos cu roșii și usturoi",
+   "description": "54g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Sosuri",
+   "price": 560
+  },
+  {
+   "name": "Sos de usturoi",
+   "description": "54g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Sosuri",
+   "price": 560
+  },
+  {
+   "name": "Mousse Mascarpone și Căpșuni (100g)",
+   "description": "Mouse Mascarpone si Capsunil \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Desert",
+   "price": 2000
+  },
+  {
+   "name": "Tartă cu ciocolată (90g)",
+   "description": "Tarta cu Ciocolata\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Desert",
+   "price": 1500
+  },
+  {
+   "name": "Choco Cookie",
+   "description": "Choco cookie (produs/din produs decongelat) - prăjitură cu bucăți de ciocolată 70g.\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Desert",
+   "price": 1000
+  },
+  {
+   "name": "Cheesecake",
+   "description": "Cheesecake (produs/din produs decongelat) 75g.\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Desert",
+   "price": 1500
+  },
+  {
+   "name": "Cappy Pulpy piersici",
+   "description": "CAPPY & PULPY PIERSICI (pet) 0,33 L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 900
+  },
+  {
+   "name": "Cappy Pulpy portocale",
+   "description": "CAPPY & PULPY PORTOCALE (pet) 0,33 L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 900
+  },
+  {
+   "name": "Fanta portocale doză",
+   "description": "Fanta Portocale (doza) 0,33L \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 950
+  },
+  {
+   "name": "Coca-cola doză",
+   "description": "Coca-Cola (doza) 0,33L \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 950
+  },
+  {
+   "name": "Sprite doză",
+   "description": "Sprite (doza) 0,33L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 950
+  },
+  {
+   "name": "Coca-cola zero doză",
+   "description": "Coca-Cola Zero (doza) 0,33L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 950
+  },
+  {
+   "name": "Apă minerală dorna sticlă",
+   "description": "Apa Minerala-Dorna 0,5L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 1150
+  },
+  {
+   "name": "Apă plată izvorul alb sticlă",
+   "description": "Apa Plata-Izvorul Alb 0,5L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 1150
+  },
+  {
+   "name": "Schweppes bitter lemon sticlă",
+   "description": "Schweppes Bitter Lemon (pet) 0,5L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 1380
+  },
+  {
+   "name": "Fuzetea lămâie și lemongrass sticlă",
+   "description": "FUZE TEA Lamaie si Lemongrass (pet) 0,5L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 1380
+  },
+  {
+   "name": "Coca-cola zero pahar",
+   "description": "Coca-Cola Zero (dozator la pahar) 0,5L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 1380
+  },
+  {
+   "name": "Coca-cola pahar",
+   "description": "Coca-Cola (dozator la pahar) 0,5L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 1380
+  },
+  {
+   "name": "Fuzetea piersică și hibiscus sticlă",
+   "description": "FUZE TEA cu Piersica si Hibiscus (pet) 0,5L \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 1380
+  },
+  {
+   "name": "Sprite pahar",
+   "description": "Sprite (dispenser cup) 0.5L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 1380
+  },
+  {
+   "name": "Fanta portocale pahar",
+   "description": "Fanta Portocale (dozator la pahar) 0,5L\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta \nhttps://kfc.ro/informatii-produse",
+   "category": "Bauturi",
+   "price": 1380
+  }
+ ]
+}

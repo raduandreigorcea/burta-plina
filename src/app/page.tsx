@@ -489,9 +489,11 @@ export default function Home() {
       )}
 
       {verdict && <p className="verdict">{verdict}</p>}
-      {verdict && winner?.platform === "glovo" && usedScope === "total" && (
+      {verdict && (winner?.platform === "glovo" || winner?.platform === "bolt") && usedScope === "total" && (
         <p className="muted offGrid">
-          Atenție: la Glovo taxa de livrare e cea afișată pe oraș; la adresa ta poate fi cu 1–2 lei mai mare.
+          {winner.platform === "glovo"
+            ? "Atenție: la Glovo taxa de livrare e cea afișată pe oraș; la adresa ta poate fi cu 1–2 lei mai mare."
+            : "Atenție: la Bolt Food taxa de servicii și suprataxa de coș mic nu sunt publice și nu sunt incluse, deci totalul real poate fi mai mare."}
         </p>
       )}
 

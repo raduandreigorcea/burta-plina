@@ -1,3 +1,4 @@
+import { parseBoltMenu, type BMenu } from "../src/lib/platforms/bolt";
 import fs from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
@@ -197,5 +198,33 @@ describe("deriveComboWeights: glazed pieces", () => {
     expect(get("5 buc. Voodoo Wings").grams).toBe(114);
     expect(get("8 buc. Fillet Nuggets").grams).toBe(160);
     expect(get("Chicken Sandwich").grams).toBe(214);
+  });
+});
+
+describe("Bolt Food menu", () => {
+  const menu: BMenu = {
+    data: {
+      items: {
+        "1": { type: "menu", id: 1, parent_id: null },
+        "2": { type: "category", id: 2, parent_id: 1, name: { value: "Burgeri" } },
+        "3": {
+          type: "dish", id: 3, parent_id: 2, name: { value: "Whopper 269 g" },
+          description: { value: "Unnamed product" }, price: { value: 26.9 }, availability: "in_stock",
+          child_ids: [4],
+        },
+        "4": { type: "option_select_group", id: 4, parent_id: 3, is_required: true, child_ids: [5, 6] },
+        "5": { type: "option_select", id: 5, parent_id: 4, name: { value: "Cartofi mari" }, price: { value: 3 }, availability: "in_stock" },
+        "6": { type: "option_select", id: 6, parent_id: 4, name: { value: "Cartofi medii" }, price: { value: 0 }, availability: "in_stock" },
+        "7": { type: "dish", id: 7, parent_id: 2, name: { value: "Epuizat 100 g" }, price: { value: 10 }, availability: "out_of_stock" },
+      },
+    },
+  };
+
+  it("reads dishes in bani, adds the cheapest required choice and drops what is out of stock", () => {
+    const m = parseBoltMenu(menu, 449, "Burger King");
+    expect(m.items.map((i) => [i.name, i.price, i.category, i.description, i.grams])).toEqual([
+      ["Whopper 269 g", 2690, "Burgeri", "", 269],
+    ]);
+    expect(m.fees.deliveryFee).toBe(449);
   });
 });

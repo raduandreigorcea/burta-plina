@@ -44,6 +44,9 @@ describe("parseWeight", () => {
   it("ignores nutritional references", () => {
     expect(parseWeight("Burger", "250 kcal/100g")).toBeNull();
     expect(parseWeight("Kebab", "Carne pui, cartofi. VALOARE ENERGETICA KJ/Kcal 100g: 355 / 85")).toBeNull();
+    expect(
+      parseWeight("Meniu Gyros XXL", "Gyros 605g + pita 120g + băutură - 725gr + 330ml\n\nValoare energetică: 160 kcal; zahăruri: 6.84 g; lipide: 7.29 g; acizi grași: 1.39 g")?.grams,
+    ).toBe(725);
     expect(parseWeight("Bagheta", "Carne, lipie. Valori Nutritionale: Grasimi: VITA: 5.3 g, Glucide: 12.32 g Pui: Grasimi: 3.69 g")).toBeNull();
     expect(parseWeight("Burger", "Valori la 100 g: 12g proteine")).toBeNull();
     expect(parseWeight("Burger", "300g. Energie 250 kcal / 100g")).toMatchObject({ grams: 300, uncertain: false });

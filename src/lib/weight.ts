@@ -149,6 +149,7 @@ function fromText(text: string): ParsedWeight | null {
 }
 
 const PORTION_RE = /por[tțţ]ie\s*\(\s*(?:\d+\s*buc\.?\s*\/\s*)?(\d+(?:[.,]\d+)?)\s*(kg|gr|g)\s*\)/i;
+const NUTRITION_RE = /valoare[a-z]*\s+energetic|valori\s+nutri|informa[tț]ii\s+nutri/i;
 const INGREDIENTS_RE = /ingrediente\s*:|ingr\s*:/i;
 
 export function parseWeight(
@@ -164,7 +165,11 @@ export function parseWeight(
   return n ? { ...n, source: "name" } : null;
 }
 
-function fromDescription(name: string, description: string): ParsedWeight | null {
+function fromDescription(name: string, rawDescription: string): ParsedWeight | null {
+  // A nutrition table after the product text ("Valoare energetică: 160 kcal; ... lipide: 7.29 g")
+  // is about 100 g, not the weight of the product.
+  const nutrition = rawDescription.search(NUTRITION_RE);
+  const description = nutrition > 0 ? rawDescription.slice(0, nutrition).trim() : rawDescription;
   // "Porție (181g)", "Porție (9buc/127g)": said outright, whatever else the text lists.
   const portion = description.match(PORTION_RE);
   if (portion) {

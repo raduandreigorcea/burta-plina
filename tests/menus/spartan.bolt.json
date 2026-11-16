@@ -1,0 +1,550 @@
+{
+ "chain": "Spartan",
+ "platform": "bolt",
+ "venue": "Spartan Mall Vitan",
+ "savedOn": "2026-11-16",
+ "fees": {
+  "deliveryFee": 789,
+  "minOrder": 0,
+  "notes": [
+   "Bolt Food: taxa de livrare e cea din căutare pentru adresa ta; taxa de servicii și suprataxa de coș mic nu sunt publice și nu sunt incluse."
+  ]
+ },
+ "offers": [],
+ "items": [
+  {
+   "name": "Meniu Gyros Puișor",
+   "description": "Gyros Puisor 440gr, Cartofi prajiti 100gr, Sos la alegere 40gr, bautura racoritoare - 580gr + 330ml\n\n\nValoare energetică: 190.80 kcal / 798.10 kj; proteine: 7.9 g; carbohidrați: 23.1 g; zahăruri: 3.1 g; lipide: 7 g; acizi grași: 1.4 g; fibre: 1.4 g; sodiu: 378.5 mg; colesterol: 16 mg",
+   "category": "GYROS",
+   "price": 5799
+  },
+  {
+   "name": "Gyros Crispy Cheddar",
+   "description": "Crispy Pui 100g, Lipie Spartan 120g, Cartofi Prajiti 60g, Sos Cheddar 40g, Rosii 50g, Ceapa rosie 15g - 385g",
+   "category": "GYROS",
+   "price": 3299
+  },
+  {
+   "name": "Gyros XXL Vițel-Purcel-Berbecuț",
+   "description": "Carne rotisată (vițel, purcel, berbecuț) 150gr, cartofi prăjiți 60gr, salată varză 40gr, sos usturoi 40gr, sos dulce - acrișor 20gr, sos legume 10gr, roșii 20gr, castraveti murați 15gr, ceapă rosie 10gr, salată verde 5gr, lipie spartan 120gr - 490g\n\nValoare energetică: 226.19 kcal / 946.37 kj; proteine: 11.15 g; carbohidrați: 20.94 g; zahăruri: 2.83 g; lipide: 10.57 g; acizi grași: 3.19 g; fibre: 1.3 g; sodiu: 350.38 mg; colesterol: 31.21 mg",
+   "category": "GYROS",
+   "price": 4699
+  },
+  {
+   "name": "Meniu Feta Snitel Gyros",
+   "description": "Feta Șnițel Gyros 520g, cartofi prăjiți 120g, sos la alegere (Usturoi / Dulce-acrișor / Tzatziki) 40g, băutură răcoritoare (Pepsi / Pepsi Zero / Mirinda / 7up / Mountain Dew / Aqua Carpatica) 500ml - 680g \n\nAlergeni: Gluten (grâu), Lactoză, Ouă, Ţelină, Muştar, Soia, Susan.",
+   "category": "GYROS",
+   "price": 5699
+  },
+  {
+   "name": "Feta Șnițel Gyros",
+   "description": "Șnițel de pui 120g, lipie Spartan 120g, cremă Feta 60g, cartofi prăjiți 60g, salată de varză 60g, sos de usturoi 40g, sos dulce-acrișor 40g, castraveți murați 20g - 520g \n\nAlergeni: Gluten (grâu), Lactoză, Ouă, Ţelină, Muştar, Soia, Susan.",
+   "category": "GYROS",
+   "price": 3999
+  },
+  {
+   "name": "Gyros Cheddar Pui",
+   "description": "Carne rotisata de pui 100g, Lipie Spartan 120g, Cartofi Prajiti 60g, Sos Cheddar 20g, Sos Usturoi 20g, Sos Dulce Acrisor 20g, Rosii 20g, Salata Verde 20g, Castraveti Murati 15g, Ceapa Rosie 10g - 405g",
+   "category": "GYROS",
+   "price": 3699
+  },
+  {
+   "name": "Meniu Gyros Vițel-Purcel-Berbecuț",
+   "description": "Gyros vitel-purcel-berbecut 440gr, Cartofi prajiti 100gr, Sos la alegere 40gr, bautura racoritoare - 580gr + 330ml\n\n\nValoare energetică: 194.68 kcal / 814.55 kj; proteine: 6.38 g; carbohidrați: 23.89 g; zahăruri: 6.36 g; lipide: 8.1 g; acizi grași: 2.02 g; fibre: 1.4 g; sodiu: 328.77 mg; colesterol: 20 mg",
+   "category": "GYROS",
+   "price": 6199
+  },
+  {
+   "name": "Gyros XXL Puișor",
+   "description": "Carne rotisată de puișor 150gr, cartofi prăjiți 60gr, salată varză 40gr, sos usturoi 40gr, sos dulce - acrișor 20gr, sos legume 10gr, roșii 20gr, castraveti murați 15gr, ceapă rosie 10gr, salată verde 5gr, lipie spartan 120gr - 490g\n\nValoare energetică: 193.74 kcal / 850.77 kj; proteine: 9.27 g; carbohidrați: 21.97 g; zahăruri: 3.09 g; lipide: 7.39 g; acizi grași: 1.56 g; fibre: 1.29 g; sodiu: 357.26 mg; colesterol: 20.72 mg",
+   "category": "GYROS",
+   "price": 4299
+  },
+  {
+   "name": "Meniu Gyros XXL Vițel-Purcel-Berbecuț",
+   "description": "Gyros vitel-purcel-berbecut 490gr, Cartofi prajiti 100gr, Sos la alegere 40gr, bautura racoritoare - 630gr + 330ml\n\n\nValoare energetică: 194.35 kcal / 813.18 kj; proteine: 6.86 g; carbohidrați: 22.65 g; zahăruri: 6.03 g; lipide: 8.43 g; acizi grași: 2.16 g; fibre: 1.32 g; sodiu: 313.75 mg; colesterol: 17.25 mg",
+   "category": "GYROS",
+   "price": 6499
+  },
+  {
+   "name": "Gyros Puișor",
+   "description": "Carne rotisată de puișor 100gr, cartofi prăjiți 60gr, salată varză 40gr, sos usturoi 40gr, sos dulce - acrișor 20gr, sos legume 10gr, roșii 20gr, castraveti murați 15gr, ceapă rosie 10gr, salată verde 5gr, lipie spartan 120gr - 440g\n\nValoare energetică: 190.80 kcal / 798.10 kj; proteine: 7.9 g; carbohidrați: 23.1 g; zahăruri: 3.1 g; lipide: 7 g; acizi grași: 1.4 g; fibre: 1.4 g; sodiu: 378.5 mg; colesterol: 16 mg\"",
+   "category": "GYROS",
+   "price": 3999
+  },
+  {
+   "name": "Meniu Gyros XXL Puișor",
+   "description": "Gyros Puisor 490gr, Cartofi prajiti 100gr, Sos la alegere 40gr, bautura racoritoare - 630gr + 330ml\n\nValoare energetică: 176.44 kcal / 760.39 kj; proteine: 5.82 g; carbohidrați: 23.21 g; zahăruri: 6.17 g; lipide: 6.67 g; acizi grași: 1.26 g; fibre: 1.32 g; sodiu: 317.55 mg",
+   "category": "GYROS",
+   "price": 6099
+  },
+  {
+   "name": "Gyros Vițel-Purcel-Berbecuț",
+   "description": "Lipie, carne rotisată amestec (vițel, purcel, berbecuț), cartofi prăjiți, salată varză, sos usturoi, sos dulce - acrișor, roșii, castraveciori murați, ceapă, sos legume, salată verde - 440g\n\nValoare energetică: 230.13 kcal / 962.84 kj; proteine: 10.69 g; carbohidrați: 23.13 g; zahăruri: 3.13 g; lipide: 10.17 g; acizi grași: 3.04 g; fibre: 1.44 g; sodiu: 382.57 mg; colesterol: 37.88 mg",
+   "category": "GYROS",
+   "price": 4399
+  },
+  {
+   "name": "Gyros Cheddar Vitel/Purcel/Berbecut",
+   "description": "Carne rotisată (vițel, purcel, berbecuț) 100gr, cartofi prăjiți 60gr, salată varză 40gr, sos usturoi 40gr, sos dulce - acrișor 20gr, sos legume 10gr, roșii 20gr, castraveti murați 15gr, ceapă rosie 10gr, salată verde 5gr, lipie spartan 120gr - 440g",
+   "category": "GYROS",
+   "price": 4099
+  },
+  {
+   "name": "Meniu Gyros Grecia XXL Puişor",
+   "description": "Gyros Grecia Puisor 515gr, Cartofi prajiti 100g, Sos la alegere 40g, bautura racoritoare - 655g + 330ml\n\nValoare energetică: 172.22 kcal / 720.57 kj; proteine: 6.71 g; carbohidrați: 20.47 g; zahăruri: 4.97 g; lipide: 6.97 g; acizi grași: 1.45 g; fibre: 1.23 g; sodiu: 216.94 mg; colesterol: 15.2 mg",
+   "category": "GYROS GRECIA",
+   "price": 6399
+  },
+  {
+   "name": "Gyros Grecia Puișor",
+   "description": "Carne rotisată de pui 120g, lipie/pita greceasca 145g, cartofi prăjiți 60g, sos tzatziki 60g, roșii 50g, ceapă roșie 20g, sos usturoi 20g - 450g\n\nValoare energetică: 202.17 kcal / 845.88 kj; proteine: 11.63 g; carbohidrați: 18.93 g; zahăruri: 1.06 g; lipide: 8.49 g; acizi grași: 1.91 g; fibre: 1.24 g; sodiu: 196.68 mg; colesterol: 27.75 mg",
+   "category": "GYROS GRECIA",
+   "price": 3999
+  },
+  {
+   "name": "Meniu Gyros Grecia XXL Vițel-Purcel-Berbecuț",
+   "description": "Gyros Grecia vitel-purcel-berbecut 515gr, Cartofi prajiti 100g, Sos la alegere 40g, bautura racoritoare - 655g + 330ml\n\nValoare energetică: 197.78 kcal / 827.51 kj; proteine: 8.12 g; carbohidrați: 20.47 g; zahăruri: 4.97 g; lipide: 9.2 g; acizi grași: 2.66 g; fibre: 1.24 g; sodiu: 218.25 mg; colesterol: 23.82 mg",
+   "category": "GYROS GRECIA",
+   "price": 6799
+  },
+  {
+   "name": "Gyros Grecia Vițel-Purcel-Berbecuț",
+   "description": "Carne rotisată vitel-purcel-berbecut 120g, lipie/pita greceasca 145g, cartofi prăjiți 60g, sos tzatziki 60g, roșii 50g, ceapă roșie 20g, sos usturoi 20g - 450g\n\nValoare energetică: 251.45 kcal / 1052.07 kj; proteine: 14.36 g; carbohidrați: 18.94 g; zahăruri: 1.24 g; lipide: 12.73 g; acizi grași: 4.07 g; fibre: 1.24 g; sodiu: 199.26 mg; colesterol: 43.44 mg",
+   "category": "GYROS GRECIA",
+   "price": 4399
+  },
+  {
+   "name": "Meniu Gyros Grecia Vițel-Purcel-Berbecuț",
+   "description": "Gyros Grecia vitel-purcel-berbecut 465gr, Cartofi prajiti 100gr, Sos la alegere 40gr, bautura racoritoare - 605g + 330ml\n\nValoare energetică: 179.78 kcal / 752.20 kj; proteine: 5.8 g; carbohidrați: 22.04 g; zahăruri: 5.35 g; lipide: 7.61 g; acizi grași: 1.89 g; fibre: 1.33 g; sodiu: 227.47 mg; colesterol: 13.75 mg",
+   "category": "GYROS GRECIA",
+   "price": 6199
+  },
+  {
+   "name": "Meniu Gyros Grecia Puișor",
+   "description": "Gyros Grecia Puisor 465gr, Cartofi prajiti 100gr, Sos la alegere 40gr, bautura racoritoare - 605g + 330ml\n\nValoare energetică: 168.38 kcal / 704.50 kj; proteine: 5.48 g; carbohidrați: 22.03 g; zahăruri: 5.35 g; lipide: 6.52 g; acizi grași: 1.29 g; fibre: 1.33 g; sodiu: 227.9 mg; colesterol: 10.6 mg",
+   "category": "GYROS GRECIA",
+   "price": 5799
+  },
+  {
+   "name": "Gyros Grecia XXL Puişor",
+   "description": "Carne rotisată de pui 190g, lipie/pita greceasca 145g, cartofi prăjiți 60g, sos tzatziki 60g, roșii 50g, ceapă roșie 20g, sos usturoi 20g - 520g\n\nValoare energetică: 845.91 kcal / 720.57 kj; proteine: 11.63 g; carbohidrați: 18.93 g; zahăruri: 1.06 g; lipide: 8.49 g; acizi grași: 1.91 g; fibre: 1.24 g; sodiu: 196.68 mg;",
+   "category": "GYROS GRECIA",
+   "price": 4599
+  },
+  {
+   "name": "Gyros Grecia XXL Vițel-Purcel-Berbecuț",
+   "description": "Carne rotisată vitel-purcel-berbecut 190g, lipie/pita greceasca 145g, cartofi prăjiți 60g, sos tzatziki 60g, roșii 50g, ceapă roșie 20g, sos usturoi 20g - 520g\n\nValoare energetică: 197.78 kcal / 827.51 kj; proteine: 8.12 g; carbohidrați: 20.47 g; zahăruri: 4.97 g; lipide: 9.2 g; acizi grași: 2.66 g; fibre: 1.24 g; sodiu: 218.25 mg; colesterol: 23.82 mg",
+   "category": "GYROS GRECIA",
+   "price": 4999
+  },
+  {
+   "name": "Meniu Gyros XXL La Farfurie Puișor",
+   "description": "Gyros la farfurie pui 605g + pita clasica spartan 120g + băutură răcoritoare - 725gr + 330ml\n\nValoare energetică: 160.26 kcal / 670.53 kj; proteine: 5.01 g; carbohidrați: 15.65 g; zahăruri: 6.84 g; lipide: 7.29 g; acizi grași: 1.39 g; fibre: 1.04 g; sodiu: 184.06 mg; colesterol: 16.1 mg",
+   "category": "GYROS LA FARFURIE",
+   "price": 6299
+  },
+  {
+   "name": "Meniu Gyros XXL La Farfurie Vițel-Purcel-Berbecuț",
+   "description": "Gyros la farfurie vitel-purcel-berbecut 605g + pita clasica spartan 120g + băutură răcoritoare - 725gr + 330ml\n\nValoare energetică: 179.07 kcal / 749.23 kj; proteine: 6.69 g; carbohidrați: 15.85 g; zahăruri: 6.94 g; lipide: 8.7 g; acizi grași: 2.19 g; fibre: 1.04 g; sodiu: 185.66 mg; colesterol: 19.39 mg",
+   "category": "GYROS LA FARFURIE",
+   "price": 6699
+  },
+  {
+   "name": "Gyros La Farfurie XXL Puișor",
+   "description": "Cartofi prăjiți 160g, carne rotisată de puișor 160g, salată de varză 130g, sos usturoi 40g, sos dulce - acrișor 20g, sos legume 20g, sos tzatziki 20g, roșii 15g, castraveti murați 15, salată verde 15g, ceapă rosie 10g, pita clasica spartan 120g - 725g\n\nValoare energetică: 194.27 kcal / 812.83 kj; proteine: 7.09 g; carbohidrați: 20 g; zahăruri: 4.63 g; lipide: 9.84 g; acizi grași saturați: 1.83 g; fibre: 1.63 g; sodiu: 318.13 mg; colesterol: 16.86 mg",
+   "category": "GYROS LA FARFURIE",
+   "price": 5599
+  },
+  {
+   "name": "Gyros La Farfurie Vițel-Purcel-Berbecuț",
+   "description": "Cartofi prăjiți 120g, carne rotisată vitel-purcel-verbecut 120g, salată de varză 120g, sos usturoi 40g, sos dulce - acrișor 20g, sos legume 20g, sos tzatziki 20g, castraveti murați 15g, roșii 15g, ceapă rosie 10, salată verde 10g, pita clasica spartan 120g - 630g\n\nValoare energetică: 199.25 kcal / 833.66 kj; proteine: 6.58 g; carbohidrați: 20 g; zahăruri: 3.79 g; lipide: 10.67 g; acizi grași: 2.49 g; fibre: 1.67 g; sodiu: 293.97 mg; colesterol: 17.54 mg",
+   "category": "GYROS LA FARFURIE",
+   "price": 5299
+  },
+  {
+   "name": "Gyros La Farfurie XXL Vițel-Purcel-Berbecuț",
+   "description": "Cartofi prăjiți 160g, carne rotisată vitel-purcel-berbecut 160g, salată de varză 130g, sos usturoi 40g, sos dulce - acrișor 20g, sos legume 20g, sos tzatziki 20g, roșii 15g, castraveti murați 15, salată verde 15g, ceapă rosie 10g, pita clasica spartan 120g - 725g\n\nValoare energetică: 194.27 kcal / 812.83 kj; proteine: 7.09 g; carbohidrați: 20 g; zahăruri: 4.63 g; lipide: 9.84 g; acizi grași saturați: 1.83 g; fibre: 1.63 g; sodiu: 318.13 mg; colesterol: 16.86 mg",
+   "category": "GYROS LA FARFURIE",
+   "price": 5999
+  },
+  {
+   "name": "Gyros La Farfurie Puișor",
+   "description": "Cartofi prăjiți 120g, carne rotisată puișor 120g, salată de varză 120g, sos usturoi 40g, sos dulce - acrișor 20g, sos legume 20g, sos tzatziki 20g, castraveti murați 15g, roșii 15g, ceapă rosie 10, salată verde 10g, pita clasica spartan 120g - 630g\n\nValoare energetică: 195.15 kcal / 816.51 kj; proteine: 6.44 g; carbohidrați: 21.52 g; zahăruri: 5.91 g; lipide: 9.5 g; acizi grași: 1.76 g; fibre: 1.67 g; sodiu: 296.52 mg; colesterol: 15.45 mg",
+   "category": "GYROS LA FARFURIE",
+   "price": 4899
+  },
+  {
+   "name": "Leonidas Vițel-Purcel-Berbecuț",
+   "description": "Carne rotisată de vitel-purcel-berbecut 80g, sos usturoi 40g, salată verde 30g, rosii 35g, sos dulce - acrișor 20g, sos legume 20g, castraveti murați 15, ceapă rosie 10g, pita clasica spartan 120g - 370g\n\nValoare energetică: 196.29 kcal / 821.28 kj; proteine: 10.86 g; carbohidrați: 20.86 g; zahăruri: 2.86 g; lipide: 7.43 g; acizi grași: 2.54 g; fibre: 1.06 g; sodiu: 474.29 mg; colesterol: 28.29 mg",
+   "category": "LEONIDAS",
+   "price": 4299
+  },
+  {
+   "name": "Meniu Leonidas Puișor",
+   "description": "Carne rotisată de puișor 370g, cartofi prajiti 100g, sos la alegere 40g, băutură la alegere - 510g + 330ml\n\nValoare energetică: 147.96 kcal / 619.06 kj; proteine: 4.66 g; carbohidrați: 21.61 g; zahăruri: 6.37 g; lipide: 4.81 g; acizi grași: 0.88 g; fibre: 1.14 g; sodiu: 337.95 mg; colesterol: 7.37 mg",
+   "category": "LEONIDAS",
+   "price": 5499
+  },
+  {
+   "name": "Meniu Leonidas Vițel-Purcel-Berbecuț",
+   "description": "Carne rotisată vitel-purcel-berbecut 370g, cartofi prajiti 100g, sos la alegere 40g, băutură la alegere - 510g + 330ml\n\nValoare energetică: 163.13 kcal / 682.54 kj; proteine: 5.39 g; carbohidrați: 21.61 g; zahăruri: 6.37 g; lipide: 6.13 g; acizi grași: 1.53 g; fibre: 1.14 g; sodiu: 339.16 mg; colesterol: 11.95 mg",
+   "category": "LEONIDAS",
+   "price": 5699
+  },
+  {
+   "name": "Leonidas Puişor",
+   "description": "Carne rotisată de puișor 80g, sos usturoi 40g, salată verde 30g, rosii 35g, sos dulce - acrișor 20g, sos legume 20g, castraveti murați 15, ceapă rosie 10g, pita clasica spartan 120g - 370g\n\nValoare energetică: 160.29 kcal / 670.65 kj; proteine: 9.14 g; carbohidrați: 20.86 g; zahăruri: 2.86 g; lipide: 4.29 g; acizi grași: 1 g; fibre: 1.06 g; sodiu: 471.43 mg; colesterol: 17.43 mg",
+   "category": "LEONIDAS",
+   "price": 3899
+  },
+  {
+   "name": "Crispy Mega",
+   "description": "Crispy puișor prăjit 7 bucați 215g, cartofi prăjiți 100g, lipie spartan 120g, salată varză 100g, sos usturoi 40g, sos dulce - acrișor 20g - 595g\n\nValoare energetică: 245 kcal / 1025.08 kj; proteine: 11.73 g; carbohidrați: 25.38 g; zahăruri: 4.04 g; lipide: 10.38 g; acizi grași: 2.12 g; fibre: 1.63 g; sodiu: 344.42 mg; colesterol: 28.08 mg",
+   "category": "CRISPY/ȘNIȚEL",
+   "price": 5299
+  },
+  {
+   "name": "Meniu Zeus Șnițel",
+   "description": "3 șnițele de pui (produs congelat) 175g, cartofi prăjiți 150, pita spartan 120g, salată varză 100g, sos usturoi 40g - 585g\n\nValoare energetică: 219.15 kcal / 916.04 kj; proteine: 9.7 g; carbohidrați: 27.07 g; zahăruri: 3.07 g; lipide: 7.8 g; acizi grași: 1.28 g; fibre: 1.97 g; sodiu: 317.79 mg; colesterol: 33.53 mg",
+   "category": "CRISPY/ȘNIȚEL",
+   "price": 4799
+  },
+  {
+   "name": "Meniu Crispy Mega + Băutură Răcoritoare",
+   "description": "Crispy Mega 475g, pita spartan 120g, bautura racoritoare la alegere - 595g + 330ml\n\nValoare energetică: 382.61 kcal / 1600.83 kj; proteine: 12.87 g; carbohidrați: 62.13 g; zahăruri: 42.65 g; lipide: 10.61 g; acizi grași: 2.26 g; fibre: 1.48 g; sodiu: 362.91 mg; colesterol: 32.35 mg",
+   "category": "CRISPY/ȘNIȚEL",
+   "price": 5999
+  },
+  {
+   "name": "Crispy Mediu",
+   "description": "Crispy puișor prăjit 5 bucați 160g, cartofi prăjiți 100g, lipie spartan 120g, salată varză 100g, sos usturoi 40g, sos dulce - acrișor 20g - 540g\n\nValoare energetică: 245 kcal / 1025.08 kj; proteine: 11.73 g; carbohidrați: 25.38 g; zahăruri: 4.04 g; lipide: 10.38 g; acizi grași: 2.12 g; fibre: 1.63 g; sodiu: 344.42 mg; colesterol: 28.08 mg",
+   "category": "CRISPY/ȘNIȚEL",
+   "price": 4799
+  },
+  {
+   "name": "Gym Box Vițel-Purcel-Berbecuț",
+   "description": "Orez 150g, carne rotisată amestec (vițel, purcel, berbecuț) 120g, roșii 30g, salată verde 20g - 360g",
+   "category": "CRISPY/ȘNIȚEL",
+   "price": 3699
+  },
+  {
+   "name": "Meniu Crispy Gyros",
+   "description": "Crispy Gyros 415g, cartofi prajiti 100g, bautura la alegere - 515g + 330ml\n\nValoare energetică: 164.67 kcal / 688.98 kj; proteine: 5.44 g; carbohidrați: 22.4 g; zahăruri: 6.62 g; lipide: 5.99 g; acizi grași: 1.1 g; fibre: 1.2 g; sodiu: 241.44 mg; colesterol: 10.9 mg",
+   "category": "CRISPY/ȘNIȚEL",
+   "price": 4399
+  },
+  {
+   "name": "Pită Șnițel",
+   "description": "Lipie , șnițel puișor, cartofi prăjiți, salată varză, sos usturoi, sos dulce - acrișor, castraveciori murați - 345g\n\nValoare energetică: 212 kcal / 887.01 kj; proteine: 9.14 g; carbohidrați: 29.74 g; zahăruri: 4.31 g; lipide: 6.45 g; acizi grași: 0.96 g; fibre: 1.71 g; sodiu: 591.43 mg; colesterol: 24.42 mg",
+   "category": "CRISPY/ȘNIȚEL",
+   "price": 2999
+  },
+  {
+   "name": "Meniu Crispy Mediu + Băutură Răcoritoare",
+   "description": "Crispy Mediu 420g, pita spartan 120g, bautura racoritoare la alegere - 540g + 330ml\n\nValoare energetică: 385 kcal / 1610.84 kj; proteine: 11.73 g; carbohidrați: 64.08 g; zahăruri: 43.04 g; lipide: 10.38 g; acizi grași saturați: 2.11 g; fibre: 1.63 g; sodiu: 389.42 mg; colesterol: 28.07 mg",
+   "category": "CRISPY/ȘNIȚEL",
+   "price": 5499
+  },
+  {
+   "name": "Meniu Zeus Șnițel + Băutură Răcoritoare",
+   "description": "3 șnițele de pui (produs congelat) 175g, cartofi prăjiți 150, pita spartan 120g, salată varză 100g, sos usturoi 40g, bautura la alegere - 585g + 330ml\n\nValoare energetică: 219.15 kcal / 916.04 kj; proteine: 9.7 g; carbohidrați: 27.07 g; zahăruri: 3.07 g; lipide: 7.8 g; acizi grași: 1.28 g; fibre: 1.97 g; sodiu: 317.79 mg; colesterol: 33.53 mg",
+   "category": "CRISPY/ȘNIȚEL",
+   "price": 5499
+  },
+  {
+   "name": "Gym Box Puișor",
+   "description": "Orez 150g, carne rotisată puișor 120g, roșii 30g, salată verde 20g - 360g",
+   "category": "CRISPY/ȘNIȚEL",
+   "price": 3699
+  },
+  {
+   "name": "Crispy Gyros",
+   "description": "Crispy puișor prăjit 100g, cartofi prăjiți 60g, salată varză 60g, sos usturoi 40g, sos dulce - acrișor 20g, castraveti murați 15, lipie spartan 120g - 415g\n\nValoare energetică: 233.67 kcal / 977.67 kj; proteine: 10.63 g; carbohidrați: 27.09 g; zahăruri: 4.05 g; lipide: 8.86 g; acizi grași: 1.16 g; fibre: 1.57 g; sodiu: 445.82 mg; colesterol: 23.04 mg",
+   "category": "CRISPY/ȘNIȚEL",
+   "price": 3099
+  },
+  {
+   "name": "Pită Veggie (Sos Legume)",
+   "description": "Vegie Balls 120g, cartofi prăjiţi 100g, salată verde 40g, sos legume 60g, roşii 20g, ceapă roşie 5g, lipie spartan 120g - 465g\n\nValoare energetică: 197.89 kcal / 827.97 kj; proteine: 8.42 g; carbohidrați: 25.26 g; zahăruri: 1.28 g; lipide: 6.95 g; acizi grași: 1.16 g; fibre: 2.95 g; sodiu: 321.68 mg; colesterol: 0.65 mg",
+   "category": "VEGAN/VEGETARIAN",
+   "price": 3799
+  },
+  {
+   "name": "Meniu Veggie Bowl",
+   "description": "Veggie Bowl 375g, apa la alegere - 375g + 500ml\n\nValoare energetică: 114.18 kcal / 477.73 kj; proteine: 4.4 g; carbohidrați: 14.75 g; zahăruri: 6.21 g; lipide: 4.54 g; acizi grași: 0.75 g; fibre: 1.7 g; sodiu: 147.09 mg; colesterol: 0.44 mg",
+   "category": "VEGAN/VEGETARIAN",
+   "price": 4999
+  },
+  {
+   "name": "Meniu Pită Veggie (Sos Legume)",
+   "description": "Vegie balls, cartofi prăjiți, lipie, salată verde, sos tzatziki, roșii, ceapă roșie, cartofi prăjiți, apă plată sau minerală - 465g + 500ml\n\nValoare energetică: 197.89 kcal / 827.97 kj; proteine: 8.42 g; carbohidrați: 25.26 g; zahăruri: 1.28 g; lipide: 6.95 g; acizi grași: 1.16 g; fibre: 2.95 g; sodiu: 321.68 mg; colesterol: 0.65 mg",
+   "category": "VEGAN/VEGETARIAN",
+   "price": 4999
+  },
+  {
+   "name": "Meniu Pită Veggie (Sos Tzatziki)",
+   "description": "Vegie balls, cartofi prăjiți, lipie, salată verde, sos legume, roșii, ceapă roșie, cartofi prăjiți, apă plată sau minerală - 465g + 500ml\n\nValoare energetică: 197.89 kcal / 827.97 kj; proteine: 8.42 g; carbohidrați: 25.26 g; zahăruri: 1.28 g; lipide: 6.95 g; acizi grași: 1.16 g; fibre: 2.95 g; sodiu: 321.68 mg; colesterol: 0.65 mg",
+   "category": "VEGAN/VEGETARIAN",
+   "price": 4999
+  },
+  {
+   "name": "Pită Veggie (Sos Tzatziki)",
+   "description": "Vegie Balls 120g, cartofi prăjiţi 100g, salată verde 40g, sos tzatziki 60g, roşii 20g, ceapă roşie 5g, lipie spartan 120g - 465g\n\nValoare energetică: 197.89 kcal / 827.97 kj; proteine: 8.42 g; carbohidrați: 25.26 g; zahăruri: 1.28 g; lipide: 6.95 g; acizi grași: 1.16 g; fibre: 2.95 g; sodiu: 321.68 mg; colesterol: 0.65 mg",
+   "category": "VEGAN/VEGETARIAN",
+   "price": 3799
+  },
+  {
+   "name": "Veggie Bowl",
+   "description": "Veggie balls 120g, cartofi prajiti 120g, salată verde 70g, sos tzatziki 40g, rosii 20g, ceapă roșie 5g - 375g\n\nValoare energetică: 187.32 kcal / 783.75 kj; proteine: 8.73 g; carbohidrați: 18.31 g; zahăruri: 1.35 g; lipide: 9.01 g; acizi grași: 1.49 g; fibre: 3.38 g; sodiu: 279.44 mg; colesterol: 0.87 mg",
+   "category": "VEGAN/VEGETARIAN",
+   "price": 4299
+  },
+  {
+   "name": "Salată Fresh Puişor",
+   "description": "Lipie, carne rotisată de puișor, salată, dressing caesar, brânză cubulețe, roșii, castraveți fresh, ardei roșu gras sau kapia, măsline negre feliate, ceapă - 370g + 70g pită\n\nValoare energetică: 195 kcal / 815.88 kj; proteine: 8.13 g; carbohidrați: 15.21 g; zahăruri: 1.81 g; lipide: 11.25 g; acizi grași: 3.13 g; fibre: 1.19 g; sodiu: 381.25 mg; colesterol: 26.04 mg",
+   "category": "SALATE",
+   "price": 4499
+  },
+  {
+   "name": "Salată Fresh Vițel-Purcel-Berbecuț",
+   "description": "Lipie, carne rotisată amestec (vițel, purcel, berbecuț), salată, dressing caesar, brânză cubulețe, roșii, castraveți fresh, ardei roșu gras sau kapia, măsline negre feliate, ceapă - 370g + 70g pită\n\n\nValoare energetică: 214.17 kcal / 896.09 kj; proteine: 9.17 g; carbohidrați: 15.21 g; zahăruri: 1.81 g; lipide: 11.25 g; acizi grași: 3.13 g; fibre: 1.19 g; sodiu: 381.25 mg; colesterol: 26.04 mg",
+   "category": "SALATE",
+   "price": 4899
+  },
+  {
+   "name": "Meniu Salată Fresh Puișor",
+   "description": "Lipie, carne rotisată de puișor, salată, dressing caesar, brânză cubulețe, roșii, castraveți fresh, ardei roșu gras sau kapia, măsline negre feliate, ceapă, apă - 370g + 70g pită + 500ml\n\nValoare energetică: 195 kcal / 815.88 kj; proteine: 8.13 g; carbohidrați: 15.21 g; zahăruri: 1.81 g; lipide: 11.25 g; acizi grași: 3.13 g; fibre: 1.19 g; sodiu: 381.25 mg; colesterol: 26.04 mg",
+   "category": "SALATE",
+   "price": 5199
+  },
+  {
+   "name": "Salată Grecească",
+   "description": "Roșii, castravete fresh, brânză feta, măsline kalamata, ceapă fresh, ulei de măsline, oregano - 371g",
+   "category": "SALATE",
+   "price": 3999
+  },
+  {
+   "name": "Meniu Salată Zeus Șnițel",
+   "description": "Șnițel de puișor, lipie, salată, roșii, sos la alegere, castraveți fresh, ardei roșu gras sau kapia, măsline negre feliate, ceapă, apă - 440g + 70g pită + 500ml\n\nValoare energetică: 134.36 kcal / 562.16 kj; proteine: 10 g; carbohidrați: 16.73 g; zahăruri: 1.2 g; lipide: 2.73 g; acizi grași: 0.56 g; fibre: 1.2 g; sodiu: 177.82 mg; colesterol: 38.18 mg",
+   "category": "SALATE",
+   "price": 5399
+  },
+  {
+   "name": "Salată Zeus Șnițel",
+   "description": "Șnițel de puișor, lipie, salată, roșii, sos la alegere, castraveți fresh, ardei roșu gras sau kapia, măsline negre feliate, ceapă - 440g + 70g pită\n\nValoare energetică: 134.36 kcal / 562.16 kj; proteine: 10 g; carbohidrați: 16.73 g; zahăruri: 1.2 g; lipide: 2.73 g; acizi grași: 0.56 g; fibre: 1.2 g; sodiu: 177.82 mg; colesterol: 38.18 mg",
+   "category": "SALATE",
+   "price": 4699
+  },
+  {
+   "name": "Meniu Salată Fresh Vițel-Purcel-Berbecuț",
+   "description": "Lipie, carne rotisată amestec (vițel, purcel, berbecuț), salată, dressing caesar, brânză cubulețe, roșii, castraveți fresh, ardei roșu gras sau kapia, măsline negre feliate, ceapă, apă - 370g + 70g pită + 500ml\n\nValoare energetică: 214.17 kcal / 896.09 kj; proteine: 9.17 g; carbohidrați: 15.21 g; zahăruri: 1.81 g; lipide: 11.25 g; acizi grași: 3.13 g; fibre: 1.19 g; sodiu: 381.25 mg; colesterol: 26.04 mg",
+   "category": "SALATE",
+   "price": 5599
+  },
+  {
+   "name": "Extra brânză",
+   "description": "Extra brânză cubulețe, brânză telemea de vacă (lapte de vacă pasteurizat, sare, culturi lactice) - 50g\n\nValoare energetică: 129 kcal / 539.73 kj; proteine: 7.5 g; carbohidrați: 0.4 g; zahăruri: 0.4 g; lipide: 11 g; acizi grași saturați: 7.7 g; fibre: 0 g; sodiu: 440 mg; colesterol: 55 mg",
+   "category": "EXTRA OPȚIUNI",
+   "price": 600
+  },
+  {
+   "name": "Cartofi Prăjiți",
+   "description": "Cartofi prăjiți - 150g\n\nValoare energetică: 312 kcal / 1305.41 kj; proteine: 3.4 g; carbohidrați: 41.33 g; zahăruri: 0.33 g; lipide: 14.67 g; acizi grași: 2.33 g; fibre: 3.8 g; sodiu: 210 mg; colesterol: 0 mg",
+   "category": "EXTRA OPȚIUNI",
+   "price": 1699
+  },
+  {
+   "name": "Sos Mayoneza Picanta",
+   "description": "Sos Mayoneza Picanta 40g",
+   "category": "EXTRA OPȚIUNI",
+   "price": 450
+  },
+  {
+   "name": "Sos Picant",
+   "description": "Sos de legume: Bază tomate aromă: roşii (din concentrat), sirop de fructoză – glucoză, oţet din alcool, amidon modificat, sare, conservanţi (benzoat de sodiu, sorbat de potasiu, aromă), sos roşii, ţelină proapăta, morcovi, ceapă albă, ardei iute, ardei gras roşu, pătrunjel, condiment, Ardei extra iute Haragos Pista: Ardei extra iute tocat (87%), sare, agent de îngroşare (gumă de xantan), acidifiant (acid citric), conservant (sorbat de potasiu).Conține alergeni: susan, ardei iute, telina, mustar - 20g",
+   "category": "EXTRA OPȚIUNI",
+   "price": 450
+  },
+  {
+   "name": "Sos Legume - 40g",
+   "description": "Sos legume - 40g\n\nValoare energetică: 6 kcal / 25.10 kj; proteine: 0.2 g; carbohidrați: 1 g; zahăruri: 0.6 g; lipide: 0.1 g; acizi grași: 0 g; fibre: 0.2 g; sodiu: 303 mg; colesterol: 0 mg",
+   "category": "EXTRA OPȚIUNI",
+   "price": 450
+  },
+  {
+   "name": "Cremă Feta",
+   "description": "Cremă Feta- 40g \n\n\nAlergeni: Lactoză",
+   "category": "EXTRA OPȚIUNI",
+   "price": 700
+  },
+  {
+   "name": "Sos Cheddar",
+   "description": "Apă, cheddar, unt, amidon modificat, săruri de topire : citrați de sodiu și polifosfați, sare, otet din vin, proteine din lapte, agent de îngroșare: gumă xantan, conservant acid sorbic, coloranți:extract de ardei roșu și caroteni - 40g",
+   "category": "EXTRA OPȚIUNI",
+   "price": 700
+  },
+  {
+   "name": "Sos Tzatziki - 40g",
+   "description": "Sos tzatziki - 40g\n\nValoare energetică: 91 kcal / 380.74 kj; proteine: 2.4 g; carbohidrați: 4.5 g; zahăruri: 3.3 g; lipide: 7.3 g; acizi grași: 2 g; fibre: 0.4 g; sodiu: 184 mg; colesterol: 7.7 mg",
+   "category": "EXTRA OPȚIUNI",
+   "price": 450
+  },
+  {
+   "name": "Sos Usturoi - 40g",
+   "description": "Sos usturoi - 40g\n\nValoare energetică: 148 kcal / 619.23 kj; proteine: 3.9 g; carbohidrați: 14 g; zahăruri: 8.4 g; lipide: 7.4 g; acizi grași: 0.7 g; fibre: 0.4 g; sodiu: 1988 mg; colesterol: 3.5 mg",
+   "category": "EXTRA OPȚIUNI",
+   "price": 450
+  },
+  {
+   "name": "Ceapă prăjită",
+   "description": "Ceapă prăjită - 10g \n\n\nAlergeni: Gluten (grâu).",
+   "category": "EXTRA OPȚIUNI",
+   "price": 250
+  },
+  {
+   "name": "Sos Dulce-Acrișor - 40g",
+   "description": "Sos dulce - acrișor - 40g\n\nValoare energetică: 150 kcal / 627.60 kj; proteine: 0.3 g; carbohidrați: 38 g; zahăruri: 19 g; lipide: 5.5 g; acizi grași: 0.5 g; fibre: 0.1 g; sodiu: 371 mg; colesterol: 2 mg",
+   "category": "EXTRA OPȚIUNI",
+   "price": 450
+  },
+  {
+   "name": "Pită",
+   "description": "Făină de grâu (60%), apă, drojdie, sare, ulei de floarea soarelui, emulgator (stearoil - lactat de sodiu), propionat de calciu - 110g\n\nValoare energetică: 239 kcal / 999.98 kj; proteine: 9.5 g; carbohidrați: 45.5 g; zahăruri: 3.5 g; lipide: 1.3 g; acizi grași: 0.3 g; fibre: 3.4 g; sodiu: 900 mg; colesterol: 0 mg",
+   "category": "EXTRA OPȚIUNI",
+   "price": 599
+  },
+  {
+   "name": "Papanași Cu Gem Vișine",
+   "description": "Papanași, smântână, dulceață de vișine - 160g\n\nValoare energetică: 167.28 kcal / 699.90 kj; proteine: 3.48 g; carbohidrați: 18.75 g; zahăruri: 11.87 g; lipide: 8.71 g; acizi grași: 3.9 g; fibre: 0.16 g; sodiu: 0.22 mg; colesterol: 3.13 mg",
+   "category": "DESERTURI",
+   "price": 2699
+  },
+  {
+   "name": "Papanași Cu Gem Afine",
+   "description": "Papanași, smântână, dulceață de afine - 160g\n\nValoare energetică: 167.16 kcal / 699.40 kj; proteine: 3.44 g; carbohidrați: 18.75 g; zahăruri: 11.88 g; lipide: 8.71 g; acizi grași: 3.88 g; fibre: 0.16 g; sodiu: 0.22 mg; colesterol: 0.1 mg",
+   "category": "DESERTURI",
+   "price": 2699
+  },
+  {
+   "name": "Papanași Cu Nutella",
+   "description": "Papanași, smântână, nutella - 160g\n\nValoare energetică: 224.42 kcal / 938.97 kj; proteine: 4.77 g; carbohidrați: 24.85 g; zahăruri: 16.46 g; lipide: 11.69 g; acizi grași: 3.77 g; fibre: 0.19 g; sodiu: 0.35 mg; colesterol: 1.15 mg",
+   "category": "DESERTURI",
+   "price": 2799
+  },
+  {
+   "name": "Apa Dorna Plata",
+   "description": "500ml",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 850
+  },
+  {
+   "name": "Apa Dorna Minerala",
+   "description": "500ml",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 850
+  },
+  {
+   "name": "Coke Lemon Zero",
+   "description": "Coke Lemon Zero-330ml",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 950
+  },
+  {
+   "name": "Coca-Cola",
+   "description": "500ml ________________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 43 KCAL/183 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.5 Lipide (g): 10.5 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 950
+  },
+  {
+   "name": "Coca-Cola Zero",
+   "description": "500ml ________________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 43 KCAL/183 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.5 Lipide (g): 10.5 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 950
+  },
+  {
+   "name": "Fanta Portocale",
+   "description": "500ml ________________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 43 KCAL/183 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.5 Lipide (g): 10.5 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 950
+  },
+  {
+   "name": "Fanta Madness",
+   "description": "500ml ____________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 43 KCAL/183 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.5 Lipide (g): 10.5 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 950
+  },
+  {
+   "name": "Sprite",
+   "description": "500ml ________________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 43 KCAL/183 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.5 Lipide (g): 10.5 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 950
+  },
+  {
+   "name": "Schweppes Mandarin",
+   "description": "500ml ________________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 43 KCAL/183 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.5 Lipide (g): 10.5 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 950
+  },
+  {
+   "name": "Fuzetea Fructe Padure",
+   "description": "500ml ________________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 43 KCAL/183 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.5 Lipide (g): 10.5 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 950
+  },
+  {
+   "name": "Fuzetea Piersici",
+   "description": "500ml ________________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 43 KCAL/183 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.5 Lipide (g): 10.5 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 950
+  },
+  {
+   "name": "Fuzetea Lamaie",
+   "description": "500ml ________________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 43 KCAL/183 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.5 Lipide (g): 10.5 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 950
+  },
+  {
+   "name": "Fuzetea Verde",
+   "description": "500ml ________________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 43 KCAL/183 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.5 Lipide (g): 10.5 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 950
+  },
+  {
+   "name": "Ayran",
+   "description": "",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 850
+  },
+  {
+   "name": "Coca-Cola Doza",
+   "description": "330ml _________________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 42 KCAL/180 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.6 Lipide (g): 10.6 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 850
+  },
+  {
+   "name": "Coca-Cola Zero Doza",
+   "description": "330ml _________________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 42 KCAL/180 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.6 Lipide (g): 10.6 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 850
+  },
+  {
+   "name": "Fanta Portocale Doza",
+   "description": "330ml _________________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 42 KCAL/180 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.6 Lipide (g): 10.6 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 850
+  },
+  {
+   "name": "Sprite Doza",
+   "description": "330ml _________________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 42 KCAL/180 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.6 Lipide (g): 10.6 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 850
+  },
+  {
+   "name": "Schweppes Mandarin Doza",
+   "description": "330ml _________________________ DECLARATIE NUTRITIONALA EXPRIMATA PER 100 ML PRODUS: Valoare Energetica (g): 42 KCAL/180 KJOULI Proteine (g): 0 Carbohidrati (g): 0 Zaharuri (g): 10.6 Lipide (g): 10.6 Acizi grasi saturati (g): 0 Fibre (g):0 Sodiu (mg):0 Colesterol (mg):0",
+   "category": "BĂUTURI RĂCORITOARE",
+   "price": 850
+  }
+ ]
+}

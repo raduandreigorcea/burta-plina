@@ -1,0 +1,508 @@
+{
+ "chain": "Noodle Pack",
+ "platform": "bolt",
+ "venue": "Noodle Pack Unirii",
+ "savedOn": "2026-11-16",
+ "fees": {
+  "deliveryFee": 499,
+  "minOrder": 0,
+  "notes": [
+   "Bolt Food: taxa de livrare e cea din căutare pentru adresa ta; taxa de servicii și suprataxa de coș mic nu sunt publice și nu sunt incluse."
+  ]
+ },
+ "offers": [],
+ "items": [
+  {
+   "name": "Meniu Noodle Pack Pachețele de primăvară",
+   "description": "Tăiței, varză, ceapă, morcov, ou, pachețele de primăvară cu legume, sos la alegere 50ml, suc/apă la alegere. Valori nutriționale 380g - Kcal: 486,438 Grăsimi: 14,288 Glucide: 78,318 Proteine: 9,31 Sare: 6,194 Alergeni: gluten, soia, sos de stridii, ou, susan.",
+   "category": "Meniuri Combo",
+   "price": 4399
+  },
+  {
+   "name": "Meniu Noodle Pack Șnițel Crocant",
+   "description": "380 g",
+   "category": "Meniuri Combo",
+   "price": 4599
+  },
+  {
+   "name": "Meniu Value Pack",
+   "description": "250 g",
+   "category": "Meniuri Combo",
+   "price": 2499
+  },
+  {
+   "name": "Combo Pack pentru 2",
+   "description": "2 x 250 g",
+   "category": "Meniuri Combo",
+   "price": 4998
+  },
+  {
+   "name": "Combo Pack pentru 3",
+   "description": "3 X 250 g",
+   "category": "Meniuri Combo",
+   "price": 7497
+  },
+  {
+   "name": "Combo Pack pentru 4 persoane",
+   "description": "4 X 250 g",
+   "category": "Meniuri Combo",
+   "price": 9996
+  },
+  {
+   "name": "(NOU) Rice Pack Șnițel Crocant",
+   "description": "400 g",
+   "category": "Ediție Limitată & Noutăți",
+   "price": 4149
+  },
+  {
+   "name": "(NOU) Noodle Pack Șnițel Crocant",
+   "description": "380 g",
+   "category": "Ediție Limitată & Noutăți",
+   "price": 4249
+  },
+  {
+   "name": "NP Buldak Crunchy Chicken nepicant",
+   "description": "Tăiței, varză, ceapă, morcov, ou, șnițel din piept de pui cu fulgi de porumb, sos la alegere 50ml.",
+   "category": "Ediție Limitată & Noutăți",
+   "price": 4649
+  },
+  {
+   "name": "Pui crocant picant NP Buldak",
+   "description": "Tăiței, varză, ceapă, morcov, ou, șnițel din piept de pui cu fulgi de porumb, sos la alegere 50ml. Produs picant.",
+   "category": "Ediție Limitată & Noutăți",
+   "price": 4649
+  },
+  {
+   "name": "(NOU) Pui cu portocală și cartofi prăjiți",
+   "description": "Cartofi prăjiți, pui crispy, sos lava cheddar, ceapă verde. Ușor picant.",
+   "category": "Ediție Limitată & Noutăți",
+   "price": 3599
+  },
+  {
+   "name": "(NOU) Meniu Orange Chicken Fries",
+   "description": "Cartofi prăjiți, pui crispy, sos lava cheddar, ceapă verde, suc/apă la alegere. Ușor picant.",
+   "category": "Ediție Limitată & Noutăți",
+   "price": 4049
+  },
+  {
+   "name": "Cheeseburger Ramen nepicant",
+   "description": "360 g",
+   "category": "Cheeseburger Ramen",
+   "price": 4499
+  },
+  {
+   "name": "Cheeseburger Ramen picant",
+   "description": "360 g",
+   "category": "Cheeseburger Ramen",
+   "price": 4499
+  },
+  {
+   "name": "(NOU) Noodle Pack Șnițel Crocant",
+   "description": "380 g",
+   "category": "Noodle Pack",
+   "price": 4249
+  },
+  {
+   "name": "NP Buldak Crunchy Chicken nepicant",
+   "description": "Tăiței, varză, ceapă, morcov, ou, șnițel din piept de pui cu fulgi de porumb, sos la alegere 50ml.",
+   "category": "Noodle Pack",
+   "price": 4649
+  },
+  {
+   "name": "Pui crocant picant NP Buldak",
+   "description": "Tăiței, varză, ceapă, morcov, ou, șnițel din piept de pui cu fulgi de porumb, sos la alegere 50ml. Produs picant.",
+   "category": "Noodle Pack",
+   "price": 4649
+  },
+  {
+   "name": "Noodle Pack Crispy Picant",
+   "description": "Tăiței, varză, ceapă, morcov, ou, fâșii de pui picant, sos la alegere 50ml. Valori nutriționale 380g - Kcal: 602.224 Grăsimi: 25.232 Glucide: 71.782 Proteine: 20.406 Sare: 6.346 Alergeni: gluten, ou, soia, țelină, muștar, lapte, semințe de susan, sos de stridii.",
+   "category": "Noodle Pack",
+   "price": 4249
+  },
+  {
+   "name": "Noodle Pack Crispy Nepicant",
+   "description": "Tăiței, varză, ceapă, morcov, ou, fâșii de pui nepicant, sos la alegere 50ml. Valori nutriționale 380g - Kcal: 602.224 Grăsimi: 25.232 Glucide: 71.782 Proteine: 20.406 Sare: 6.346 Alergeni: gluten, ou, soia, țelină, muștar, lapte, semințe de susan, sos de stridii.",
+   "category": "Noodle Pack",
+   "price": 4249
+  },
+  {
+   "name": "Spring Rolls Noodle Pack",
+   "description": "Tăiței, varză, ceapă, morcov, ou, pachețele de primăvară cu legume, sos la alegere 50ml. Valori nutriționale 380g - Kcal: 486.438 Grăsimi: 14.288 Glucide: 78.318 Proteine: 9.31 Sare: 6.194 Alergeni: gluten, soia, sos de stridii, ou, susan.",
+   "category": "Noodle Pack",
+   "price": 4049
+  },
+  {
+   "name": "Noodle Pack Pui Grill",
+   "description": "Tăiței, varză, ceapă, morcov, ou, piept de pui marinat, sos la alegere 50ml. Valori nutriționale 380g - Kcal: 495.824 Grăsimi: 17.86 Glucide: 53.238 Proteine: 29.07 Sare: 7.182 Alergeni: soia, țelină, muștar, lapte, semințe de susan, ou, gluten, sos de stridii.",
+   "category": "Noodle Pack",
+   "price": 4349
+  },
+  {
+   "name": "Nuggets Noodle Pack",
+   "description": "Tăiței, varză, ceapă, morcov, ou, nuggets (piept de pui crocant), sos la alegere 50ml. Valori nutriționale 380g - Kcal: 590.938 Grăsimi: 24.776 Glucide: 72.086 Proteine: 18.126 Sare: 7.182 Alergeni: gluten, ou, soia, țelină, muștar, lapte, susan, sos de stridii.",
+   "category": "Noodle Pack",
+   "price": 4249
+  },
+  {
+   "name": "Noodle Pack Creveți",
+   "description": "Tăiței, varză, ceapă, morcov, ou, creveți, sos la alegere 50ml. Valori nutriționale 380g - Kcal: 511.024 Grăsimi: 17.746 Glucide: 73.492 Proteine: 13.148 Sare: 6.27 Alergeni: crustacee, gluten, sos de stridii, ou.",
+   "category": "Noodle Pack",
+   "price": 4549
+  },
+  {
+   "name": "Noodle Pack Vită",
+   "description": "Tăiței, varză, ceapă, morcov, ou, carne de vită, sos la alegere 50ml. Valori nutriționale 380g - Kcal: 478.04, Grăsimi: 16.34, Glucide: 57.19, Proteine: 31.236, Sare: 6.08. Alergeni: gluten, ou, soia, țelină, muștar, lapte, semințe de susan, sos de stridii.",
+   "category": "Noodle Pack",
+   "price": 4649
+  },
+  {
+   "name": "Noodle Pack Pui cu Portocală",
+   "description": "Tăiței, varză, ceapă, morcov, ou, pui crispy nepicant caramelizat în sos BBQ, sos la alegere 50ml. Valori nutriționale 380g - Kcal: 576.84, Grăsimi: 24.928, Glucide: 68.02, Proteine: 18.772, Sare: 7.106. Alergeni: gluten, ou, soia, țelină, muștar, lapte, semințe de susan, sos de stridii.",
+   "category": "Noodle Pack",
+   "price": 4549
+  },
+  {
+   "name": "Noodle Pack cu pui crocant și sos BBQ",
+   "description": "Tăiței, varză, ceapă, morcov, ou, fâșii de pui crocant nepicant caramelizate în sos BBQ, sos la alegere 50ml. Valori nutriționale 380g - Kcal: 622.934 Grăsimi: 28.082 Glucide: 70.376 Proteine: 19.608 Sare: 9.348 Alergeni: gluten, ou, soia, țelină, muștar, lapte, semințe de susan, sos de stridii.",
+   "category": "Noodle Pack",
+   "price": 4549
+  },
+  {
+   "name": "(NOU) Rice Pack Șnițel Crocant",
+   "description": "400 g",
+   "category": "Rice Pack",
+   "price": 4149
+  },
+  {
+   "name": "Rice Pack Crispy nepicant",
+   "description": "Orez Jasmine, fâșii de pui crocant nepicant, sos la alegere 50ml. Valori nutriționale 400g - Kcal: 749.64 Grăsimi: 25.04 Glucide: 100.6 Proteine: 26.32 Sare: 2.4 Alergeni: gluten, poate conține ou, soia, țelină, muștar, lapte, semințe de susan.",
+   "category": "Rice Pack",
+   "price": 4149
+  },
+  {
+   "name": "Rice Pack Crispy picant",
+   "description": "Orez Jasmine, fâșii de pui crocant picant, sos la alegere 50ml. Valori nutriționale 400g - Kcal: 749.64 Grăsimi: 25.04 Glucide: 100.6 Proteine: 26.32 Sare: 2.4 Alergeni: gluten, poate conține ou, soia, țelină, muștar, lapte, semințe de susan.",
+   "category": "Rice Pack",
+   "price": 4149
+  },
+  {
+   "name": "Rice Pack Pachețele de primăvară",
+   "description": "Orez Jasmine, pachețele de primăvară cu legume, sos la alegere 50ml. Valori nutriționale 400g - Kcal: 754.04 Grăsimi: 16.8 Glucide: 128.92 Proteine: 15.92 Sare: 3.2 Alergeni: gluten, soia, susan.",
+   "category": "Rice Pack",
+   "price": 3899
+  },
+  {
+   "name": "Rice Pack Pui Grill",
+   "description": "Orez Jasmine, piept de pui marinat, sos la alegere 50ml. Valori nutriționale 400g - Kcal: 611.64 Grăsimi: 15.6 Glucide: 76.04 Proteine: 37.8 Sare: 0.4 Alergeni: soia, țelină, muștar, lapte, semințe de susan, poate conține ou.",
+   "category": "Rice Pack",
+   "price": 4149
+  },
+  {
+   "name": "Rice Pack cu nuggets",
+   "description": "Orez Jasmine, nuggets (piept de pui crocant), sos la alegere 50ml. Valori nutriționale 400g - Kcal: 730.6 Grăsimi: 24.4 Glucide: 99.72 Proteine: 23.76 Sare: 1.6 Alergeni: gluten, poate conține ou, poate conține urme de soia, țelină, muștar, lapte, susan.",
+   "category": "Rice Pack",
+   "price": 4149
+  },
+  {
+   "name": "Rice Pack Creveți",
+   "description": "Orez Jasmine, creveți, sos la alegere 50ml. Valori nutriționale 400g - Kcal: 631 Grăsimi: 15.4 Glucide: 101.96 Proteine: 17.4 Sare: 2.92 Alergeni: crustacee, gluten.",
+   "category": "Rice Pack",
+   "price": 4549
+  },
+  {
+   "name": "Rice Pack cu pui portocaliu",
+   "description": "Orez Jasmine, pui crispy nepicant caramelizat în sos Barbecue Ribs, sos la alegere 50ml. Valori nutriționale 400g - Kcal: 744.84, Grăsimi: 26.48, Glucide: 96.68, Proteine: 26.12, Sare: 1.2. Alergeni: gluten, poate conține ou, soia, țelină, muștar, lapte, semințe de susan.",
+   "category": "Rice Pack",
+   "price": 4549
+  },
+  {
+   "name": "Rice Pack cu Pui Crocant BBQ",
+   "description": "Orez Jasmine, fâșii de pui nepicant caramelizate în sos BBQ, sos la alegere 50ml. Valori nutriționale 400g - Kcal: 776.12 Grăsimi: 28.48 Glucide: 100.56 Proteine: 26.4 Sare: 7.08 Alergeni: gluten, poate conține ou, soia, țelină, muștar, lapte, semințe de susan.",
+   "category": "Rice Pack",
+   "price": 4549
+  },
+  {
+   "name": "Rice Pack Vită",
+   "description": "Orez Jasmine, carne de vită, sos la alegere 50ml. Valori nutriționale 400g - Kcal: 648.32, Grăsimi: 24g, Glucide: 81.8g, Proteine: 23.28g, Sare: 2.6g. Alergeni: gluten, ou, soia, țelină, muștar, lapte, semințe de susan, sos de stridii.",
+   "category": "Rice Pack",
+   "price": 4549
+  },
+  {
+   "name": "Buldak Simplu Nepicant",
+   "description": "Ramen, sos de brânză cheddar nepicant. Valori nutriționale 330g - Kcal: 490,70; Grăsimi: 20,06g; Glucide: 39,3g; Proteine: 9,72g; Sare: 4,11g. Alergeni: gluten, soia, lactoză, ou (posibil urme), susan.",
+   "category": "Ramen Buldak cu brânză",
+   "price": 3749
+  },
+  {
+   "name": "Buldak Simplu Picant",
+   "description": "Ramen, sos de brânză cheddar picant. Valori nutriționale 330g - Kcal: 495.80, Grăsimi: 24.06g, Glucide: 39.3g, Proteine: 9.72g, Sare: 4.11g. Alergeni: gluten, soia, lactoză, ou (posibile urme), susan.",
+   "category": "Ramen Buldak cu brânză",
+   "price": 3749
+  },
+  {
+   "name": "Buldak Crispy Nepicant",
+   "description": "Ramen, sos de brânză cheddar nepicant, fâșii de pui nepicant. Valori nutriționale 380g - Kcal: 679.72, Grăsimi: 35.35, Glucide: 52.85, Proteine: 18.12, Sare: 5.24. Alergeni: gluten, soia, lactoză, ou (posibil urme), susan, pește.",
+   "category": "Ramen Buldak cu brânză",
+   "price": 4299
+  },
+  {
+   "name": "Buldak Crispy Picant",
+   "description": "Ramen, sos de brânză cheddar picant, fâșii de pui nepicant. Valori nutriționale 380g - Kcal: 679.72, Grăsimi: 35.35, Glucide: 52.85, Proteine: 18.12, Sare: 5.24. Alergeni: gluten, soia, lactoză, ou (posibil urme), susan.",
+   "category": "Ramen Buldak cu brânză",
+   "price": 4299
+  },
+  {
+   "name": "Buldak BBQ Crispy Nepicant",
+   "description": "Ramen, sos de brânză cheddar nepicant, fâșii de pui crocant nepicant caramelizate în sos BBQ. Valori nutriționale 380g - Kcal: 669.23, Grăsimi: 36.65, Glucide: 56.65, Proteine: 20.61, Sare: 6.78. Alergeni: gluten, soia, lactoză, ou (posibil urme), susan, pește.",
+   "category": "Ramen Buldak cu brânză",
+   "price": 4299
+  },
+  {
+   "name": "Buldak BBQ Crispy Picant",
+   "description": "Ramen, sos de brânză cheddar picant, fâșii de pui crocant nepicant caramelizate în sos BBQ. Valori nutriționale 380g - Kcal: 692.23, Grăsimi: 36.65, Glucide: 56.65, Proteine: 20.61, Sare: 6.78. Alergeni: gluten, soia, lactoză, ou (posibile urme), susan, pește.",
+   "category": "Ramen Buldak cu brânză",
+   "price": 4299
+  },
+  {
+   "name": "Buldak Vita Nepicant",
+   "description": "Ramen, sos de brânză cheddar nepicant, carne de vită. Valori nutriționale 380g - Kcal: 591, Grăsimi: 31.2, Glucide: 42.3, Proteine: 14.8, Sare: 4. Alergeni: gluten, soia, lactoză, ou (posibile urme), susan, țelină, muștar, lapte, semințe de susan, sos de stridii.",
+   "category": "Ramen Buldak cu brânză",
+   "price": 4499
+  },
+  {
+   "name": "Buldak Vită Picant",
+   "description": "Ramen, sos de brânză cheddar picant, carne de vită. Valori nutriționale 380g - Kcal: 591, Grăsimi: 31.2, Glucide: 42.3, Proteine: 14.8, Sare: 4. Alergeni: gluten, soia, lactoză, ou (posibil urme), susan, țelină, muștar, lapte, semințe de susan, sos de stridii.",
+   "category": "Ramen Buldak cu brânză",
+   "price": 4499
+  },
+  {
+   "name": "Spring Rolls",
+   "description": "Pachețele de primăvară cu legume (ceapă, varză, morcov). Valori nutriționale 75g - Kcal: 238,50; Grăsimi: 9,38; Glucide: 32,25; Proteine: 5,25; Sare: 0. Alergeni: gluten, soia, susan.",
+   "category": "Snack Pack",
+   "price": 999
+  },
+  {
+   "name": "Philly Cheese Bites",
+   "description": "Gustare în înveliș crocant de pesmet, cu cremă de brânză și arpagic. Valori nutriționale 70g - Kcal: 161.76, Grăsimi: 9.41, Glucide: 15.88, Proteine: 4.25, Sare: 0.58. Alergeni: gluten, soia, țelină, muștar, lapte, susan, smântână, grâu, orz.",
+   "category": "Snack Pack",
+   "price": 1449
+  },
+  {
+   "name": "Nuggets",
+   "description": "Piept de pui crocant. Valori nutriționale per 100g - Kcal: 291,29; Grăsimi: 18,09; Glucide: 19,6; Proteine: 12,89; Sare: 1,2. Alergeni: nu conține alergeni.",
+   "category": "Snack Pack",
+   "price": 1649
+  },
+  {
+   "name": "Mozzarella Sticks",
+   "description": "Batoane de mozzarella, busuioc. Valori nutriționale 120g - Kcal: 437, Grăsimi: 12.5, Glucide: 76.7, Proteine: 5.4, Sare: 0.6. Alergeni: gluten, lapte, poate conține urme de soia, țelină, muștar, susan.",
+   "category": "Snack Pack",
+   "price": 1899
+  },
+  {
+   "name": "(NOU) Pui cu portocală și cartofi prăjiți",
+   "description": "Cartofi prăjiți, pui crispy, sos lava cheddar, ceapă verde. Ușor picant.",
+   "category": "Smart Pack",
+   "price": 3649
+  },
+  {
+   "name": "Smart Pack Crispy Nepicant",
+   "description": "Fâșii de pui crocant nepicant, pachețele de primăvară cu legume (ceapă, varză, morcov) sau cartofi prăjiți. Valori nutriționale 200g - Kcal: 639.90 Grăsimi: 31.30 Glucide: 67.90 Proteine: 20.50 Sare: 1.00 Alergeni: gluten, poate conține ou, soia, țelină, muștar, lapte, semințe de susan.",
+   "category": "Smart Pack",
+   "price": 3299
+  },
+  {
+   "name": "Smart Pack Crispy Picant",
+   "description": "Fâșii de pui crocant picant, pachețele de primăvară cu legume (ceapă, varză, morcov) sau cartofi prăjiți. Valori nutriționale 200g - Kcal: 639.90 Grăsimi: 31.30 Glucide: 67.90 Proteine: 20.50 Sare: 1.00 Alergeni: gluten, poate conține ou, soia, țelină, muștar, lapte, semințe de susan.",
+   "category": "Smart Pack",
+   "price": 3299
+  },
+  {
+   "name": "Smart Pack Nuggets",
+   "description": "Nuggets (piept de pui crocant), pachețele de primăvară cu legume (ceapă, varză, morcov) sau cartofi prăjiți. Valori nutriționale 200g - Kcal: 609.30 Grăsimi: 30.60 Glucide: 62.60 Proteine: 19.90 Sare: 1.20 Alergeni: gluten, poate conține ou, poate conține urme de soia, țelină, muștar, lapte, susan.",
+   "category": "Smart Pack",
+   "price": 3299
+  },
+  {
+   "name": "Smart Pack Creveți",
+   "description": "Creveți, pachețele de primăvară cu legume (ceapă, varză, morcov) sau cartofi prăjiți. Valori nutriționale 190g - Kcal: 520.50 Grăsimi: 22.76 Glucide: 63.61 Proteine: 14.38 Sare: 0.36 Alergeni: gluten, soia, susan, crustacee.",
+   "category": "Smart Pack",
+   "price": 3299
+  },
+  {
+   "name": "FP Classic",
+   "description": "Tăiței, varză, ceapă, morcov, ou, 3 x sosuri la alegere 50ml. Valori nutriționale 1500g - Kcal: 1591.89 Grăsimi: 34.93 Glucide: 287.12 Proteine: 27.23 Sare: 34.50 Alergeni: gluten, soia, sos de stridii, ou.",
+   "category": "Family Pack",
+   "price": 7749
+  },
+  {
+   "name": "FP Special Nepicant",
+   "description": "Tăiței, varză, ceapă, morcov, ou, fâșii de pui crocant nepicant, nuggets, 3 x sosuri la alegere 50ml. Valori nutriționale 1300g - Kcal: 2167.9 Grăsimi: 100.7 Glucide: 246.8 Proteine: 67.3 Sare: 27.7 Alergeni: gluten, soia, sos de stridii, ou.",
+   "category": "Family Pack",
+   "price": 9299
+  },
+  {
+   "name": "FP Special Picant",
+   "description": "Tăiței, varză, ceapă, morcov, ou, fâșii de pui crocant picant, nuggets, 3 x sosuri la alegere (50ml). Valori nutriționale 1300g - Kcal: 2167.9, Grăsimi: 100.7, Glucide: 246.8, Proteine: 67.3, Sare: 27.7. Alergeni: gluten, soia, sos de stridii, ou.",
+   "category": "Family Pack",
+   "price": 9299
+  },
+  {
+   "name": "FP Special Mixt",
+   "description": "Tăiței, varză, ceapă, morcov, ou, fâșii de pui crocant picant sau nepicant, nuggets, 3 x sosuri la alegere (50ml). Valori nutriționale 1300g - Kcal: 2167.9, Grăsimi: 100.7, Glucide: 246.8, Proteine: 67.3, Sare: 27.7. Alergeni: gluten, soia, sos de stridii, ou.",
+   "category": "Family Pack",
+   "price": 9299
+  },
+  {
+   "name": "Noodle Nuggets JR.",
+   "description": "Tăiței, varză, ceapă, morcov, ou, nuggets (piept de pui crocant), sos la alegere 40ml. Valori nutriționale 230g - Kcal: 275.71, Grăsimi: 10.73, Glucide: 36.55, Proteine: 7.88, Sare: 3.93. Alergeni: gluten, ou, soia, țelină, muștar, lapte, susan, sos de stridii.",
+   "category": "Noodle JR",
+   "price": 2199
+  },
+  {
+   "name": "Noodle Philly Cheese Bites JR.",
+   "description": "Tăiței, varză, ceapă, morcov, ou, biluțe de brânză, sos la alegere 40ml. Valori nutriționale 230g - Kcal: 306.39 Grăsimi: 13.89 Glucide: 40.03 Proteine: 5.08 Sare: 3.77 Alergeni: gluten, ou, soia, țelină, muștar, lapte, susan, sos de stridii.",
+   "category": "Noodle JR",
+   "price": 2199
+  },
+  {
+   "name": "Orez cremos cu mere și scorțișoară",
+   "description": "Orez jasmine, cremă de brânză, gem de mere, sirop de scorțișoară. Valori nutriționale 220g - Kcal: 464.4, Grăsimi: 32.4g, Glucide: 26.52g, Proteine: 14.28g, Sare: 0.96g. Alergeni: lactoză.",
+   "category": "Sweet Pack",
+   "price": 2299
+  },
+  {
+   "name": "Orez cremos cu banană și Nutella",
+   "description": "Orez jasmine, cremă de brânză, cremă Nutella, banane. Valori nutriționale 195g - Kcal: 496 Grăsimi: 28 Glucide: 51.9 Proteine: 8.4 Sare: 0.5 Alergeni: lapte, soia, alune de pădure.",
+   "category": "Sweet Pack",
+   "price": 2549
+  },
+  {
+   "name": "Orez cremos cu mango",
+   "description": "Orez jasmine, cremă de mango cu brânză, mango. Valori nutriționale 200g - Kcal: 268, Grăsimi: 10.1, Glucide: 39.5, Proteine: 3.2, Sare: 0.3. Alergeni: lactoză.",
+   "category": "Sweet Pack",
+   "price": 2399
+  },
+  {
+   "name": "Rulouri cu scorțișoară clasice",
+   "description": "Cinnamon rolls (aluat de prăjitură), cremă de brânză. Valori nutriționale 100g - Kcal: 332, Grăsimi: 18.9g, Glucide: 34.6g, Proteine: 5.5g, Sare: 0.5g. Alergeni: gluten, soia, ouă, lactate.",
+   "category": "Sweet Pack",
+   "price": 1799
+  },
+  {
+   "name": "Rulouri cu Scorțișoară și Caramel",
+   "description": "Cinnamon rolls (blat prăjitură), cremă de brânză, topping caramel. Valori nutriționale 115g - Kcal: 382, Grăsimi: 19.8, Glucide: 47.1, Proteine: 5.5, Sare: 0.5. Alergeni: gluten, lactoză.",
+   "category": "Sweet Pack",
+   "price": 1899
+  },
+  {
+   "name": "Sos Lava Cheddar",
+   "description": "Topping de cheddar, pastă de ardei iute, sos buldak. Valori nutriționale 50ml - Kcal: 112, Grăsimi: 8.6, Glucide: 3.2, Proteine: 4.9, Sare: 1.2. Alergeni: lactoză, soia, ouă, țelină, gluten.",
+   "category": "Sosuri",
+   "price": 799
+  },
+  {
+   "name": "Specialitate cu usturoi",
+   "description": "Sos de usturoi. Valori nutriționale 50ml - Kcal: 45.09, Grăsimi: 1.33, Glucide: 6.44, Proteine: 1.98, Sare: 2.05. Alergeni: gluten, soia, susan, stridii.",
+   "category": "Sosuri",
+   "price": 399
+  },
+  {
+   "name": "Sos dulce-iute",
+   "description": "Sos dulce-picant. Valori nutriționale 50ml - Kcal: 49.48, Grăsimi: 2.84, Glucide: 5.40, Proteine: 0.80, Sare: 0.54. Alergeni: gluten",
+   "category": "Sosuri",
+   "price": 399
+  },
+  {
+   "name": "Teriyaki cu ghimbir",
+   "description": "Sos cu ghimbir. Valori nutriționale 50ml - Kcal: 25.29, Grăsimi: 0.10, Glucide: 6.39, Proteine: 0.28, Sare: 1.56. Alergeni: gluten, soia.",
+   "category": "Sosuri",
+   "price": 399
+  },
+  {
+   "name": "Dulce-acrișor",
+   "description": "Sos dulce cu legume. Valori nutriționale 50ml - Kcal: 87.48, Grăsimi: 0.05, Glucide: 21.75, Proteine: 0.51, Sare: 1.95. Alergeni: gluten, soia.",
+   "category": "Sosuri",
+   "price": 399
+  },
+  {
+   "name": "Susan",
+   "description": "Sos de susan. Valori nutriționale 50ml - Kcal: 48.50, Grăsimi: 2.10, Glucide: 7.05, Proteine: 0.35, Sare: 0.50. Alergeni: gluten, soia, susan, stridii.",
+   "category": "Sosuri",
+   "price": 399
+  },
+  {
+   "name": "Chilli Iute",
+   "description": "Sos picant. Valori nutriționale 50ml - Kcal: 67.83, Grăsimi: 2.58, Glucide: 10.07, Proteine: 1.22, Sare: 6.30. Alergeni: gluten",
+   "category": "Sosuri",
+   "price": 399
+  },
+  {
+   "name": "Roșii cu usturoi",
+   "description": "Sos pentru cartofi prăjiți. Valori nutriționale 40ml - Kcal: 639, Grăsimi: 153.2g, Glucide: 1.4g, Proteine: 4.72g, Sare: 0.24g. Alergeni: muștar, ou.",
+   "category": "Sosuri",
+   "price": 399
+  },
+  {
+   "name": "Coca-Cola",
+   "description": "500 ml",
+   "category": "Răcoritoare",
+   "price": 1249
+  },
+  {
+   "name": "Coca-Cola Zero",
+   "description": "500 ml",
+   "category": "Răcoritoare",
+   "price": 1249
+  },
+  {
+   "name": "Coca-Cola Lime",
+   "description": "500 ml",
+   "category": "Răcoritoare",
+   "price": 1249
+  },
+  {
+   "name": "Fanta Portocale",
+   "description": "500 ml",
+   "category": "Răcoritoare",
+   "price": 1249
+  },
+  {
+   "name": "Fanta Pere",
+   "description": "500 ml",
+   "category": "Răcoritoare",
+   "price": 1249
+  },
+  {
+   "name": "Sprite",
+   "description": "500 ml",
+   "category": "Răcoritoare",
+   "price": 1249
+  },
+  {
+   "name": "Fuzetea piersici",
+   "description": "500 ml",
+   "category": "Răcoritoare",
+   "price": 1249
+  },
+  {
+   "name": "Apă plată",
+   "description": "500 ml",
+   "category": "Răcoritoare",
+   "price": 999
+  },
+  {
+   "name": "Apă minerală",
+   "description": "500 ml",
+   "category": "Răcoritoare",
+   "price": 999
+  },
+  {
+   "name": "Cappy Pulpy Portocale",
+   "description": "330 ml",
+   "category": "Răcoritoare",
+   "price": 999
+  }
+ ]
+}

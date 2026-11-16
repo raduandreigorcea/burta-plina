@@ -1,0 +1,310 @@
+{
+ "chain": "Mesopotamia",
+ "platform": "bolt",
+ "venue": "Berfin Doner Kebab",
+ "savedOn": "2026-11-16",
+ "fees": {
+  "deliveryFee": 1189,
+  "minOrder": 0,
+  "notes": [
+   "Bolt Food: taxa de livrare e cea din căutare pentru adresa ta; taxa de servicii și suprataxa de coș mic nu sunt publice și nu sunt incluse."
+  ]
+ },
+ "offers": [],
+ "items": [
+  {
+   "name": "Shaorma Mare Vită",
+   "description": "Lipie, carne de vită, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 700g.",
+   "category": "Shaorma",
+   "price": 5400
+  },
+  {
+   "name": "Shaorma Medie Pui",
+   "description": "Lipie, carne de pui, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 500g.",
+   "category": "Shaorma",
+   "price": 4300
+  },
+  {
+   "name": "Shaorma Medie Mixtă",
+   "description": "Lipie, carne de pui și vită, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 500g.",
+   "category": "Shaorma",
+   "price": 4900
+  },
+  {
+   "name": "Shaorma Mixtă la Farfurie",
+   "description": "Lipie sau chifle, carne de pui și vită, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 800g.",
+   "category": "Shaorma",
+   "price": 5800
+  },
+  {
+   "name": "Shaorma Mare Pui",
+   "description": "Lipie, carne de pui, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 700g.",
+   "category": "Shaorma",
+   "price": 5000
+  },
+  {
+   "name": "Shaorma Mare Mixtă",
+   "description": "Lipie, carne de pui și vită, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 700g.",
+   "category": "Shaorma",
+   "price": 5400
+  },
+  {
+   "name": "Shaorma Medie Vită",
+   "description": "Lipie, carne de vită, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 500g.",
+   "category": "Shaorma",
+   "price": 4900
+  },
+  {
+   "name": "Shaorma de Vită la Farfurie",
+   "description": "Lipie sau chifle, carne de vită, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 800g.",
+   "category": "Shaorma",
+   "price": 5800
+  },
+  {
+   "name": "Shaorma de Pui la Farfurie",
+   "description": "Lipie sau chifle, carne de pui, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 800g.",
+   "category": "Shaorma",
+   "price": 5500
+  },
+  {
+   "name": "Șnițel Lipie Mare",
+   "description": "Lipie, șnițel de pui, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 600g.",
+   "category": "Kebap",
+   "price": 3900
+  },
+  {
+   "name": "Hamburger de Pui",
+   "description": "Chiflă, hamburger de pui 250g.",
+   "category": "Kebap",
+   "price": 3200
+  },
+  {
+   "name": "Șnițel Chifle",
+   "description": "Chiflă, șnițel de pui 250g.",
+   "category": "Kebap",
+   "price": 3500
+  },
+  {
+   "name": "Crispy Strips Mare",
+   "description": "Lipie, crispy strips, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 600g.",
+   "category": "Kebap",
+   "price": 3900
+  },
+  {
+   "name": "Crispy Chifle",
+   "description": "Chiflă, crispy strips 250g.",
+   "category": "Kebap",
+   "price": 3500
+  },
+  {
+   "name": "Kebap Mixtă",
+   "description": "Carne de pui și vită, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 350g.",
+   "category": "Kebap",
+   "price": 3700
+  },
+  {
+   "name": "Crispy Strips Medie",
+   "description": "Lipie, crispy strips, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 400g.",
+   "category": "Kebap",
+   "price": 3700
+  },
+  {
+   "name": "Șnițel Lipie Medie",
+   "description": "Lipie, șnițel de pui, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 400g.",
+   "category": "Kebap",
+   "price": 3700
+  },
+  {
+   "name": "Kebap de Vită",
+   "description": "Carne de vită, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 350g.",
+   "category": "Kebap",
+   "price": 3700
+  },
+  {
+   "name": "Kebap de Pui",
+   "description": "Carne de pui, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 350g.",
+   "category": "Kebap",
+   "price": 3400
+  },
+  {
+   "name": "Falafel Lipie Mare",
+   "description": "Lipie, falafel, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 600g.",
+   "category": "Vegetariene",
+   "price": 3400
+  },
+  {
+   "name": "Falafel Lipie Medie",
+   "description": "Lipie, falafel, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 400g.",
+   "category": "Vegetariene",
+   "price": 3000
+  },
+  {
+   "name": "Meniu Crispy Strips",
+   "description": "Lipie sau chiflă, Crispy strips, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 800g.",
+   "category": "Meniuri",
+   "price": 4900
+  },
+  {
+   "name": "Meniu Șnițel de Pui",
+   "description": "Lipie sau chiflă, șnițel de pui, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 800g.",
+   "category": "Meniuri",
+   "price": 4900
+  },
+  {
+   "name": "Meniu Aripioare de Pui",
+   "description": "Lipie sau chiflă, aripioare de pui, cartofi prăjiți, varză, castraveți, salată verde, roșii, ceapă, ardei iute, sosuri 800g.",
+   "category": "Meniuri",
+   "price": 4900
+  },
+  {
+   "name": "Salată",
+   "description": "Salată proaspătă 250g.",
+   "category": "Diverse",
+   "price": 1500
+  },
+  {
+   "name": "Cartofi Prăjiți",
+   "description": "Porție de cartofi prăjiți 200g.",
+   "category": "Diverse",
+   "price": 1900
+  },
+  {
+   "name": "Lipie",
+   "description": "O bucată de lipie.",
+   "category": "Diverse",
+   "price": 300
+  },
+  {
+   "name": "Ardei Iute",
+   "description": "Un ardei iute.",
+   "category": "Diverse",
+   "price": 300
+  },
+  {
+   "name": "Chiflă",
+   "description": "O chiflă.",
+   "category": "Diverse",
+   "price": 300
+  },
+  {
+   "name": "Curry",
+   "description": "Porție de sos curry 50g.",
+   "category": "Sosuri",
+   "price": 300
+  },
+  {
+   "name": "Ketchup Picant",
+   "description": "Porție de ketchup picant 50g.",
+   "category": "Sosuri",
+   "price": 300
+  },
+  {
+   "name": "Maioneză Picantă (Samurai)",
+   "description": "Porție de maioneză picantă 50g.",
+   "category": "Sosuri",
+   "price": 300
+  },
+  {
+   "name": "Tzatziki",
+   "description": "Porție de sos tzatziki 50g.",
+   "category": "Sosuri",
+   "price": 300
+  },
+  {
+   "name": "Maioneză Simplă",
+   "description": "Porție de maioneză simplă 50g.",
+   "category": "Sosuri",
+   "price": 300
+  },
+  {
+   "name": "Maioneză cu Usturoi",
+   "description": "Porție de maioneză cu usturoi 50g.",
+   "category": "Sosuri",
+   "price": 300
+  },
+  {
+   "name": "Ketchup Dulce",
+   "description": "Porție de ketchup dulce 50g.",
+   "category": "Sosuri",
+   "price": 300
+  },
+  {
+   "name": "Baclava Clasică",
+   "description": "4 bucăți de baclava clasică.",
+   "category": "Desert",
+   "price": 2500
+  },
+  {
+   "name": "Baclava cu Lapte",
+   "description": "4 bucăți de baclava cu lapte.",
+   "category": "Desert",
+   "price": 3000
+  },
+  {
+   "name": "Baclava Clasică Bucată",
+   "description": "O bucată de baclava clasică.",
+   "category": "Desert",
+   "price": 600
+  },
+  {
+   "name": "Baclava cu Lapte Bucată",
+   "description": "O bucată de baclava cu lapte.",
+   "category": "Desert",
+   "price": 700
+  },
+  {
+   "name": "Apă Plată",
+   "description": "Apă plată 500ml.",
+   "category": "Băuturi răcoritoare",
+   "price": 900
+  },
+  {
+   "name": "Prigat Lămâie",
+   "description": "Prigat lămâie 500ml.",
+   "category": "Băuturi răcoritoare",
+   "price": 1200
+  },
+  {
+   "name": "Prigat Portocale",
+   "description": "Prigat portocale 500ml.",
+   "category": "Băuturi răcoritoare",
+   "price": 1200
+  },
+  {
+   "name": "Ayran",
+   "description": "Băutură de iaurt Ayran 330ml.",
+   "category": "Băuturi răcoritoare",
+   "price": 1200
+  },
+  {
+   "name": "Prigat Piersică",
+   "description": "Prigat piersică 500ml.",
+   "category": "Băuturi răcoritoare",
+   "price": 1200
+  },
+  {
+   "name": "Lipton Lemon",
+   "description": "Lipton lemon 500ml.",
+   "category": "Băuturi răcoritoare",
+   "price": 1200
+  },
+  {
+   "name": "Pepsi",
+   "description": "Pepsi 330ml.",
+   "category": "Băuturi răcoritoare",
+   "price": 1000
+  },
+  {
+   "name": "Pepsi",
+   "description": "Pepsi 500ml.",
+   "category": "Băuturi răcoritoare",
+   "price": 1200
+  },
+  {
+   "name": "Apă Minerală",
+   "description": "Apă minerală 500ml.",
+   "category": "Băuturi răcoritoare",
+   "price": 900
+  }
+ ]
+}
