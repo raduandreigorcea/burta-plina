@@ -51,3 +51,7 @@ strică un lanț, se vede în `tests/__snapshots__/`.
 `src/lib/smart.ts` caută coșuri cu un scor în care greutatea, caloriile, proteinele și raportul calitate-preț sunt exprimate ca fracție din „cât ar cumpăra bugetul la cel mai bun preț din acest meniu” (deci comparabile fără conversii arbitrare). Varietatea scade scorul când produsele sunt aproape identice; preferințele sunt bonusuri; bugetul, produsele/categoriile obligatorii, limita pe produs și „un acompaniament la fiecare fel principal” sunt reguli. Ponderile implicite (`DEFAULT_WEIGHTS`) și variantele alternative (`PROFILES`) sunt documentate acolo și se pot schimba din UI sau din `options.preferences.weights`.
 
 Caloriile și proteinele se citesc doar din textul meniului (`src/lib/nutrition.ts`); dacă lipsesc sau baza (per 100 g / porție) e ambiguă, rămân necunoscute și nu intră în scor. `npm run demo -- kfc glovo 50 "Produs obligatoriu" "Produs preferat" drink,fries` rulează asistentul pe un meniu salvat.
+
+## Despre proiect
+
+Proiect personal de weekend, făcut pentru portofoliu și pentru câțiva prieteni; nu e un serviciu și nu oferă garanții. Nu are legătură cu Wolt, Glovo, Bolt Food sau cu restaurantele afișate. Numele și logourile aparțin proprietarilor lor și sunt folosite doar pentru a recunoaște firmele. Meniurile și prețurile sunt cele publice din aplicațiile de livrare, citite la cerere; ele și taxele pot diferi de ce vezi în aplicație. Meniurile din `tests/menus` sunt instantanee salvate doar pentru teste. Cod sub licență MIT (vezi `LICENSE`).
