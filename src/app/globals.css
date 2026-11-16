@@ -288,7 +288,10 @@ button.iconBtn {
 }
 
 .comboList li {
-  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px;
   border-radius: 3px;
   cursor: pointer;
 }
@@ -658,3 +661,20 @@ button.primary:focus-visible {
 .row > div.field.combo {
   flex: 2 1 150px;
 }
+
+/* Logos: a chain's file from public/logos, or a monogram; the delivery apps as round marks. */
+.badge {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  vertical-align: middle;
+}
+.badge.logo { object-fit: contain; background: #fff; border: 1px solid color-mix(in srgb, var(--ink) 20%, transparent); }
+.badge.round { border-radius: 50%; margin-right: 4px; }
+.stickerTitle { display: flex; align-items: center; gap: 12px; }
+.stickerTitle h2 { display: flex; align-items: center; }

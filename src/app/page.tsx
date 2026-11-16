@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useId, useRef, useState } from "react";
-import { resolveChain, suggestChains } from "@/lib/chains";
+import { chainOfVenue, resolveChain, suggestChains } from "@/lib/chains";
+import { ChainBadge, PlatformBadge } from "./brand";
 import type { PlatformOutcome, PlatformSearch } from "@/lib/service";
 import { AlertIcon, CheckIcon, CloseIcon, PlusIcon, ExternalIcon, PinIcon, SearchIcon, SpinnerIcon, TagIcon } from "./icons";
 import { PLATFORM_NAMES, type Basket, type BudgetMode, type BudgetScope, type PlatformId, type SidesRule, type Venue } from "@/lib/types";
@@ -102,7 +103,8 @@ function ChainInput({ value, onChange, onSubmit }: { value: string; onChange: (v
               }}
               onMouseEnter={() => setActive(i)}
             >
-              {c.name}
+              <ChainBadge chain={c} size={24} />
+              <span>{c.name}</span>
             </li>
           ))}
         </ul>
@@ -515,7 +517,7 @@ export default function Home() {
           .filter((s) => !results.some((r) => r.platform === s.platform))
           .map((s) => (
             <div className="sticker" key={s.platform}>
-              <h2>{PLATFORM_NAMES[s.platform]}</h2>
+              <h2><PlatformBadge platform={s.platform} /> {PLATFORM_NAMES[s.platform]}</h2>
               <div className="muted">{s.error ? `Eroare: ${s.error}` : "Niciun local găsit cu livrare la adresa ta."}</div>
             </div>
           ))}
@@ -595,9 +597,15 @@ function ResultCard({ r, isWinner, scope, venues, onVenue, busy, onExclude }: { 
   return (
     <section className={`sticker${isWinner ? " winner" : ""}`}>
       <div className="stickerHead">
-        <div>
-          <h2>{PLATFORM_NAMES[r.platform]}</h2>
+        <div className="stickerTitle">
+          {(() => {
+            const chain = chainOfVenue(r.venue.name);
+            return chain ? <ChainBadge chain={chain} size={44} /> : null;
+          })()}
+          <div>
+          <h2><PlatformBadge platform={r.platform} /> {PLATFORM_NAMES[r.platform]}</h2>
           <a className="venue" href={r.venue.url} target="_blank" rel="noreferrer">{r.venue.name} <ExternalIcon size={14} /></a>
+          </div>
         </div>
         {isWinner && <div className="stamp">Cea mai multă mâncare</div>}
       </div>

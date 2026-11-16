@@ -4,23 +4,29 @@ import { normalize } from "./weight";
 export interface Chain {
   /** Shown in the list and sent to the platforms as the search text. */
   name: string;
+  /** File name of the logo in public/logos/ (slug.svg or slug.png), if one is there. */
+  slug: string;
+  /** Monogram and colours shown when there is no logo file. */
+  short: string;
+  bg: string;
+  fg: string;
   /** Short forms and common misspellings, besides the name itself. */
   aliases: string[];
 }
 
 export const CHAINS: Chain[] = [
-  { name: "McDonald's", aliases: ["mc", "mec", "mac", "mcd", "mec donalds", "mac donalds", "mcdonald", "donalds"] },
-  { name: "KFC", aliases: ["kentucky", "kentucky fried chicken", "kfc ro"] },
-  { name: "Burger King", aliases: ["bk", "burgerking", "king", "whopper"] },
-  { name: "Popeyes", aliases: ["popeye", "popeys", "popayes", "popais"] },
-  { name: "Taco Bell", aliases: ["tacobell", "taco", "tb"] },
-  { name: "Spartan", aliases: ["spartan gyros", "gyros"] },
-  { name: "Mesopotamia", aliases: ["meso", "mezopotamia", "mesopotania", "kebab mesopotamia"] },
-  { name: "Dristor Kebap", aliases: ["dristor", "dristor kebab", "kebap", "kebab"] },
-  { name: "Calif", aliases: ["calif kebab", "califul"] },
-  { name: "Pizza Hut", aliases: ["pizzahut", "hut", "ph"] },
-  { name: "Noodle Pack", aliases: ["noodlepack", "noodle", "noodles", "nudle"] },
-  { name: "Subway", aliases: ["sub", "subwey", "sabuei"] },
+  { name: "McDonald's", slug: "mcdonalds", short: "M", bg: "#FFC72C", fg: "#DA291C", aliases: ["mc", "mec", "mac", "mcd", "mec donalds", "mac donalds", "mcdonald", "donalds"] },
+  { name: "KFC", slug: "kfc", short: "KFC", bg: "#E4002B", fg: "#FFFFFF", aliases: ["kentucky", "kentucky fried chicken", "kfc ro"] },
+  { name: "Burger King", slug: "burger-king", short: "BK", bg: "#F5EBDC", fg: "#D62300", aliases: ["bk", "burgerking", "king", "whopper"] },
+  { name: "Popeyes", slug: "popeyes", short: "P", bg: "#F26B21", fg: "#FFFFFF", aliases: ["popeye", "popeys", "popayes", "popais"] },
+  { name: "Taco Bell", slug: "taco-bell", short: "TB", bg: "#702082", fg: "#FFFFFF", aliases: ["tacobell", "taco", "tb"] },
+  { name: "Spartan", slug: "spartan", short: "S", bg: "#1F2A44", fg: "#FFFFFF", aliases: ["spartan gyros", "gyros"] },
+  { name: "Mesopotamia", slug: "mesopotamia", short: "Me", bg: "#8B5A2B", fg: "#FFFFFF", aliases: ["meso", "mezopotamia", "mesopotania", "kebab mesopotamia"] },
+  { name: "Dristor Kebap", slug: "dristor-kebap", short: "DK", bg: "#E31E24", fg: "#FFFFFF", aliases: ["dristor", "dristor kebab", "kebap", "kebab"] },
+  { name: "Calif", slug: "calif", short: "C", bg: "#F4B400", fg: "#2B2B2B", aliases: ["calif kebab", "califul"] },
+  { name: "Pizza Hut", slug: "pizza-hut", short: "PH", bg: "#EE3124", fg: "#FFFFFF", aliases: ["pizzahut", "hut", "ph"] },
+  { name: "Noodle Pack", slug: "noodle-pack", short: "NP", bg: "#E2231A", fg: "#FFFFFF", aliases: ["noodlepack", "noodle", "noodles", "nudle"] },
+  { name: "Subway", slug: "subway", short: "SW", bg: "#009743", fg: "#FFC600", aliases: ["sub", "subwey", "sabuei"] },
 ];
 
 const squash = (s: string) => normalize(s).replace(/ /g, "");
@@ -73,4 +79,10 @@ export function resolveChain(text: string): string {
   // One candidate, or the text is the beginning of a name ("burger" -> Burger King).
   const begins = [hits[0].name, ...hits[0].aliases].some((k) => squash(k).startsWith(q));
   return hits.length === 1 || begins ? hits[0].name : text.trim();
+}
+
+/** The known chain a venue belongs to ("KFC Unirea" -> KFC), if any. */
+export function chainOfVenue(venueName: string): Chain | undefined {
+  const v = squash(venueName);
+  return CHAINS.find((c) => v.includes(squash(c.name)));
 }
