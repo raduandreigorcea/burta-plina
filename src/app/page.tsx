@@ -1,11 +1,20 @@
 "use client";
 
 import { useEffect, useId, useRef, useState } from "react";
-import { chainOfVenue, resolveChain, suggestChains } from "@/lib/chains";
+import { resolveChain, suggestChains } from "@/lib/chains";
 import { ChainBadge, PlatformBadge } from "./brand";
 import type { PlatformOutcome, PlatformSearch } from "@/lib/service";
 import { AlertIcon, CheckIcon, CloseIcon, PlusIcon, ExternalIcon, PinIcon, SearchIcon, SpinnerIcon, TagIcon } from "./icons";
-import { PLATFORM_NAMES, type Basket, type BudgetMode, type BudgetScope, type PlatformId, type SidesRule, type Venue } from "@/lib/types";
+import {
+  PLATFORM_NAMES,
+  type Basket,
+  type BudgetMode,
+  type BudgetScope,
+  type PlatformId,
+  type SidesRule,
+  type SmartSuggestion,
+  type Venue,
+} from "@/lib/types";
 
 interface Loc {
   lat: number;
@@ -13,7 +22,6 @@ interface Loc {
   label: string;
 }
 
-const ALL_PLATFORMS = Object.keys(PLATFORM_NAMES) as PlatformId[];
 const lei = (bani: number) => (bani / 100).toFixed(2).replace(".", ",") + " lei";
 const grams = (g: number) => (g >= 1000 ? (g / 1000).toFixed(2).replace(".", ",") + " kg" : Math.round(g) + " g");
 const km = (m?: number) => (m == null ? "" : m < 1000 ? `, la ${m} m` : `, la ${(m / 1000).toFixed(1).replace(".", ",")} km`);
@@ -139,16 +147,11 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [budgetLei, setBudgetLei] = useState("50");
   const [scope, setScope] = useState<BudgetScope>("total");
-  const [mode, setMode] = useState<BudgetMode>("hard");
-  const [tolerancePct, setTolerancePct] = useState("10");
-  const [maxPerItem, setMaxPerItem] = useState("3");
   const [includeDrinks, setIncludeDrinks] = useState(false);
   const [wantFries, setWantFries] = useState(false);
   const [includeSauces, setIncludeSauces] = useState(false);
-  const [includeGuessed, setIncludeGuessed] = useState(false);
   const [wantSalad, setWantSalad] = useState(false);
   const [wantDessert, setWantDessert] = useState(false);
-
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [searches, setSearches] = useState<PlatformSearch[]>([]);
@@ -166,13 +169,9 @@ export default function Home() {
     if (typeof s.query === "string") setQuery(s.query);
     if (typeof s.budgetLei === "string") setBudgetLei(s.budgetLei);
     if (s.scope === "food" || s.scope === "total") setScope(s.scope);
-    if (s.mode === "flex" || s.mode === "hard") setMode(s.mode);
-    if (typeof s.tolerancePct === "string") setTolerancePct(s.tolerancePct);
-    if (typeof s.maxPerItem === "string") setMaxPerItem(s.maxPerItem);
     if (typeof s.includeDrinks === "boolean") setIncludeDrinks(s.includeDrinks);
     if (typeof s.wantFries === "boolean") setWantFries(s.wantFries);
     if (typeof s.includeSauces === "boolean") setIncludeSauces(s.includeSauces);
-    if (typeof s.includeGuessed === "boolean") setIncludeGuessed(s.includeGuessed);
     if (typeof s.wantSalad === "boolean") setWantSalad(s.wantSalad);
     if (typeof s.wantDessert === "boolean") setWantDessert(s.wantDessert);
     /* eslint-enable react-hooks/set-state-in-effect */
@@ -230,18 +229,27 @@ export default function Home() {
   const options = (excludeNames: string[]) => ({
     budget: Math.round(parseFloat(budgetLei.replace(",", ".")) * 100),
     scope,
-    mode,
-    tolerancePct: Number(tolerancePct),
-    maxPerItem: Number(maxPerItem),
+    mode: "hard" as BudgetMode,
+    tolerancePct: 0,
+    maxPerItem: 3,
     includeDrinks,
     wantFries,
     includeSauces,
-    includeGuessed,
-    // Fries and other fried sides only when asked for: then at most one per main dish.
-    sides: (wantFries ? "balanced" : "none") as SidesRule,
+    sides: "balanced" as SidesRule,
     wantSalad,
     wantDessert,
     excludeNames,
+    // What is ticked is mandatory; everything else the assistant weighs by itself.
+    preferences: {
+      mustCategories: [
+        ...(wantFries ? ["fries" as const] : []),
+        ...(includeDrinks ? ["drink" as const] : []),
+        ...(includeSauces ? ["sauce" as const] : []),
+        ...(wantSalad ? ["salad" as const] : []),
+        ...(wantDessert ? ["dessert" as const] : []),
+      ],
+      alternatives: 2,
+    },
   });
 
   async function runOptimize(venues: Venue[], excludeNames: string[]) {
@@ -267,7 +275,7 @@ export default function Home() {
     setBusy(true);
     setError("");
     setResults(null);
-    save("food.settings", { query, budgetLei, scope, mode, tolerancePct, maxPerItem, includeDrinks, includeSauces, includeGuessed, wantSalad, wantDessert, wantFries });
+    save("food.settings", { query, budgetLei, scope, includeDrinks, includeSauces, wantSalad, wantDessert, wantFries });
     try {
       const res = await fetch(`/api/search?q=${encodeURIComponent(query)}&lat=${loc.lat}&lon=${loc.lon}`);
       const data = await res.json();
@@ -325,10 +333,15 @@ export default function Home() {
   };
   const restoreItem = (name: string) => setExclusions(excluded.filter((n) => n !== name));
 
-  const winner = results?.find((r) => r.result?.best);
-  const runnerUp = results?.find((r) => r !== winner && r.result?.best);
+  const hasAnswer = (r: PlatformOutcome) => !!r.result?.smart?.suggestions.length;
+  const winner = results?.find(hasAnswer);
+  const runnerUp = results?.find((r) => r !== winner && hasAnswer(r));
   let verdict = "";
-  if (winner?.result?.best && runnerUp?.result?.best) {
+  if (winner && runnerUp) {
+    const a = winner.result!.smart!.suggestions[0];
+    const w = PLATFORM_NAMES[winner.platform];
+    verdict = `${w} iese cel mai bine: ${grams(a.basket.grams)} pentru ${lei(a.basket.cost.counted)}.`;
+  } else if (winner?.result?.best && runnerUp?.result?.best) {
     const a = winner.result.best;
     const b = runnerUp.result.best;
     const w = PLATFORM_NAMES[winner.platform];
@@ -338,16 +351,14 @@ export default function Home() {
       verdict = `Aceeași cantitate ca pe ${o}, dar cu ${lei(b.cost.counted - a.cost.counted)} mai ieftin pe ${w}.`;
     else verdict = `${w} și ${o} ies la fel.`;
   }
-  const searched = searches.map((s) => s.platform);
-  const notImplemented = ALL_PLATFORMS.filter((p) => !searched.includes(p));
 
   return (
     <main>
-      <h1>Cât mai multă mâncare</h1>
-      <p className="sub">Alegi fast-food-ul și bugetul; îți spun de pe ce aplicație și ce să comanzi ca să iasă cele mai multe grame.</p>
-
       <div className="bench">
       <div className="ticket">
+      <section className="ticketPart titlePart">
+        <h1>Burta Plină</h1>
+      </section>
       <section className="ticketPart">
         <label className="field">
           <span>Adresa de livrare</span>
@@ -400,30 +411,10 @@ export default function Home() {
               <button aria-pressed={scope === "food"} onClick={() => setScope("food")}>Doar mâncarea</button>
             </div>
           </div>
-          <div className="field">
-            <span className="muted">Limită</span>
-            <div className="seg">
-              <button aria-pressed={mode === "hard"} onClick={() => setMode("hard")}>Fixă</button>
-              <button aria-pressed={mode === "flex"} onClick={() => setMode("flex")}>Flexibil</button>
-            </div>
-          </div>
-        </div>
-
-        <div className="row">
-          <label className="field">
-            <span>Maxim bucăți din același produs</span>
-            <input type="number" min={1} max={20} value={maxPerItem} onChange={(e) => setMaxPerItem(e.target.value)} />
-          </label>
-          {mode === "flex" && (
-            <label className="field">
-              <span>Cât pot depăși (%)</span>
-              <input type="number" min={0} max={50} value={tolerancePct} onChange={(e) => setTolerancePct(e.target.value)} />
-            </label>
-          )}
         </div>
 
         <div className="field">
-          <span className="muted">Coșul trebuie să conțină</span>
+          <span className="muted">Vreau în coș</span>
           <div className="toggles">
             <button aria-pressed={wantFries} onClick={() => setWantFries(!wantFries)}>
               {wantFries ? <CheckIcon /> : <PlusIcon />} Cartofi
@@ -440,21 +431,6 @@ export default function Home() {
             <button aria-pressed={wantDessert} onClick={() => setWantDessert(!wantDessert)}>
               {wantDessert ? <CheckIcon /> : <PlusIcon />} Desert
             </button>
-          </div>
-          <div className="muted">
-            Câte una din fiecare; cartofi cel puțin o porție, cel mult una la fiecare fel principal. Salata și desertul se numără la grame, băutura și sosul nu. Dacă un meniu (combo) iese mai bine decât produsele luate separat, îl primești pe acela.
-          </div>
-        </div>
-
-        <div className="field">
-          <span className="muted">Calcul</span>
-          <div className="toggles">
-            <button aria-pressed={includeGuessed} onClick={() => setIncludeGuessed(!includeGuessed)}>
-              {includeGuessed ? <CheckIcon /> : <PlusIcon />} Gramaje nesigure
-            </button>
-          </div>
-          <div className="muted">
-            Ia în calcul și produsele cu gramajul ghicit dintr-o descriere cu mai multe cifre; poate fi greșit (marcate cu ?).
           </div>
         </div>
 
@@ -522,11 +498,6 @@ export default function Home() {
             </div>
           ))}
 
-      {results && notImplemented.length > 0 && (
-        <p className="muted offGrid">
-          Încă neinclus în comparație: {notImplemented.map((p) => PLATFORM_NAMES[p]).join(", ")}.
-        </p>
-      )}
       </div>
       </div>
     </main>
@@ -537,7 +508,7 @@ function BasketView({ b, scope, onExclude, busy, showRate }: { b: Basket; scope:
   const c = b.cost;
   return (
     <>
-      <table>
+      <table className="items">
         <tbody>
           {b.lines.map((l) => (
             <tr key={l.itemId}>
@@ -591,26 +562,50 @@ function BasketView({ b, scope, onExclude, busy, showRate }: { b: Basket; scope:
   );
 }
 
+function SuggestionView({ s, scope, onExclude, busy }: { s: SmartSuggestion; scope: BudgetScope; onExclude: (name: string) => void; busy: boolean }) {
+  return (
+    <>
+      <dl className="readout">
+        <div className="weight">
+          <dt>Greutate</dt>
+          <dd>{grams(s.basket.grams)}</dd>
+        </div>
+        <div>
+          <dt>{scope === "food" ? "Doar mâncarea" : "Total cu taxe"}</dt>
+          <dd>{lei(s.basket.cost.counted)}</dd>
+        </div>
+      </dl>
+      {s.tradeoffs.length > 0 && <p className="muted">Față de recomandat: {s.tradeoffs.join(" · ")}</p>}
+      <BasketView b={s.basket} scope={scope} onExclude={onExclude} busy={busy} />
+      <details>
+        <summary>De ce acest coș{s.deals.length ? ` · meniu: −${lei(s.deals.reduce((a, d) => a + d.saves, 0))}` : ""}</summary>
+        <ul className="why">
+          {s.explanation.map((e) => <li key={e}>{e}</li>)}
+        </ul>
+      </details>
+    </>
+  );
+}
+
 function ResultCard({ r, isWinner, scope, venues, onVenue, busy, onExclude }: { r: PlatformOutcome; isWinner: boolean; scope: BudgetScope; venues: Venue[]; onVenue: (id: string) => void; busy: boolean; onExclude: (name: string) => void }) {
-  const best = r.result?.best;
-  const stretch = r.result?.stretch;
+  const smart = r.result?.smart;
+  const main = smart?.suggestions[0];
+  const best = smart ? main?.basket : r.result?.best;
+  const stretch = smart ? null : r.result?.stretch;
   return (
     <section className={`sticker${isWinner ? " winner" : ""}`}>
       <div className="stickerHead">
         <div className="stickerTitle">
-          {(() => {
-            const chain = chainOfVenue(r.venue.name);
-            return chain ? <ChainBadge chain={chain} size={44} /> : null;
-          })()}
+          <PlatformBadge platform={r.platform} size={44} />
           <div>
-          <h2><PlatformBadge platform={r.platform} /> {PLATFORM_NAMES[r.platform]}</h2>
+          <h2>{PLATFORM_NAMES[r.platform]}</h2>
           <a className="venue" href={r.venue.url} target="_blank" rel="noreferrer">{r.venue.name} <ExternalIcon size={14} /></a>
           </div>
         </div>
-        {isWinner && <div className="stamp">Cea mai multă mâncare</div>}
+        {isWinner && <div className="stamp">{smart ? "Cel mai bun coș" : "Cea mai multă mâncare"}</div>}
       </div>
 
-      {best && (
+      {best && !smart && (
         <dl className="readout">
           <div className="weight">
             <dt>Greutate</dt>
@@ -644,8 +639,19 @@ function ResultCard({ r, isWinner, scope, venues, onVenue, busy, onExclude }: { 
       )}
 
       {r.error && <div className="error withIcon"><AlertIcon /><span>Eroare: {r.error}</span></div>}
-      {!r.error && !best && <div className="error">{r.result?.reason ?? "Nicio variantă."}</div>}
-      {best && <BasketView b={best} scope={scope} onExclude={onExclude} busy={busy} />}
+      {!r.error && !best && <div className="error">{smart?.reason ?? r.result?.reason ?? "Nicio variantă."}</div>}
+      {smart?.unmet.map((u) => <div key={u} className="error withIcon"><AlertIcon /><span>{u}</span></div>)}
+      {main && <SuggestionView s={main} scope={scope} onExclude={onExclude} busy={busy} />}
+      {smart && smart.suggestions.slice(1).map((s) => (
+        <details key={s.label} className="stretch">
+          <summary>
+            <strong>{s.label}</strong> · {grams(s.basket.grams)} · {lei(s.basket.cost.counted)}
+            {s.tradeoffs.length > 0 && <span className="muted"> ({s.tradeoffs.join(", ")})</span>}
+          </summary>
+          <SuggestionView s={s} scope={scope} onExclude={onExclude} busy={busy} />
+        </details>
+      ))}
+      {!smart && best && <BasketView b={best} scope={scope} onExclude={onExclude} busy={busy} />}
 
       {stretch && best && (
         <div className="stretch">
@@ -663,15 +669,6 @@ function ResultCard({ r, isWinner, scope, venues, onVenue, busy, onExclude }: { 
         </ul>
       ) : null}
 
-      {r.stats && (
-        <details>
-          <summary>
-            {r.stats.usable} din {r.stats.items} produse luate în calcul
-            {r.missingWeight?.length ? `, ${r.missingWeight.length} fără gramaj sigur` : ""}
-          </summary>
-          {r.missingWeight?.length ? <p>Fără gramaj sigur (excluse): {r.missingWeight.join("; ")}</p> : null}
-        </details>
-      )}
     </section>
   );
 }

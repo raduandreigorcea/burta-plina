@@ -1,6 +1,7 @@
 import { cached } from "./cache";
 import { eligibleItems, isGuessed, optimize } from "./optimizer";
 import { adapters } from "./platforms";
+import { recommend } from "./smart";
 import type { MenuItem, OptimizeOptions, OptimizeResult, PlatformId, PlatformMenu, Venue } from "./types";
 import { baseName, normalize } from "./weight";
 
@@ -251,6 +252,8 @@ export async function optimizeAll(
     const { items, borrowed } = filled[ok.indexOf(l)];
     const derived = combos[ok.indexOf(l)].derived;
     const result = optimize(items, l.menu.fees, l.menu.offers, opts);
+    // The assistant starts from the max-grams answer and trades it against the other goals.
+    if (opts.preferences) result.smart = recommend(items, l.menu.fees, l.menu.offers, opts, result);
     const missing = items.filter(
       (i) =>
         (i.grams == null || (!opts.includeGuessed && isGuessed(i))) &&
@@ -281,7 +284,11 @@ export async function optimizeAll(
     };
   });
 
-  // Most food first; ties -> cheaper; failures last.
+  // Assistant: best score first. Otherwise most food first; ties -> cheaper; failures last.
+  if (opts.preferences) {
+    const top = (o: PlatformOutcome) => o.result?.smart?.suggestions[0];
+    return outcomes.sort((a, b) => (top(b)?.score ?? -1) - (top(a)?.score ?? -1));
+  }
   return outcomes.sort((a, b) => {
     const ga = a.result?.best?.grams ?? -1;
     const gb = b.result?.best?.grams ?? -1;

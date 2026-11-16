@@ -11,7 +11,7 @@ describe("suggestChains", () => {
     expect(names("burger")[0]).toBe("Burger King");
     expect(names("pop")[0]).toBe("Popeyes");
     expect(names("taco")[0]).toBe("Taco Bell");
-    expect(names("dristor")[0]).toBe("Dristor Kebap");
+    expect(names("spart")[0]).toBe("Spartan");
   });
 
   it("forgives a typo", () => {

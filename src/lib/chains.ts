@@ -4,7 +4,7 @@ import { normalize } from "./weight";
 export interface Chain {
   /** Shown in the list and sent to the platforms as the search text. */
   name: string;
-  /** File name of the logo in public/logos/ (slug.svg or slug.png), if one is there. */
+  /** File name of the logo in public/logos/ (slug.svg, slug.png or slug.jpg), if one is there. */
   slug: string;
   /** Monogram and colours shown when there is no logo file. */
   short: string;
@@ -21,14 +21,10 @@ export const CHAINS: Chain[] = [
   { name: "KFC", slug: "kfc", short: "KFC", bg: "#E4002B", fg: "#FFFFFF", aliases: ["kentucky", "kentucky fried chicken", "kfc ro"] },
   { name: "Burger King", slug: "burger-king", short: "BK", bg: "#F5EBDC", fg: "#D62300", aliases: ["bk", "burgerking", "king", "whopper"] },
   { name: "Popeyes", slug: "popeyes", short: "P", bg: "#F26B21", fg: "#FFFFFF", aliases: ["popeye", "popeys", "popayes", "popais"] },
-  { name: "Taco Bell", slug: "taco-bell", short: "TB", bg: "#702082", fg: "#FFFFFF", aliases: ["tacobell", "taco", "tb"] },
+  { name: "Taco Bell", slug: "taco-bell", short: "TB", bg: "#702082", fg: "#FFFFFF", logoBg: "#702082", aliases: ["tacobell", "taco", "tb"] },
   { name: "Spartan", slug: "spartan", short: "S", bg: "#1F2A44", fg: "#FFFFFF", aliases: ["spartan gyros", "gyros"] },
-  { name: "Mesopotamia", slug: "mesopotamia", short: "Me", bg: "#8B5A2B", fg: "#FFFFFF", aliases: ["meso", "mezopotamia", "mesopotania", "kebab mesopotamia"] },
-  { name: "Dristor Kebap", slug: "dristor-kebap", short: "DK", bg: "#E31E24", fg: "#FFFFFF", aliases: ["dristor", "dristor kebab", "kebap", "kebab"] },
-  { name: "Calif", slug: "calif", short: "C", bg: "#F4B400", fg: "#2B2B2B", aliases: ["calif kebab", "califul"] },
-  { name: "Pizza Hut", slug: "pizza-hut", short: "PH", bg: "#EE3124", fg: "#FFFFFF", aliases: ["pizzahut", "hut", "ph"] },
+  { name: "Mesopotamia", slug: "mesopotamia", short: "Me", bg: "#8B5A2B", fg: "#FFFFFF", logoBg: "#2A1A12", aliases: ["meso", "mezopotamia", "mesopotania", "kebab mesopotamia"] },
   { name: "Noodle Pack", slug: "noodle-pack", short: "NP", bg: "#E2231A", fg: "#FFFFFF", aliases: ["noodlepack", "noodle", "noodles", "nudle"] },
-  { name: "Subway", slug: "subway", short: "SW", bg: "#009743", fg: "#FFC600", aliases: ["sub", "subwey", "sabuei"] },
 ];
 
 const squash = (s: string) => normalize(s).replace(/ /g, "");

@@ -64,100 +64,6 @@ exports[`Burger King > wolt: baskets 1`] = `
 }
 `;
 
-exports[`Calif > bolt: baskets 1`] = `
-{
-  "120 lei": [
-    "2x Falafel mediu în lipie | food | 920 g",
-    "= 920 g, 11458 bani",
-  ],
-  "70 lei": [
-    "1x Falafel mediu în lipie | food | 460 g",
-    "= 460 g, 6311 bani",
-  ],
-  "70 lei, cu de toate": null,
-}
-`;
-
-exports[`Calif > glovo: baskets 1`] = `
-{
-  "120 lei": [
-    "2x Lipie crispy cu cartofi prăjiți si salate | food | 880 g",
-    "1x Falafel mediu in lipie | food | 460 g",
-    "= 1340 g, 11319 bani",
-  ],
-  "70 lei": [
-    "1x Lipie crispy cu cartofi prăjiți si salate | food | 440 g",
-    "1x Dil kebab de pui | food | 310 g",
-    "= 750 g, 6963 bani",
-  ],
-  "70 lei, cu de toate": null,
-}
-`;
-
-exports[`Calif > wolt: baskets 1`] = `
-{
-  "120 lei": [
-    "2x Falafel la farfurie | food | 1200 g",
-    "1x Orez Turcesc | food | 200 g",
-    "= 1400 g, 11365 bani",
-  ],
-  "70 lei": [
-    "1x Falafel la farfurie | food | 600 g",
-    "1x Orez Turcesc | food | 200 g",
-    "= 800 g, 6988 bani",
-  ],
-  "70 lei, cu de toate": [
-    "1x Pita turceasca cu falafel, salata de vinete si rodii | food | 225 g",
-    "1x Cartofi prajiti | side | 180 g",
-    "1x 7up 0.33 | drink | 330 g",
-    "= 405 g, 6744 bani",
-  ],
-}
-`;
-
-exports[`Dristor Kebap > bolt: baskets 1`] = `
-{
-  "120 lei": [
-    "1x Cutie Doner Pui | food | 450 g",
-    "= 450 g, 8414 bani",
-  ],
-  "70 lei": [
-    "1x Pui Lipie Dristor | food | 300 g",
-    "= 300 g, 6645 bani",
-  ],
-  "70 lei, cu de toate": null,
-}
-`;
-
-exports[`Dristor Kebap > glovo: baskets 1`] = `
-{
-  "120 lei": [
-    "1x DONER BOX AMESTEC | food | 450 g",
-    "1x LIPIE PUI DRISTOR | food | 300 g",
-    "= 750 g, 11576 bani",
-  ],
-  "70 lei": [
-    "1x DONER BOX AMESTEC | food | 450 g",
-    "= 450 g, 6875 bani",
-  ],
-  "70 lei, cu de toate": null,
-}
-`;
-
-exports[`Dristor Kebap > wolt: baskets 1`] = `
-{
-  "120 lei": [
-    "1x DONER BOX PUI | food | 450 g",
-    "= 450 g, 7969 bani",
-  ],
-  "70 lei": [
-    "1x LIPIE XXL PUI DRISTOR | food | 380 g",
-    "= 380 g, 6962 bani",
-  ],
-  "70 lei, cu de toate": null,
-}
-`;
-
 exports[`KFC > bolt: baskets 1`] = `
 {
   "120 lei": [
@@ -404,70 +310,6 @@ exports[`Noodle Pack > wolt: baskets 1`] = `
 }
 `;
 
-exports[`Pizza Hut > bolt: baskets 1`] = `
-{
-  "120 lei": [
-    "1x Stuffed Crust Margherita ø 38 cm | food | 962 g",
-    "1x 8 WingStreet | food | 320 g",
-    "= 1282 g, 11243 bani",
-  ],
-  "70 lei": [
-    "1x 8 WingStreet | food | 320 g",
-    "1x 5 WingStreet | food | 200 g",
-    "= 520 g, 6953 bani",
-  ],
-  "70 lei, cu de toate": [
-    "1x 5 WingStreet | food | 200 g",
-    "1x Mozzarella Wedges | food | 150 g",
-    "1x Cappy Pulpy Portocale | drink | 330 g",
-    "= 350 g, 6417 bani",
-  ],
-}
-`;
-
-exports[`Pizza Hut > glovo: baskets 1`] = `
-{
-  "120 lei": [
-    "1x Pizza Margherita Cheesy Stuffed Crust Ø38cm | food | 875 g",
-    "1x Penne Carbonara (al forno) | food | 400 g",
-    "= 1275 g, 11849 bani",
-  ],
-  "70 lei": [
-    "1x Penne Carbonara (al forno) | food | 400 g",
-    "1x Rulou cu sunca | food | 200 g",
-    "= 600 g, 6844 bani",
-  ],
-  "70 lei, cu de toate": [
-    "1x Rulou cu sunca | food | 200 g",
-    "1x French fries | side | 130 g",
-    "1x Ketchup dulce | sauce | 55 g",
-    "1x Coca-Cola PET 500ml | drink | 500 g",
-    "= 330 g, 6184 bani",
-  ],
-}
-`;
-
-exports[`Pizza Hut > wolt: baskets 1`] = `
-{
-  "120 lei": [
-    "1x Pizza Margherita Stuffed Crust | food | 875 g",
-    "1x Penne Carbonara Al Forno | food | 400 g",
-    "= 1275 g, 11658 bani",
-  ],
-  "70 lei": [
-    "1x Pizza Margherita mare | food | 634 g",
-    "= 634 g, 6245 bani",
-  ],
-  "70 lei, cu de toate": [
-    "1x Cheddar & Jalapenos Pocket | food | 255 g",
-    "1x GARLIC & PARMESAN FRIES | side | 140 g",
-    "1x Ketchup dulce | sauce | 54 g",
-    "1x Cappy Pulpy Portocale 330ml | drink | 330 g",
-    "= 395 g, 6893 bani",
-  ],
-}
-`;
-
 exports[`Popeyes > bolt: baskets 1`] = `
 {
   "120 lei": [
@@ -588,30 +430,6 @@ exports[`Spartan > wolt: baskets 1`] = `
     "1x Schweppes Mandarin doză | drink | 330 g",
     "= 545 g, 6910 bani",
   ],
-}
-`;
-
-exports[`Subway > bolt: baskets 1`] = `
-{
-  "120 lei": null,
-  "70 lei": null,
-  "70 lei, cu de toate": null,
-}
-`;
-
-exports[`Subway > glovo: baskets 1`] = `
-{
-  "120 lei": null,
-  "70 lei": null,
-  "70 lei, cu de toate": null,
-}
-`;
-
-exports[`Subway > wolt: baskets 1`] = `
-{
-  "120 lei": null,
-  "70 lei": null,
-  "70 lei, cu de toate": null,
 }
 `;
 

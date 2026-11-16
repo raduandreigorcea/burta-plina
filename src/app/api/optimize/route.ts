@@ -1,5 +1,5 @@
 import { optimizeAll } from "@/lib/service";
-import type { OptimizeOptions, Venue } from "@/lib/types";
+import type { DishCategory, OptimizeOptions, Preferences, ScoreWeights, Venue } from "@/lib/types";
 
 interface Body {
   venues?: Venue[];
@@ -12,6 +12,35 @@ const clamp = (n: unknown, lo: number, hi: number, dflt: number) => {
   const v = Number(n);
   return Number.isFinite(v) ? Math.min(hi, Math.max(lo, v)) : dflt;
 };
+
+const CATEGORIES: DishCategory[] = [
+  "burger", "chicken", "pizza", "wrap", "sandwich", "kebab", "fries", "salad", "dessert", "drink", "sauce",
+];
+const WEIGHT_KEYS: (keyof ScoreWeights)[] = [
+  "grams", "calories", "protein", "value", "variety", "preferItem", "preferCategory", "savings",
+];
+
+const names = (v: unknown) =>
+  Array.isArray(v) ? v.filter((n): n is string => typeof n === "string").slice(0, 100) : [];
+const categories = (v: unknown) =>
+  Array.isArray(v) ? v.filter((c): c is DishCategory => CATEGORIES.includes(c as DishCategory)) : [];
+
+function preferences(p: Partial<Preferences> | undefined): Preferences | undefined {
+  if (!p || typeof p !== "object") return undefined;
+  const weights: Partial<ScoreWeights> = {};
+  for (const k of WEIGHT_KEYS) {
+    const v = Number(p.weights?.[k]);
+    if (p.weights?.[k] != null && Number.isFinite(v)) weights[k] = Math.min(10, Math.max(0, v));
+  }
+  return {
+    must: names(p.must),
+    prefer: names(p.prefer),
+    mustCategories: categories(p.mustCategories),
+    preferCategories: categories(p.preferCategories),
+    weights,
+    alternatives: Math.round(clamp(p.alternatives, 0, 4, 2)),
+  };
+}
 
 export async function POST(request: Request) {
   let body: Body;
@@ -45,6 +74,7 @@ export async function POST(request: Request) {
     excludeNames: Array.isArray(o.excludeNames)
       ? o.excludeNames.filter((n): n is string => typeof n === "string").slice(0, 200)
       : [],
+    preferences: preferences(o.preferences),
   };
   const results = await optimizeAll(venues.slice(0, 6), lat as number, lon as number, options);
   return Response.json({ results, options });

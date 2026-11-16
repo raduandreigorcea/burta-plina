@@ -141,6 +141,97 @@ export interface OptimizeOptions {
   includeOther?: boolean;
   /** Products the user does not want; matched by name, ignoring case and diacritics. */
   excludeNames?: string[];
+  /** When present, the multi-objective assistant runs besides the max-grams search. */
+  preferences?: Preferences;
+}
+
+/** What a product is, for "I would like a burger and fries" (a combo covers several). */
+export type DishCategory =
+  | "burger"
+  | "chicken"
+  | "pizza"
+  | "wrap"
+  | "sandwich"
+  | "kebab"
+  | "fries"
+  | "salad"
+  | "dessert"
+  | "drink"
+  | "sauce";
+
+/**
+ * Relative importance of each part of the score. Value terms are averaged
+ * (so they only matter relative to each other); variety and preferences are
+ * modifiers. See DEFAULT_WEIGHTS in smart.ts for the reasoning behind the defaults.
+ */
+export interface ScoreWeights {
+  /** Food weight, as a share of what the budget could buy at the best g/lei in the menu. */
+  grams: number;
+  /** Calories, same idea. Ignored when the menu does not publish them. */
+  calories: number;
+  /** Protein, same idea. Ignored when the menu does not publish it. */
+  protein: number;
+  /** Value for money: the same metrics per leu actually paid (fees included). */
+  value: number;
+  /** 0..1: score lost when the basket is all near-identical products. */
+  variety: number;
+  /** Bonus (in score points, 1 = a perfect basket) when all preferred products are in. */
+  preferItem: number;
+  /** Bonus when all preferred categories are covered. */
+  preferCategory: number;
+  /** Bonus for budget left unspent (0 = fill the budget). */
+  savings: number;
+}
+
+export interface Preferences {
+  /** Products that must be in the basket (by name). */
+  must?: string[];
+  /** Products that are nice to have (by name). */
+  prefer?: string[];
+  /** Categories that must be covered. */
+  mustCategories?: DishCategory[];
+  /** Categories that are nice to cover. */
+  preferCategories?: DishCategory[];
+  weights?: Partial<ScoreWeights>;
+  /** How many alternative baskets besides the main one (default 2). */
+  alternatives?: number;
+}
+
+export interface NutritionTotal {
+  total: number;
+  /** Purchased units whose nutrition is known / all units in the basket. */
+  knownUnits: number;
+  units: number;
+}
+
+export interface SmartSuggestion {
+  /** Short name of the trade-off this basket stands for. */
+  label: string;
+  basket: Basket;
+  /** Budget minus the counted cost. */
+  remaining: Bani;
+  /** Only what the menus state; null when no product in the basket has it. */
+  kcal: NutritionTotal | null;
+  protein: NutritionTotal | null;
+  /** Score under the user's weights, 0..~1.3. */
+  score: number;
+  /** Weighted contribution of each score term, for transparency. */
+  breakdown: Record<string, number>;
+  explanation: string[];
+  /** What differs from the main suggestion. */
+  tradeoffs: string[];
+  /** Menu deals used: what they save against buying the parts one by one. */
+  deals: { name: string; saves: Bani }[];
+}
+
+export interface SmartResult {
+  suggestions: SmartSuggestion[];
+  /** Wishes that could not be honoured (product not on the menu, no budget). */
+  unmet: string[];
+  notes: string[];
+  /** Products the user can pick preferences from. */
+  catalog: { name: string; price: Bani; kind: ItemKind }[];
+  reason?: string;
 }
 
 export interface BasketLine {
@@ -187,4 +278,5 @@ export interface OptimizeResult {
   /** Flex mode: a basket slightly over budget with more food, if any. */
   stretch: Basket | null;
   reason?: string;
+  smart?: SmartResult;
 }

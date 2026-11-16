@@ -93,19 +93,86 @@ h1 {
 }
 
 @media (min-width: 960px) {
+  /* The page itself never scrolls: title and order form stay put, only the results scroll. */
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+
   main {
-    padding: 44px 32px 96px;
+    height: 100dvh;
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
   }
 
   .bench {
+    flex: 1;
+    min-height: 0;
     grid-template-columns: minmax(340px, 400px) minmax(0, 1fr);
-    gap: 40px;
-    align-items: start;
+    grid-template-rows: minmax(0, 1fr);
+    column-gap: 40px;
+    align-items: stretch;
+  }
+
+  .results {
+    grid-column: 2;
+    grid-row: 1;
+    overflow-y: auto;
+    align-content: start;
+    /* Scrolls with wheel, touch and keys, without drawing a bar. */
+    scrollbar-width: none;
+  }
+
+  .results::-webkit-scrollbar {
+    display: none;
   }
 
   .ticket {
-    position: sticky;
-    top: 24px;
+    grid-column: 1;
+    grid-row: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    /* Slim bar in the card's own colours. */
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--ink) 40%, transparent) transparent;
+  }
+
+  .ticket::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .ticket::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .ticket::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--ink) 40%, transparent);
+    border-radius: 4px;
+    border: 2px solid var(--paper);
+  }
+
+  .ticket::-webkit-scrollbar-thumb:hover {
+    background: var(--ink);
+  }
+
+  /* The settings stay together; the red button sits at the very bottom. */
+  .ticketPart:last-child {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .ticketPart:last-child .primary {
+    margin-top: auto;
+  }
+
+  .ticketPart {
+    padding: 14px 18px;
   }
 }
 
@@ -118,6 +185,12 @@ h1 {
 
 .ticketPart {
   padding: 20px;
+}
+
+.titlePart h1 {
+  font-size: clamp(2rem, 7vw, 2.75rem);
+  line-height: 0.95;
+  margin: 0;
 }
 
 .ticketPart + .ticketPart {
@@ -136,6 +209,7 @@ h1 {
 
 .sticker.winner {
   outline: 3px solid var(--ink);
+  outline-offset: -3px; /* inside the card: the scrolling column would clip it outside */
 }
 
 .blank {
@@ -465,7 +539,7 @@ a {
 }
 
 .readout > div {
-  padding: 8px 10px 6px;
+  padding: 6px 10px 5px;
   min-width: 0;
 }
 
@@ -483,8 +557,8 @@ a {
   margin: 0;
   font-family: var(--display);
   font-weight: 800;
-  font-size: clamp(1.625rem, 6.4vw, 2.75rem);
-  line-height: 1.05;
+  font-size: clamp(1.125rem, 4.4vw, 1.5rem);
+  line-height: 1.1;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
@@ -501,8 +575,8 @@ a {
 .readout .weight dd {
   color: var(--scale-ink);
   font-weight: 900;
-  font-size: clamp(2rem, 8.4vw, 3.75rem);
-  line-height: 0.95;
+  font-size: clamp(1.25rem, 5vw, 1.75rem);
+  line-height: 1;
 }
 
 table {
@@ -510,6 +584,21 @@ table {
   border-collapse: collapse;
   margin: 10px 0;
   font-size: 0.95rem;
+}
+
+/* What is bought: the main thing on the card. */
+.items {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.items td {
+  padding: 10px 0;
+}
+
+.items td.num {
+  font-weight: 700;
 }
 
 td {
@@ -679,3 +768,34 @@ button.primary:focus-visible {
 .stickerTitle { display: flex; align-items: center; gap: 12px; }
 .stickerTitle h2 { display: flex; align-items: center; }
 .badge.platformLogo { object-fit: contain; background: #fff; border-radius: 50%; margin-right: 4px; padding: 2px; }
+.badge.platformLogo.png { border-radius: 22%; padding: 0; background: none; }
+
+/* Assistant */
+.toggles button.must[aria-pressed="true"] {
+  outline: 2px solid var(--pressed-ink);
+  outline-offset: -4px;
+}
+
+.weights {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.why {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 4px;
+  font-size: 0.9rem;
+}
+
+.picker {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.picker select {
+  max-width: 130px;
+}

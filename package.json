@@ -1,5 +1,5 @@
 {
-  "name": "food",
+  "name": "burta-plina",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,8 @@
     "test": "vitest run",
     "cli": "vite-node scripts/cli.ts",
     "audit": "vite-node scripts/audit.ts",
-    "snapshot": "vite-node scripts/snapshot.ts"
+    "snapshot": "vite-node scripts/snapshot.ts",
+    "demo": "vite-node scripts/smart-demo.ts"
   },
   "dependencies": {
     "next": "16.4.6",

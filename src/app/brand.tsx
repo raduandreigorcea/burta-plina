@@ -9,7 +9,7 @@ import type { PlatformId } from "@/lib/types";
  * otherwise a monogram in the chain's colours.
  */
 export function ChainBadge({ chain, size = 28 }: { chain: Chain; size?: number }) {
-  const [ext, setExt] = useState<"svg" | "png" | null>("svg");
+  const [ext, setExt] = useState<"svg" | "png" | "jpg" | null>("svg");
   const box = { width: size, height: size };
   if (ext) {
     return (
@@ -19,7 +19,7 @@ export function ChainBadge({ chain, size = 28 }: { chain: Chain; size?: number }
         style={chain.logoBg ? { ...box, background: chain.logoBg, padding: size * 0.12 } : box}
         src={`/logos/${chain.slug}.${ext}`}
         alt=""
-        onError={() => setExt(ext === "svg" ? "png" : null)}
+        onError={() => setExt(ext === "svg" ? "png" : ext === "png" ? "jpg" : null)}
       />
     );
   }
@@ -34,10 +34,10 @@ export function ChainBadge({ chain, size = 28 }: { chain: Chain; size?: number }
   );
 }
 
-const PLATFORMS: Record<PlatformId, { bg: string; fg: string; letter: string; logo: boolean }> = {
-  wolt: { bg: "#009DE0", fg: "#FFFFFF", letter: "W", logo: false },
-  glovo: { bg: "#FFC244", fg: "#1F2A22", letter: "G", logo: true },
-  bolt: { bg: "#34D186", fg: "#10241A", letter: "B", logo: true },
+const PLATFORMS: Record<PlatformId, { bg: string; fg: string; letter: string; logo: "svg" | "png" }> = {
+  wolt: { bg: "#009DE0", fg: "#FFFFFF", letter: "W", logo: "png" },
+  glovo: { bg: "#FFC244", fg: "#1F2A22", letter: "G", logo: "svg" },
+  bolt: { bg: "#34D186", fg: "#10241A", letter: "B", logo: "svg" },
 };
 
 /** The delivery app: its logo from public/logos when there is one, else a round mark in its colour. */
@@ -47,7 +47,7 @@ export function PlatformBadge({ platform, size = 22 }: { platform: PlatformId; s
   if (!failed && p.logo) {
     return (
       // eslint-disable-next-line @next/next/no-img-element
-      <img className="badge platformLogo" style={{ width: size, height: size }} src={`/logos/${platform}.svg`} alt="" onError={() => setFailed(true)} />
+      <img className={`badge platformLogo ${p.logo}`} style={{ width: size, height: size }} src={`/logos/${platform}.${p.logo}`} alt="" onError={() => setFailed(true)} />
     );
   }
   return (

@@ -1,4 +1,4 @@
-# Cât mai multă mâncare
+# Burta Plină
 
 Alegi un fast-food și un buget; aplicația compară Wolt, Glovo și Bolt Food și îți spune de unde și ce să
 comanzi ca să primești cele mai multe grame de mâncare.
@@ -45,3 +45,9 @@ strică un lanț, se vede în `tests/__snapshots__/`.
 - Glovo: taxa de livrare e cea afișată pe oraș (la adresa ta poate fi cu 1–2 lei mai mare). Taxa de
   servicii și suprataxa de coș mic nu sunt publice; sunt cele citite dintr-un coș real (`glovo.ts`).
 - Produsele fără gramaj în meniu sunt excluse (apar listate în rezultat).
+
+## Asistentul (scor multi-obiectiv)
+
+`src/lib/smart.ts` caută coșuri cu un scor în care greutatea, caloriile, proteinele și raportul calitate-preț sunt exprimate ca fracție din „cât ar cumpăra bugetul la cel mai bun preț din acest meniu” (deci comparabile fără conversii arbitrare). Varietatea scade scorul când produsele sunt aproape identice; preferințele sunt bonusuri; bugetul, produsele/categoriile obligatorii, limita pe produs și „un acompaniament la fiecare fel principal” sunt reguli. Ponderile implicite (`DEFAULT_WEIGHTS`) și variantele alternative (`PROFILES`) sunt documentate acolo și se pot schimba din UI sau din `options.preferences.weights`.
+
+Caloriile și proteinele se citesc doar din textul meniului (`src/lib/nutrition.ts`); dacă lipsesc sau baza (per 100 g / porție) e ambiguă, rămân necunoscute și nu intră în scor. `npm run demo -- kfc glovo 50 "Produs obligatoriu" "Produs preferat" drink,fries` rulează asistentul pe un meniu salvat.

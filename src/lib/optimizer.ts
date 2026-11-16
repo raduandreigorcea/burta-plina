@@ -131,14 +131,14 @@ function undominated(list: MenuItem[]): MenuItem[] {
 
 const FLAVOUR_WORDS = new Set(["picant", "picanta", "nepicant", "nepicanta", "spicy", "hot", "classic", "clasic", "non"]);
 /** The name without what only tells the flavour apart ("Twister Picant" / "Twister Nepicant"). */
-const family = (name: string) =>
+export const family = (name: string) =>
   normalize(name)
     .split(" ")
     .filter((t) => !FLAVOUR_WORDS.has(t))
     .join(" ");
 
 /** Drinks and sauces are paid for but are not "food" in the grams total. */
-const countsAsFood = (kind: MenuItem["kind"]) => kind !== "drink" && kind !== "sauce";
+export const countsAsFood = (kind: MenuItem["kind"]) => kind !== "drink" && kind !== "sauce";
 
 /**
  * Products bought up front so the basket has the fries and/or the drink that
@@ -154,7 +154,7 @@ interface Prefix {
   credits: number;
 }
 
-function toLine(it: MenuItem, qty: number): BasketLine {
+export function toLine(it: MenuItem, qty: number): BasketLine {
   const upp = it.unitsPerPurchase ?? 1;
   return {
     itemId: it.id,

@@ -8,8 +8,8 @@ const body = Sofia_Sans({ subsets: ["latin", "latin-ext"], variable: "--font-bod
 const display = Sofia_Sans_Extra_Condensed({ subsets: ["latin", "latin-ext"], variable: "--font-display" });
 
 export const metadata: Metadata = {
-  title: "Cât mai multă mâncare",
-  description: "Cea mai multă mâncare pentru bugetul tău, comparat între Wolt, Glovo și Bolt Food.",
+  title: "Burta Plină",
+  description: "Cea mai multă mâncare pentru bugetul tău, comparată între Wolt, Glovo și Bolt Food.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
