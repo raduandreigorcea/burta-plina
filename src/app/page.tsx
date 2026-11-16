@@ -5,7 +5,7 @@ import { chainOfVenue, resolveChain, suggestChains } from "@/lib/chains";
 import { ChainBadge, PlatformBadge } from "./brand";
 import type { PlatformOutcome, PlatformSearch } from "@/lib/service";
 import { AlertIcon, CheckIcon, CloseIcon, PlusIcon, ExternalIcon, PinIcon, SearchIcon, SpinnerIcon, TagIcon } from "./icons";
-import { PLATFORM_NAMES, type Basket, type BudgetMode, type BudgetScope, type PlatformId, type SidesRule, type Venue } from "@/lib/types";
+import { PLATFORM_NAMES, type Basket, type BudgetMode, type BudgetScope, type Objective, type PlatformId, type SidesRule, type Venue } from "@/lib/types";
 
 interface Loc {
   lat: number;
@@ -142,6 +142,7 @@ export default function Home() {
   const [mode, setMode] = useState<BudgetMode>("hard");
   const [tolerancePct, setTolerancePct] = useState("10");
   const [maxPerItem, setMaxPerItem] = useState("3");
+  const [objective, setObjective] = useState<Objective>("grams");
   const [includeDrinks, setIncludeDrinks] = useState(false);
   const [wantFries, setWantFries] = useState(false);
   const [includeSauces, setIncludeSauces] = useState(false);
@@ -157,6 +158,7 @@ export default function Home() {
   const [excluded, setExcluded] = useState<string[]>([]);
   const [searchedQuery, setSearchedQuery] = useState("");
   const [usedScope, setUsedScope] = useState<BudgetScope>("total");
+  const [usedObjective, setUsedObjective] = useState<Objective>("grams");
 
   useEffect(() => {
     // Restore saved settings after hydration.
@@ -171,6 +173,7 @@ export default function Home() {
     if (typeof s.maxPerItem === "string") setMaxPerItem(s.maxPerItem);
     if (typeof s.includeDrinks === "boolean") setIncludeDrinks(s.includeDrinks);
     if (typeof s.wantFries === "boolean") setWantFries(s.wantFries);
+    if (s.objective === "protein" || s.objective === "grams") setObjective(s.objective);
     if (typeof s.includeSauces === "boolean") setIncludeSauces(s.includeSauces);
     if (typeof s.includeGuessed === "boolean") setIncludeGuessed(s.includeGuessed);
     if (typeof s.wantSalad === "boolean") setWantSalad(s.wantSalad);
@@ -231,6 +234,7 @@ export default function Home() {
     budget: Math.round(parseFloat(budgetLei.replace(",", ".")) * 100),
     scope,
     mode,
+    objective,
     tolerancePct: Number(tolerancePct),
     maxPerItem: Number(maxPerItem),
     includeDrinks,
@@ -256,6 +260,7 @@ export default function Home() {
     setResults(data.results);
     // The cards describe the calculation that was run, not the form as it is now.
     if (data.options?.scope === "food" || data.options?.scope === "total") setUsedScope(data.options.scope);
+    if (data.options?.objective === "protein" || data.options?.objective === "grams") setUsedObjective(data.options.objective);
   }
 
   async function go(typed: string = query) {
@@ -267,7 +272,7 @@ export default function Home() {
     setBusy(true);
     setError("");
     setResults(null);
-    save("food.settings", { query, budgetLei, scope, mode, tolerancePct, maxPerItem, includeDrinks, includeSauces, includeGuessed, wantSalad, wantDessert, wantFries });
+    save("food.settings", { query, budgetLei, scope, mode, tolerancePct, maxPerItem, includeDrinks, includeSauces, includeGuessed, wantSalad, wantDessert, wantFries, objective });
     try {
       const res = await fetch(`/api/search?q=${encodeURIComponent(query)}&lat=${loc.lat}&lon=${loc.lon}`);
       const data = await res.json();
@@ -333,7 +338,8 @@ export default function Home() {
     const b = runnerUp.result.best;
     const w = PLATFORM_NAMES[winner.platform];
     const o = PLATFORM_NAMES[runnerUp.platform];
-    if (a.grams > b.grams) verdict = `${w} îți dă cu ${grams(a.grams - b.grams)} mai mult decât ${o}.`;
+    if (a.score > b.score + 1e-9)
+      verdict = `${w} îți dă cu ${grams(a.score - b.score)} ${usedObjective === "protein" ? "de proteine " : ""}mai mult decât ${o}.`;
     else if (a.cost.counted < b.cost.counted)
       verdict = `Aceeași cantitate ca pe ${o}, dar cu ${lei(b.cost.counted - a.cost.counted)} mai ieftin pe ${w}.`;
     else verdict = `${w} și ${o} ies la fel.`;
@@ -405,6 +411,13 @@ export default function Home() {
             <div className="seg">
               <button aria-pressed={mode === "hard"} onClick={() => setMode("hard")}>Fixă</button>
               <button aria-pressed={mode === "flex"} onClick={() => setMode("flex")}>Flexibil</button>
+            </div>
+          </div>
+          <div className="field">
+            <span className="muted">Maximizăm</span>
+            <div className="seg">
+              <button aria-pressed={objective === "grams"} onClick={() => setObjective("grams")}>Grame</button>
+              <button aria-pressed={objective === "protein"} onClick={() => setObjective("protein")}>Proteine</button>
             </div>
           </div>
         </div>
@@ -505,6 +518,7 @@ export default function Home() {
           r={r}
           isWinner={r === winner}
           scope={usedScope}
+          objective={usedObjective}
           venues={searches.find((s) => s.platform === r.platform)?.venues ?? []}
           onVenue={(id) => changeVenue(r.platform, id)}
           busy={busy}
@@ -591,7 +605,7 @@ function BasketView({ b, scope, onExclude, busy, showRate }: { b: Basket; scope:
   );
 }
 
-function ResultCard({ r, isWinner, scope, venues, onVenue, busy, onExclude }: { r: PlatformOutcome; isWinner: boolean; scope: BudgetScope; venues: Venue[]; onVenue: (id: string) => void; busy: boolean; onExclude: (name: string) => void }) {
+function ResultCard({ r, isWinner, scope, objective, venues, onVenue, busy, onExclude }: { r: PlatformOutcome; isWinner: boolean; scope: BudgetScope; objective: Objective; venues: Venue[]; onVenue: (id: string) => void; busy: boolean; onExclude: (name: string) => void }) {
   const best = r.result?.best;
   const stretch = r.result?.stretch;
   return (
@@ -613,21 +627,36 @@ function ResultCard({ r, isWinner, scope, venues, onVenue, busy, onExclude }: { 
       {best && (
         <dl className="readout">
           <div className="weight">
-            <dt>Greutate</dt>
+            <dt>{objective === "protein" ? "Proteine" : "Greutate"}</dt>
             <dd>
               {/* Keep the unit fixed while the number runs, so the readout does not jump. */}
-              <Settle value={best.grams} format={(n) => (best.grams >= 1000 ? (n / 1000).toFixed(2).replace(".", ",") + " kg" : Math.round(n) + " g")} />
+              <Settle
+                value={objective === "protein" ? best.protein : best.grams}
+                format={(n) =>
+                  objective === "protein"
+                    ? `${best.proteinEstimated ? "~" : ""}${Math.round(n)} g`
+                    : best.grams >= 1000
+                      ? (n / 1000).toFixed(2).replace(".", ",") + " kg"
+                      : Math.round(n) + " g"
+                }
+              />
             </dd>
           </div>
           <div>
-            <dt>Preț la 100 g</dt>
-            <dd>{rate(best.leiPer100g)}</dd>
+            <dt>{objective === "protein" ? "Greutate" : "Preț la 100 g"}</dt>
+            <dd>{objective === "protein" ? grams(best.grams) : rate(best.leiPer100g)}</dd>
           </div>
           <div>
             <dt>{scope === "food" ? "Doar mâncarea" : "Total cu taxe"}</dt>
             <dd>{lei(best.cost.counted)}</dd>
           </div>
         </dl>
+      )}
+
+      {best && objective !== "protein" && best.protein > 0 && (
+        <div className="muted">
+          Proteine: {best.proteinEstimated ? "~" : ""}{Math.round(best.protein)} g{best.proteinEstimated ? " (estimare)" : ""}
+        </div>
       )}
 
       {venues.length > 1 && (

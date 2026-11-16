@@ -32,6 +32,7 @@ export async function POST(request: Request) {
     budget,
     scope: o.scope === "food" ? "food" : "total",
     mode: o.mode === "flex" ? "flex" : "hard",
+    objective: o.objective === "protein" ? "protein" : "grams",
     tolerancePct: clamp(o.tolerancePct, 0, 50, 10),
     maxPerItem: Math.round(clamp(o.maxPerItem, 1, 20, 3)),
     includeDrinks: !!o.includeDrinks,

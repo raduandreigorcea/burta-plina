@@ -114,6 +114,8 @@ export interface PlatformAdapter {
 
 export type BudgetScope = "total" | "food";
 export type BudgetMode = "hard" | "flex";
+/** What the basket maximizes: grams of food (default) or grams of protein. */
+export type Objective = "grams" | "protein";
 
 export interface OptimizeOptions {
   budget: Bani;
@@ -133,6 +135,8 @@ export interface OptimizeOptions {
   wantSalad?: boolean;
   /** The basket must contain one dessert. */
   wantDessert?: boolean;
+  /** What to maximize; default grams. */
+  objective?: Objective;
   /** Use weights guessed from a text with several numbers (often wrong). */
   includeGuessed?: boolean;
   /** Default "balanced". */
@@ -179,6 +183,12 @@ export interface Basket {
   cost: CostBreakdown;
   /** Lei per 100 g, based on the counted amount. */
   leiPer100g: number;
+  /** Protein of the food in the basket, in grams (partly estimated, see proteinEstimated). */
+  protein: number;
+  /** True when some of the protein is estimated from the kind of product, not read from the menu. */
+  proteinEstimated: boolean;
+  /** The maximized quantity: grams or protein, by objective. */
+  score: number;
 }
 
 export interface OptimizeResult {

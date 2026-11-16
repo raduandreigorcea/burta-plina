@@ -1,3 +1,4 @@
+import { proteinOf } from "./nutrition";
 import type {
   Bani,
   Basket,
@@ -5,6 +6,7 @@ import type {
   CostBreakdown,
   FeeRules,
   MenuItem,
+  Objective,
   Offer,
   OptimizeOptions,
   OptimizeResult,
@@ -173,7 +175,7 @@ function toLine(it: MenuItem, qty: number): BasketLine {
   };
 }
 
-export function optimize(
+function optimizeCore(
   allItems: MenuItem[],
   fees: FeeRules,
   offers: Offer[],
@@ -398,7 +400,7 @@ export function optimize(
     lines.sort((a, b) => rank(a) - rank(b) || b.lineGrams - a.lineGrams);
     const grams = lines.reduce((a, l) => a + (countsAsFood(l.kind) ? l.lineGrams : 0), 0);
     const cost = computeCost(choice.s + choice.prefix.price, fees, offers, opts.scope);
-    return { lines, grams, cost, leiPer100g: grams > 0 ? cost.counted / grams : 0 };
+    return { lines, grams, cost, leiPer100g: grams > 0 ? cost.counted / grams : 0, protein: 0, proteinEstimated: false, score: grams };
   };
 
   // For one prefix: the subtotal with most grams whose counted cost fits; ties -> cheaper.
@@ -476,4 +478,48 @@ export function optimize(
         : "Nu încape nimic în buget după taxe.";
   }
   return { best: bestBasket, stretch, reason };
+}
+
+
+/** Fills in protein, and the real grams when the search maximized protein instead. */
+function describe(b: Basket | null, byId: Map<string, MenuItem>, objective: Objective): Basket | null {
+  if (!b) return b;
+  let grams = 0;
+  let protein = 0;
+  let estimated = false;
+  const lines = b.lines.map((l) => {
+    const it = byId.get(l.itemId);
+    if (!it) return l;
+    const upp = it.unitsPerPurchase ?? 1;
+    const real = { ...l, unitGrams: it.grams as number, lineGrams: l.qty * upp * (it.grams as number) };
+    if (countsAsFood(l.kind)) {
+      grams += real.lineGrams;
+      const p = proteinOf(it);
+      protein += l.qty * upp * p.grams;
+      if (p.estimated) estimated = true;
+    }
+    return real;
+  });
+  return {
+    ...b,
+    lines,
+    grams,
+    protein,
+    proteinEstimated: estimated,
+    leiPer100g: grams > 0 ? b.cost.counted / grams : 0,
+    score: objective === "protein" ? protein : grams,
+  };
+}
+
+export function optimize(allItems: MenuItem[], fees: FeeRules, offers: Offer[], opts: OptimizeOptions): OptimizeResult {
+  const objective = opts.objective ?? "grams";
+  const byId = new Map(allItems.map((it) => [it.id, it]));
+  // To maximize protein, the search runs on the same products with protein in
+  // place of grams (drinks and sauces keep their grams: they are not counted).
+  const items =
+    objective === "protein"
+      ? allItems.map((it) => (it.grams != null && countsAsFood(it.kind) ? { ...it, grams: proteinOf(it).grams } : it))
+      : allItems;
+  const r = optimizeCore(items, fees, offers, opts);
+  return { ...r, best: describe(r.best, byId, objective), stretch: describe(r.stretch, byId, objective) };
 }
