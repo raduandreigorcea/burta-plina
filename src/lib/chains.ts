@@ -10,12 +10,14 @@ export interface Chain {
   short: string;
   bg: string;
   fg: string;
+  /** Background behind the logo file, when the logo is not meant for white. */
+  logoBg?: string;
   /** Short forms and common misspellings, besides the name itself. */
   aliases: string[];
 }
 
 export const CHAINS: Chain[] = [
-  { name: "McDonald's", slug: "mcdonalds", short: "M", bg: "#FFC72C", fg: "#DA291C", aliases: ["mc", "mec", "mac", "mcd", "mec donalds", "mac donalds", "mcdonald", "donalds"] },
+  { name: "McDonald's", slug: "mcdonalds", short: "M", bg: "#FFC72C", fg: "#DA291C", logoBg: "#DA291C", aliases: ["mc", "mec", "mac", "mcd", "mec donalds", "mac donalds", "mcdonald", "donalds"] },
   { name: "KFC", slug: "kfc", short: "KFC", bg: "#E4002B", fg: "#FFFFFF", aliases: ["kentucky", "kentucky fried chicken", "kfc ro"] },
   { name: "Burger King", slug: "burger-king", short: "BK", bg: "#F5EBDC", fg: "#D62300", aliases: ["bk", "burgerking", "king", "whopper"] },
   { name: "Popeyes", slug: "popeyes", short: "P", bg: "#F26B21", fg: "#FFFFFF", aliases: ["popeye", "popeys", "popayes", "popais"] },

@@ -16,7 +16,7 @@ export function ChainBadge({ chain, size = 28 }: { chain: Chain; size?: number }
       // eslint-disable-next-line @next/next/no-img-element
       <img
         className="badge logo"
-        style={box}
+        style={chain.logoBg ? { ...box, background: chain.logoBg, padding: size * 0.12 } : box}
         src={`/logos/${chain.slug}.${ext}`}
         alt=""
         onError={() => setExt(ext === "svg" ? "png" : null)}
@@ -34,15 +34,22 @@ export function ChainBadge({ chain, size = 28 }: { chain: Chain; size?: number }
   );
 }
 
-const PLATFORMS: Record<PlatformId, { bg: string; fg: string; letter: string }> = {
-  wolt: { bg: "#009DE0", fg: "#FFFFFF", letter: "W" },
-  glovo: { bg: "#FFC244", fg: "#1F2A22", letter: "G" },
-  bolt: { bg: "#34D186", fg: "#10241A", letter: "B" },
+const PLATFORMS: Record<PlatformId, { bg: string; fg: string; letter: string; logo: boolean }> = {
+  wolt: { bg: "#009DE0", fg: "#FFFFFF", letter: "W", logo: false },
+  glovo: { bg: "#FFC244", fg: "#1F2A22", letter: "G", logo: true },
+  bolt: { bg: "#34D186", fg: "#10241A", letter: "B", logo: true },
 };
 
-/** The delivery app as a round mark in its own colour. */
+/** The delivery app: its logo from public/logos when there is one, else a round mark in its colour. */
 export function PlatformBadge({ platform, size = 22 }: { platform: PlatformId; size?: number }) {
   const p = PLATFORMS[platform];
+  const [failed, setFailed] = useState(false);
+  if (!failed && p.logo) {
+    return (
+      // eslint-disable-next-line @next/next/no-img-element
+      <img className="badge platformLogo" style={{ width: size, height: size }} src={`/logos/${platform}.svg`} alt="" onError={() => setFailed(true)} />
+    );
+  }
   return (
     <span className="badge round" style={{ width: size, height: size, background: p.bg, color: p.fg, fontSize: size * 0.55 }} aria-hidden="true">
       {p.letter}
