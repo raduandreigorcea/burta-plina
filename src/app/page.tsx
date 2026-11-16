@@ -491,7 +491,7 @@ export default function Home() {
       {verdict && <p className="verdict">{verdict}</p>}
       {verdict && winner?.platform === "glovo" && usedScope === "total" && (
         <p className="muted offGrid">
-          Atenție: la Glovo taxa de livrare e cea afișată pe oraș, iar suprataxa pentru coș mic nu e inclusă, deci totalul real poate fi mai mare.
+          Atenție: la Glovo taxa de livrare e cea afișată pe oraș; la adresa ta poate fi cu 1–2 lei mai mare.
         </p>
       )}
 
@@ -573,8 +573,8 @@ function BasketView({ b, scope, onExclude, busy, showRate }: { b: Basket; scope:
           <tr><td>Produse</td><td className="num">{lei(c.subtotal)}</td></tr>
           {c.discount > 0 && <tr><td>Reducere coș</td><td className="num">−{lei(c.discount)}</td></tr>}
           <tr><td>Livrare</td><td className="num">{lei(c.deliveryFee)}</td></tr>
-          {c.serviceFee > 0 && <tr><td>Taxă de serviciu / coș mic</td><td className="num">{lei(c.serviceFee)}</td></tr>}
-          {c.smallOrderFee > 0 && <tr><td>Suprataxă comandă mică</td><td className="num">{lei(c.smallOrderFee)}</td></tr>}
+          {c.serviceFee > 0 && <tr><td>Taxă de servicii</td><td className="num">{lei(c.serviceFee)}</td></tr>}
+          {c.smallOrderFee > 0 && <tr><td>Suprataxă coș mic</td><td className="num">{lei(c.smallOrderFee)}</td></tr>}
           <tr className="total"><td>Total de plată</td><td className="num">{lei(c.total)}</td></tr>
         </tbody>
       </table>

@@ -1,0 +1,696 @@
+{
+ "chain": "Burger King",
+ "platform": "glovo",
+ "venue": "Burger King",
+ "savedOn": "2026-11-16",
+ "fees": {
+  "deliveryFee": 299,
+  "minOrder": 0,
+  "serviceFee": {
+   "pct": 10,
+   "min": 199,
+   "max": 1099
+  },
+  "smallOrder": {
+   "threshold": 4000,
+   "mode": "flat",
+   "flat": 599
+  },
+  "notes": [
+   "Glovo: taxa de livrare este cea afișată public pentru oraș; la adresa ta poate diferi.",
+   "Glovo: taxa de servicii (10%, între 1,99 și 10,99 lei) și suprataxa de coș mic (5,99 lei sub 40 lei) sunt cele din coșul Glovo la București, noiembrie 2026."
+  ]
+ },
+ "offers": [
+  {
+   "kind": "info",
+   "label": "4 produse la reducere (aplicat în prețuri)"
+  }
+ ],
+ "items": [
+  {
+   "name": "Trio Time Menu",
+   "description": "Ideal pentru grupuri. 2 Crispy Chicken Burger, 1 Whopper, 3 porții medii de cartofi prăjiți, 6 inele de ceapa, 6 Chilli Cheese Nuggets, 6 Chicken Nuggets + sos, 3 Pepsi 0.33L și sos la alegere.",
+   "category": "Oferte",
+   "price": 12825,
+   "originalPrice": 19730
+  },
+  {
+   "name": "Triple Deal",
+   "description": "Ideal pentru grupuri. 2 Crispy Chicken Burger, 1 Big King Burger, 3 porții medii de cartofi prăjiți, 6 inele de ceapa, 6 Chicken Nuggets și 2 sosuri la alegere.",
+   "category": "Oferte",
+   "price": 11760,
+   "originalPrice": 15680
+  },
+  {
+   "name": "2Gether Combo",
+   "description": "1Crispy Chicken Burger, 1 Whopper, 2 porții medii de cartofi prăjiți, 6 Chicken Nuggets și sos la alegere.",
+   "category": "Oferte",
+   "price": 7928,
+   "originalPrice": 10570
+  },
+  {
+   "name": "2xCheeseburger Combo",
+   "description": "2 Cheeseburger, 1 cartofi prăjiți porție medie și băutură răcoritoare 0.33L.",
+   "category": "Oferte",
+   "price": 3970
+  },
+  {
+   "name": "Meniu Big King XXL",
+   "description": "Un burger în varianta XXL de vită 100%, făcută la grătar, brânză și salată, ceapă, castraveți murați și sosul original Big King, totul într-o chiflă cu SUSAN. Porție (342g).",
+   "category": "Meniuri",
+   "price": 5990
+  },
+  {
+   "name": "Meniu Chicken Royal",
+   "description": "Pui pane crocant într-o chiflă baghetă, dOUă felii de brânză, salată și maioneză. Porție (224g).",
+   "category": "Meniuri",
+   "price": 4390
+  },
+  {
+   "name": "Lord Pepper Chicken Meniu",
+   "description": "Piept de pui în crustă crocantă cu brânză, ceapă prăjită, roșii, rucola, șuncă și un sos unic de ardei și iaurt, toate într-un chifle delicat de brioche. Servite alaturi de o porție medie de cartofi prăjiți și o băutură refill 0.3L",
+   "category": "Ediție limitată",
+   "price": 5190
+  },
+  {
+   "name": "8 bucăți Krispper® Tenders",
+   "description": "Opt bucăți suculente de piept de pui, învelite într-o crustă crocantă.",
+   "category": "Ediție limitată",
+   "price": 4390
+  },
+  {
+   "name": "5 bucăți Krispper® Tenders",
+   "description": "Cinci bucăți suculente de piept de pui, învelite într-o crustă crocantă.",
+   "category": "Ediție limitată",
+   "price": 3390
+  },
+  {
+   "name": "Lord Pepper Chicken",
+   "description": "Pui in crusta crocanta cu brânză, ceapă prăjită, roșii, rucola, șuncă și un sos unic de ardei și iaurt, servite într-o chiflă delicată de brioche.",
+   "category": "Ediție limitată",
+   "price": 3390
+  },
+  {
+   "name": "Krispper® Tenders BBQ",
+   "description": "Burger cu două bucăți de pui crocant, bacon, brânză, ceapă prăjită crocantă, sos BBQ și maioneză.",
+   "category": "Ediție limitată",
+   "price": 2690
+  },
+  {
+   "name": "Spicy Krispper®",
+   "description": "Burger cu două bucăți de pui crocant, ardei jalapeño picant, brânză, salată verde și sos cremos chili cheese.",
+   "category": "Ediție limitată",
+   "price": 2690
+  },
+  {
+   "name": "Classic Krispper®",
+   "description": "Burger cu două bucăți de pui crocant, salată verde, brânză și maioneză.",
+   "category": "Ediție limitată",
+   "price": 2590
+  },
+  {
+   "name": "3 bucăți Krispper® Tenders",
+   "description": "Trei bucăți suculente de piept de pui, învelite într-o crustă crocantă.",
+   "category": "Ediție limitată",
+   "price": 2190
+  },
+  {
+   "name": "Sos de brânză 120 g",
+   "description": "Sos cremos de brânză.",
+   "category": "Ediție limitată",
+   "price": 1490
+  },
+  {
+   "name": "Sos BBQ Korean 120 g",
+   "description": "Un sos intens, cu un gust dulce-sărat și ușor picant.",
+   "category": "Ediție limitată",
+   "price": 1490
+  },
+  {
+   "name": "Sos Chipotle 120 g",
+   "description": "Sos afumat, cu o notă de jalapeño afumat.",
+   "category": "Ediție limitată",
+   "price": 1490
+  },
+  {
+   "name": "Sos cu usturoi 120g",
+   "description": "Preparat zilnic în restaurant, sosul nostru cremos combină iaurtul grecesc, usturoiul proaspăt și ierburile aromatice. Savurează-l alături de noul Krispper® Tenders. Combinația perfectă!",
+   "category": "Ediție limitată",
+   "price": 1490
+  },
+  {
+   "name": "Pepsi Arțar Zero Zahar 0,33l",
+   "description": "",
+   "category": "Ediție limitată",
+   "price": 1050
+  },
+  {
+   "name": "Cheesy Bacon Dragon Balls",
+   "description": "7 bucăți de biluțe crocante cu brânză și bucățele de bacon, învelite într-o crustă aurie.",
+   "category": "Dragon Ball",
+   "price": 2190
+  },
+  {
+   "name": "Snack Share XXL",
+   "description": "Cartofi prăjiți porție XXL, 6 Chilli Cheese Nuggets, 6 inele de ceapa, 6 Chicken Nuggets și 2 sosuri la algere.",
+   "category": "Oferte",
+   "price": 7820
+  },
+  {
+   "name": "Snack Share",
+   "description": "Cartofi prăjiți porție medie, 6 Chilli Cheese Nuggets, 6 inele de ceapa, 6 Chicken Nuggets și 2 sosuri la alegere.",
+   "category": "Oferte",
+   "price": 5936,
+   "originalPrice": 7420
+  },
+  {
+   "name": "Dublu Cheeseburger Combo",
+   "description": "1 Double Cheeseburger, 1 cartofi prăjiți porție medie și băutură răcoritoare 0.33L.",
+   "category": "Oferte",
+   "price": 4740
+  },
+  {
+   "name": "Meniu Dublu Bacon & Cheese Whopper",
+   "description": "Carne de vită la dublu, brânză și bacon, legume proaspete, maioneză și ketchup, toate într-o chiflă cu SUSAN. Porție (359g).INGREDIENTE:Carne de vită⊛:(carne de vită 100%)-(140g),Chifla din grau glazurata,cu seminte de susan⊛:faina din grau 60%,apa,zahar,drojdie,ulei de rapita,Seminte de Susan 1,5%,glazura 1,5%(apa,proteina din mazare,ulei de floarea-soarelui,dextroza,maltodextrina, amidon din porumb),sare,gluten din Grau,E472e,E 300,aroma(89g),Mix de Sare si Piper,Roșii(20g), Branza felii:(BRÂNZĂ cheddar (51%):(LAPTE,apă,UNT,LAPTE praf degresat,E331),Proteine din LAPTE,aromă naturală de ZER,sare,E330,E160a,E160c)-(20g),Sos de Maioneza Vegana fara ou:(ulei de rapita,apa,otet din alcool,amidon modificat,sare,sirop de glucoza-fructoza,E415, concentrat de suc de lamaie,E270,condimente,aroma naturala)-(21g),Salată verde de iceberg(21g),Ceapă albă (14g),Ketchup: (roșii, oțet, zahăr, sare, condimente și extracte de plante medicinale (conțin ȚELINĂ), condimente)(14g),Castraveți murați:(castraveți,apă,oțet,(4,7%),sare,E509,arome naturale)(10g),Bacon⊛: (slanina de porc (95,6%), sare, aromă naturală, antioxidanti: acid ascorbic, extracte de rozmarin)(10g) ▲ATENTIE : Contine Lactoza. Valori 100g: (KJ) 983.8, (KCAL) 235.1, Grăsimi (G) 14.4, Grăsimi saturate (G) 5.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 39.3, Zahăr (G) 3.3, Fibre (G) 1, Proteine (G) 13.5, Sare (G) 0.9. alergeni :GLUTEN , LAPTE, seminte de SUSAN; Poate Contine: TELINA ⊛. Cartofi prajiti Valori 100g: (KJ) 654, (KCAL) 156, Grăsimi (G) 4.5, Grăsimi saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G) 0.3. ⊛Produsul provine din produs congelat",
+   "category": "Meniuri",
+   "price": 5990
+  },
+  {
+   "name": "Meniu Dublu Steakhouse",
+   "description": "100% carne de vită la dublu, bacon și brânză, salată proaspătă, roșii, ceapă caramelizată, maioneză și sos BBQ. Porție (330g).",
+   "category": "Meniuri",
+   "price": 5990
+  },
+  {
+   "name": "8 bucăți Krispper® Tenders + Sos",
+   "description": "Opt bucăți suculente din piept de pui, în înveliș crocant, cu sos la alegere.",
+   "category": "Meniuri",
+   "price": 5590
+  },
+  {
+   "name": "Meniu Lord Pepper Burger",
+   "description": "",
+   "category": "Meniuri",
+   "price": 5190
+  },
+  {
+   "name": "Cheester Chicken Menu",
+   "description": "Pentru adevărații gurmanzi,o bucată de piept de pui in crustă crocantă,branză Gouda pane,bacon,castraveți murați,rucola,sos de muștar cu miere și maioneză,chifla delicioasa.Burger de carne PUI cu Specialitate din branza Gouda 280g⊛,INGR:Carne din piept pui(57%)⊛făină grâu îmbogățită(cu calciu,fier,niacină,tiamină),apă,ulei rapiță,pesmet(conține grâu),amidon,făină(orez,porumb),sare,praf ceapă,amidon modificat,arome naturale,pudră usturoi,E450i,E500ii;condim,culoare:extract boia;zahăr,gluten grâu,maltodextrină afumată,sare afumată(90g),Chifla⊛(faina GRAU 63%,apa,zahar,drojdie,fulgi cartofi 2,5%,ulei rapita,glazura(apa,proteina mazare,ulei floarea-soarelui,dextroza,maltodextrina din porumb,amidon porumb),sare,E472e,E300),poate cont:seminte susan(65g),Sos Mustar cu miere:Ulei rapita,apa,Mustar(11%)(apa,seminte mustar,otet din alcool,sare)miere(10%),zahar,otet din alcool,galbenus de ou pudra,sare,amidon modificat,agent ingrosar:guma xantan(20g);Sos Maioneza Vegana fara ou:(ulei rapita,apa,otet din alcool,amidon modificat,sare,sirop glucoza-fructoza,E415,concentrat suc lamaie,E270, condimente,aroma naturala)(21g);Preparat branza congelata rapid,pane,pe baza de branza Gouda⊛:Gouda(40,3%):(Lapte vaca pasteurizat,sare,starter,cheag microbian),Crusta:Faina grau,apa,ulei floarea soarelui,sare,condim(boia),drojdie,amidon modificat;(60g),Rucola9g,Bacon⊛:(slănină porc95,6%,sare,aromă naturală,precivoxidant:acid ascorbic,extracte rozmarin)(5g),Castraveți murați:(castraveți,apă,otet(4,7%),sare,E509,arome natu)(10g).Val100g:(KJ)1217,(KCAL)291,Grăs(G)16,Grăs sat(G)9,Grăs nes (G)18,Carb(G) 25,Zah (G)2.8, Fib (G)3.8,Prot(G)13,Sare(G)1.6.Alergeni:GLUTEN,OUA,LAPTE,MUSTAR.Poate Contine:TELINA,SEMINTE DE SUSAN.Cartofi prj⊛ Val 100g: (KJ) 654,(KCAL)156,Grăs (G)4.5,Grăs sat(G)0.5,Grăs nesat(G)0.0,Carb(G)25.0,Zah (G)0.9,Fib (G) 2.5,Prot(G)2.6,Sare(G)0.3⊛Produsul provine din congelat",
+   "category": "Meniuri",
+   "price": 5190
+  },
+  {
+   "name": "Cheester Beef Menu",
+   "description": "Pentru adevărații gurmanzi,50g de carne de vită la grătar,o felie de branză Gouda pane,bacon,castraveți murați,rucola proaspătă și un sos unic de muștar cu miere și maioneză,toate într-o chifla delicioasa.BURGER(280g),Burger de carne de vită tocata cu Specialitate din branza Gouda⊛INGREDIENTE:Carne de vită⊛:(carne de vită 100%)(90g),Chifla ⊛:(faina din GRAU 63%,apa,zahar,drojdie,fulgi de cartofi 2,5%,ulei de rapita,glazura(apa,proteina din mazare,ulei de floarea-soarelui,dextroza,maltodextrina din porumb,amidon din porumb),sare,E472e,E 300),poate contine:seminte de susan(65g),Sos de Mustar cu miere:Ulei de rapita,apa,Mustar(11%)(apa,seminte de mustar,otet din alcool,sare),miere(10%),zahar,otet din alcool,galbenus de ou pudra,sare,amidon modificat,agent de ingrosare:guma xantan(20g);Sos de Maioneza Vegana fara ou:(ulei de rapita,apa,otet din alcool, amidon modificat,sare,sirop de glucoza-fructoza,E415,concentrat de suc de lamaie,E270,condimente,aroma naturala)-21g);Preparat de branza congelata rapid,pane,pe baza de branza Gouda⊛:Gouda(40,3%):(Lapte de vaca pasteurizat,sare,starter,cheag microbian),Crusta:Faina de grau,apa,ulei floarea soarelui,sare,condimente(boia),drojdie,amidon modificat;(60g),Rucola(9g),Bacon⊛:(slănină de porc(95,6%),sare,aromă naturală,precivoxidant:acid ascorbic,extracte de rozmarin)(5g),Castraveți murați:(castraveți, apă, otet,(4,7%),sare,E509,arome naturale)(10g).Valori 100g: (KJ)1293, (KCAL)310,Grăs(G)19,Grăs sat (G)10,Grăs nes(G)18,Carb(G)0,Zahăr(G)3,Fibre(G)1.4,Proteine(G)17, Sare(G)1.2.alergeni:GLUTEN,OUA,LAPTE,MUSTAR.Poate Contine:TELINA,SEMINTE DE SUSAN⊛Produsul provine din produs congelat.Cartofi prajiti.Valori 100g: (KJ)654, (KCAL)156,Grăs(G)4.5,Grăs sat(G)0.5,Grăs nes(G)0.0,Carb(G)25.0,Zahăr(G)0.9,Fibre(G)2.5,Proteine(G) 2.6,Sare(G)0.3.Produsul provine din produs congelatProdusul provine din produs congelat",
+   "category": "Meniuri",
+   "price": 5190
+  },
+  {
+   "name": "Meniu Bacon & Cheese Whopper",
+   "description": "Carne de vită la dublu, brânză și bacon, legume proaspete, maioneză și ketchup, toate într-o chiflă cu SUSAN. Porție (359g).INGREDIENTE:Carne de vită⊛:(carne de vită 100%)-(140g),Chifla din grau glazurata,cu seminte de susan⊛:faina din grau 60%,apa,zahar,drojdie,ulei de rapita,Seminte de Susan 1,5%,glazura 1,5%(apa,proteina din mazare,ulei de floarea-soarelui,dextroza,maltodextrina, amidon din porumb),sare,gluten din Grau,E472e, E 300,aroma-(89g),Mix de Sare si Piper,Roșii-(20g),Branza felii:(BRÂNZĂ cheddar (51%):(LAPTE,apă,UNT,LAPTE praf degresat,E331),Proteine din LAPTE,aromă naturală de ZER,sare,E330,E160a,E160c)-(20g),Sos de Maioneza Vegana fara ou:(ulei de rapita,apa,otet din alcool,amidon modificat,sare,sirop de glucoza-fructoza,E415,concentrat de suc de lamaie,E270,condimente,aroma naturala)-(21g),Salată verde de iceberg(21g),Ceapă albă (14g),Ketchup:(roșii, oțet, zahăr, sare,condimente și extracte de plante medicinale(conțin ȚELINĂ), condimente)(14g),Castraveți murați:(castraveți,apă,oțet,(4,7%),sare,(E509),arome naturale)(10g), Bacon⊛:(slanina de porc(95,6%),sare,aromă naturală,antioxidanti:acid ascorbic,extracte de rozmarin)(10g) ▲ATENTIE : Contine Lactoza. Valori 100g: (KJ) 983.8, (KCAL) 235.1, Grăsimi (G) 14.4, Grăsimi saturate (G) 5.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 39.3, Zahăr (G) 3.3, Fibre (G) 1, Proteine (G) 13.5, Sare (G) 0.9. alergeni :GLUTEN , LAPTE, seminte de SUSAN; Poate Contine: TELINA ⊛. Cartofi prajiti Valori 100g: (KJ) 654, (KCAL) 156, Grăsimi (G) 4.5, Grăsimi saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G) 0.3. ⊛Produsul provine din produs congelat",
+   "category": "Meniuri",
+   "price": 4990
+  },
+  {
+   "name": "Meniu Steakhouse",
+   "description": "100% carne de vită la grătar, bacon și brânză, salată proaspătă, roșii, ceapă caramelizată, maioneză și sos BBQ. Porție (260g). INGREDIENTE:Carne de vită ⊛: (carne de vită 100%)-(70g),Chifla ⊛: (faina de GRAU, apa, zahar, drojdie, ulei de rapita, terci de porumb (2%), sare, emulgatori (E472e, E471), agent de prelucrare a fainii (E300))-(70g), Mix de Sare si Piper, Rosii)-(20g), Branza felii (BRANZA cheddar (51%): (LAPTE, apa, UNT, LAPTE praf degresat, emulgatori: E331,), Proteine LAPTE, aroma BRANZA naturala, sare, regulator de aciditate E330, coloranti: E160a, E160c)-(20g) , Sos de Maioneza Vegana fara ou: (ulei de rapita, apa, otet din alcool, amidon modificat, sare, sirop de glucoza-fructoza, agent de ingrosare: E415, concentrat de suc de lamaie, corector de aciditate E270, condimente, aroma naturala)(14g), Sos barbeque: (piure de roșii, sirop de glucoză-fructoză, oțet, amidon modificat din porumb de ceară, sare, sirop de caramel, aromă, aromă de fum, condimente, muștar, îngroșător: E415)(14g), Salată verde de iceberg(14g), Ceapă prăjită: (ceapă, ulei de palmier, Făină de GRÂU, sare)(28g), Bacon ⊛: (slănină de porc (95,6%), sare, aromă naturală, precivoxidant: acid ascorbic, extracte de rozmarin)(10g) ▲ATENTIE : Contine Lactoza. Valori nutriționale 100g: Valoare energetică (KJ) 1116, Valoare energetică (KCAL) 267, Grăsimi (G) 15, Grăsimi saturate (G) 4.6, Grăsimi nesaturate (G) 0.3, Carbohidrați (G) 21, Zahăr (G) 4.8, Fibre (G) 1.5, Proteine (G) 13, Sare (G) 0.82 . Contine alergeni :GLUTEN , LAPTE, MUSTAR salbatic; Poate Contine Alergeni : TELINA, seminte de SUSAN ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G) 0.3. Contine 3E-uri.",
+   "category": "Meniuri",
+   "price": 4990
+  },
+  {
+   "name": "Meniu Extra Long Chili Cheese",
+   "description": "100% carne de vită la grătar, sos de brânză cu ardei chili, brânză, totul într-o chiflă bachetă cu SUSAN. Porție (225g).INGREDIENTE: Carne de vita ⊛: (carne de vită 100%)-(90g), Chifla ⊛: (făină de GRÂU, apă, zahăr, drojdie, ulei de rapiță, semințe de SUSAN 2%, sare, glucoză, FĂINĂ DE SOIA, emulgatori: E482, E471, E472e, agent de îngroșare: E412, agenți de prelucrare a făinii: E300, E920)-(77g), Sos picant de branza: (ulei de rapita, apa, otet, sirop de glucoza-fructoza, ardei iute (4,2%), arome naturale (contine LAPTE), galbenus de OU, amidon modificat, BRANZA pudra (1,8%), sare, acid E270, agent de ingrosare: E415, piper negru, piper extract de chili)-(28g), Felii de ardei jalapeno marinat: (ardei jalapeno, otet, apa, sare, stabilizator: clorura de sodiu)(10g), Branza feliata (BRANZA cheddar (51%): (LAPTE, apa, UNT, lapte praf degresat, emulgatori: E331,), Proteine LAPTE, aroma BRANZA naturala, sare, regulator de aciditate E330, coloranti: E160a, E160c)-(20g) ▲ATENTIE : Contine Lactoza. Valori nutriționale 100g: Valoare energetică (KJ) 1219, Valoare energetică (KCAL) 291, Grăsimi (G) 17.7, Grăsimi saturate (G) 6.4, Grăsimi nesaturate (G) 1.0, Carbohidrați (G) 15.4, Zahăr (G) 2.5, Fibre (G) 1.2, Proteine (G) 16.9, Sare (G) 1.4 . Contine alergeni :GLUTEN , OUA, SOIA, LAPTE, seminte de SUSAN; ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G) 0.3. Contine 3E-uri.",
+   "category": "Meniuri",
+   "price": 4950
+  },
+  {
+   "name": "Meniu Chicken Wrap",
+   "description": "Pui crocant delicios, salată, maioneză și roșii proaspete. Toate învelite într-o tortilla la grill. Porție (181g). INGREDIENTE: Carne de pui în pesmet ⊛: (carne de pui fiartă (64%), fulgi de porumb (porumb, zahăr, sare, sare, extract de malț de ORZ), ulei de rapiță, apă, făină de GRÂU, amidon modificat (extract de drojdie), făină de orez, sare, condimente (contin TELINA), arome, agenti de crestere: E450, E500, zahar, drojdie)-(75g), Tortilla ⊛: (făină de GRÂU, apă, ulei vegetal de rapiță, stabilizatori: E422, E412, sare, agenți de creștere: E450, E500; emulgator de glucoză (din GRÂU): E471, agent de prelucrare a făinii E920)-(60g), Rosii (10g), Sos de Maioneza Vegana fara ou: (ulei de rapita, apa, otet din alcool, amidon modificat, sare, sirop de glucoza-fructoza, agent de ingrosare: E415, concentrat de suc de lamaie, corector de aciditate E270, condimente, aroma naturala)-(22g), Salată verde iceberg-(14g), Ulei: (ulei de palmier, ulei de floarea soarelui cu continut ridicat de acid oleic, agent antispumant E900). Valori nutriționale 100g: Valoare energetică (KJ) 1190, Valoare energetică (KCAL) 285, Grăsimi (G) 16, Grăsimi saturate (G) 3.1, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25, Zahăr (G) 1.3, Fibre (G) 1.7, Proteine (G) 8.6, Sare (G) 1.2 . Contine alergeni :GLUTEN , TELINA, ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G) 0.3. Contine 3E-uri.",
+   "category": "Meniuri",
+   "price": 4690
+  },
+  {
+   "name": "Meniu Beef Wrap",
+   "description": "Carne de vită la grătar, castraveți murați, ketchup, ceapă, roșii, salată și maioneză. Toate învelite într-o tortilla la grill. Porție (213g). INGREDIENTE: Carne de vită ⊛: (carne de vită 100%)-(70g), Tortilla ⊛: (făină de GRÂU, apă, ulei vegetal de rapiță, stabilizatori: E422, E412, sare, agenți de creștere: E450, E500; glucoză (din GRÂU) emulgator: E471, agent de prelucrare a făinii E920)-(60g), Mix de Sare si Piper, Roșii-(10g), Sos de Maioneza Vegana fara ou: (ulei de rapita, apa, otet din alcool, amidon modificat, sare, sirop de glucoza-fructoza, agent de ingrosare: E415, concentrat de suc de lamaie, corector de aciditate E270, condimente, aroma naturala)-(21g), Salată verde iceberg-(14g), Ceapă albă (14g), Ketchup: (roșii, oțet, zahăr, sare, extracte de condimente și ierburi (conțin ȚELINĂ), condimente) (14g), Castraveți murați: (castraveți, apă, oțet spirt, (4,7%), sare, stabilizator (E509), arome naturale) (10g). Valoare energetică (KJ) 1000, Valoare energetică (KCAL) 239, Grăsimi (G) 15, Grăsimi saturate (G) 4.1, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 16, Zahăr (G) 2.4, Fibre (G) 0, Proteine (G) 10, Sare (G) 1.5 . Contine alergeni :GLUTEN , TELINA, ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G) 0.3. Contine 3E-uri.",
+   "category": "Meniuri",
+   "price": 4690
+  },
+  {
+   "name": "Meniu King Nuggets + 2x sos",
+   "description": "9 Nuggets de pui în înveliș auriu și crocant, alături de un sos la alegere. Porție (9buc/127g).",
+   "category": "Meniuri",
+   "price": 4650
+  },
+  {
+   "name": "Meniu Plant-Based Nuggets + 2x sos",
+   "description": "9 Nuggets pe bază de plante în înveliș auriu si crocant, alături de dOUA sosuri la alegere. Portie (9buc/ 120g). *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folosite pentru prepararea produselor din carne. INGREDIENTE: Bucăți vegetale pane pe bază de proteine vegetale ⊛ Structura vegetală [apă, proteina de SOIA, amidon, gluten de GRAU] (37%) , făină (GRÂU, porumb), apă, uleiuri vegetale (ulei de floarea-soarelui, ulei de rapiță in proportii variate ), fulgi de porumb (porumb, extract de malt de Orz, sare), fibre de OVĂZ, amidon, agent de îngroșare (metilceluloză), sare, arome naturale, agenți de creștere (E500, E450), dextroza, ierburi aromatice, coaja de Psyllium, piper, usturoi pudra, extract de drojdie, drojdie, ceapa prajita pudra, zahar. -(80g/120g) ,Ulei: (ulei de palmier, ulei de floarea soarelui cu continut ridicat de acid oleic, agent antispumant E900). Valori nutriționale 100g: Valoare energetică (KJ) 942, Valoare energetică (KCAL) 225, Grăsimi (G) 12, Grăsimi saturate (G) 0.8, Grăsimi nesaturate (G) 0.1, Carbohidrați (G) 19., Zahăr (G) 0.8, Fibre (G) 4.8, Proteine (G) 7.3, Sare (G) 1.1 . Contine alergeni :GLUTEN , SOIA, LAPTE, TELINA. Poate Contine Alergeni :MUSTAR salbatic, ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G) 0.3. Contine 3E-uri.",
+   "category": "Meniuri",
+   "price": 4650
+  },
+  {
+   "name": "5 bucăți Krispper® Tenders + Sos",
+   "description": "Cinci bucăți suculente din piept de pui, în înveliș crocant, cu sos la alegere.",
+   "category": "Meniuri",
+   "price": 4590
+  },
+  {
+   "name": "Meniu Whopper",
+   "description": "Gustul unic BK. Carne de vită 100% facută la grătar, roșii, ceapă proaspătă și castraveți murați, totul asezonat cu maioneză și ketchup, într-o chiflă cu SUSAN.INGREDIENTE: Carne de vită ⊛: (carne de vită 100%) - (70g); Chifla din grau glazurata, cu seminte de susan ⊛: faina din grau 60%, apa, zahar, drojdie, ulei de rapita, Seminte de Susan 1,5%, glazura 1, 5% (apa,proteina din mazare, ulei de floarea-soarelui, dextroza, maltodextrina, amidon din porumb), sare, gluten din Grau, emulsifiant: E472e, agent de tratare a fainii:E 300, aroma. -(89g), Mix de Sare si Piper, Rosii-(20g), Salată verde iceberg - (21g), Sos de Maioneza Vegana fara ou: (ulei de rapita, apa, otet din alcool, amidon modificat, sare, sirop de glucoza-fructoza, agent de ingrosare: E415, concentrat de suc de lamaie, corector de aciditate E270, condimente, aroma naturala)- (21g), ketchup: (rosii, otet, otet, zahăr, sare, extracte de condimente și ierburi (conțin țelină), condimente)(14g), ceapă albă(14g), castraveți murați: (castraveți, apă, oțet, (4,7%), sare, stabilizator (E509), arome naturale)(10g); Valori nutriționale 100g: Valoare energetică (KJ) 884.0, Valoare energetică (KCAL) 211.4, Grăsimi (G) 11.3, Grăsimi saturate (G) 3.2, Grăsimi nesaturate (G) 0.2, Carbohidrați (G) 36.5, Zahăr (G) 4.3, Fibre (G) 1.4, Proteine (G) 9.8, Sare (G) 0.9. Contine alergeni :GLUTEN, seminte de SUSAN ; Poate Contine Alergeni : TELINA ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G) 0.3. Contine 3E-uri.",
+   "category": "Meniuri",
+   "price": 4450
+  },
+  {
+   "name": "Meniu Plant-Based Whopper",
+   "description": "Whopper 100% pe bază de plante* făcut pe gratăr, roșii proaspete, salată, maioneză, ketchup, castraveți murați și ceapă, toate într-o chiflă cu SUSAN. *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folosite pentru prepararea produselor din carne. Porție (274g).",
+   "category": "Meniuri",
+   "price": 4450
+  },
+  {
+   "name": "Meniu Plant-based Royale",
+   "description": "Burger pe bază de plante într-un înveliș crocant, salată proaspătă și maioneză, totul într-o chiflă baghetă cu semințe de SUSAN. *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folosite pentru prepararea produselor din carne. Porție (185g).",
+   "category": "Meniuri",
+   "price": 4390
+  },
+  {
+   "name": "Meniu Plant-Based Nuggets + 1x sos",
+   "description": "6 Nuggets pe bază de plante în înveliș auriu si crocant, alături de un sos la alegere. Portie (6buc/ 80g). *Pregatirea produselor Plant-Based au loc pe aceleași aparate de gătit care sunt folosite pentru prepararea produselor din carne. INGREDIENTE: Bucăți vegetale pane pe bază de proteine vegetale ⊛ Structura vegetală [apă, proteina de SOIA, amidon, gluten de GRAU] (37%) , făină (GRÂU, porumb), apă, uleiuri vegetale (ulei de floarea-soarelui, ulei de rapiță in proportii variate ), fulgi de porumb (porumb, extract de malt de Orz, sare), fibre de OVĂZ, amidon, agent de îngroșare (metilceluloză), sare, arome naturale, agenți de creștere (E500, E450), dextroza, ierburi aromatice, coaja de Psyllium, piper, usturoi pudra, extract de drojdie, drojdie, ceapa prajita pudra, zahar. -(80g/120g) ,Ulei: (ulei de palmier, ulei de floarea soarelui cu continut ridicat de acid oleic, agent antispumant E900). Valori nutriționale 100g: Valoare energetică (KJ) 942, Valoare energetică (KCAL) 225, Grăsimi (G) 12, Grăsimi saturate (G) 0.8, Grăsimi nesaturate (G) 0.1, Carbohidrați (G) 19., Zahăr (G) 0.8, Fibre (G) 4.8, Proteine (G) 7.3, Sare (G) 1.1 . Contine alergeni :GLUTEN , SOIA, LAPTE, TELINA. Poate Contine Alergeni :MUSTAR salbatic, ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G) 0.3. Contine 3E-uri.",
+   "category": "Meniuri",
+   "price": 4250
+  },
+  {
+   "name": "Meniu King Nuggets + 1x sos",
+   "description": "6 Nuggets de pui în înveliș auriu și crocant, alături de un sos la alegere.",
+   "category": "Meniuri",
+   "price": 4250
+  },
+  {
+   "name": "Meniu Crispy Chicken",
+   "description": "INGREDIENTE: Carne de pui în pesmet ⊛: (carne fiartă de pui (64%), fulgi de porumb (porumb, zahăr, sare, extract de malț de ORZ), ulei de rapiță, apă, făină de GRÂU, amidon modificat(extract de drojdie), făină de orez, sare, condimente (conțin ȚELINĂ), arome, agenți de creștere: E450, E500, zahăr, drojdie)-(75g), Chifla ⊛: (făină de GRÂU, apă, zahăr, ulei de rapiță, drojdie, semințe de SUSAN 2%, sare, emulgator: E427e, agent de prelucrare a făinii: E300)-(54g), Sos de Maioneza Vegana fara ou: (ulei de rapita, apa, otet din alcool, amidon modificat, sare, sirop de glucoza-fructoza, agent de ingrosare: E415, concentrat de suc de lamaie, corector de aciditate E270, condimente, aroma naturala)(11g), Roșii (10g), Salată verde iceberg (11g), Ulei: (ulei de palmier, ulei de floarea soarelui cu continut ridicat de acid oleic, agent antispumant E900). Valori nutriționale 100g: Valoare energetică (KJ) 1111, Valoare energetică (KCAL) 267, Grăsimi (G) 16, Grăsimi saturate (G) 2.7, Grăsimi nesaturate (G) 0.2, Carbohidrați (G) 21, Zahăr (G) 2.2, Fibre (G) 1.2, Proteine (G) 9.6, Sare (G) 1.2. Contine alergeni :GLUTEN , LAPTE, TELINA, seminte de SUSAN; Poate Contine Alergeni : MUSTAR salbatic ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G) 0.3. Contine 3E-uri.",
+   "category": "Meniuri",
+   "price": 4190
+  },
+  {
+   "name": "Meniu Big King",
+   "description": "O porție dublă de vită 100% la grătar, brânză și salată, ceapă, castraveți murați și sosul original Big King, totul într-o chiflă cu SUSAN. Porție (160g). INGREDIENTE: Carne de vită ⊛: (carne de vită 100%)-(60g), Chifla ⊛: (făină de GRÂU, apă, zahăr, ulei de rapiță, drojdie, semințe de SUSAN 2%, sare, emulgator: E427e, agent de prelucrare a făinii: E300)-(54g), Branza felii: (BRÂNZĂ cheddar (51%): (LAPTE, apă, UNT, LAPTE praf degresat, emulgatori: E331,), Proteine lapte, aromă naturală de BRÂNZĂ, sare, regulator de aciditate E330, coloranți: E160a, E160c)-(20g), Sos de maioneză cu castravete murat: (ulei de rapiță, apă, sirop de glucoză-fructoză, castraveți murați: (castraveți, zahăr, sare), ORZ, OȚET DE MALȚ, GĂLBENUȘ DE OU, ceapă, MUȘTAR, sare, amidon modificat, oțet, condimente, aromă naturală, agent de îngroșare: E415, regulator de aciditate: E330, boia de ardei)(14g), Salată verde iceberg(14g), Ceapă albă(7g), Castraveți murați: (castraveți, apă, oțet, (4,7%), sare, stabilizator (E509), arome naturale)(5g), ▲ATENTIE : Contine Lactoza. Valori nutriționale 100g: Valoare energetică (KJ) 1036, Valoare energetică (KCAL) 248, Grăsimi (G) 13, Grăsimi saturate (G) 4.4, Grăsimi nesaturate (G) 5.2, Carbohidrați (G) 20, Zahăr (G) 4.3, Fibre (G) 0.7, Proteine (G) 12, Sare (G) 1.7. Contine alergeni:GLUTEN, OUA, LAPTE, MUSTAR salbatic,seminte de SUSAN; Poate Contine Alergeni :TELINA⊛- Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G) 0.3. Contine 3E-uri.",
+   "category": "Meniuri",
+   "price": 4190
+  },
+  {
+   "name": "Meniu Double Cheeseburger",
+   "description": "O porție dublă de 100% carne de vită la grătar, dOUă felii de brânză, castraveți murați, ketchup și MUȘTAR. Porție (149g). INGREDIENTE: Carne de vită ⊛: (carne de vită 100%)-(60g), Chifla ⊛: ), Chifla ⊛: (faina de GRAU, apa, zahar, ulei de rapita, drojdie, seminte de SUSAN 2%, sare, emulgator: E427e, agent de prelucrare a fainii: E300)-(54g), Branza feliata (BRANZA cheddar (51%): (LAPTE, apa, UNT, lapte praf degresat, emulgatori: E331,), Proteine LAPTE, aroma BRANZA naturala, sare, regulator de aciditate E330, coloranti: E160a, E160c)-(20g), Ketchup: (rosii, otet, zahăr, sare, extracte de condimente și ierburi (conțin ȚELINĂ), condimente)(9g), Castraveți murați: (castraveți, apă, sare, regulator de aciditate: E260, arome naturale, culoare: E100)(5g), Mustar: (apă, oțet , MUȘTAR, sare, condimente, sirop de caramel, aromă naturală)(3g) ▲ATENTIE : Contine Lactoza. Valori nutriționale 100g: Valoare energetică (KJ) 1089, Valoare energetică (KCAL) 261, Grăsimi (G) 14, Grăsimi saturate (G) 5.6, Grăsimi nesaturate (G) 0.1, Carbohidrați (G) 18, Zahăr (G) 3.2, Fibre (G) 0.9, Proteine (G) 15, Sare (G) 1.4 . Contine alergeni :GLUTEN , LAPTE, MUSTAR salbatic, seminte de SUSAN; Poate Contine Alergeni : TELINA ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G) 0.3. Contine 3E-uri.",
+   "category": "Meniuri",
+   "price": 4150
+  },
+  {
+   "name": "Meniu Whopper Jr.",
+   "description": "Gustul unic BK în varianta junior. Carne de vită 100% facută la grătar, roșii, ceapă proaspătă și castraveți murați, totul asezonat cu maioneză și ketchup, într-o chiflă cu SUSAN. Porție (135g).INGREDIENTE: Carne de vită ⊛: (carne de vită 100%)-(30g) Chifla ⊛: (făină de GRÂU, apă, zahăr, ulei de rapiță, drojdie, semințe de SUSAN 2%, sare, emulgator: E427e, agent de prelucrare a făinii: E300)-(54g), Roșii (10g), Sos de Maioneza Vegana fara ou: (ulei de rapita, apa, otet din alcool, amidon modificat, sare, sirop de glucoza-fructoza, agent de ingrosare: E415, concentrat de suc de lamaie, corector de aciditate E270, condimente, aroma naturala)(11g), salată iceberg(11g), ceapă albă(7g), ketchup: (roșii, oțet, zahăr, sare, extracte de condimente și ierburi (conțin ȚELINĂ), condimente)(7g), Castraveți murați: (castraveți, apă, oțet, (4,7%), sare, stabilizator (E509), arome naturale)(5g). Valori nutriționale 100g: Valoare energetică (KJ) 887, Valoare energetică (KCAL) 210, Grăsimi (G) 11, Grăsimi saturate (G) 2.2, Grăsimi nesaturate (G) 0.2, Carbohidrați (G) 19, Zahăr (G) 3.3, Fibre (G) 1.3, Proteine (G) 8.4, Sare (G) 0.83. Contine alergeni :GLUTEN , SOIA , LAPTE, seminte de SUSAN; Poate Contine Alergeni : TELINA ⊛ - Produsul provine din produs congelat. Cartofi prajiti Valori nutriționale 100g: Valoare energetică (KJ) 654, Valoare energetică (KCAL) 156, Grăsimi (G) 4.5, Grăsimi saturate (G) 0.5, Grăsimi nesaturate (G) 0.0, Carbohidrați (G) 25.0, Zahăr (G) 0.9, Fibre (G) 2.5, Proteine (G) 2.6, Sare (G) 0.3. Contine 3E-uri.",
+   "category": "Meniuri",
+   "price": 3550
+  },
+  {
+   "name": "3 bucăți Krispper® Tenders + Sos",
+   "description": "Trei bucăți suculente din piept de pui, în înveliș crocant, cu sos la alegere.",
+   "category": "Meniuri",
+   "price": 3390
+  },
+  {
+   "name": "Dublu Bacon & Cheese Whopper",
+   "description": "Carne de vită la dublu, brânză și bacon, legume proaspete, maioneză și ketchup, toate într-o chiflă cu susan.",
+   "category": "Burgeri",
+   "price": 4190
+  },
+  {
+   "name": "Big King XXL",
+   "description": "Big King XXL ispitește nu doar prin dimensiunile sale, ci și prin gustul său regal: oporție dublă de carne de vită la grătar, salată, castraveți murați, ceapă, brânză și sosul original Big King.conține alergeni: gluten, ouă, soia, lapte, muștar sălbatic. Poate conține alergeni: țelină, semințe de susan",
+   "category": "Burgeri",
+   "price": 4190
+  },
+  {
+   "name": "Dublu Steakhouse",
+   "description": "100% carne de vită la dublu, bacon și brânză, salată proaspătă, roșii, ceapă caramelizată, maioneză și sos BBQ. Porție (330g).",
+   "category": "Burgeri",
+   "price": 4190
+  },
+  {
+   "name": "Dublu Whopper",
+   "description": "O porție dublă de carne de vită 100% facută la grătar, roșii, ceapă, salată și castraveți murați, totul asezonat cu maioneză și ketchup, într-o chiflă cu susan.",
+   "category": "Burgeri",
+   "price": 3850
+  },
+  {
+   "name": "Cheester",
+   "description": "Pentru adevărații gurmanzi,150 g de carne de vită la grătar,o felie de branză Gouda pane,bacon, castraveți murați,rucola proaspătă și un sos unic de muștar cu miere și maioneză,toate într-o chifla delicioasa.(280g)Burger de carne de vită tocata cu Specialitate din branza Gouda⊛INGR:Carne de vită⊛:(carne de vită 100%)(90g),Chifla⊛:(faina din GRAU 63%,apa,zahar,drojdie,fulgi de cartofi 2,5%,ulei de rapita,glazura(apa,proteina din mazare,ulei de floarea-soarelui, dextroza,maltodextrina din porumb,amidon din porumb),sare,E472e,E 300),poate contine: seminte de susan(65g),Sos de Mustar cu miere:Ulei de rapita,apa,Mustar(11%)(apa, seminte de mustar, otet din alcool,sare),miere(10%),zahar,otet din alcool, galbenus de ou pudra,sare,amidon modificat,agent de ingrosare:guma xantan(20g);Sos de Maioneza Vegana fara ou:(ulei de rapita, apa,otet din alcool,amidon modificat,sare,sirop de glucoza-fructoza,E415,concentrat de suc de lamaie,E270,condimente,aroma naturala)-(21g);Preparat de branza congelata rapid,pane,pe baza de branza Gouda⊛:Gouda(40,3%):(Lapte de vaca pasteurizat,sare,starter,cheag microbian), Crusta:Faina de grau,apa,ulei floarea soarelui,sare,condimente(boia),drojdie,amidon modificat; (60g),Rucola(9g),Bacon⊛:(slănină de porc(95,6%),sare,aromă naturală,precivoxidant:acid ascorbic,extracte de rozmarin)-(5g), Castraveți murați:(castraveți,apă,otet,(4,7%),sare,E509,arome naturale)(10g). Valori 100g: (KJ) 1293, (KCAL) 310, Grăsimi (G)19, Grăs sat (G) 10, Grăs nesat (G) 18, Carb (G) 0, Zahăr (G) 3,Fibre (G)1.4, Proteine (G)17,Sare(G)1.2. alergeni :GLUTEN, OUA, LAPTE, MUSTAR. Poate Contine: TELINA, SEMINTE DE SUSAN⊛-Produsul provine din produs congelat.",
+   "category": "Burgeri",
+   "price": 3390
+  },
+  {
+   "name": "Lord Pepper",
+   "description": "",
+   "category": "Burgeri",
+   "price": 3390
+  },
+  {
+   "name": "Cheester Chicken",
+   "description": "Pentru adevărații gurmanzi,o bucată de piept de pui in crustă crocantă,branză Gouda pane,bacon, castraveți murați,rucola și sos de muștar cu miere și maioneză, într-o chifla delicioasa.280g*Burger de carne de PUI cu Specialitate din branza Gouda⊛, INGR:Carne din piept de pui 57%⊛:făină de grâu îmbogățită(cu calciu, fier, niacină, tiamină),apă,ulei de rapiță,pesmet(conține grâu),amidon,făină (orez, porumb),sare,praf de ceapă,amidon modificat,arome naturale,pudră de usturoi,E450i, E500ii;condim,culoare:extract de boia;zahăr,gluten de grâu,maltodextrină afumată,sare afumată(90g),Chifla⊛:(faina din GRAU 63%,apa,zahar,drojdie,fulgi de cartofi 2,5%,ulei de rapita,glazura(apa,proteina din mazare,ulei de floarea-soarelui,dextroza,maltodextrina din porumb,amidon din porumb),sare,E472e, E 300),poate contine: seminte de susan(65g),Sos Mustar cu miere:Ulei de rapita,apa,Mustar(11%)(apa, seminte de mustar,otet din alcool,sare),miere(10%),zahar,otet din alcool,galbenus de ou pudra,sare,amidon modificat,agent de ingrosare:guma xantan(20g);Sos de Maioneza Vegana fara ou:(ulei de rapita, apa,otet din alcool,amidon modificat,sare,sirop de glucoza-fructoza, E415,concentrat de suc de lamaie,E270,condim,aroma naturala)(21g);Preparat de branza congelata rapid,pane,pe baza de branza Gouda⊛:Gouda 40,3%(Lapte de vaca pasteurizat,sare,starter,cheag microbian),Crusta:Faina de grau,apa,ulei floarea soarelui,sare, condimente(boia),drojdie,amidon modificat;60g,Rucola 9g,Bacon⊛(slănină de porc(95,6%), sare,aromă naturală,precivoxidant:acid ascorbic,extracte de rozmarin)(5g),Castraveți murați:(castraveți,apă,otet(4,7%),sare,E509,arome naturale)(10g).Valori 100g:(KJ)1217, (KCAL)291,Grăs(G)16,Grăs sat.(G)9, Grăs nesat.(G)18,Carb.(G)25,Zahăr(G)2.8,Fibre(G)3.8,Proteine(G)13,Sare(G)1.6.Alergeni:GLUTEN,OUA,LAPTE,MUSTAR.Poate Contine:TELINA,SEMINTE DE SUSAN⊛-Provine din produs congelat",
+   "category": "Burgeri",
+   "price": 3390
+  },
+  {
+   "name": "Steakhouse",
+   "description": "Vită la grătar, salată proaspătă, roșii suculente, bacon, brânză, ceapă prăjită, maioneză și un sos delicios de BBQ.conține alergeni: gluten, lapte, muștar sălbatic. Poate conține alergeni: țelină, semințe de susan",
+   "category": "Burgeri",
+   "price": 3190
+  },
+  {
+   "name": "Extra Long Chili Cheese",
+   "description": "100% carne de vită la gratar, sos de brânză și ardei chili.",
+   "category": "Burgeri",
+   "price": 3150
+  },
+  {
+   "name": "Bacon& Cheese Whopper",
+   "description": "100% carne de vită la grătar, brânză, bacon și roșii, ceapă și castraveți murați, maioneză și ketchup, într-o chiflă cu susan.",
+   "category": "Burgeri",
+   "price": 2990
+  },
+  {
+   "name": "Plant-Based Whopper",
+   "description": "Incearca noul Plant-Based Whopper! 0% Carne, 100% Gust!conține alergeni: gluten, soia, țelină, ouă, semințe susan. Poate conține alergeni: lapte",
+   "category": "Burgeri",
+   "price": 2990
+  },
+  {
+   "name": "Chicken Wrap",
+   "description": "Pui crocant delicios, salată, maioneză și roșii proaspete. Toate învelite într-o tortilla la grill.",
+   "category": "Burgeri",
+   "price": 2890
+  },
+  {
+   "name": "Beef Wrap",
+   "description": "Carne de vită la grătar, castraveți murați, ketchup, ceapă, roșii, salată și maioneză. Toate învelite într-o tortilla la grill.",
+   "category": "Burgeri",
+   "price": 2890
+  },
+  {
+   "name": "Plant-based Royale",
+   "description": "Incearca noul Plant-based Royale!conține alergeni: gluten, soia, semințe susan. Poate conține alergeni: lapte, țelină, muștar sălbatic, dioxid de sulf",
+   "category": "Burgeri",
+   "price": 2790
+  },
+  {
+   "name": "Whopper",
+   "description": "Gustul unic BK. Carne de vită 100% facută la grătar, roșii, ceapă proaspătă și castraveți murați, totul asezonat cu maioneză și ketchup, într-o chiflă cu susan.",
+   "category": "Burgeri",
+   "price": 2690
+  },
+  {
+   "name": "Chicken Royal",
+   "description": "Piept de pui pane, două felii de brânză, salată proaspătă și maioneză.conține alergeni: gluten, soia, lapte, țelină, semințe de susan. Poate conține alergeni: muștar sălbatic",
+   "category": "Burgeri",
+   "price": 2590
+  },
+  {
+   "name": "Crispy Chicken",
+   "description": "Pui pane crocant, salată proaspătă, roșii și maioneză, totul într-o chiflă cu susan.",
+   "category": "Burgeri",
+   "price": 2390
+  },
+  {
+   "name": "Big King",
+   "description": "Două bucăți de carne de vită 100% la grătar, salată proaspătă, ceapă, castraveți murați, brânză delicioasă și sosul unic Big King.conține alergeni: gluten, ouă, soia, lapte, muștar sălbatic, semințe de susan. Poate conține alergeni: țelină",
+   "category": "Burgeri",
+   "price": 2390
+  },
+  {
+   "name": "Dublu Cheeseburger",
+   "description": "Cheeseburger nostru este cu adevărat regal! Carne de vită 100%, castraveți murați și brânză, totul asezonat cu ketchup și muștar.conține alergeni: gluten, soia, lapte, muștar sălbatic, semințe de susan. Poate conține alergeni: țelină",
+   "category": "Burgeri",
+   "price": 2350
+  },
+  {
+   "name": "Whopper Jr.",
+   "description": "Gustul unic BK în varianta junior. Carne de vită 100% facută la grătar, roșii, ceapă proaspătă și castraveți murați, totul asezonat cu maioneză și ketchup, într-o chiflă cu susan.",
+   "category": "Burgeri",
+   "price": 1750
+  },
+  {
+   "name": "Plant-based Hamburger",
+   "description": "Incearca noul Plant-based Hamburger!conține alergeni: gluten, soia, țelină, semințe susan, muștar sălbatic",
+   "category": "Burgeri",
+   "price": 950
+  },
+  {
+   "name": "Plant-Based Cheeseburger",
+   "description": "Incearca noul Plant-based Cheeseburger!conține alergeni: gluten, soia, țelină, lapte, semințe susan, muștar sălbatic",
+   "category": "Burgeri",
+   "price": 950
+  },
+  {
+   "name": "Nuggets 9  buc.",
+   "description": "Piept de pui pane, fraged în interior și crocant la exterior.",
+   "category": "Garnituri",
+   "price": 2850
+  },
+  {
+   "name": "9 buc. Plant-Based Nuggets",
+   "description": "Nou, incearcă Plant-Based 9 Nuggets! 0% Carne, 100% Gust!conține alergeni: gluten, soia, lapte, țelină",
+   "category": "Garnituri",
+   "price": 2850
+  },
+  {
+   "name": "Summer Crunch Beef Salad",
+   "description": "Încearcă o salată crunch cu 100% carne de vită la grătar, castraveți proaspeți, roșii și ceapă pentru pofticioși. Inclus un sos de salată!",
+   "category": "Garnituri",
+   "price": 2490
+  },
+  {
+   "name": "Summer Crunch Chicken Salad",
+   "description": "Încearcă o salată crunch cu pui pane crocant, castraveți proaspeți, roșii și ceapă pentru pofticioși. Inclus un sos de salată!",
+   "category": "Garnituri",
+   "price": 2490
+  },
+  {
+   "name": "Summer Crunch Plant Based Salad",
+   "description": "Încearcă o salată crunch pe bază de plante la grătar, castraveți proaspeti, roșii și ceapă pentru pofticioși. Inclus un sos de salată! *Pregătirea produselor Plant-Based are loc pe aceleași aparate de gătit care sunt folosite pentru prepararea produselor din carne.",
+   "category": "Garnituri",
+   "price": 2490
+  },
+  {
+   "name": "Nuggets 6  buc.",
+   "description": "Piept de pui pane, fraged în interior și crocant la exterior.",
+   "category": "Garnituri",
+   "price": 2450
+  },
+  {
+   "name": "6 buc. Plant-Based Nuggets",
+   "description": "Nou, incearcă Plant-Based 6 Nuggets! 0% Carne, 100% Gust!conține alergeni: gluten, soia, lapte, țelină",
+   "category": "Garnituri",
+   "price": 2450
+  },
+  {
+   "name": "Angry Fries",
+   "description": "Cartofi prăjiți cu sos de brânză și Jalapeno.",
+   "category": "Garnituri",
+   "price": 1990
+  },
+  {
+   "name": "Bacon& Cheese Fries",
+   "description": "Incearca noul Bacon Cheese Fries!conține alergeni: gluten, soia, lapte",
+   "category": "Garnituri",
+   "price": 1990
+  },
+  {
+   "name": "Steakhouse Fries",
+   "description": "",
+   "category": "Garnituri",
+   "price": 1990
+  },
+  {
+   "name": "Cartofi prăjiți porție XXL",
+   "description": "160g",
+   "category": "Garnituri",
+   "price": 1690
+  },
+  {
+   "name": "Cartofi Prime 160 g",
+   "description": "Cartofi prăjiți, crocanți la exterior și moi și pufoși la interior. Gustarea perfectă și o alegere excelentă pentru orice meniu. Se savurează cel mai bine cu sosul tău preferat.",
+   "category": "Garnituri",
+   "price": 1590
+  },
+  {
+   "name": "6 buc. Chili Cheese Nuggets",
+   "description": "6 buc.conține alergeni: gluten, ouă, lapte, soia. Poate conține alergeni : alune",
+   "category": "Garnituri",
+   "price": 1490
+  },
+  {
+   "name": "Cartofi prăjiți porție medie",
+   "description": "116g",
+   "category": "Garnituri",
+   "price": 1390
+  },
+  {
+   "name": "6 buc. Inele de ceapă",
+   "description": "6 buc.conține alergeni: gluten, ouă, lapte, soia. Poate conține alergeni: alune",
+   "category": "Garnituri",
+   "price": 1190
+  },
+  {
+   "name": "Cheese sosuri 50g",
+   "description": "Sos cremos de brânză.",
+   "category": "Garnituri",
+   "price": 500
+  },
+  {
+   "name": "Korean BBQ Sosuri 50g",
+   "description": "Un sos intens, cu un gust dulce-sărat și ușor picant.",
+   "category": "Garnituri",
+   "price": 500
+  },
+  {
+   "name": "Sos curry",
+   "description": "Poate conține alergeni: țelină",
+   "category": "Garnituri",
+   "price": 500
+  },
+  {
+   "name": "Sos barbeque",
+   "description": "25 mlPoate conține alergeni: țelină",
+   "category": "Garnituri",
+   "price": 500
+  },
+  {
+   "name": "Sos Ranch 25ml",
+   "description": "",
+   "category": "Garnituri",
+   "price": 500
+  },
+  {
+   "name": "Chipotle Sosuri 50g",
+   "description": "Sos afumat, cu o notă de jalapeño afumat.",
+   "category": "Garnituri",
+   "price": 500
+  },
+  {
+   "name": "Pepper Mayo Sosuri 50g",
+   "description": "Sos fin de iaurt cu o notă distinctă de piper.",
+   "category": "Garnituri",
+   "price": 500
+  },
+  {
+   "name": "Sos muștar cu miere",
+   "description": "25 mlconține alergeni: ouă, soia, muștar sălbatic. Poate conține alergeni: țelină",
+   "category": "Garnituri",
+   "price": 500
+  },
+  {
+   "name": "Sos Chili",
+   "description": "",
+   "category": "Garnituri",
+   "price": 500
+  },
+  {
+   "name": "Sos cu usturoi 50g",
+   "description": "Preparat zilnic în restaurant, sosul nostru cremos combină iaurtul grecesc, usturoiul proaspăt și ierburile aromatice. Savurează-l alături de noul Krispper® Tenders. Combinația perfectă!",
+   "category": "Garnituri",
+   "price": 500
+  },
+  {
+   "name": "Sos dulce-acrișor",
+   "description": "",
+   "category": "Garnituri",
+   "price": 500
+  },
+  {
+   "name": "Sos usturoi",
+   "description": "25 mlconține alergeni: ouă, soia, muștar sălbatic. Poate conține alergeni: țelină",
+   "category": "Garnituri",
+   "price": 500
+  },
+  {
+   "name": "Pepsi Max 0,33l",
+   "description": "",
+   "category": "Bauturi",
+   "price": 1050
+  },
+  {
+   "name": "7 UP Zero",
+   "description": "",
+   "category": "Bauturi",
+   "price": 1050
+  },
+  {
+   "name": "Pepsi Twist 0,33l",
+   "description": "",
+   "category": "Bauturi",
+   "price": 1050
+  },
+  {
+   "name": "Pepsi  0,33l",
+   "description": "",
+   "category": "Bauturi",
+   "price": 1050
+  },
+  {
+   "name": "Mirinda 0,33l",
+   "description": "",
+   "category": "Bauturi",
+   "price": 1050
+  },
+  {
+   "name": "Aqua Carpatica Minerala",
+   "description": "",
+   "category": "Bauturi",
+   "price": 1000
+  },
+  {
+   "name": "Aqua Carpatica Plata",
+   "description": "",
+   "category": "Bauturi",
+   "price": 1000
+  },
+  {
+   "name": "Churros 20 buc.",
+   "description": "Vyzkoušej naše výjimečné churros s oblíbenou polevou. Křupavé zvenku a lahodné uvnitř — prostě neodolatelné.",
+   "category": "Deserturi",
+   "price": 1790
+  },
+  {
+   "name": "Shake 0,4L",
+   "description": "Shake cu lapte disponibil în diferite arome.",
+   "category": "Deserturi",
+   "price": 1290
+  },
+  {
+   "name": "Churros 10 buc.",
+   "description": "Încearcă churros-urile noastre speciale cu toppingul preferat. Crocante la exterior și delicioase la interior.",
+   "category": "Deserturi",
+   "price": 1190
+  },
+  {
+   "name": "Shake 0,2L",
+   "description": "Shake cu lapte disponibil în diferite arome.",
+   "category": "Deserturi",
+   "price": 990
+  },
+  {
+   "name": "3 Sosuri la alegere",
+   "description": "",
+   "category": "Sosuri",
+   "price": 1200
+  },
+  {
+   "name": "Sos Vinaigrette",
+   "description": "",
+   "category": "Sosuri",
+   "price": 500
+  },
+  {
+   "name": "Sos de maioneza la plic",
+   "description": "10 mlconține alergeni: ouă, soia, muștar sălbatic. Poate conține alergeni: țelină",
+   "category": "Sosuri",
+   "price": 450
+  }
+ ]
+}

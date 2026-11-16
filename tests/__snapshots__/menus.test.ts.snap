@@ -1,0 +1,473 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Burger King > glovo: baskets 1`] = `
+{
+  "120 lei": [
+    "2x Bacon& Cheese Whopper | food | 598 g",
+    "1x Whopper | food | 269 g",
+    "1x Whopper Jr. | food | 135 g",
+    "= 1002 g, 11761 bani",
+  ],
+  "70 lei": [
+    "2x Bacon& Cheese Whopper | food | 598 g",
+    "= 598 g, 6877 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Bacon& Cheese Whopper | food | 299 g",
+    "1x Cartofi Prime 160 g | side | 160 g",
+    "1x Sos de maioneza la plic | sauce | 10 g",
+    "1x Pepsi Arțar Zero Zahar 0,33l | drink | 330 g",
+    "= 459 g, 6987 bani",
+  ],
+}
+`;
+
+exports[`Burger King > wolt: baskets 1`] = `
+{
+  "120 lei": [
+    "3x Bacon& Cheese Whopper | food | 897 g",
+    "1x Whopper Jr. | food | 135 g",
+    "= 1032 g, 11878 bani",
+  ],
+  "70 lei": [
+    "2x Bacon& Cheese Whopper | food | 598 g",
+    "= 598 g, 6817 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Bacon& Cheese Whopper | food | 299 g",
+    "1x Cartofi Prime 160 g | side | 160 g",
+    "1x Sos de maioneza la plic | sauce | 10 g",
+    "1x Pepsi  0,33l | drink | 330 g",
+    "= 459 g, 6925 bani",
+  ],
+}
+`;
+
+exports[`Calif > glovo: baskets 1`] = `
+{
+  "120 lei": [
+    "2x DIl de Pui + Supa de Linte | food | 1360 g",
+    "= 1360 g, 9463 bani",
+  ],
+  "70 lei": [
+    "1x DIl de Pui + Supa de Linte | food | 680 g",
+    "= 680 g, 6080 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x DIl de Pui + Supa de Linte | food | 680 g",
+    "= 680 g, 6080 bani",
+  ],
+}
+`;
+
+exports[`Calif > wolt: baskets 1`] = `
+{
+  "120 lei": [
+    "2x Falafel la farfurie | food | 1200 g",
+    "1x Orez Turcesc | food | 200 g",
+    "= 1400 g, 11365 bani",
+  ],
+  "70 lei": [
+    "1x Falafel la farfurie | food | 600 g",
+    "1x Orez Turcesc | food | 200 g",
+    "= 800 g, 6988 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Pita turceasca cu falafel, salata de vinete si rodii | food | 225 g",
+    "1x Cartofi prajiti | side | 180 g",
+    "1x 7up 0.33 | drink | 330 g",
+    "= 405 g, 6744 bani",
+  ],
+}
+`;
+
+exports[`Dristor Kebap > glovo: baskets 1`] = `
+{
+  "120 lei": [
+    "1x DONER BOX AMESTEC | food | 450 g",
+    "1x LIPIE PUI DRISTOR | food | 300 g",
+    "= 750 g, 11576 bani",
+  ],
+  "70 lei": [
+    "1x DONER BOX AMESTEC | food | 450 g",
+    "= 450 g, 6875 bani",
+  ],
+  "70 lei, cu de toate": null,
+}
+`;
+
+exports[`Dristor Kebap > wolt: baskets 1`] = `
+{
+  "120 lei": [
+    "1x LIPIE PUI DRISTOR | food | 300 g",
+    "1x BAGHETA PUI DRISTOR | food | 200 g",
+    "= 500 g, 11572 bani",
+  ],
+  "70 lei": [
+    "1x LIPIE XXL PUI DRISTOR | food | 380 g",
+    "= 380 g, 6962 bani",
+  ],
+  "70 lei, cu de toate": null,
+}
+`;
+
+exports[`KFC > glovo: baskets 1`] = `
+{
+  "120 lei": [
+    "3x Cheezy Twister Nepicant | food | 720 g",
+    "1x Dublu Hot Booster | food | 165 g",
+    "= 885 g, 11704 bani",
+  ],
+  "70 lei": [
+    "3x Dublu Hot Booster | food | 495 g",
+    "= 495 g, 6699 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Dublu Hot Booster | food | 165 g",
+    "1x Loaded Chicken Fries BBQ Nepicant | side | 260 g",
+    "1x Sos Sweet & Sour Heinz | sauce | 25 g",
+    "1x Cappy Pulpy Piersici 0,33L | drink | 330 g",
+    "= 425 g, 6776 bani",
+  ],
+}
+`;
+
+exports[`KFC > wolt: baskets 1`] = `
+{
+  "120 lei": [
+    "2x Cheezy Twister Picant | food | 480 g",
+    "1x Cheezy Burger Nepicant | food | 220 g",
+    "1x Real Burger Picant | food | 210 g",
+    "= 910 g, 11978 bani",
+  ],
+  "70 lei": [
+    "3x Dublu Hot Booster | food | 495 g",
+    "= 495 g, 6659 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Meniu Dublu Booster | food | 285 g",
+    "1x Dublu Hot Booster | food | 165 g",
+    "1x Sos Maioneză Heinz | sauce | 25 g",
+    "= 450 g, 6994 bani",
+  ],
+}
+`;
+
+exports[`McDonald's > glovo: baskets 1`] = `
+{
+  "120 lei": [
+    "1x MENIU MAXI BIG TASTY™ | food | 471 g",
+    "3x McPuişor, sendviş cu carne de pui, castraveţi muraţi, 109 gr | food | 327 g",
+    "3x Hamburger, 100 gr | food | 300 g",
+    "1x Cheeseburger, 113 gr | food | 113 g",
+    "1x McToast®, sendviş cu brânză şi şuncă, 94 gr | food | 94 g",
+    "= 1305 g, 11950 bani",
+  ],
+  "70 lei": [
+    "3x Cheeseburger, 113 gr | food | 339 g",
+    "3x McPuişor, sendviş cu carne de pui, castraveţi muraţi, 109 gr | food | 327 g",
+    "1x Hamburger, 100 gr | food | 100 g",
+    "= 766 g, 6912 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x MENIU MAXI BIG MAC™ | food | 390 g",
+    "1x Cheeseburger, 113 gr | food | 113 g",
+    "1x Cartofi prăjiţi porţie medie, 114 gr | side | 114 g",
+    "1x Sos usturoi, 25 ml | sauce | 25 g",
+    "= 617 g, 6956 bani",
+  ],
+}
+`;
+
+exports[`McDonald's > wolt: baskets 1`] = `
+{
+  "120 lei": [
+    "1x MENIU MAXI BIG MAC™ | food | 390 g",
+    "3x Cheeseburger, 113 gr | food | 339 g",
+    "3x McPuişor, sendviş cu carne de pui, castraveţi muraţi, 109 gr | food | 327 g",
+    "3x Hamburger, 100 gr | food | 300 g",
+    "= 1356 g, 11878 bani",
+  ],
+  "70 lei": [
+    "3x McPuişor, sendviş cu carne de pui, castraveţi muraţi, 109 gr | food | 327 g",
+    "1x Big Mac, burger de vită cu castraveţi muraţi, sos, 240 gr | food | 240 g",
+    "2x Hamburger, 100 gr | food | 200 g",
+    "= 767 g, 6935 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x MENIU MAXI BIG TASTY™ | food | 471 g",
+    "2x McPuişor, sendviş cu carne de pui, castraveţi muraţi, 109 gr | food | 218 g",
+    "1x Sos Hot Devil, produs picant, 25 ml | sauce | 25 g",
+    "= 689 g, 6956 bani",
+  ],
+}
+`;
+
+exports[`Mesopotamia > glovo: baskets 1`] = `
+{
+  "120 lei": [
+    "2x Roll Kebab curcan mare | food | 800 g",
+    "1x Pizza Mesocapriciosa | food | 500 g",
+    "= 1300 g, 11966 bani",
+  ],
+  "70 lei": [
+    "1x Roll Kebab curcan mare | food | 400 g",
+    "1x Royal Cheesy Curcan | food | 230 g",
+    "= 630 g, 6549 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Royal Cheesy Curcan | food | 230 g",
+    "1x Cartofi prăjiți | side | 130 g",
+    "1x Sos alb | sauce | 70 g",
+    "1x Coca Cola 000 330ml | drink | 330 g",
+    "= 360 g, 6026 bani",
+  ],
+}
+`;
+
+exports[`Mesopotamia > wolt: baskets 1`] = `
+{
+  "120 lei": [
+    "2x Smart Combo Curcan cu cartofi prăjiți | food | 720 g",
+    "1x Roll Kebab pui - mediu | food | 400 g",
+    "= 1120 g, 11895 bani",
+  ],
+  "70 lei": [
+    "1x Smart Combo Curcan cu cartofi prăjiți | food | 360 g",
+    "1x Royal Chessy Curcan | food | 230 g",
+    "= 590 g, 6837 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Meniu Doner curcan - mediu | food | 430 g",
+    "1x Sos Roșu | sauce | 70 g",
+    "= 430 g, 6783 bani",
+  ],
+}
+`;
+
+exports[`Noodle Pack > glovo: baskets 1`] = `
+{
+  "120 lei": [
+    "1x Combo Pack for 4 | food | 1000 g",
+    "1x Meniu Noodle Pack Spring Rolls | food | 380 g",
+    "= 1380 g, 11554 bani",
+  ],
+  "70 lei": [
+    "1x Combo Pack for 3 | food | 750 g",
+    "= 750 g, 6997 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Meniu Noodle Pack Spring Rolls | food | 380 g",
+    "1x Apple Cinnamon Creamy Rice | food | 220 g",
+    "1x Garlic Special | sauce | 50 g",
+    "= 600 g, 6825 bani",
+  ],
+}
+`;
+
+exports[`Noodle Pack > wolt: baskets 1`] = `
+{
+  "120 lei": [
+    "1x Combo Pack for 4 | food | 1000 g",
+    "1x Meniu Noodle Pack Spring Rolls | food | 380 g",
+    "= 1380 g, 10995 bani",
+  ],
+  "70 lei": [
+    "2x Meniu Noodle Pack Spring Rolls | food | 760 g",
+    "= 760 g, 6858 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Meniu Noodle Pack Spring Rolls | food | 380 g",
+    "1x Value Pack | food | 250 g",
+    "1x Hot Chilli | sauce | 50 g",
+    "= 630 g, 6651 bani",
+  ],
+}
+`;
+
+exports[`Pizza Hut > glovo: baskets 1`] = `
+{
+  "120 lei": [
+    "1x Pizza Margherita Cheesy Stuffed Crust Ø38cm | food | 875 g",
+    "1x Penne Carbonara (al forno) | food | 400 g",
+    "= 1275 g, 11849 bani",
+  ],
+  "70 lei": [
+    "1x Penne Carbonara (al forno) | food | 400 g",
+    "1x Rulou cu sunca | food | 200 g",
+    "= 600 g, 6844 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Rulou cu sunca | food | 200 g",
+    "1x French fries | side | 130 g",
+    "1x Ketchup dulce | sauce | 55 g",
+    "1x Coca-Cola PET 500ml | drink | 500 g",
+    "= 330 g, 6184 bani",
+  ],
+}
+`;
+
+exports[`Pizza Hut > wolt: baskets 1`] = `
+{
+  "120 lei": [
+    "1x Pizza Margherita Stuffed Crust | food | 875 g",
+    "1x Penne Carbonara Al Forno | food | 400 g",
+    "= 1275 g, 11658 bani",
+  ],
+  "70 lei": [
+    "1x Pizza Margherita mare | food | 634 g",
+    "= 634 g, 6245 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Cheddar & Jalapenos Pocket | food | 255 g",
+    "1x GARLIC & PARMESAN FRIES | side | 140 g",
+    "1x Ketchup dulce | sauce | 54 g",
+    "1x Cappy Pulpy Portocale 330ml | drink | 330 g",
+    "= 395 g, 6893 bani",
+  ],
+}
+`;
+
+exports[`Popeyes > glovo: baskets 1`] = `
+{
+  "120 lei": [
+    "3x Naked Chicken Wrap | food | 810 g",
+    "1x Naked Chicken Sandwich | food | 270 g",
+    "= 1080 g, 11805 bani",
+  ],
+  "70 lei": [
+    "2x Naked Chicken Wrap | food | 540 g",
+    "= 540 g, 5997 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Naked Chicken Wrap | food | 270 g",
+    "1x Supreme Fries - Cheese&Spring Onion | side | 190 g",
+    "1x Ketchup | sauce | 10 g",
+    "1x Pepsi Strawberries ’N’ Cream Zero Sugar 330 ml | drink | 330 g",
+    "= 460 g, 6591 bani",
+  ],
+}
+`;
+
+exports[`Popeyes > wolt: baskets 1`] = `
+{
+  "120 lei": [
+    "3x Naked Chicken Wrap | food | 810 g",
+    "1x Naked Spicy Chicken Sandwich | food | 270 g",
+    "= 1080 g, 11917 bani",
+  ],
+  "70 lei": [
+    "2x Naked Chicken Wrap | food | 540 g",
+    "= 540 g, 6320 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Naked Chicken Wrap | food | 270 g",
+    "1x Supreme Fries - Cheese&Spring Onion | side | 190 g",
+    "1x Ketchup | sauce | 10 g",
+    "1x Pepsi 330ml | drink | 330 g",
+    "= 460 g, 6892 bani",
+  ],
+}
+`;
+
+exports[`Spartan > glovo: baskets 1`] = `
+{
+  "120 lei": [
+    "2x Crispy Gyros | food | 830 g",
+    "1x Gyros La Farfurie Puișor | food | 630 g",
+    "= 1460 g, 11537 bani",
+  ],
+  "70 lei": [
+    "2x Crispy Gyros | food | 830 g",
+    "= 830 g, 6407 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Crispy Gyros | food | 415 g",
+    "1x Cartofi prăjiți | side | 150 g",
+    "1x Sos usturoi - 40g | sauce | 40 g",
+    "1x Coca-Cola Băutură Răcoritoare Carbogazoasă Gust Original 0.33L | drink | 330 g",
+    "= 565 g, 6682 bani",
+  ],
+}
+`;
+
+exports[`Spartan > wolt: baskets 1`] = `
+{
+  "120 lei": [
+    "2x Crispy Gyros | food | 830 g",
+    "1x Gyros la farfurie Puișor | food | 630 g",
+    "= 1460 g, 11488 bani",
+  ],
+  "70 lei": [
+    "1x Crispy Gyros | food | 415 g",
+    "1x Pită Șnițel | food | 395 g",
+    "= 810 g, 6963 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Pită Șnițel | food | 395 g",
+    "1x Cartofi prăjiți | side | 150 g",
+    "1x Sos legume - 40g | sauce | 40 g",
+    "1x Schweppes Mandarin doză | drink | 330 g",
+    "= 545 g, 6910 bani",
+  ],
+}
+`;
+
+exports[`Subway > glovo: baskets 1`] = `
+{
+  "120 lei": null,
+  "70 lei": null,
+  "70 lei, cu de toate": null,
+}
+`;
+
+exports[`Subway > wolt: baskets 1`] = `
+{
+  "120 lei": null,
+  "70 lei": null,
+  "70 lei, cu de toate": null,
+}
+`;
+
+exports[`Taco Bell > glovo: baskets 1`] = `
+{
+  "120 lei": [
+    "3x Loaded XL Burrito | food | 1200 g",
+    "= 1200 g, 11686 bani",
+  ],
+  "70 lei": [
+    "3x Naked Chicken Taco | food | 450 g",
+    "1x Crispy Chicken Taco Supreme (produs picant) | food | 125 g",
+    "= 575 g, 6901 bani",
+  ],
+  "70 lei, cu de toate": [
+    "2x Crispy Chicken Taco Supreme (produs picant) | food | 250 g",
+    "1x Cartofi prăjiți - porție mare | side | 130 g",
+    "1x Sos Nacho Cheese | sauce | 35 g",
+    "1x Coca-Cola 0.5L | drink | 500 g",
+    "= 380 g, 6956 bani",
+  ],
+}
+`;
+
+exports[`Taco Bell > wolt: baskets 1`] = `
+{
+  "120 lei": [
+    "3x Loaded XL Burrito | food | 1200 g",
+    "= 1200 g, 11409 bani",
+  ],
+  "70 lei": [
+    "1x Loaded XL Burrito | food | 400 g",
+    "1x Fajita Burrito | food | 200 g",
+    "= 600 g, 6925 bani",
+  ],
+  "70 lei, cu de toate": [
+    "1x Naked Chicken Taco | food | 150 g",
+    "1x Crispy Chicken Taco Supreme (produs picant) | food | 125 g",
+    "1x Cartofi prăjiți - porție mare | side | 130 g",
+    "1x Sos Guacamole | sauce | 35 g",
+    "1x Sprite 0,5L | drink | 500 g",
+    "= 405 g, 6947 bani",
+  ],
+}
+`;

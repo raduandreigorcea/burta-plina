@@ -51,7 +51,12 @@ describe("Glovo parser (real store page, trimmed)", () => {
   it("reads the store and its fees", () => {
     expect(parsed.storeName).toBe("FRYDAY");
     expect(parsed.fees.deliveryFee).toBe(699);
-    expect(parsed.fees.serviceFee).toEqual({ flat: 699 });
+    expect(parsed.fees.serviceFee).toEqual({ pct: 10, min: 199, max: 1099 });
+    // A real FRYDAY checkout: 20.98 lei of food paid 2.10 services + 5.99 small order.
+    const small = computeCost(2098, parsed.fees, [], "total");
+    expect(small.serviceFee + small.smallOrderFee).toBe(809);
+    const big = computeCost(15000, parsed.fees, [], "total");
+    expect([big.serviceFee, big.smallOrderFee]).toEqual([1099, 0]);
   });
 
   it("reads products once, with promo price and mandatory packaging", () => {

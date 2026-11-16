@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",
-    "cli": "vite-node scripts/cli.ts"
+    "cli": "vite-node scripts/cli.ts",
+    "audit": "vite-node scripts/audit.ts",
+    "snapshot": "vite-node scripts/snapshot.ts"
   },
   "dependencies": {
     "next": "16.4.6",

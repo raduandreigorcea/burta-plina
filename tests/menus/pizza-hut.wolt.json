@@ -1,0 +1,971 @@
+{
+ "chain": "Pizza Hut",
+ "platform": "wolt",
+ "venue": "Pizza Hut Universitate",
+ "savedOn": "2026-11-16",
+ "fees": {
+  "deliveryFee": 359,
+  "minOrder": 0,
+  "basketFeeRanges": [
+   {
+    "min": 0,
+    "max": 3113,
+    "a": 3362,
+    "b": -1,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 3113,
+    "max": 9988,
+    "a": 0,
+    "b": 0.08,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 9988,
+    "max": 0,
+    "a": 799,
+    "b": 0,
+    "flag": null,
+    "custom_distance_ranges": null
+   }
+  ],
+  "notes": []
+ },
+ "offers": [
+  {
+   "kind": "info",
+   "label": "Buy 2, pay for 1 on selected items (neinclus în calcul)"
+  },
+  {
+   "kind": "info",
+   "label": "0 RON delivery fee (doar utilizatori noi – neinclus în calcul)"
+  },
+  {
+   "kind": "info",
+   "label": "30% off (up to 30 RON) on orders over 70 RON (doar utilizatori noi – neinclus în calcul)"
+  }
+ ],
+ "items": [
+  {
+   "name": "Chicken Pasta Al Forno",
+   "description": "Penne în sos alb de smântână, pesto verde, piept de pui, brânză Mozzarella, Parmezan, trecute prin cuptor. 400g",
+   "category": "Paste",
+   "price": 4350
+  },
+  {
+   "name": "Pizza Europeana mică",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, cubulețe cu carne de vită, ciuperci - 306g",
+   "category": "Pizza mică",
+   "price": 4500
+  },
+  {
+   "name": "Ben & Jerry`s Strawberry Cheesecake",
+   "description": "Strawberry Cheesecake - 100 ml",
+   "category": "Desert",
+   "price": 2400
+  },
+  {
+   "name": "GARLIC & PARMESAN FRIES",
+   "description": "Cartofi prăjiți aromatizati cu unt și usturoi, asezonați cu Parmezan şi pătrunjel - 140g",
+   "category": "WingStreet",
+   "price": 1900
+  },
+  {
+   "name": "Pizza Suprema Stuffed Crust",
+   "description": "Sos de roșii, brânză Mozzarella, salam Pepperoni, cubulețe cu carne de vită, ceapă roșie, ciuperci, ardei - 950g",
+   "category": "Pizza Stuffed Crust",
+   "price": 8850
+  },
+  {
+   "name": "CHICKEN STRIPS (Strips de pui nepicant 8 buc)",
+   "description": "Bucăți de piept de pui în crustă crocantă şi condimentată - 250g",
+   "category": "ADD-ONS",
+   "price": 3400
+  },
+  {
+   "name": "Cheddar & Jalapenos Pocket",
+   "description": "Un aluat fin umplut cu brânză Mozzarella, presărat cu mix de brânzeturi: Cheddar și Mozzarella și asezonat Jalapeños și usturoi - 255g",
+   "category": "Antreuri",
+   "price": 2350
+  },
+  {
+   "name": "Sos samourai",
+   "description": "50 g",
+   "category": "SAUCES",
+   "price": 700
+  },
+  {
+   "name": "Pizza Tuna medie",
+   "description": "Sos de roșii, Mozzarella, ton, porumb, măsline, ceapă roșie *Produsele ce conțin topping de măsline pot conține sâmburi! - 554g",
+   "category": "Pizza medie",
+   "price": 6650
+  },
+  {
+   "name": "Pizza Nevada medie",
+   "description": "Sos tomat, brânză Mozzarella, bacon, șuncă, ciuperci, ardei, măsline *Produsele ce conțin topping de măsline pot conține sâmburi! - 578g",
+   "category": "Pizza medie",
+   "price": 6650
+  },
+  {
+   "name": "Pizza Quattro Formaggi Stuffed Crust",
+   "description": "Brânză Mozzarella, Cheddar, Emmentaler, brânză cu mucegai, oregano - 884g",
+   "category": "Pizza Stuffed Crust",
+   "price": 9450
+  },
+  {
+   "name": "Cola Zero 0.5l",
+   "description": "500 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1150
+  },
+  {
+   "name": "Pizza Roma Stuffed Crust",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, ciuperci, măsline. *Produsele ce conțin topping de măsline pot conține sâmburi! - 896g",
+   "category": "Pizza Stuffed Crust",
+   "price": 8450
+  },
+  {
+   "name": "Ketchup dulce",
+   "description": "Sos de roşii dulce - 54g",
+   "category": "SAUCES",
+   "price": 700
+  },
+  {
+   "name": "Pizza Quattro Formaggi mică",
+   "description": "Brânză mozzarella, emmentaler, cheddar, brânză cu mucegai, oregano - 277g",
+   "category": "Pizza mică",
+   "price": 5250
+  },
+  {
+   "name": "Pizza Meat Lovers Stuffed Crust",
+   "description": "Sos de roșii, brânză Mozzarella, piept de pui, cubulețe cu carne de vită, salam Pepperoni, bacon - 1026g",
+   "category": "Pizza Stuffed Crust",
+   "price": 9450
+  },
+  {
+   "name": "Ben & Jerry`s Chocolate Fudge Brownie",
+   "description": "Chocolate Fudge Brownie - 465 ml",
+   "category": "Desert",
+   "price": 5200
+  },
+  {
+   "name": "Cola 0.5l",
+   "description": "500 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1150
+  },
+  {
+   "name": "Pizza Chicken & Corn medie",
+   "description": "Sos tomat, brânză Mozzarella, pui, ciuperci, măsline, ardei gras, porumb, roșii cubulețe *Produsele ce conțin topping de măsline pot conține sâmburi! - 614g",
+   "category": "Pizza medie",
+   "price": 6650
+  },
+  {
+   "name": "Pizza Pepperoni Cheesy Bites",
+   "description": "Sos de roșii, brânză Mozzarella, dublu salam Pepperoni* 723g",
+   "category": "Pizza Cheesy Bites",
+   "price": 7950
+  },
+  {
+   "name": "Salata Greceasca",
+   "description": "Brânză Feta, măsline verzi, roșii cherry, castraveți, ceapă roșie, ardei capia, busuioc uscat, ulei de măsline. Se servește cu o felie de Garlic Bread și un dressing la alegere. *Produsele ce conțin topping de măsline pot conține sâmburi! - 340g",
+   "category": "Salate",
+   "price": 3750
+  },
+  {
+   "name": "Pizza Quattro Stagioni mare",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, salam Pepperoni, ciuperci, ardei. Ingredientele sunt amestecate pe suprafața blatului - 734g",
+   "category": "Pizza mare",
+   "price": 7700
+  },
+  {
+   "name": "FuzeTea Lămâie 0.5l",
+   "description": "500 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1150
+  },
+  {
+   "name": "Penne Carbonara Al Forno",
+   "description": "Penne în sos alb cu smântână și usturoi, bacon, brânză Mozzarella, trecute prin cuptor. 400g",
+   "category": "Paste",
+   "price": 3900
+  },
+  {
+   "name": "Pepperoni Pocket",
+   "description": "Un aluat fin umplut cu brânză Mozzarella și aromă de usturoi, acoperit cu felii delicioase de salam Pepperoni - 250g",
+   "category": "Antreuri",
+   "price": 2350
+  },
+  {
+   "name": "Pizza Europeana medie",
+   "description": "Sos tomat, brânză Mozzarella, șuncă, ciuperci, cubulețe cu carne de vită  - 531g",
+   "category": "Pizza medie",
+   "price": 6200
+  },
+  {
+   "name": "Sos Sweet Chili",
+   "description": "Sos dulce şi uşor picant - 50g",
+   "category": "SAUCES",
+   "price": 700
+  },
+  {
+   "name": "Pizza Pepperoni mică",
+   "description": "Sos de roșii, brânză Mozzarella, dublu salam Pepperoni - 277g",
+   "category": "Pizza mică",
+   "price": 4500
+  },
+  {
+   "name": "FuzeTea Piersci 0.5l",
+   "description": "500 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1150
+  },
+  {
+   "name": "Pizza Meat Lovers medie",
+   "description": "Sos tomat, brânză Mozzarella, pui, cubulețe cu carne de vită , salam Pepperoni (produs picant), bacon - 570g",
+   "category": "Pizza medie",
+   "price": 7100
+  },
+  {
+   "name": "Pizza Super Suprema Cheesy Bites",
+   "description": "Sos tomat, brânză Mozzarella, salam Pepperoni (produs picant), dublu cubulețe cu carne de\nvită, șuncă, ceapă, ciuperci, ardei, măsline. *Produsele ce conțin topping de măsline pot conține sâmburi! - 851g",
+   "category": "Pizza Cheesy Bites",
+   "price": 8850
+  },
+  {
+   "name": "Pizza American Spicy mică",
+   "description": "Sos de roșii, Mozzarella, salam Pepperoni, roșii, ardei, ceapă, jalapeños, sos Samourai - 338g",
+   "category": "Pizza mică",
+   "price": 4800
+  },
+  {
+   "name": "Pizza Quattro Formaggi medie",
+   "description": "Brânză mozzarella, emmentaler, cheddar, brânză cu mucegai, oregano - 488g",
+   "category": "Pizza medie",
+   "price": 7100
+  },
+  {
+   "name": "Pizza Super Suprema mare",
+   "description": "Sos tomat, brânză Mozzarella, salam Pepperoni (produs picant), dublu cubulețe cu carne de\nvită, șuncă, ceapă, ciuperci, ardei, măsline. *Produsele ce conțin topping de măsline pot conține sâmburi! - 929g",
+   "category": "Pizza mare",
+   "price": 8300
+  },
+  {
+   "name": "Pizza Quattro Stagioni Stuffed Crust",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, salam Pepperoni, ciuperci, ardei. Ingredientele sunt amestecate pe suprafața pizzei - 940g",
+   "category": "Pizza Stuffed Crust",
+   "price": 8850
+  },
+  {
+   "name": "GARLIC PARMESAN WingStreet (5 buc/ 8 buc)",
+   "description": "Aripioare de pui condimentate trecute prin cuptor şi glazurate cu sos Garlic Parmesan și presărate cu ceapă verde - 220g / 350g",
+   "category": "WingStreet",
+   "price": 3200
+  },
+  {
+   "name": "Wedges",
+   "description": "Cartofi copți, serviți cu unul dintre sosurile noastre - 100g/50g sos",
+   "category": "Antreuri",
+   "price": 1550
+  },
+  {
+   "name": "BERE TUBORG ALC 5.0% vol",
+   "description": "500 ml",
+   "category": "Băuturi alcoolice",
+   "price": 1350
+  },
+  {
+   "name": "GARLIC & PARMESAN FRIES",
+   "description": "Cartofi prăjiți aromatizati cu unt și usturoi, asezonați cu Parmezan şi pătrunjel - 140g",
+   "category": "ADD-ONS",
+   "price": 1900
+  },
+  {
+   "name": "Pizza Hawaiiana Stuffed Crust",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, cubulețe de ananas - 930g",
+   "category": "Pizza Stuffed Crust",
+   "price": 8450
+  },
+  {
+   "name": "Pizza Ham & Bacon Cheesy Bites",
+   "description": "Sos de roșii, brânză Mozzarella, bacon, șuncă, ciuperci, roșii , porumb. 832g",
+   "category": "Pizza Cheesy Bites",
+   "price": 8400
+  },
+  {
+   "name": "Garlic & Parmesan fries",
+   "description": "Cartofi prăjiți aromați cu unt și usturoi, asezonați cu brânză Parmezan și pătrunjel - 140g",
+   "category": "Antreuri",
+   "price": 1900
+  },
+  {
+   "name": "Garlic Bread",
+   "description": "Trei felii de baghetă cu aromă de usturoi, rumenite în cuptor - 70 g",
+   "category": "Antreuri",
+   "price": 1550
+  },
+  {
+   "name": "Pizza California Stuffed Crust",
+   "description": "Sos de roșii, brânză Mozzarella, piept de pui, porumb, ardei - 951g",
+   "category": "Pizza Stuffed Crust",
+   "price": 8450
+  },
+  {
+   "name": "Pizza Europeana mare",
+   "description": "Sos tomat, brânză Mozzarella, șuncă, ciuperci, vită - 791g",
+   "category": "Pizza mare",
+   "price": 7300
+  },
+  {
+   "name": "Pizza Veggie & Mozzarella medie",
+   "description": "Sos de roșii, Mozzarella, ciuperci, măsline, ardei, porumb, roșii. *Produsele ce conțin topping de măsline pot conține sâmburi! - 574g",
+   "category": "Pizza medie",
+   "price": 6200
+  },
+  {
+   "name": "Pizza Suprema mică",
+   "description": "Sos de roșii, brânză Mozzarella, salam Pepperoni, cubulețe cu carne de vită , ceapă rosie, ciuperci, ardei - 304g",
+   "category": "Pizza mică",
+   "price": 4800
+  },
+  {
+   "name": "Pizza Quattro Stagioni mică",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, salam Pepperoni, ciuperci, ardei. Ingredientele sunt amestecate pe suprafața blatului - 308g",
+   "category": "Pizza mică",
+   "price": 4800
+  },
+  {
+   "name": "Pizza Tuna Stuffed Crust",
+   "description": "Sos de roșii, brânză Mozzarella, ton, porumb, măsline, ceapă. *Produsele ce conțin topping de măsline pot conține sâmburi! - 966g",
+   "category": "Pizza Stuffed Crust",
+   "price": 8850
+  },
+  {
+   "name": "Sos Salsa",
+   "description": "54g",
+   "category": "SAUCES",
+   "price": 700
+  },
+  {
+   "name": "Pizza Margherita medie",
+   "description": "Sos tomat și brânză Mozzarella - 431g",
+   "category": "Pizza medie",
+   "price": 4400
+  },
+  {
+   "name": "FRENCH FRIES",
+   "description": "Cartofi prăjiți - 130g",
+   "category": "ADD-ONS",
+   "price": 1400
+  },
+  {
+   "name": "Apa Minerală 0.5l",
+   "description": "500 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 850
+  },
+  {
+   "name": "Pizza Nevada Stuffed Crust",
+   "description": "Sos de roșii, brânză Mozzarella, bacon, șuncă, ciuperci, ardei, măsline Produsele ce conțin topping de măsline pot conține sâmburi! - 1008g",
+   "category": "Pizza Stuffed Crust",
+   "price": 8850
+  },
+  {
+   "name": "Fanta Portocale 0.5l",
+   "description": "500 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1150
+  },
+  {
+   "name": "Sos Garlic Parmesan",
+   "description": "Sos cremos cu iaurt şi maioneză, aromatizat cu parmezan şi usturoi - 54g",
+   "category": "SAUCES",
+   "price": 700
+  },
+  {
+   "name": "Mozarella Wedges",
+   "description": "Cartofi copți cu brânză Mozzarella, serviți cu unul dintre sosurile noastre - 150/50 g sos",
+   "category": "Antreuri",
+   "price": 1750
+  },
+  {
+   "name": "Ketchup picant",
+   "description": "Sos de roşii picant - 54g",
+   "category": "SAUCES",
+   "price": 700
+  },
+  {
+   "name": "Pizza Hawaiiana Cheesy Bites",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, cubulețe de ananas. 780g",
+   "category": "Pizza Cheesy Bites",
+   "price": 7950
+  },
+  {
+   "name": "Ben & Jerry`s Cookie Dough",
+   "description": "Cookie Dough - 465 ml",
+   "category": "Desert",
+   "price": 5200
+  },
+  {
+   "name": "Cheesecake",
+   "description": "Prajitură cu bază de biscuit, brânză Ricotta și brânză Mascarpone - 75 g",
+   "category": "Desert",
+   "price": 2200
+  },
+  {
+   "name": "Pizza Europeana Stuffed Crust",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, cubulețe cu carne de vită, ciuperci - 942g",
+   "category": "Pizza Stuffed Crust",
+   "price": 8450
+  },
+  {
+   "name": "Pizza Suprema mare",
+   "description": "Sos de roșii, brânză Mozzarella, salam Pepperoni, cubulețe cu carne de vită , ceapă rosie, ciuperci, ardei - 799g",
+   "category": "Pizza mare",
+   "price": 7700
+  },
+  {
+   "name": "Pizza Margherita Stuffed Crust",
+   "description": "Sos de rosii si branza Mozzarella - 875g",
+   "category": "Pizza Stuffed Crust",
+   "price": 6600
+  },
+  {
+   "name": "Pizza Suprema medie",
+   "description": "Sos de roșii, Mozzarella, salam Pepperoni, cubulețe cu carne de vită, ceapă, ciuperci, ardei - 532g",
+   "category": "Pizza medie",
+   "price": 6650
+  },
+  {
+   "name": "Sos Barbeque",
+   "description": "Sos dulce afumat - 50g",
+   "category": "SAUCES",
+   "price": 700
+  },
+  {
+   "name": "Pizza Tuna Cheesy Bites",
+   "description": "Sos de roșii, brânză Mozzarella, ton, porumb, măsline, ceapă. *Produsele ce conțin topping de măsline pot conține sâmburi! 798g",
+   "category": "Pizza Cheesy Bites",
+   "price": 8400
+  },
+  {
+   "name": "Schweppes Kinley",
+   "description": "500 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1150
+  },
+  {
+   "name": "Pizza Chicken & Corn mică",
+   "description": "Sos de roșii, brânză Mozzarella, piept de pui, ciuperci, măsline, ardei, porumb, roșii. *Produsele ce conțin topping de măsline pot conține sâmburi! - 347g",
+   "category": "Pizza mică",
+   "price": 4800
+  },
+  {
+   "name": "Pizza California Cheesy Bites",
+   "description": "Sos de roșii, brânză Mozzarella, piept de pui, porumb, ardei. 779g",
+   "category": "Pizza Cheesy Bites",
+   "price": 7950
+  },
+  {
+   "name": "Pizza Chicken & Corn mare",
+   "description": "Sos tomat, brânză Mozzarella, pui, ciuperci, măsline, ardei gras, porumb, roșii cubulețe *Produsele ce conțin topping de măsline pot conține sâmburi! - 910g",
+   "category": "Pizza mare",
+   "price": 7700
+  },
+  {
+   "name": "Sos de usturoi",
+   "description": "Sos de maioneză cu usturoi - 54 g",
+   "category": "SAUCES",
+   "price": 700
+  },
+  {
+   "name": "Pizza California mare",
+   "description": "Sos tomat, brânză Mozzarella, pui, porumb, ardei - 801g",
+   "category": "Pizza mare",
+   "price": 7300
+  },
+  {
+   "name": "BARBEQUE WingStreet (Aripioare de pui cu sos Barbeque 5 buc/ 8 buc)",
+   "description": "Aripioare de pui condimentate trecute prin cuptor şi glazurate cu sos Barbeque - 220g / 350g",
+   "category": "WingStreet",
+   "price": 3200
+  },
+  {
+   "name": "Pizza Super Suprema mică",
+   "description": "Sos tomat, brânză Mozzarella, salam Pepperoni (produs picant), dublu cubulețe cu carne de\nvită, șuncă, ceapă, ciuperci, ardei, măsline. *Produsele ce conțin topping de măsline pot conține sâmburi! - 346g",
+   "category": "Pizza mică",
+   "price": 5250
+  },
+  {
+   "name": "Pizza Ham & Bacon medie",
+   "description": "Sos tomat, brânză Mozzarella, bacon, șuncă, ciuperci, roșii cubulețe, porumb, parmezan - 588g",
+   "category": "Pizza medie",
+   "price": 6650
+  },
+  {
+   "name": "Pizza American Spicy Cheesy Bites",
+   "description": "Sos de roșii, brânză Mozzarella, salam Pepperoni, roșii, ardei, ceapă, jalapeños , sos Samourai. 842g.",
+   "category": "Pizza Cheesy Bites",
+   "price": 8400
+  },
+  {
+   "name": "Fanta Struguri 2l",
+   "description": "2000 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1650
+  },
+  {
+   "name": "Mozzarella & Garlic Pocket",
+   "description": "Un aluat fin umplut cu brânză Mozzarella, asezonat cu usturoi și presărat cu un extra topping de Mozzarella - 240g",
+   "category": "Antreuri",
+   "price": 2250
+  },
+  {
+   "name": "Pizza Roma mare",
+   "description": "Sos tomat, brânză Mozzarella, șuncă, ciuperci, măsline. *Produsele ce conțin topping de măsline pot conține sâmburi! - 746g",
+   "category": "Pizza mare",
+   "price": 7300
+  },
+  {
+   "name": "Pizza Meat Lovers mare",
+   "description": "Sos tomat, brânză Mozzarella, pui, cubulețe cu carne de vită , salam Pepperoni (produs picant), bacon - 876g",
+   "category": "Pizza mare",
+   "price": 8300
+  },
+  {
+   "name": "Pizza Roma Cheesy Bites",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, ciuperci, măsline. *Produsele ce conțin topping de măsline pot conține sâmburi! 758g",
+   "category": "Pizza Cheesy Bites",
+   "price": 7950
+  },
+  {
+   "name": "Pizza Quattro Formaggi mare",
+   "description": "Brânză mozzarella, emmentaler, cheddar, brânză cu mucegai, oregano - 734g",
+   "category": "Pizza mare",
+   "price": 8300
+  },
+  {
+   "name": "Pizza Suprema Cheesy Bites",
+   "description": "Sos de roșii, brânză Mozzarella, salam Pepperoni*, cubulețe cu carne de vită, ceapă roșie, ciuperci, ardei 776g",
+   "category": "Pizza Cheesy Bites",
+   "price": 8400
+  },
+  {
+   "name": "Ham & Cheese Rolls",
+   "description": "Tortilla cu brânză Mozzarela și Cheddar, șuncă și parmezan. Se servește cu un sos la alegere - 150 g/50 g sos",
+   "category": "Antreuri",
+   "price": 2050
+  },
+  {
+   "name": "Pizza Ham & Bacon mică",
+   "description": "Sos tomat, brânză Mozzarella, bacon, șuncă, ciuperci, roșii cubulețe, porumb, parmezan - 330g",
+   "category": "Pizza mică",
+   "price": 4800
+  },
+  {
+   "name": "Penne Bolognese Al Forno",
+   "description": "Penne în sos ragù, cubulețe cu carne de vită, brânză Mozzarella, trecute prin cuptor. 400g",
+   "category": "Paste",
+   "price": 3900
+  },
+  {
+   "name": "Bacon cheeseburger",
+   "description": "Carne de vită, sos Chili Mayo, brânză Cheddar, bacon, mix salată, roșii felii, ceapă, chiflă pufoasă cu unt aromatizat. Se servește cu o porție de French Fries 260g / 100g French fries",
+   "category": "Burgers",
+   "price": 4900
+  },
+  {
+   "name": "Ben & Jerry`s Cookie Dough",
+   "description": "Cookie Dough - 100 ml",
+   "category": "Desert",
+   "price": 2400
+  },
+  {
+   "name": "Pizza Pepperoni Stuffed Crust",
+   "description": "Sos de roșii, brânză Mozzarella, dublu salam Pepperoni* - 851g",
+   "category": "Pizza Stuffed Crust",
+   "price": 8450
+  },
+  {
+   "name": "MOZZARELLA STICKS",
+   "description": "Sticksuri crocante de brânză Mozzarella (5 buc).",
+   "category": "WingStreet",
+   "price": 1850
+  },
+  {
+   "name": "Pizza Super Suprema Stuffed Crust",
+   "description": "Sos tomat, brânză Mozzarella, salam Pepperoni (produs picant), dublu cubulețe cu carne de\nvită, șuncă, ceapă, ciuperci, ardei, măsline. *Produsele ce conțin topping de măsline pot conține sâmburi! - 1080g",
+   "category": "Pizza Stuffed Crust",
+   "price": 9450
+  },
+  {
+   "name": "Pizza Hawaiiana mare",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, cubulețe de ananas - 750g",
+   "category": "Pizza mare",
+   "price": 7300
+  },
+  {
+   "name": "Pizza California mică",
+   "description": "Sos de roșii, brânză Mozzarella, piept de pui, porumb, ardei - 304g",
+   "category": "Pizza mică",
+   "price": 4500
+  },
+  {
+   "name": "Dip & Crunch",
+   "description": "Adaugă 2 sosuri și 2 texturi crocante dintre cele disponibile.",
+   "category": "NOU! Cheesy bites Dip & Crunch",
+   "price": 1650
+  },
+  {
+   "name": "Ben & Jerry`s Chocolate Fudge Brownie",
+   "description": "Chocolate Fudge Brownie - 100 ml",
+   "category": "Desert",
+   "price": 2400
+  },
+  {
+   "name": "Pizza Veggie & Mozzarella mare",
+   "description": "Sos de roșii, Mozzarella, ciuperci, măsline negre, ardei capia, porumb, roșii *Produsele ce conțin topping de măsline pot conține sâmburi! - 839g",
+   "category": "Pizza mare",
+   "price": 7300
+  },
+  {
+   "name": "Pizza Ham & Bacon Stuffed Crust",
+   "description": "Sos de roșii, brânză Mozzarella, bacon, șuncă, ciuperci, roșii , porumb - 1030g",
+   "category": "Pizza Stuffed Crust",
+   "price": 8850
+  },
+  {
+   "name": "Pizza Nevada mică",
+   "description": "Sos tomat, brânză Mozzarella, bacon, șuncă, ciuperci, ardei, măsline. *Produsele ce conțin topping de măsline pot conține sâmburi! - 330g",
+   "category": "Pizza mică",
+   "price": 4800
+  },
+  {
+   "name": "Sprite 0.5l",
+   "description": "500 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1150
+  },
+  {
+   "name": "Pizza Chicken & Corn Cheesy Bites",
+   "description": "Sos de roșii, brânză Mozzarella, piept de pui, ciuperci, măsline, ardei, porumb, roșii. *Produsele ce conțin topping de măsline pot conține sâmburi! 858g",
+   "category": "Pizza Cheesy Bites",
+   "price": 8400
+  },
+  {
+   "name": "Pizza Pepperoni mare",
+   "description": "Sos de roșii, brânză Mozzarella, dublu salam Pepperoni - 701g",
+   "category": "Pizza mare",
+   "price": 7300
+  },
+  {
+   "name": "Fanta Portocale 2l",
+   "description": "2000 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1650
+  },
+  {
+   "name": "Apa Plată 0.5l",
+   "description": "500 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 850
+  },
+  {
+   "name": "Pizza Margherita mică",
+   "description": "Sos de roșii, brânză Mozzarella - 272g",
+   "category": "Pizza mică",
+   "price": 3100
+  },
+  {
+   "name": "Pizza Quattro Stagioni medie",
+   "description": "Sos de roșii, Mozzarella, șuncă, salam Pepperoni, ciuperci, ardei - 488g",
+   "category": "Pizza medie",
+   "price": 6650
+  },
+  {
+   "name": "Pizza Meat Lovers mică",
+   "description": "Sos tomat, brânză Mozzarella, pui, vită, salam Pepperoni, bacon - 318g",
+   "category": "Pizza mică",
+   "price": 5250
+  },
+  {
+   "name": "French fries",
+   "description": "Cartofi prăjiți - 130g",
+   "category": "Antreuri",
+   "price": 1400
+  },
+  {
+   "name": "Pizza Pepperoni medie",
+   "description": "Sos de roșii, brânză Mozzarella, dublu salam Pepperoni - 479g",
+   "category": "Pizza medie",
+   "price": 6200
+  },
+  {
+   "name": "Cheesy bites Dip & Crunch",
+   "description": "Adaugă Dip&Crunch la rețeta ta preferată de pizza pe blat Cheesy Bites, pentru doar 5 lei!\n\n Ofertă valabilă în perioada 29 octombrie 2026 - 13 ianuarie 2027, în limita stocului disponibil. În cadrul ofertei se pot comanda 1 pizza pe blat Cheesy Bites la alegere dintre rețetele din meniu și oricare 2 sosuri și 2 ingrediente crocante dintre cele disponibile. Produsele nu sunt disponibile în alte oferte sau promoții. Imaginile sunt cu titlu de prezentare.",
+   "category": "NOU! Cheesy bites Dip & Crunch",
+   "price": 6650
+  },
+  {
+   "name": "Classic burger",
+   "description": "Carne de vită, sos Chili Mayo, mix salată, roșii felii, ceapă, chiflă pufoasă cu unt aromatizat. Se servește cu o porție de French Fries - 260g / 100g French fries",
+   "category": "Burgers",
+   "price": 4500
+  },
+  {
+   "name": "Pizza Margherita mare",
+   "description": "Sos tomat și brânză Mozzarella - 634g",
+   "category": "Pizza mare",
+   "price": 5450
+  },
+  {
+   "name": "Pizza Tuna mică",
+   "description": "Sos de roșii, Mozzarella, ton, porumb, măsline, ceapă roșie *Produsele ce conțin topping de măsline pot conține sâmburi! - 311g",
+   "category": "Pizza mică",
+   "price": 4800
+  },
+  {
+   "name": "Fanta Struguri 0.5l",
+   "description": "500 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1150
+  },
+  {
+   "name": "Cheeseburger",
+   "description": "Carne de vită, sos Chili Mayo, brânză Cheddar, mix salată, roșii felii, ceapă, chiflă pufoasă cu unt aromatizat. Se servește cu o porție de French Fries - 260g / 100g French fries",
+   "category": "Burgers",
+   "price": 4700
+  },
+  {
+   "name": "Penne Farmer (Al Forno)",
+   "description": "Penne in sos de roșii si smântâna, piept de pui, ceapă, ciuperci, ardei, brânză Mozzarella, trecute prin cuptor. 470g",
+   "category": "Paste",
+   "price": 4400
+  },
+  {
+   "name": "Garlic Bread cu mozzarella",
+   "description": "Trei felii de baghetă cu brânză Mozzarella și aromă de usturoi, rumenite în cuptor - 100g",
+   "category": "Antreuri",
+   "price": 1750
+  },
+  {
+   "name": "Pizza Ham & Bacon mare",
+   "description": "Sos tomat, brânză Mozzarella, bacon, șuncă, ciuperci, roșii cubulețe, porumb, parmezan - 880g",
+   "category": "Pizza mare",
+   "price": 7700
+  },
+  {
+   "name": "Salata Caesar",
+   "description": "Mix de salată endivia, frisée, sfeclă roşie, rucola, piept de pui, roșii cherry, fâșii de bacon crocant, Parmezan, sos Caesar. Se servește cu o felie de Garlic Bread și un dressing la alegere - 280g",
+   "category": "Salate",
+   "price": 3950
+  },
+  {
+   "name": "Pizza Chicken & Corn Stuffed Crust",
+   "description": "Sos de roșii, brânză Mozzarella, piept de pui, ciuperci, măsline, ardei, porumb, roșii. Produsele ce conțin topping de măsline pot conține sâmburi! - 1061g",
+   "category": "Pizza Stuffed Crust",
+   "price": 8850
+  },
+  {
+   "name": "Pizza Veggie&Mozzarella Stuffed Crust",
+   "description": "Sos de roșii, brânză Mozzarella, ciuperci, măsline, ardei, porumb, roșii. *Produsele ce conțin topping de măsline pot conține sâmburi! - 990g",
+   "category": "Pizza Stuffed Crust",
+   "price": 8450
+  },
+  {
+   "name": "Pizza Quattro Formaggi Cheesy Bites",
+   "description": "Brânză Mozzarella, Cheddar, Emmentaler, brânză cu mucegai, oregano. 732g",
+   "category": "Pizza Cheesy Bites",
+   "price": 8850
+  },
+  {
+   "name": "Carlsberg 0.5l",
+   "description": "500 ml",
+   "category": "Băuturi alcoolice",
+   "price": 1550
+  },
+  {
+   "name": "Sprite 2l",
+   "description": "2000 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1650
+  },
+  {
+   "name": "Pizza American Spicy mare",
+   "description": "Sos de roșii, Mozzarella, salam Pepperoni, roșii cubulețe, ardei, ceapă roșie, jalapeños, sos Samourai - 890g",
+   "category": "Pizza mare",
+   "price": 7700
+  },
+  {
+   "name": "Pizza Roma medie",
+   "description": "Sos de roșii, Mozzarella, șuncă, ciuperci, măsline. *Produsele ce conțin topping de măsline pot conține sâmburi! - 514g",
+   "category": "Pizza medie",
+   "price": 6200
+  },
+  {
+   "name": "Pizza Hawaiiana medie",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, cubulețe de ananas - 520g",
+   "category": "Pizza medie",
+   "price": 6200
+  },
+  {
+   "name": "Cola Zero 2l",
+   "description": "2000 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1650
+  },
+  {
+   "name": "Pizza California medie",
+   "description": "Sos de roșii, Mozzarella, piept de pui, porumb, ardei - 535g",
+   "category": "Pizza medie",
+   "price": 6200
+  },
+  {
+   "name": "Pizza Hawaiiana mică",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, cubulețe de ananas - 310g",
+   "category": "Pizza mică",
+   "price": 4500
+  },
+  {
+   "name": "Pizza  Nevada mare",
+   "description": "Sos tomat, brânză Mozzarella, bacon, șuncă, ciuperci, ardei, măsline *Produsele ce conțin topping de măsline pot conține sâmburi! - 858g",
+   "category": "Pizza mare",
+   "price": 7700
+  },
+  {
+   "name": "MOZZARELLA STICKS",
+   "description": "Sticksuri crocante de brânză Mozzarella (5 buc).",
+   "category": "ADD-ONS",
+   "price": 1850
+  },
+  {
+   "name": "Pizza  Europeana Cheesy Bites",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, cubulețe cu carne de vită, ciuperci. 775g",
+   "category": "Pizza Cheesy Bites",
+   "price": 7950
+  },
+  {
+   "name": "BERE URSUS ALC 5 % vol",
+   "description": "500 ml",
+   "category": "Băuturi alcoolice",
+   "price": 1450
+  },
+  {
+   "name": "Pizza Roma mică",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, ciuperci, măsline. *Produsele ce conțin topping de măsline pot conține sâmburi! - 297g",
+   "category": "Pizza mică",
+   "price": 4500
+  },
+  {
+   "name": "Pizza Veggie & Mozzarella mică",
+   "description": "Sos de roșii, brânză Mozzarella, ciuperci, măsline, ardei, porumb, roșii. *Produsele ce conțin topping de măsline pot conține sâmburi! - 327g",
+   "category": "Pizza mică",
+   "price": 4500
+  },
+  {
+   "name": "CHICKEN STRIPS (Strips de pui nepicant 5 buc)",
+   "description": "Bucăți de piept de pui în crustă crocantă şi condimentată - 150g",
+   "category": "ADD-ONS",
+   "price": 3000
+  },
+  {
+   "name": "Schweppes Mandarin",
+   "description": "500 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1150
+  },
+  {
+   "name": "Pizza Quattro Stagioni Cheesy Bites",
+   "description": "Sos de roșii, brânză Mozzarella, șuncă, salam Pepperoni*, ciuperci, ardei. Ingredientele sunt amestecate pe suprafața pizzei. 732g",
+   "category": "Pizza Cheesy Bites",
+   "price": 8400
+  },
+  {
+   "name": "SWEET CHILI WingStreet (5 buc/ 8 buc)",
+   "description": "Aripioare de pui condimentate trecute prin cuptor şi glazurate cu sos Sweet Chili - 220g / 350g",
+   "category": "WingStreet",
+   "price": 3200
+  },
+  {
+   "name": "Pizza Tuna mare",
+   "description": "Sos de roșii, Mozzarella, ton, porumb, măsline, ceapă roșie *Produsele ce conțin topping de măsline pot conține sâmburi! - 815g",
+   "category": "Pizza mare",
+   "price": 7700
+  },
+  {
+   "name": "Pizza American Spicy medie",
+   "description": "Sos de roșii, Mozzarella, salam Pepperoni, roșii, ardei, ceapă, jalapeños, sos Samourai - 598g",
+   "category": "Pizza medie",
+   "price": 6650
+  },
+  {
+   "name": "Pizza American Spicy Stuffed Crust",
+   "description": "Sos de roșii, brânză Mozzarella, salam Pepperoni, roșii, ardei, ceapă, jalapeños , sos Samourai - 1041g",
+   "category": "Pizza Stuffed Crust",
+   "price": 8850
+  },
+  {
+   "name": "Pizza Veggie&Mozzarella Cheesy Bites",
+   "description": "Sos de roșii, brânză Mozzarella, ciuperci, măsline, ardei, porumb, roșii. *Produsele ce conțin topping de măsline pot conține sâmburi! 818g",
+   "category": "Pizza Cheesy Bites",
+   "price": 7950
+  },
+  {
+   "name": "Pizza Nevada Cheesy Bites",
+   "description": "Sos de roșii, brânză Mozzarella, bacon, șuncă, ciuperci, ardei, măsline *Produsele ce conțin topping de măsline pot conține sâmburi! 822g",
+   "category": "Pizza Cheesy Bites",
+   "price": 8400
+  },
+  {
+   "name": "WingStreet (5 buc/ 8 buc)",
+   "description": "Aripioare de pui condimentate trecute prin cuptor - 175g / 280g",
+   "category": "WingStreet",
+   "price": 2600
+  },
+  {
+   "name": "Cola 2l",
+   "description": "2000 ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1650
+  },
+  {
+   "name": "FRENCH FRIES",
+   "description": "Cartofi prăjiți - 130g",
+   "category": "WingStreet",
+   "price": 1400
+  },
+  {
+   "name": "Pizza Meat Lovers Cheesy Bites",
+   "description": "Sos de roșii, brânză Mozzarella, piept de pui, cubulețe cu carne de vită, salam Pepperoni, bacon. 814g",
+   "category": "Pizza Cheesy Bites",
+   "price": 8850
+  },
+  {
+   "name": "Spicy burger",
+   "description": "Carne de vită, sos Samourai (simbol produs picant), brânză Cheddar, jalapeños (simbol produs picant), mix salată, roșii felii, ceapă, chiflă pufoasă cu unt aromatizat. Se servește cu o porție de French Fries 260g / 100g French fries",
+   "category": "Burgers",
+   "price": 4700
+  },
+  {
+   "name": "Pizza Super Suprema medie",
+   "description": "Sos tomat, brânză Mozzarella, salam Pepperoni (produs picant), dublu cubulețe cu carne de\nvită, șuncă, ceapă, ciuperci, ardei, măsline. *Produsele ce conțin topping de măsline pot conține sâmburi! - 607g",
+   "category": "Pizza medie",
+   "price": 7100
+  },
+  {
+   "name": "Pizza Margherita Cheesy Bites",
+   "description": "Sos de rosii si branza Mozzarella. 675g",
+   "category": "Pizza Cheesy Bites",
+   "price": 6150
+  },
+  {
+   "name": "Cappy Pulpy Portocale 330ml",
+   "description": "330ml",
+   "category": "Băuturi non-alcoolice",
+   "price": 1100
+  }
+ ]
+}

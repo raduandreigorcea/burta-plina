@@ -198,6 +198,17 @@ interface GStore {
 
 const toBani = (lei: number) => Math.round(lei * 100);
 
+/**
+ * What Glovo adds at checkout, as its own "How do we calculate fees?" panel
+ * states it (Bucharest, 2026-11): services are 10% of the order, at least 1.99
+ * and at most 10.99 lei; an order below 40 lei pays 5.99 lei more. The public
+ * store page does not give these (its "serviceFee" just repeats the delivery fee).
+ */
+const GLOVO_BASKET_FEES = {
+  serviceFee: { pct: 10, min: 199, max: 1099 },
+  smallOrder: { threshold: 4000, mode: "flat" as const, flat: 599 },
+};
+
 export function parseGlovoStorePage(html: string): (PlatformMenu & { storeName: string }) | null {
   const flight = extractFlight(html);
   const si = flight.indexOf('"store":{"id":');
@@ -272,7 +283,7 @@ export function parseGlovoStorePage(html: string): (PlatformMenu & { storeName: 
 
   const notes = [
     "Glovo: taxa de livrare este cea afișată public pentru oraș; la adresa ta poate diferi.",
-    "Glovo: eventuala suprataxă pentru coș mic nu este publică și nu e inclusă.",
+    "Glovo: taxa de servicii (10%, între 1,99 și 10,99 lei) și suprataxa de coș mic (5,99 lei sub 40 lei) sunt cele din coșul Glovo la București, noiembrie 2026.",
   ];
   if (store.deliveryFeeInfo?.fee == null) notes.push("Taxa de livrare nu a putut fi citită; am presupus 0.");
   if (store.open === false) notes.push("Localul este închis acum pe Glovo.");
@@ -280,7 +291,7 @@ export function parseGlovoStorePage(html: string): (PlatformMenu & { storeName: 
   const fees: FeeRules = {
     deliveryFee: toBani(store.deliveryFeeInfo?.fee ?? 0),
     minOrder: 0,
-    serviceFee: store.serviceFee ? { flat: toBani(store.serviceFee) } : null,
+    ...GLOVO_BASKET_FEES,
     notes,
   };
 

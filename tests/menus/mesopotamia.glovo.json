@@ -1,0 +1,718 @@
+{
+ "chain": "Mesopotamia",
+ "platform": "glovo",
+ "venue": "Mesopotamia",
+ "savedOn": "2026-11-16",
+ "fees": {
+  "deliveryFee": 199,
+  "minOrder": 0,
+  "serviceFee": {
+   "pct": 10,
+   "min": 199,
+   "max": 1099
+  },
+  "smallOrder": {
+   "threshold": 4000,
+   "mode": "flat",
+   "flat": 599
+  },
+  "notes": [
+   "Glovo: taxa de livrare este cea afișată public pentru oraș; la adresa ta poate diferi.",
+   "Glovo: taxa de servicii (10%, între 1,99 și 10,99 lei) și suprataxa de coș mic (5,99 lei sub 40 lei) sunt cele din coșul Glovo la București, noiembrie 2026."
+  ]
+ },
+ "offers": [
+  {
+   "kind": "info",
+   "label": "2 produse la reducere (aplicat în prețuri)"
+  }
+ ],
+ "items": [
+  {
+   "name": "Pizza Mesocapriciosa",
+   "description": "Blat pizza, mozzarella, șuncă Praga, sos roșu, ciuperci, ardei, măsline - 500g",
+   "category": "PIZZA MEDIE",
+   "price": 3949,
+   "originalPrice": 5199
+  },
+  {
+   "name": "Roll Kebab curcan mare",
+   "description": "Carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, lipie, sos alb și de usturoi, salată verde, roșii, ceapă roșie, pătrunjel - 400g",
+   "category": "KEBAB CURCAN",
+   "price": 3374,
+   "originalPrice": 4499
+  },
+  {
+   "name": "Piatto Kebab curcan mare",
+   "description": "Cartofi prăjiți, carne kebab rotisată (curcan și vițel amestec), panini, sos alb, salată de varză, salată verde, roșii, ceapă roșie, pătrunjel - 540gAlergeni:Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia, muștar, țelină, dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 5399
+  },
+  {
+   "name": "Piatto Kebab curcan mediu",
+   "description": "Cartofi prăjiți, carne kebab rotisată (curcan și vițel amestec), panini, sos alb, salată de varză, salată verde, roșii, ceapă roșie, pătrunjel - 430gAlergeni:Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia, muștar, țelină, dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 4799
+  },
+  {
+   "name": "Piatto Kebab pui mare",
+   "description": "Cartofi prăjiți, carne kebab rotisată (pui - produs picant), panini, sos alb, salată de varză, salată verde, roșii, ceapă roșie, pătrunjel - 540gAlergeni: Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia, muștar, țelină, dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 5399
+  },
+  {
+   "name": "Meniu Doner curcan Twister mare",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), sos alb și roz(semi picant), salată verde, roșii, ceapă roșie, pătrunjel - 370gCartofi twister -  110grCoca cola - 500 mlAlergeni: Ouă și produse derivate, Lapte și produse derivate (Lactoză), Cereale cu conținut de gluten, Soia, Muștar, Țelină, conține dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 5499
+  },
+  {
+   "name": "Meniu Doner curcan mare",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), sos alb și roz(semi picant), salată verde, roșii, ceapă roșie, pătrunjel - 370gCartofi prajiti -  130grCoca cola - 500 mlAlergeni: Ouă și produse derivate, Lapte și produse derivate (Lactoză), Cereale cu conținut de gluten, Soia, Muștar, Țelină, conține dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 5499
+  },
+  {
+   "name": "Meniu Doner curcan Twister mediu",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), sos alb și roz(semi picant), salată verde, roșii, ceapă roșie, pătrunjel - 300gCartofi twister -  110grCoca cola - 500 mlAlergeni: Ouă și produse derivate, Lapte și produse derivate (Lactoză), Cereale cu conținut de gluten, Soia, Muștar, Țelină, conține dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 4999
+  },
+  {
+   "name": "Meniu Doner curcan mediu",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), sos alb și roz(semi picant), salată verde, roșii, ceapă roșie, pătrunjel - 300gCartofi twister -  110grCoca cola - 330 mlAlergeni: Ouă și produse derivate, Lapte și produse derivate (Lactoză), Cereale cu conținut de gluten, Soia, Muștar, Țelină, conține dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 4999
+  },
+  {
+   "name": "Meniu Box Kebab curcan",
+   "description": "Carne kebab rotisată (curcan și vițel amestec), salată verde, roșii, ceapă roșie, pătrunjel - 270g Sticla de apă - 500ml. Băutura conține garanție SGR. Alergeni: Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 4899
+  },
+  {
+   "name": "Piatto Kebab curcan mediu",
+   "description": "Cartofi prăjiți, carne kebab rotisată (curcan și vițel amestec), panini, sos alb, salată de varză, salată verde, roșii, ceapă roșie, pătrunjel - 430gAlergeni:Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia, muștar, țelină, dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 4799
+  },
+  {
+   "name": "Doner Kebab curcan mare",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), sos alb și roz(semi picant), salată verde, roșii, ceapă roșie, pătrunjel - 370gAlergeni: Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia, muștar, țelină, dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 4499
+  },
+  {
+   "name": "Box Kebab curcan",
+   "description": "Carne kebab rotisată (curcan și vițel amestec), salată verde, roșii, ceapă roșie, pătrunjel - 270g Alergeni: Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 4299
+  },
+  {
+   "name": "Doner Kebab curcan mediu",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), sos alb și roz(semi picant), salată verde, roșii, ceapă roșie, pătrunjel - 300gAlergeni: Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia, muștar, țelină, dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 3999
+  },
+  {
+   "name": "Roll Kebab curcan mediu",
+   "description": "Carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, lipie, sos alb și de usturoi, salată verde, roșii, ceapă roșie, pătrunjel - 320gAlergeni: Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia, muștar, țelină, conține dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 3999
+  },
+  {
+   "name": "Royal Cheesy Deal Menu",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, sos cheddar, salată verde, roșii, ceapă roșie, - 230gr.Cartofi prăjiți - 130gCoca-Cola - 330ml. Băutura conține garanție SGR.Alergeni: cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 3899
+  },
+  {
+   "name": "Smart Deal Menu",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, sos alb, salată verde, roșii, ceapă roșie - 230gCartofi prăjiti - 130 grCoca-Cola - 330ml. Băutura conține garanție SGR.Alergeni: cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia, ouă și produse derivate.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 3899
+  },
+  {
+   "name": "Royal Cheesy Combo Băutură",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, sos cheddar, salată verde, roșii, ceapă roșie, - 230gr.Coca-Cola - 330ml. Băutura conține garanție SGR.Alergeni: cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 3199
+  },
+  {
+   "name": "SMART COMBO BAUTURA",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, sos alb, salată verde, roșii, ceapă roșie - 230gCoca-Cola - 330ml. Băutura conține garanție SGR.Alergeni: cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia, ouă și produse derivate.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 3199
+  },
+  {
+   "name": "Royal Cheesy Combo Cartofi",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, sos cheddar, salată verde, roșii, ceapă roșie, - 230gr.Cartofi prăjiți - 130gAlergeni: cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 3099
+  },
+  {
+   "name": "SMART COMBO CARTOFI",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, sos alb, salată verde, roșii, ceapă roșie - 230gCartofi prăjiti - 130 grAlergeni: cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia, ouă și produse derivate.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 3099
+  },
+  {
+   "name": "Royal Cheesy Curcan",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, sos cheddar, salată verde, roșii, ceapă roșie, - 230gr.Alergeni: cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 2399
+  },
+  {
+   "name": "Smart Doner Curcan",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, sos alb, salată verde, roșii, ceapă roșie - 230gAlergeni: cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia, ouă și produse derivate.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 2399
+  },
+  {
+   "name": "Cartofi prăjiți",
+   "description": "Cartofi prăjiți - 130grPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 1399
+  },
+  {
+   "name": "Cartofi Twister",
+   "description": "Cartofi twister - 110g Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 1399
+  },
+  {
+   "name": "Panini",
+   "description": "Panini - 100gAlergeni: Gluten.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB CURCAN",
+   "price": 599
+  },
+  {
+   "name": "Meniu Doner pui Twister mare",
+   "description": "Panini, carne kebab rotisată (pui - produs picant), sos alb și roz(semi picant), salată verde, roșii, ceapă roșie, pătrunjel - 370gCartofi twister -  110grCoca cola - 500 mlAlergeni: Ouă și produse derivate, Lapte și produse derivate (Lactoză), Cereale cu conținut de gluten, Soia, Muștar, Țelină, conține dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 5499
+  },
+  {
+   "name": "Meniu Doner pui mare",
+   "description": "Panini, carne kebab rotisată (pui - produs picant), sos alb și roz(semi picant), salată verde, roșii, ceapă roșie, pătrunjel - 370gCartofi prajiti -  130grCoca cola - 500 mlAlergeni: Ouă și produse derivate, Lapte și produse derivate (Lactoză), Cereale cu conținut de gluten, Soia, Muștar, Țelină, conține dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 5499
+  },
+  {
+   "name": "Meniu Doner pui Twister mediu",
+   "description": "Panini, carne kebab rotisată (pui - produs picant), sos alb și roz(semi picant), salată verde, roșii, ceapă roșie, pătrunjel - 300gCartofi twister -  110grCoca cola - 330 mlAlergeni: Ouă și produse derivate, Lapte și produse derivate (Lactoză), Cereale cu conținut de gluten, Soia, Muștar, Țelină, conține dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 4999
+  },
+  {
+   "name": "Meniu Doner pui - mediu",
+   "description": "Panini, carne kebab rotisată (pui - produs picant), sos alb și roz(semi picant), salată verde, roșii, ceapă roșie, pătrunjel - 300gCartofi prajiti -  130grCoca cola - 330 mlAlergeni: Ouă și produse derivate, Lapte și produse derivate (Lactoză), Cereale cu conținut de gluten, Soia, Muștar, Țelină, conține dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 4999
+  },
+  {
+   "name": "Meniu Box Kebab pui",
+   "description": "Carne kebab rotisată (pui - produs picant), salată verde, roșii, ceapă roșie, pătrunjel - 270g Sticla de apă - 500ml. Băutura conține garanție SGR. Alergeni: Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 4899
+  },
+  {
+   "name": "Piatto Kebab pui - mediu",
+   "description": "Cartofi prăjiți, carne kebab rotisată (pui - produs picant), panini, sos alb, salată de varză, salată verde, roșii, ceapă roșie, pătrunjel - 430gAlergeni: Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia, muștar, țelină, dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 4799
+  },
+  {
+   "name": "Roll Kebab pui mare",
+   "description": "Carne kebab rotisată (pui - produs picant), cartofi prăjiți, lipie, sos alb și de usturoi, salată varză, roșii, ceapă roșie, pătrunjel - 480gAlergeni: Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia, muștar, țelină, conține dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 4499
+  },
+  {
+   "name": "Doner Kebab pui mare",
+   "description": "Panini, carne kebab rotisată (pui - produs picant), sos alb și roz(semi picant), salată verde, roșii, ceapă roșie, pătrunjel - 370gAlergeni: Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia, muștar, țelină, conține dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 4499
+  },
+  {
+   "name": "Box Kebab pui",
+   "description": "Carne kebab rotisată (pui - produs picant), salată verde, roșii, ceapă roșie, pătrunjel - 270g Alergeni: Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 4299
+  },
+  {
+   "name": "Roll Kebab pui - mediu",
+   "description": "Carne kebab rotisată (pui - produs picant), cartofi prăjiți, lipie, sos alb și de usturoi, salată varză, roșii, ceapă roșie, pătrunjel - 400gAlergeni: Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia, muștar, țelină, conține dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 3999
+  },
+  {
+   "name": "Doner Kebab pui - mediu",
+   "description": "Panini, carne kebab rotisată (pui - produs picant), sos alb și roz(semi picant), salată verde, roșii, ceapă roșie, pătrunjel - 300gAlergeni: Ouă și produse derivate, lapte și produse derivate (lactoză), cereale cu conținut de gluten, soia, muștar, țelină, conține dioxid de sulf în mod natural.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 3999
+  },
+  {
+   "name": "Royal Cheesy Deal Menu",
+   "description": "Panini, carne kebab rotisată (pui - produs picant), cartofi prăjiți, sos cheddar, salată verde, roșii, ceapă roșie, - 230gr.Cartofi prăjiți - 130gCoca-Cola - 330ml. Băutura conține garanție SGR.Alergeni:Cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 3899
+  },
+  {
+   "name": "Smart Deal Menu",
+   "description": "Panini, carne kebab rotisată (pui - produs picant), cartofi prăjiți, sos alb, salată verde, roșii, ceapă roșie - 230gCartofi prăjiti - 130 grCoca-Cola - 330ml. Băutura conține garanție SGR.Alergeni: Cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia, ouă și produse derivate.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 3899
+  },
+  {
+   "name": "Royal Cheesy Combo Băutură",
+   "description": "Panini, carne kebab rotisată (pui - produs picant), cartofi prăjiți, sos cheddar, salată verde, roșii, ceapă roșie, - 230gr.Coca-Cola - 330ml. Băutura conține garanție SGR.Alergeni:Cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 3199
+  },
+  {
+   "name": "SMART COMBO BAUTURA",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec sau pui - ușor picant), cartofi prăjiți, sos alb, salată verde, roșii, ceapă roșie,. 230gr. Băutură 330ml. Alergeni: Lapte, Gluten, Soia, Muștar, Țelină, Ouă, Dioxid de sulf.",
+   "category": "KEBAB PUI",
+   "price": 3199
+  },
+  {
+   "name": "Royal Cheesy Combo Cartofi",
+   "description": "Panini, carne kebab rotisată (pui - produs picant), cartofi prăjiți, sos cheddar, salată verde, roșii, ceapă roșie, - 230gr.Cartofi prăjiți - 130gAlergeni:Cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 3099
+  },
+  {
+   "name": "SMART COMBO CARTOFI",
+   "description": "Panini, carne kebab rotisată (pui - produs picant), cartofi prăjiți, sos alb, salată verde, roșii, ceapă roșie - 230gCartofi prăjiti - 130 grAlergeni: Cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia, ouă și produse derivate.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 3099
+  },
+  {
+   "name": "Royal Cheesy Pui",
+   "description": "Panini, carne kebab rotisată (pui - produs picant), cartofi prăjiți, sos cheddar, salată verde, roșii, ceapă roșie, - 230gr.Alergeni:Cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 2399
+  },
+  {
+   "name": "Smart Doner Pui",
+   "description": "Panini, carne kebab rotisată (pui - produs picant), cartofi prăjiți, sos alb, salată verde, roșii, ceapă roșie - 230gAlergeni: Cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia, ouă și produse derivate.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 2399
+  },
+  {
+   "name": "Cartofi prăjiți",
+   "description": "Cartofi prăjiți - 130grPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 1399
+  },
+  {
+   "name": "Cartofi Twister",
+   "description": "Cartofi twister - 110g Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 1399
+  },
+  {
+   "name": "Panini",
+   "description": "Panini - 100gAlergeni: Gluten.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "KEBAB PUI",
+   "price": 599
+  },
+  {
+   "name": "Pizza Kebab",
+   "description": "Blat pizza, carne rotisata amestec curcan și vițel sau carne rotisata pui, mozzarella, sos roșu, sos alb, salată verde - 300g",
+   "category": "PIZZA MICA",
+   "price": 4199
+  },
+  {
+   "name": "Pizza Kinder",
+   "description": "Blat pizza, mozzarella, șuncă Praga, sos roșu, porumb - 300g",
+   "category": "PIZZA MICA",
+   "price": 4199
+  },
+  {
+   "name": "Pizza Pepperoni",
+   "description": "Blat pizza, mozzarella, sos roșu, salam picant - 280g",
+   "category": "PIZZA MICA",
+   "price": 4199
+  },
+  {
+   "name": "Pizza Quattro Formaggi",
+   "description": "Blat pizza, mozzarella, sos roșu, emmentaler, danish blue, Gorgonzola - 280g",
+   "category": "PIZZA MICA",
+   "price": 4199
+  },
+  {
+   "name": "Pizza Mesocapriciosa",
+   "description": "Blat pizza, mozzarella, șuncă Praga, sos roșu, ciuperci, ardei, măsline - 300g",
+   "category": "PIZZA MICA",
+   "price": 4199
+  },
+  {
+   "name": "Pizza Mexicana",
+   "description": "Blat pizza, mozzarella, sos roșu, salam picant, măsline, ardei jalapeño - 300g",
+   "category": "PIZZA MICA",
+   "price": 4199
+  },
+  {
+   "name": "Pizza cu sunca si salam",
+   "description": "Blat pizza, mozzarella, sos roșu, salam Milano, șuncă Praga - 300g",
+   "category": "PIZZA MICA",
+   "price": 4199
+  },
+  {
+   "name": "Pizza Tonno e Cipolla",
+   "description": "Blat pizza, mozzarella, ton, sos roșu, ceapă, lămâie - 300g",
+   "category": "PIZZA MICA",
+   "price": 4199
+  },
+  {
+   "name": "Pizza Salami",
+   "description": "Blat pizza, mozzarella, sos roșu, salam Milano - 280g",
+   "category": "PIZZA MICA",
+   "price": 4199
+  },
+  {
+   "name": "Pizza Mesopotamia",
+   "description": "Blat pizza, mozzarella, șuncă Praga, sos roșu, ciuperci, salam Milano - 300g",
+   "category": "PIZZA MICA",
+   "price": 4199
+  },
+  {
+   "name": "Pizza Margherita",
+   "description": "Blat pizza, mozzarella, sos roșu, busuioc - 280g",
+   "category": "PIZZA MICA",
+   "price": 4199
+  },
+  {
+   "name": "Pizza Kebab",
+   "description": "Blat pizza, carne rotisata amestec curcan și vițel sau carne rotisata pui, mozzarella, sos roșu, sos alb, salată verde - 500g",
+   "category": "PIZZA MEDIE",
+   "price": 5199
+  },
+  {
+   "name": "Pizza Kinder",
+   "description": "Blat pizza, mozzarella, șuncă Praga, sos roșu, porumb - 500 g",
+   "category": "PIZZA MEDIE",
+   "price": 5199
+  },
+  {
+   "name": "Pizza Pepperoni",
+   "description": "Blat pizza, mozzarella, sos roșu, salam picant - 450g",
+   "category": "PIZZA MEDIE",
+   "price": 5199
+  },
+  {
+   "name": "Pizza Quattro Formaggi",
+   "description": "Blat pizza, mozzarella, sos roșu, emmentaler, danish blue, Gorgonzola - 450g",
+   "category": "PIZZA MEDIE",
+   "price": 5199
+  },
+  {
+   "name": "Pizza Mexicana",
+   "description": "Blat pizza, mozzarella, sos roșu, salam picant, măsline, ardei jalapeño - 500g",
+   "category": "PIZZA MEDIE",
+   "price": 5199
+  },
+  {
+   "name": "Pizza Sunca si salam",
+   "description": "Blat pizza, mozzarella, sos roșu, salam Milano, șuncă Praga - 500g",
+   "category": "PIZZA MEDIE",
+   "price": 5199
+  },
+  {
+   "name": "Pizza Tonno e cipolla",
+   "description": "Blat pizza, mozzarella, ton, sos roșu, ceapă, lămâie - 500g",
+   "category": "PIZZA MEDIE",
+   "price": 5199
+  },
+  {
+   "name": "Pizza Salami",
+   "description": "Blat pizza, mozzarella, sos roșu, salam Milano - 450g",
+   "category": "PIZZA MEDIE",
+   "price": 5199
+  },
+  {
+   "name": "Pizza Mesopotamia",
+   "description": "Blat pizza, mozzarella, șuncă Praga, sos roșu, ciuperci, salam Milano - 500g",
+   "category": "PIZZA MEDIE",
+   "price": 5199
+  },
+  {
+   "name": "Pizza Margherita",
+   "description": "Blat pizza, mozzarella, sos roșu, busuioc - 450g",
+   "category": "PIZZA MEDIE",
+   "price": 5199
+  },
+  {
+   "name": "Salată Kebab pui",
+   "description": "Alergeni:Cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia, ouă și produse derivate, conține dioxid de sulf în mod naturalSalată verde, carne rotisată (pui - produs picant), sos alb, roșii, ceapă, ardei, măsline,  brânză feta - 410gAlergeni:Cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia, ouă și produse derivate, conține dioxid de sulf în mod naturalPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "SALATA",
+   "price": 4499
+  },
+  {
+   "name": "Salată Ton",
+   "description": "Salată verde, roșii, ton, măsline,  brânză feta, ceapă, ardei, pătrunjel - 340gAlergeni: pește si produse derivate,lapte si produse derivate(inclusiv lactoză), cereale care contin gluten.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "SALATA",
+   "price": 4499
+  },
+  {
+   "name": "Salată Kebab curcan",
+   "description": "Salată verde, roșii, carne kebab rotisată (curcan și vițel amestec), sos alb, măsline,  brânză feta, ceapă, ardei, pătrunjel - 410gAlergeni:Cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia, ouă și produse derivate, conține dioxid de sulf în mod naturalPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "SALATA",
+   "price": 4499
+  },
+  {
+   "name": "Salată Șuncă",
+   "description": "Salată verde, roșii, șuncă, sos alb, măsline, brânză feta, ceapă, ardei, pătrunjel - 410gAlergeni:Cereale care conțin gluten, lapte și produse derivate (inclusiv lactoză), muștar, țelină, soia, ouă și produse derivate, conține dioxid de sulf în mod naturalPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "SALATA",
+   "price": 4099
+  },
+  {
+   "name": "Salată Veggie",
+   "description": "Salată verde, roșii, măsline,  brânză feta, ceapă, ardei, pătrunjel - 270gAlergeni: lapte si produse derivate(inclusiv lactoză), cereale care contin glutenPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "SALATA",
+   "price": 3999
+  },
+  {
+   "name": "Cheesy Dip",
+   "description": "Sos cheddar - 100gSos de brânză cu cheddar și unt.Alergeni:Lapte și produse derivate (inclusiv lactoză). Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "SOSURI",
+   "price": 1399
+  },
+  {
+   "name": "Sos alb",
+   "description": "70gSos alb cremos pe bază de maioneză și iaurt, cu mărar și usturoiAlergeni: Lactoză, ouă, gluten, țelină, muștar, dioxid de sulf (în mod natural).Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "SOSURI",
+   "price": 499
+  },
+  {
+   "name": "Sos roz",
+   "description": "70gSos cremos pe bază de maioneză și iaurt, cu usturoi, mărar și harissa(semi picant) Alergeni: Lactoză, ouă, gluten, țelină, muștar, dioxid de sulf (în mod natural).Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "SOSURI",
+   "price": 499
+  },
+  {
+   "name": "Sos rosu",
+   "description": "70gSos roșu din roșii, oregano și busuioc.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "SOSURI",
+   "price": 499
+  },
+  {
+   "name": "Sos picant",
+   "description": "70gSos picant din pastă de roșii și harissa, aromat cu oregano și busuioc. Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "SOSURI",
+   "price": 499
+  },
+  {
+   "name": "Sos de usturoi",
+   "description": "70gSos de usturoi cremos pe bază de maioneză și iaurt, condimentat cu busuioc și boia dulce.Alergeni: Lactoză, ouă, gluten, țelină, muștar, dioxid de sulf (în mod natural).Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "SOSURI",
+   "price": 499
+  },
+  {
+   "name": "Sos chilli Harissa",
+   "description": "70gSos cremos pe bază de maioneză și iaurt, cu usturoi, mărar, sriracha și harissa.Alergeni: Lactoză, ouă, gluten, țelină, muștar, dioxid de sulf (în mod natural).Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "SOSURI",
+   "price": 499
+  },
+  {
+   "name": "Ayran 500ml",
+   "description": "56% iaurt, apa, zer, sare, stabilizator: pectina Valoare energetica (Kj/kcal): 152/36; Grasimi: 2; Acizi grasi saturati: 1,3; Glucide: 2,8 ; Zaharuri: 2,8 ; Proteine: 1,9 ; Sare: 0,93; Alergeni: Lapte si produse din lapte, proteina de lapte: lactoz",
+   "category": "BAUTURI",
+   "price": 1199
+  },
+  {
+   "name": "Coca-Cola 500ml",
+   "description": "Coca-Cola Gust Original, băutura carbogazoasă delicioasă și răcoritoare, creată pentru prima dată în anul 1886, cu un gust unic. Fericirea, într-o sticlă;  creată pentru a o împărți cu cei dragi.",
+   "category": "BAUTURI",
+   "price": 1100
+  },
+  {
+   "name": "Fanta de portocale 500ml",
+   "description": "Fanta de portocale 500mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "BAUTURI",
+   "price": 1100
+  },
+  {
+   "name": "Sprite 500ml",
+   "description": "Sprite 500mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "BAUTURI",
+   "price": 1100
+  },
+  {
+   "name": "Fanta Struguri 500ml",
+   "description": "Fanta Struguri 500mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "BAUTURI",
+   "price": 1100
+  },
+  {
+   "name": "Fanta Pară 500ml",
+   "description": "Fanta Pară 500mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "BAUTURI",
+   "price": 1100
+  },
+  {
+   "name": "Schweppes Mandarin 500ml",
+   "description": "500mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "BAUTURI",
+   "price": 1100
+  },
+  {
+   "name": "Fuze Tea Piersici 500ml",
+   "description": "500mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "BAUTURI",
+   "price": 1100
+  },
+  {
+   "name": "Fuze Tea Lămâie 500ml",
+   "description": "500mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "BAUTURI",
+   "price": 1100
+  },
+  {
+   "name": "Schweppes Bitter Lemon 500ml",
+   "description": "500mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "BAUTURI",
+   "price": 1100
+  },
+  {
+   "name": "Coca-Cola Zero Băutură Răcoritoare Carbogazoasă 0.5L",
+   "description": "Coca-Cola Zero înseamnă același gust legendar Coca-Cola, dar cu zero zahăr. O băutură carbogazoasă, răcoritoare și delicioasă, creată pentru a o împărți cu cei dragi.",
+   "category": "BAUTURI",
+   "price": 1100
+  },
+  {
+   "name": "Schweppes Kinley 500ml",
+   "description": "500mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "BAUTURI",
+   "price": 1100
+  },
+  {
+   "name": "Fuzetea fructe de pădure 500ml",
+   "description": "500mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "BAUTURI",
+   "price": 1100
+  },
+  {
+   "name": "Coca Cola 000 330ml",
+   "description": "Zero cofeina, zero zahar, zero calorii - 330ml",
+   "category": "BAUTURI",
+   "price": 1000
+  },
+  {
+   "name": "Coca-Cola Băutură Răcoritoare Carbogazoasă Gust Original 0.33L",
+   "description": "Coca-Cola Gust Original, băutura carbogazoasă delicioasă și răcoritoare, creată pentru prima dată în anul 1886, cu un gust unic. Fericirea, într-o sticlă;  creată pentru a o împărți cu cei dragi.",
+   "category": "BAUTURI",
+   "price": 1000
+  },
+  {
+   "name": "Fanta de portocale 330ml",
+   "description": "330mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "BAUTURI",
+   "price": 1000
+  },
+  {
+   "name": "Sprite 330ml",
+   "description": "330mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "BAUTURI",
+   "price": 1000
+  },
+  {
+   "name": "Dorna - apă plată 500ml",
+   "description": "500mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "BAUTURI",
+   "price": 1000
+  },
+  {
+   "name": "Dorna - apă minerală 500ml",
+   "description": "500mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "BAUTURI",
+   "price": 1000
+  },
+  {
+   "name": "Ayran 250ml",
+   "description": "56% iaurt, apa, zer, sare, stabilizator: pectina Valoare energetica (Kj/kcal): 152/36; Grasimi: 2; Acizi grasi saturati: 1,3; Glucide: 2,8 ; Zaharuri: 2,8 ; Proteine: 1,9 ; Sare: 0,93; Alergeni: Lapte si produse din lapte, proteina de lapte: lactoza",
+   "category": "BAUTURI",
+   "price": 799
+  },
+  {
+   "name": "Crepes cu ciocolată albă și fistic",
+   "description": "Clătită umplută cu ciocolată albă și fistic - 160gAlergeni: lactoză, ouă, gluten, arahide.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "MESO CAFE",
+   "price": 2699
+  },
+  {
+   "name": "Crepes cu Nuttela si banană",
+   "description": "Clătită umplută cu Nuttela și banană - 180gAlergeni: lactoză, ouă, gluten, arahide.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "MESO CAFE",
+   "price": 2399
+  },
+  {
+   "name": "Crepes",
+   "description": "Clătită umplută cu: zmeură de pădure/ afine/ fructe de pădure/ căpșuni/ cireșe amare/ Nuttela - 160gAlergeni: lactoză, ouă, gluten, arahide.Pentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă: mesopotamia.ro/nutritionale/",
+   "category": "MESO CAFE",
+   "price": 2299
+  },
+  {
+   "name": "Fresh Portocale-Măr",
+   "description": "Fresh 100% fructe - 300mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "MESO CAFE",
+   "price": 1599
+  },
+  {
+   "name": "Fresh Portocale",
+   "description": "Fresh 100% fructe - 300mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "MESO CAFE",
+   "price": 1599
+  },
+  {
+   "name": "Fresh Măr",
+   "description": "Fresh 100% fructe - 300mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "MESO CAFE",
+   "price": 1599
+  },
+  {
+   "name": "Fresh Grapefruit",
+   "description": "Fresh 100% fructe - 300mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "MESO CAFE",
+   "price": 1599
+  },
+  {
+   "name": "Fresh Portocale-Lămâie",
+   "description": "Fresh 100% fructe - 300mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "MESO CAFE",
+   "price": 1599
+  },
+  {
+   "name": "Fresh Portocale-Grapefruit",
+   "description": "Fresh 100% fructe - 300mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "MESO CAFE",
+   "price": 1599
+  },
+  {
+   "name": "Cherry Lemonade",
+   "description": "APĂ, LAMÂIE, GHEAȚĂ, PIURE CIREȘE, MENTĂ. 270ml",
+   "category": "MESO CAFE",
+   "price": 1599
+  },
+  {
+   "name": "Mango Lemonade",
+   "description": "APĂ, LAMÂIE, GHEAȚĂ, PIURE MANGO, MENTĂ, 270mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "MESO CAFE",
+   "price": 1599
+  },
+  {
+   "name": "Passion Fruit Lemonade",
+   "description": "APĂ, LAMÂIE, GHEAȚĂ, MENTĂ, PIURE FRUCTUL PASIUNII, 270mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "MESO CAFE",
+   "price": 1599
+  },
+  {
+   "name": "Limonadã",
+   "description": "Limonadă cu mentă - 270mlPentru informații privind gramaje, ingrediente, alergeni și nutriție, consultă:mesopotamia.ro/nutritionale/",
+   "category": "MESO CAFE",
+   "price": 1299
+  }
+ ]
+}

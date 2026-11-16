@@ -1,0 +1,417 @@
+{
+ "chain": "Calif",
+ "platform": "glovo",
+ "venue": "Calif",
+ "savedOn": "2026-11-16",
+ "fees": {
+  "deliveryFee": 1499,
+  "minOrder": 0,
+  "serviceFee": {
+   "pct": 10,
+   "min": 199,
+   "max": 1099
+  },
+  "smallOrder": {
+   "threshold": 4000,
+   "mode": "flat",
+   "flat": 599
+  },
+  "notes": [
+   "Glovo: taxa de livrare este cea afișată public pentru oraș; la adresa ta poate diferi.",
+   "Glovo: taxa de servicii (10%, între 1,99 și 10,99 lei) și suprataxa de coș mic (5,99 lei sub 40 lei) sunt cele din coșul Glovo la București, noiembrie 2026."
+  ]
+ },
+ "offers": [
+  {
+   "kind": "info",
+   "label": "55 produse la reducere (aplicat în prețuri)"
+  }
+ ],
+ "items": [
+  {
+   "name": "Falafel Clasic la Farfurie",
+   "description": "Ingrediente: Falafel  Sos pasta de  susan / rosu dulce ( domates ) / rosu picant ( acili ) / maioneza cu usturoi    Ceapa cu sumac  / rosii / mix de varza / patrunjel / ardei iute / castraveti murati, Lipie ALERGENI: gluten (lipie/naut(hummus)/orez/falafel),  seminte susan si produse derivate (hummus(naut) / falafel / pasta de susan), lapte si produse derivate inclusiv lactoza ( maioneza cu usturoi ), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri )VALOARE ENERGETICA KJ/Kcal 100g: 880 / 210VALORI NUTRITIONALE; Grasimi: 4.72 g, Acizi grasi saturati: 2.6 g, Glucide: 14.43 g, Zaharuri: 2.61 g, Proteine: 4.02 g, Sare: 0.86 gE-uei:e330, e202, e211, e160, e471, e282590g",
+   "category": "Veggie",
+   "price": 3030,
+   "originalPrice": 5050
+  },
+  {
+   "name": "Dil Kebab de Pui",
+   "description": "Ingrediente: Carne sis pui ( 50% piept de pui - 50% pulpa de pui ) ,Sos rosu dulce ( domates ) / rosu picant ( acili ) / maioneza cu usturoi, Mix legume prajite  dovlecei / morcovi / ceapa ) Cartofi fresh prajiti, Castraveti murati ( in saramura ),Cascaval ( 100% lapte de vaca ),Lipie. ALERGENI:gluten (lipie/bagheta, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (cascaval/vita), dioxid de sulf (sis pui/vita), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi). VALOARE ENERGETICA KJ/Kcal 100g, 911 / 218 pui, VALORI NUTRITIONALE Grasimi: 7.25 g, Acizi grasi saturati: 1.61 g, Glucide: 16.21 g, Zaharuri: 3.73 g, Proteine: 7.46 g, Sare: 1.35 g (pui)  E-uri e330-acid citric, e202-Sorbat de potasiu, e211-benzoat de sodiu, e160a-Beta caroten, e621-glutamat monosodic, e282-propionat de calciu 330gNOTA* Nuanța roșiatică a cărnii de pui provine din marinadă, nu din gătire insuficientă.",
+   "category": "Cheese Kebab",
+   "price": 2532,
+   "originalPrice": 4220
+  },
+  {
+   "name": "Dil Kebab Mixt",
+   "description": "Ingrediente: Carne sis pui ( 50% piept de pui - 50% pulpa de pui ) / carne de vita si berbecut  (vita 90% , 10% berbecut feliata) ,Sos rosu dulce ( domates ) / rosu picant ( acili ) / maioneza cu usturoi, Mix legume prajite  dovlecei / morcovi / ceapa ) Cartofi fresh prajiti, Castraveti murati ( in saramura ),Cascaval ( 100% lapte de vaca ),Lipie. ALERGENI:gluten (lipie/bagheta, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (cascaval/vita), dioxid de sulf (sis pui/vita), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi). VALOARE ENERGETICA KJ/Kcal 100g, 911 / 218 pui, VALORI NUTRITIONALE Grasimi: 7.25 g, Acizi grasi saturati: 1.61 g, Glucide: 16.21 g, Zaharuri: 3.73 g, Proteine: 7.46 g, Sare: 1.35 g (pui)  E-uri e330-acid citric, e202-Sorbat de potasiu, e211-benzoat de sodiu, e160a-Beta caroten, e621-glutamat monosodic, e282-propionat de calciu 330gNOTA* Nuanța roșiatică a cărnii de pui provine din marinadă, nu din gătire insuficientă.",
+   "category": "Cheese Kebab",
+   "price": 3095,
+   "originalPrice": 5158
+  },
+  {
+   "name": "Maxi Dil Kebab de Pui",
+   "description": "Ingrediente: Carne sis pui ( 50% piept de pui - 50% pulpa de pui ) ,Sos rosu dulce ( domates ) / rosu picant ( acili ) / maioneza cu usturoi, Mix legume prajite  dovlecei / morcovi / ceapa ) Cartofi fresh prajiti, Castraveti murati ( in saramura ),Cascaval ( 100% lapte de vaca ),Lipie. ALERGENI:gluten (lipie/bagheta, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (cascaval/vita), dioxid de sulf (sis pui/vita), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi). VALOARE ENERGETICA KJ/Kcal 100g, 911 / 218 pui, VALORI NUTRITIONALE Grasimi: 11.37 g, Acizi grasi saturati: 3.28 g, Glucide: 19.96 g, Zaharuri: 3.34 g, Proteine: 6.58 g, Sare: 1.28 g E-uri e330-acid citric, e202-Sorbat de potasiu, e211-benzoat de sodiu, e160a-Beta caroten, e621-glutamat monosodic, e282-propionat de calciu 470gNOTA* Nuanța roșiatică a cărnii de pui provine din marinadă, nu din gătire insuficientă.",
+   "category": "Cheese Kebab",
+   "price": 3462,
+   "originalPrice": 5770
+  },
+  {
+   "name": "Maxi Kebab de Pui la Lipie",
+   "description": "Carne pui ( 50% piept de pui - 50% pulpa de pui )  Mix varza ( varza alba/rosie, morcovi ) / rosii / ceapa cu sumac / patrunjel / ardei iute / castraveti murati / ceapa caramelizata, Sos rosu dulce ( domates ) / rosu picant ( acili ) / mujdei / iaurt cu menta ( haydari ) / maioneza cu usturoi / maioneza picanta / curry picant / maioneza cu mustar ( hardal ) Cartofi  fresh prajiti.ALERGENI: gluten (lipie/bagheta/orez, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), ou, mustar si produse derivate, arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)VALOARE ENERGETICA KJ/Kcal 100g: 355 / 85 puiVALORI  NUTRITIONALE: Grasimi: 4.04 g, Acizi grasi saturati: 1.2 g, Glucide: 14.02 g, Zaharuri: 3.61 g, Proteine: 6.83 g, Sare: 0.98 g (pui) E-uri: e330, e202- e211, e160a, e621-, e471, e282.620gNOTA* Nuanța roșiatică a cărnii de pui provine din marinadă, nu din gătire insuficientă.",
+   "category": "Kebab",
+   "price": 3798,
+   "originalPrice": 6330
+  },
+  {
+   "name": "Maxi Dil Kebab de Vita cu Berbecuț",
+   "description": "Ingrediente:  carne de vita si berbecut  (vita 90%, 10% carne de berbecut feliata -) ,Sos rosu dulce ( domates ) / rosu picant ( acili ) / maioneza cu usturoi, Mix legume prajite  dovlecei / morcovi / ceapa ) Cartofi fresh prajiti, Castraveti murati ( in saramura ),Cascaval ( 100% lapte de vaca ),Lipie. ALERGENI:gluten (lipie/bagheta, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (cascaval/vita), dioxid de sulf (sis pui/vita), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi). VALOARE ENERGETICA KJ/Kcal 100g, 911 / 218 pui, VALORI NUTRITIONALE Grasimi: 11.37 g, Acizi grasi saturati: 3.28 g, Glucide: 19.96 g, Zaharuri: 3.34 g, Proteine: 6.58 g, Sare: 1.28 g E-uri e330-acid citric, e202-Sorbat de potasiu, e211-benzoat de sodiu, e160a-Beta caroten, e621-glutamat monosodic, e282-propionat de calciu 470g",
+   "category": "Cheese Kebab",
+   "price": 4286,
+   "originalPrice": 7144
+  },
+  {
+   "name": "Kebab de Pui + Supa de Linte",
+   "description": "Ingrediente Kebab de Pui:Carne pui ( 50% piept de pui - 50% pulpa de pui )  Mix varza ( varza alba/rosie, morcovi ) / rosii / ceapa cu sumac / patrunjel / ardei iute / castraveti murati / ceapa caramelizata, Sos rosu dulce ( domates ) / rosu picant ( acili ) / mujdei / iaurt cu menta ( haydari ) / maioneza cu usturoi / maioneza picanta / curry picant / maioneza cu mustar ( hardal ) Cartofi  fresh prajiti.ALERGENI: gluten (lipie/bagheta/orez, sis pui/vita, cartofi), soia si produse derivate, lapte si produse derivate inclusiv lactoza, ou, mustar si produse derivate, arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)VALOARE ENERGETICA KJ/Kcal 100g: 355 / 85 puiVALORI  NUTRITIONALE: Grasimi: 4.04 g, Acizi grasi saturati: 1.2 g, Glucide: 14.02 g, Zaharuri: 3.61 g, Proteine: 6.83 g, Sare: 0.98 g (pui) E-uri: e330, e202- e211, e160a, e621-, e471, e282.495gIngrediente Supa de Linte:Linte rosie, cartofi, faina, morocovi, rosii, usturoi, pasta de tomate, sare, piperAlergeni: gluten(linte, crutoane din lipie), telina si produse derivate(linte), VALOARE ENERGETICA KJ/Kcal 100g :234 / 56Valori Nutritionale: Grasimi: 6.3 g, Acizi grasi saturati: 1.5 g, Glucide: 33 g, Zaharuri: 6 g, Proteine: 11.33 g, Sare: 1.03 gE-uri e621495g Kebab de Pui + 350g Supa de Linte  845g",
+   "category": "Oferte",
+   "price": 4210,
+   "originalPrice": 7017
+  },
+  {
+   "name": "DIl de Pui + Supa de Linte",
+   "description": "Ingrediente Dil de pui: Carne sis pui ( 50% piept de pui - 50% pulpa de pui ) ,Sos rosu dulce ( domates ) / rosu picant ( acili ) / maioneza cu usturoi, Mix legume prajite  dovlecei / morcovi / ceapa ) Cartofi fresh prajiti, Castraveti murati ( in saramura ),Cascaval ( 100% lapte de vaca ),Lipie. ALERGENI:gluten (lipie/bagheta, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (cascaval/vita), dioxid de sulf (sis pui/vita), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi). VALOARE ENERGETICA KJ/Kcal 100g, 911 / 218 pui, VALORI NUTRITIONALE Grasimi: 7.25 g, Acizi grasi saturati: 1.61 g, Glucide: 16.21 g, Zaharuri: 3.73 g, Proteine: 7.46 g, Sare: 1.35 g (pui)  E-uri e330-acid citric, e202-Sorbat de potasiu, e211-benzoat de sodiu, e160a-Beta caroten, e621-glutamat monosodic, e282-propionat de calciu 330gIngrediente Supa de Linte: Linte rosie, cartofi, faina, morocovi, rosii, usturoi, pasta de tomate, sare, piperAlergeni: gluten(linte, crutoane din lipie), telina si produse derivate(linte), VALOARE ENERGETICA KJ/Kcal 100g :234 / 56Valori Nutritionale: Grasimi: 6.3 g, Acizi grasi saturati: 1.5 g, Glucide: 33 g, Zaharuri: 6 g, Proteine: 11.33 g, Sare: 1.03 gE-uri e621330g Dil + 350g Supa . 680g",
+   "category": "Oferte",
+   "price": 3620,
+   "originalPrice": 6033
+  },
+  {
+   "name": "Falafel cu Hummus si Tabouleh + Supa de Linte",
+   "description": "Ingrediente: Falafel  Sos pasta de  susan / rosu dulce ( domates ) / rosu picant ( acili ) / maioneza cu usturoi    Ceapa cu sumac  / rosii / mix de varza / patrunjel / ardei iute / castraveti murati, lipie ALERGENI: gluten (lipie/naut(hummus)/orez/falafel),  seminte susan si produse derivate (hummus(naut) / falafel / pasta de susan), lapte si produse derivate inclusiv lactoza ( maioneza cu usturoi ), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri )VALOARE ENERGELinte rosie, cartofi, faina, morocovi, rosii, usturoi, pasta de tomate, sare, piperAlergeni: gluten(linte, crutoane din lipie), telina si produse derivate(linte), VALOARE ENERGETICA KJ/Kcal 100g :234 / 56Valori Nutritionale: Grasimi: 6.3 g, Acizi grasi saturati: 1.5 g, Glucide: 33 g, Zaharuri: 6 g, Proteine: 11.33 g, Sare: 1.03 gE-uri e621TICA KJ/Kcal 100g: 880 / 210VALORI NUTRITIONALE; Grasimi: 4.72 g, Acizi grasi saturati: 2.6 g, Glucide: 14.43 g, Zaharuri: 2.61 g, Proteine: 4.02 g, Sare: 0.86 gE-uei:e330, e202, e211, e160, e471, e282460gIngrediente Supa de Linte:Linte rosie, cartofi, faina, morocovi, rosii, usturoi, pasta de tomate, sare, piperAlergeni: gluten(linte, crutoane din lipie), telina si produse derivate(linte), VALOARE ENERGETICA KJ/Kcal 100g :234 / 56Valori Nutritionale: Grasimi: 6.3 g, Acizi grasi saturati: 1.5 g, Glucide: 33 g, Zaharuri: 6 g, Proteine: 11.33 g, Sare: 1.03 gE-uri e621",
+   "category": "Oferte",
+   "price": 3620,
+   "originalPrice": 6033
+  },
+  {
+   "name": "Falafel cu Sos de Vinete + Supa de Linte",
+   "description": "Ingrediente: gluten (lipie/falafel/cartofi),  seminte susan si produse derivate (hummus(naut) / pasta de susan), dioxid de sulf lapte si produse derivate inclusiv lactoza ( maioneza cu usturoi ), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi) ALERGENI: gluten (lipie/naut(hummus)/orez/falafel),  seminte susan si produse derivate (hummus(naut) / falafel / pasta de susan), lapte si produse derivate inclusiv lactoza ( maioneza cu usturoi ), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri )VALOARE ENERGETICA KJ/Kcal 100g: 859 / 205VALORI NUTRITIONALE; Grasimi: Grasimi: 11.18 g, Acizi grasi saturati: 2.44 g, Glucide: 16.18 g, Zaharuri: 4.09 g, Proteine: 5.37 g, Sare: 1.16 gE-uei:e330, e202, e211, e160, e471, e282350gIngrediente Supa de Linte:Linte rosie, cartofi, faina, morocovi, rosii, usturoi, pasta de tomate, sare, piperAlergeni: gluten(linte, crutoane din lipie), telina si produse derivate(linte), VALOARE ENERGETICA KJ/Kcal 100g :234 / 56Valori Nutritionale: Grasimi: 6.3 g, Acizi grasi saturati: 1.5 g, Glucide: 33 g, Zaharuri: 6 g, Proteine: 11.33 g, Sare: 1.03 gE-uri e621350g",
+   "category": "Oferte",
+   "price": 3620,
+   "originalPrice": 6033
+  },
+  {
+   "name": "Falafel  la Lipie + Supa de Linte",
+   "description": "Ingrediente: Falafel  Sos pasta de  susan / rosu dulce ( domates ) / rosu picant ( acili ) / maioneza cu usturoi    Ceapa cu sumac  / rosii / mix de varza / patrunjel / ardei iute / castraveti murati, Lipie ALERGENI: gluten (lipie/naut(hummus)/orez/falafel),  seminte susan si produse derivate (hummus(naut) / falafel / pasta de susan), lapte si produse derivate inclusiv lactoza ( maioneza cu usturoi ), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri )VALOARE ENERGETICA KJ/Kcal 100g: 880 / 210VALORI NUTRITIONALE; Grasimi: 4.72 g, Acizi grasi saturati: 2.6 g, Glucide: 14.43 g, Zaharuri: 2.61 g, Proteine: 4.02 g, Sare: 0.86 gE-uei:e330, e202, e211, e160, e471, e282445gIngrediente Supa de Linte:Linte rosie, cartofi, faina, morocovi, rosii, usturoi, pasta de tomate, sare, piperAlergeni: gluten(linte, crutoane din lipie), telina si produse derivate(linte), VALOARE ENERGETICA KJ/Kcal 100g :234 / 56Valori Nutritionale: Grasimi: 6.3 g, Acizi grasi saturati: 1.5 g, Glucide: 33 g, Zaharuri: 6 g, Proteine: 11.33 g, Sare: 1.03 gE-uri e621350g",
+   "category": "Oferte",
+   "price": 3320,
+   "originalPrice": 5533
+  },
+  {
+   "name": "Maxi Dil Kebab Mixt",
+   "description": "Ingrediente: Carne sis pui ( 50% piept de pui - 50% pulpa de pui ) / carne de vita si berbecut  (vita 90%, carne de berbecut 10% feliata -) ,Sos rosu dulce ( domates ) / rosu picant ( acili ) / maioneza cu usturoi, Mix legume prajite  dovlecei / morcovi / ceapa ) Cartofi fresh prajiti, Castraveti murati ( in saramura ),Cascaval ( 100% lapte de vaca ),Lipie. ALERGENI:gluten (lipie/bagheta, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (cascaval/vita), dioxid de sulf (sis pui/vita), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi). VALOARE ENERGETICA KJ/Kcal 100g, 911 / 218 pui, VALORI NUTRITIONALE Grasimi: 11.37 g, Acizi grasi saturati: 3.28 g, Glucide: 19.96 g, Zaharuri: 3.34 g, Proteine: 6.58 g, Sare: 1.28 g E-uri e330-acid citric, e202-Sorbat de potasiu, e211-benzoat de sodiu, e160a-Beta caroten, e621-glutamat monosodic, e282-propionat de calciu 470gNOTA* Nuanța roșiatică a cărnii de pui provine din marinadă, nu din gătire insuficientă.",
+   "category": "Cheese Kebab",
+   "price": 4064,
+   "originalPrice": 6773
+  },
+  {
+   "name": "Dil Kebab de Vita cu Berbecuț",
+   "description": "Ingrediente:  carne de vita si berbecut (vita 90% ,10% berbecut feliata -) ,Sos rosu dulce ( domates ) / rosu picant ( acili ) / maioneza cu usturoi, Mix legume prajite  dovlecei / morcovi / ceapa ) Cartofi fresh prajiti, Castraveti murati ( in saramura ),Cascaval ( 100% lapte de vaca ),Lipie. ALERGENI:gluten (lipie/bagheta, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (cascaval/vita), dioxid de sulf (sis pui/vita), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi). VALOARE ENERGETICA KJ/Kcal 100g, 911 / 218 pui, VALORI NUTRITIONALE Grasimi: 11.37 g, Acizi grasi saturati: 3.28 g, Glucide: 19.96 g, Zaharuri: 3.34 g, Proteine: 6.58 g, Sare: 1.28 g E-uri e330-acid citric, e202-Sorbat de potasiu, e211-benzoat de sodiu, e160a-Beta caroten, e621-glutamat monosodic, e282-propionat de calciu 330g",
+   "category": "Cheese Kebab",
+   "price": 3532,
+   "originalPrice": 5886
+  },
+  {
+   "name": "Kebab de Vita cu Berbecuț la Farfurie",
+   "description": "Carne de vita si berbecut ( Carne de vita 90%, carne de berbecut 10%) Mix varza ( varza alba/rosie, morcovi ) / rosii / ceapa cu sumac / patrunjel / ardei iute / castraveti murati / ceapa caramelizata, Sos rosu dulce ( domates ) / rosu picant ( acili ) / mujdei / iaurt cu menta ( haydari ) / maioneza cu usturoi / maioneza picanta / curry picant / maioneza cu mustar ( hardal ) Cartofi  fresh prajiti.ALERGENI: gluten (lipie/bagheta/orez, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), ou, mustar si produse derivate, arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)VALOARE ENERGETICA KJ/Kcal  796 / 190 vitaGrasimi: 9.6 g, Acizi grasi saturati: 3.42 g, Glucide: 17.97 g, Zaharuri: 2.95 g, Proteine: 5.45 g, Sare: 1.2 g (vita)E-uri: e330, e202- e211, e160a, e621-, e471, e282.640g",
+   "category": "Kebab",
+   "price": 5027,
+   "originalPrice": 8378
+  },
+  {
+   "name": "Kebab de Vita cu Berbecuț cu Sos de Vinete si Rodie la Farfurie",
+   "description": "Carne de vita si berbecut (90% carne de vita, 10% carne de berbecut), Sos de Vinete,  Sos rosu dulce ( domates ) /  rosu picant ( acili )     Rodie, ceapa,VALOARE ENERGENI: gluten (lipie/bagheta/orez, sis pui/vita, cartofi),  seminte susan si produse derivate (hummus / naut / pasta de susan),soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi) VALOARE ENERGETICA KJ/Kcal 100g: 904 / 216 vitaVALORI NUTRITIONALE: Grasimi: 2.32 g, Acizi grasi saturati: 1.01 g, Glucide: 12.3 g, Zaharuri: 1.6 g, Proteine: 7.51 g, Sare: 1.04 g (pui) E-uri: e330, e202, e211, e160, e621, e471, e282530g",
+   "category": "Kebab",
+   "price": 4830,
+   "originalPrice": 8050
+  },
+  {
+   "name": "Kebab Mixt la Farfurie",
+   "description": "Carne de pui ( 50% piept de pui - 50% pulpa de pui) / carne de vita si berbecut ( Carne de vita  90%, carne de berbecut 10%) Mix varza ( varza alba/rosie, morcovi ) / rosii / ceapa cu sumac / patrunjel / ardei iute / castraveti murati / ceapa caramelizata, Sos rosu dulce ( domates ) / rosu picant ( acili ) / mujdei / iaurt cu menta ( haydari ) / maioneza cu usturoi / maioneza picanta / curry picant / maioneza cu mustar ( hardal ) Cartofi  fresh prajiti.ALERGENI: gluten (lipie/bagheta/orez, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), ou, mustar si produse derivate, arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)VALORI NUTRITIONALE: Grasimi: 9.6 g, Acizi grasi saturati: 3.42 g, Glucide: 17.97 g, Zaharuri: 2.95 g, Proteine: 5.45 g, Sare: 1.2 g (vita)VALOARE ENERGETICA KJ/Kcal 100g: 355 / 85 pui, 796 / 190 vitaVALORI  NUTRITIONALE: Grasimi: 4.04 g, Acizi grasi saturati: 1.2 g, Glucide: 14.02 g, Zaharuri: 3.61 g, Proteine: 6.83 g, Sare: 0.98 g (pui) Grasimi: 8.98 g, Acizi grasi saturati: 2.84 g, Glucide: 15.8 g, Zaharuri: 3.23 g, Proteine: 4.97 g, Sare: 1.02 g (vita)E-uri: e330, e202- e211, e160a, e621-, e471, e282.640gNOTA* Nuanța roșiatică a cărnii de pui provine din marinadă, nu din gătire insuficientă.",
+   "category": "Kebab",
+   "price": 4668,
+   "originalPrice": 7780
+  },
+  {
+   "name": "Maxi Kebab de Vita cu Berbecuț la Lipie",
+   "description": "Carne de vita si berbecut( Carne de vita 90%, carne de berbecut 10%) Mix varza ( varza alba/rosie, morcovi ) / rosii / ceapa cu sumac / patrunjel / ardei iute / castraveti murati / ceapa caramelizata, Sos rosu dulce ( domates ) / rosu picant ( acili ) / mujdei / iaurt cu menta ( haydari ) / maioneza cu usturoi / maioneza picanta / curry picant / maioneza cu mustar ( hardal ) Cartofi  fresh prajiti.ALERGENI: gluten (lipie/bagheta/orez, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), ou, mustar si produse derivate, arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)VALOARE ENERGETICA KJ/Kcal  796 / 190 vitaGrasimi: 9.6 g, Acizi grasi saturati: 3.42 g, Glucide: 17.97 g, Zaharuri: 2.95 g, Proteine: 5.45 g, Sare: 1.2 g (vita)E-uri: e330, e202- e211, e160a, e621-, e471, e282.620g",
+   "category": "Kebab",
+   "price": 4638,
+   "originalPrice": 7730
+  },
+  {
+   "name": "Kebab de Pui la Farfurie",
+   "description": "Carne pui ( 50% piept de pui - 50% pulpa de pui )  Mix varza ( varza alba/rosie, morcovi ) / rosii / ceapa cu sumac / patrunjel / ardei iute / castraveti murati / ceapa caramelizata, Sos rosu dulce ( domates ) / rosu picant ( acili ) / mujdei / iaurt cu menta ( haydari ) / maioneza cu usturoi / maioneza picanta / curry picant / maioneza cu mustar ( hardal ) Cartofi  fresh prajiti.ALERGENI: gluten (lipie/bagheta/orez, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), ou, mustar si produse derivate, arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)VALOARE ENERGETICA KJ/Kcal 100g: 355 / 85 puiVALORI  NUTRITIONALE: Grasimi: 4.04 g, Acizi grasi saturati: 1.2 g, Glucide: 14.02 g, Zaharuri: 3.61 g, Proteine: 6.83 g, Sare: 0.98 g (pui) E-uri: e330, e202- e211, e160a, e621-, e471, e282.640gNOTA* Nuanța roșiatică a cărnii de pui provine din marinadă, nu din gătire insuficientă.",
+   "category": "Kebab",
+   "price": 4290,
+   "originalPrice": 7150
+  },
+  {
+   "name": "Maxi Kebab Mixt la Lipie",
+   "description": "Carne de pui ( 50% piept de pui - 50% pulpa de pui) / carne de vita cu berbecut ( Carne de vita 90%, carne de berbecut 10%) Mix varza ( varza alba/rosie, morcovi ) / rosii / ceapa cu sumac / patrunjel / ardei iute / castraveti murati / ceapa caramelizata, Sos rosu dulce ( domates ) / rosu picant ( acili ) / mujdei / iaurt cu menta ( haydari ) / maioneza cu usturoi / maioneza picanta / curry picant / maioneza cu mustar ( hardal ) Cartofi  fresh prajiti.ALERGENI: gluten (lipie/bagheta/orez, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), ou, mustar si produse derivate, arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)NOTA* Nuanța roșiatică a cărnii de pui provine din marinadă, nu din gătire insuficientă.VALORI NUTRITIONALE: Grasimi: 9.6 g, Acizi grasi saturati: 3.42 g, Glucide: 17.97 g, Zaharuri: 2.95 g, Proteine: 5.45 g, Sare: 1.2 g (vita)VALOARE ENERGETICA KJ/Kcal 100g: 355 / 85 pui, 796 / 190 vitaVALORI  NUTRITIONALE: Grasimi: 4.04 g, Acizi grasi saturati: 1.2 g, Glucide: 14.02 g, Zaharuri: 3.61 g, Proteine: 6.83 g, Sare: 0.98 g (pui) Grasimi: 8.98 g, Acizi grasi saturati: 2.84 g, Glucide: 15.8 g, Zaharuri: 3.23 g, Proteine: 4.97 g, Sare: 1.02 g (vita)E-uri: e330, e202- e211, e160a, e621-, e471, e282.620g",
+   "category": "Kebab",
+   "price": 4260,
+   "originalPrice": 7100
+  },
+  {
+   "name": "Kebab de Vita cu Berbecuț la Lipie",
+   "description": "Carne de vita si berbecut ( Carne de vita 90%, cane de berbecut 10%) Mix varza ( varza alba/rosie, morcovi ) / rosii / ceapa cu sumac / patrunjel / ardei iute / castraveti murati / ceapa caramelizata, Sos rosu dulce ( domates ) / rosu picant ( acili ) / mujdei / iaurt cu menta ( haydari ) / maioneza cu usturoi / maioneza picanta / curry picant / maioneza cu mustar ( hardal ) Cartofi  fresh prajiti.ALERGENI: gluten (lipie/bagheta/orez, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), ou, mustar si produse derivate, arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)VALOARE ENERGETICA KJ/Kcal  796 / 190 vitaVALORI  NUTRITIONALE: Grasimi: 8.98 g, Acizi grasi saturati: 2.84 g, Glucide: 15.8 g, Zaharuri: 3.23 g, Proteine: 4.97 g, Sare: 1.02 g (vita)E-uri: e330, e202- e211, e160a, e621-, e471, e282.495g",
+   "category": "Kebab",
+   "price": 4134,
+   "originalPrice": 6890
+  },
+  {
+   "name": "Kebab de Vita cu Berbecuț cu Sos de Vinete si Rodie la Lipie",
+   "description": "Carne de vita si berbecut (90% carne de vita, 10% carne de berbecut) Sos de Vinete,  Sos rosu dulce ( domates ) /  rosu picant ( acili )     Rodie, ceapa,VALOARE ENERGENI: gluten (lipie/bagheta/orez, sis pui/vita, cartofi),  seminte susan si produse derivate (hummus / naut / pasta de susan),soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi) VALOARE ENERGETICA KJ/Kcal 100g: 904 / 216 vitaVALORI NUTRITIONALE: Grasimi: 2.32 g, Acizi grasi saturati: 1.01 g, Glucide: 12.3 g, Zaharuri: 1.6 g, Proteine: 7.51 g, Sare: 1.04 g (pui) E-uri: e330, e202, e211, e160, e621, e471, e282240g",
+   "category": "Kebab",
+   "price": 3870,
+   "originalPrice": 6450
+  },
+  {
+   "name": "Kebab Mix la Lipie",
+   "description": "Carne de pui ( 50% piept de pui - 50% pulpa de pui) / carne de vita cu berbecut ( Carne de vita 90%, carne de berbecut 10%) Mix varza ( varza alba/rosie, morcovi ) / rosii / ceapa cu sumac / patrunjel / ardei iute / castraveti murati / ceapa caramelizata, Sos rosu dulce ( domates ) / rosu picant ( acili ) / mujdei / iaurt cu menta ( haydari ) / maioneza cu usturoi / maioneza picanta / curry picant / maioneza cu mustar ( hardal ) Cartofi  fresh prajiti.ALERGENI: gluten (lipie/bagheta/orez, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), ou, mustar si produse derivate, arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)NOTA* Nuanța roșiatică a cărnii de pui provine din marinadă, nu din gătire insuficientă.VALORI NUTRITIONALE: Grasimi: 9.6 g, Acizi grasi saturati: 3.42 g, Glucide: 17.97 g, Zaharuri: 2.95 g, Proteine: 5.45 g, Sare: 1.2 g (vita)VALOARE ENERGETICA KJ/Kcal 100g: 355 / 85 pui, 796 / 190 vitaVALORI  NUTRITIONALE: Grasimi: 4.04 g, Acizi grasi saturati: 1.2 g, Glucide: 14.02 g, Zaharuri: 3.61 g, Proteine: 6.83 g, Sare: 0.98 g (pui) Grasimi: 8.98 g, Acizi grasi saturati: 2.84 g, Glucide: 15.8 g, Zaharuri: 3.23 g, Proteine: 4.97 g, Sare: 1.02 g (vita)E-uri: e330, e202- e211, e160a, e621-, e471, e282.495g",
+   "category": "Kebab",
+   "price": 3769,
+   "originalPrice": 6282
+  },
+  {
+   "name": "Kebab de Pui cu Sos de Vinete La Farfurie",
+   "description": "Carne pui ( 50% piept de pui - 50% pulpa de pui ) Rosii / Ceapa cu sumac / Patrunjel / Adei iute Sos Vinete /  rosu dulce ( domates ) / rosu picant ( acili )ALERGENI: gluten (lipie/bagheta/orez, sis pui/vita, cartofi),  soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), seminte susan si produse derivate (hummus / naut / pasta de susan), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)VALOARE ENERGETICA KJ/Kcal 100g: 644 / 154 puiVALORI NUTRITIONALE: Grasimi: 2.12 g, Acizi grasi saturati: 1.11 g, Glucide: 12.1 g, Zaharuri: 1.6 g, Proteine: 7.51 g, Sare: 1.04 g (pui) E-uri: e330, e202- e211, e160a, e621-, e471, e282.485gNOTA* Nuanța roșiatică a cărnii de pui provine din marinadă, nu din gătire insuficientă.",
+   "category": "Kebab",
+   "price": 3510,
+   "originalPrice": 5850
+  },
+  {
+   "name": "Kebab de Pui la Lipie",
+   "description": "Carne pui ( 50% piept de pui - 50% pulpa de pui )  Mix varza ( varza alba/rosie, morcovi ) / rosii / ceapa cu sumac / patrunjel / ardei iute / castraveti murati / ceapa caramelizata, Sos rosu dulce ( domates ) / rosu picant ( acili ) / mujdei / iaurt cu menta ( haydari ) / maioneza cu usturoi / maioneza picanta / curry picant / maioneza cu mustar ( hardal ) Cartofi  fresh prajiti.ALERGENI: gluten (lipie/bagheta/orez, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), ou, mustar si produse derivate, arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)VALOARE ENERGETICA KJ/Kcal 100g: 355 / 85 puiNOTA* Nuanța roșiatică a cărnii de pui provine din marinadă, nu din gătire insuficientă.VALORI  NUTRITIONALE: Grasimi: 4.04 g, Acizi grasi saturati: 1.2 g, Glucide: 14.02 g, Zaharuri: 3.61 g, Proteine: 6.83 g, Sare: 0.98 g (pui) E-uri: e330, e202- e211, e160a, e621-, e471, e282.495g",
+   "category": "Kebab",
+   "price": 3349,
+   "originalPrice": 5582
+  },
+  {
+   "name": "Kebab de Pui cu Sos de Vinete la Lipie",
+   "description": "Carne pui ( 50% piept de pui - 50% pulpa de pui ) Rosii / Ceapa cu sumac / Patrunjel / Adei iute Sos Vinete /  rosu dulce ( domates ) / rosu picant ( acili )ALERGENI: gluten (lipie/bagheta/orez, sis pui/vita, cartofi),  soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), seminte susan si produse derivate (hummus / naut / pasta de susan), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)VALOARE ENERGETICA KJ/Kcal 100g: 644 / 154 puiVALORI NUTRITIONALE: Grasimi: 2.12 g, Acizi grasi saturati: 1.11 g, Glucide: 12.1 g, Zaharuri: 1.6 g, Proteine: 7.51 g, Sare: 1.04 g (pui) E-uri: e330, e202- e211, e160a, e621-, e471, e282.340gNOTA* Nuanța roșiatică a cărnii de pui provine din marinadă, nu din gătire insuficientă.",
+   "category": "Kebab",
+   "price": 3090,
+   "originalPrice": 5150
+  },
+  {
+   "name": "Bagheta de Vita cu Berbecut",
+   "description": "Carne de  vita ( vita 100% ) Mix varza ( varza alba/rosie, morcovi ) / rosii / ceapa cu sumac / patrunjel / ardei iute / castraveti murati / ceapa caramelizata, Sos rosu dulce ( domates ) / rosu picant ( acili ) / mujdei / iaurt cu menta ( haydari ) / maioneza cu usturoi / maioneza picanta / curry picant / maioneza cu mustar ( hardal ) Cartofi  fresh prajiti.Alergeni: gluten (lipie/bagheta, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)E-uri: e330, e202- e211, e160a, e621-, e471, e282.Valori Nutritionale:  Grasimi: VITA: 5.3 g, Acizi grasi saturati: 2.76 g, Glucide: 12.32 g, Zaharuri: 2.63 g, Proteine: 7.99 g, Sare: 1.55 g Pui: Grasimi: 3.69 g, Acizi grasi saturati: 1.04 g, Glucide: 10.78 g, Zaharuri: 2.91 g, Proteine: 6.92 g, Sare: 1.12 g VALOARE ENERGETICA KJ/Kcal 100g  355 / 85 pui; 460 / 110 vita",
+   "category": "Bagheta",
+   "price": 3090,
+   "originalPrice": 5150
+  },
+  {
+   "name": "Bagheta Mixt",
+   "description": "Carne de pui ( 50% piept de pui - 50% pulpa de pui  ) / sis vita (Carne de  vita 100% )Mix varza ( varza alba/rosie, morcovi ) / rosii / ceapa cu sumac / patrunjel / ardei iute / castraveti murati / ceapa caramelizata, Sos rosu dulce ( domates ) / rosu picant ( acili ) / mujdei / iaurt cu menta ( haydari ) / maioneza cu usturoi / maioneza picanta / curry picant / maioneza cu mustar ( hardal ) Cartofi  fresh prajiti.Alergeni: gluten (lipie/bagheta, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)E-uri: e330, e202- e211, e160a, e621-, e471, e282.Valori Nutritionale:  Grasimi: VITA: 5.3 g, Acizi grasi saturati: 2.76 g, Glucide: 12.32 g, Zaharuri: 2.63 g, Proteine: 7.99 g, Sare: 1.55 g Pui: Grasimi: 3.69 g, Acizi grasi saturati: 1.04 g, Glucide: 10.78 g, Zaharuri: 2.91 g, Proteine: 6.92 g, Sare: 1.12 g VALOARE ENERGETICA KJ/Kcal 100g  355 / 85 pui; 460 / 110 vitaNOTA* Nuanța roșiatică a cărnii de pui provine din marinadă, nu din gătire insuficientă.",
+   "category": "Bagheta",
+   "price": 2700,
+   "originalPrice": 4500
+  },
+  {
+   "name": "Bagheta de Pui",
+   "description": "Carne pui ( 50% piept de pui - 50% pulpa de pui )  Mix varza ( varza alba/rosie, morcovi ) / rosii / ceapa cu sumac / patrunjel / ardei iute / castraveti murati / ceapa caramelizata, Sos rosu dulce ( domates ) / rosu picant ( acili ) / mujdei / iaurt cu menta ( haydari ) / maioneza cu usturoi / maioneza picanta / curry picant / maioneza cu mustar ( hardal ) Cartofi  fresh prajiti.Alergeni: gluten (lipie/bagheta, sis pui/vita, cartofi), soia si produse derivate (sis pui/vita), lapte si produse derivate inclusiv lactoza (sis pui/vita), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi)E-uri: e330, e202- e211, e160a, e621-, e471, e282.Valori Nutritionale:  Grasimi: VITA: 5.3 g, Acizi grasi saturati: 2.76 g, Glucide: 12.32 g, Zaharuri: 2.63 g, Proteine: 7.99 g, Sare: 1.55 g Pui: Grasimi: 3.69 g, Acizi grasi saturati: 1.04 g, Glucide: 10.78 g, Zaharuri: 2.91 g, Proteine: 6.92 g, Sare: 1.12 g VALOARE ENERGETICA KJ/Kcal 100g  355 / 85 pui; 460 / 110 vitaNOTA* Nuanța roșiatică a cărnii de pui provine din marinadă, nu din gătire insuficientă.",
+   "category": "Bagheta",
+   "price": 2160,
+   "originalPrice": 3600
+  },
+  {
+   "name": "Falafel cu Salata de Vinete si Rodie la Farfurie",
+   "description": "Ingrediente: gluten (lipie/falafel/cartofi),  seminte susan si produse derivate (hummus(naut) / pasta de susan), dioxid de sulf lapte si produse derivate inclusiv lactoza ( maioneza cu usturoi ), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi) ALERGENI: gluten (lipie/naut(hummus)/orez/falafel),  seminte susan si produse derivate (hummus(naut) / falafel / pasta de susan), lapte si produse derivate inclusiv lactoza ( maioneza cu usturoi ), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri )VALOARE ENERGETICA KJ/Kcal 100g: 859 / 205VALORI NUTRITIONALE; Grasimi: Grasimi: 11.18 g, Acizi grasi saturati: 2.44 g, Glucide: 16.18 g, Zaharuri: 4.09 g, Proteine: 5.37 g, Sare: 1.16 gE-uei:e330, e202, e211, e160, e471, e282620g",
+   "category": "Veggie",
+   "price": 3270,
+   "originalPrice": 5450
+  },
+  {
+   "name": "Maxi Falafel cu Salata de Vinete si Rodie la Lipie",
+   "description": "Ingrediente: gluten (lipie/falafel/cartofi),  seminte susan si produse derivate (hummus(naut) / pasta de susan), dioxid de sulf lapte si produse derivate inclusiv lactoza ( maioneza cu usturoi ), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi) ALERGENI: gluten (lipie/naut(hummus)/orez/falafel),  seminte susan si produse derivate (hummus(naut) / falafel / pasta de susan), lapte si produse derivate inclusiv lactoza ( maioneza cu usturoi ), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri )VALOARE ENERGETICA KJ/Kcal 100g: 859 / 205VALORI NUTRITIONALE; Grasimi: Grasimi: 11.18 g, Acizi grasi saturati: 2.44 g, Glucide: 16.18 g, Zaharuri: 4.09 g, Proteine: 5.37 g, Sare: 1.16 gE-uei:e330, e202, e211, e160, e471, e282450g",
+   "category": "Veggie",
+   "price": 3030,
+   "originalPrice": 5050
+  },
+  {
+   "name": "Maxi Falafel Clasic in Lipie",
+   "description": "Ingrediente: Falafel  Sos pasta de  susan / rosu dulce ( domates ) / rosu picant ( acili ) / maioneza cu usturoi    Ceapa cu sumac  / rosii / mix de varza / patrunjel / ardei iute / castraveti murati, Lipie ALERGENI: gluten (lipie/naut(hummus)/orez/falafel),  seminte susan si produse derivate (hummus(naut) / falafel / pasta de susan), lapte si produse derivate inclusiv lactoza ( maioneza cu usturoi ), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri )VALOARE ENERGETICA KJ/Kcal 100g: 880 / 210VALORI NUTRITIONALE; Grasimi: 4.72 g, Acizi grasi saturati: 2.6 g, Glucide: 14.43 g, Zaharuri: 2.61 g, Proteine: 4.02 g, Sare: 0.86 gE-uei:e330, e202, e211, e160, e471, e282475g",
+   "category": "Veggie",
+   "price": 2730,
+   "originalPrice": 4550
+  },
+  {
+   "name": "Falafel cu Salata de Vinete si Rodie la Lipie",
+   "description": "Ingrediente: gluten (lipie/falafel/cartofi),  seminte susan si produse derivate (hummus(naut) / pasta de susan), dioxid de sulf lapte si produse derivate inclusiv lactoza ( maioneza cu usturoi ), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri ), dioxid de sulf si sulfiti (cartofi) ALERGENI: gluten (lipie/naut(hummus)/orez/falafel),  seminte susan si produse derivate (hummus(naut) / falafel / pasta de susan), lapte si produse derivate inclusiv lactoza ( maioneza cu usturoi ), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri )VALOARE ENERGETICA KJ/Kcal 100g: 859 / 205VALORI NUTRITIONALE; Grasimi: Grasimi: 11.18 g, Acizi grasi saturati: 2.44 g, Glucide: 16.18 g, Zaharuri: 4.09 g, Proteine: 5.37 g, Sare: 1.16 gE-uei:e330, e202, e211, e160, e471, e282350g",
+   "category": "Veggie",
+   "price": 2670,
+   "originalPrice": 4450
+  },
+  {
+   "name": "Falafel Clasic in Lipie",
+   "description": "Ingrediente: Falafel  Sos pasta de  susan / rosu dulce ( domates ) / rosu picant ( acili ) / maioneza cu usturoi    Ceapa cu sumac  / rosii / mix de varza / patrunjel / ardei iute / castraveti murati, Lipie ALERGENI: gluten (lipie/naut(hummus)/orez/falafel),  seminte susan si produse derivate (hummus(naut) / falafel / pasta de susan), lapte si produse derivate inclusiv lactoza ( maioneza cu usturoi ), ou, mustar si produse derivate ( castraveti murati / sosuri ), arahide si produse derivate ( sosuri )VALOARE ENERGETICA KJ/Kcal 100g: 880 / 210VALORI NUTRITIONALE; Grasimi: 4.72 g, Acizi grasi saturati: 2.6 g, Glucide: 14.43 g, Zaharuri: 2.61 g, Proteine: 4.02 g, Sare: 0.86 gE-uei:e330, e202, e211, e160, e471, e282445g",
+   "category": "Veggie",
+   "price": 2550,
+   "originalPrice": 4250
+  },
+  {
+   "name": "Hummus la Lipie cu Salata Tabouleh",
+   "description": "Ingrediente:Naut, taspta de tahina, tapatrunjel, bulgur, rosiiALERGENI: gluten (lipie/hummus(naut)),  seminte susan si produse derivate (hummus(naut) / pasta de susan), arahide si produse derivate ( sosuri )VALOARE ENERGETICA KJ/Kcal 100g: 895 / 214VALORI NUTRITIONALE;  Grasimi: 4 g, Acizi grasi saturati: 3.05 g, Glucide: 26.74 g, Zaharuri: 0.95 g, Proteine: 7.38 g, Sare: 0.48 gE-uei:e330, e202, e211, e160, e471, e282",
+   "category": "Veggie",
+   "price": 1920,
+   "originalPrice": 3200
+  },
+  {
+   "name": "Supa de Linte",
+   "description": "Linte rosie, cartofi, faina, morocovi, rosii, usturoi, pasta de tomate, sare, piperAlergeni: gluten(linte, crutoane din lipie), telina si produse derivate(linte), VALOARE ENERGETICA KJ/Kcal 100g :234 / 56Valori Nutritionale: Grasimi: 6.3 g, Acizi grasi saturati: 1.5 g, Glucide: 33 g, Zaharuri: 6 g, Proteine: 11.33 g, Sare: 1.03 gE-uri e621",
+   "category": "Supe",
+   "price": 1680,
+   "originalPrice": 2800
+  },
+  {
+   "name": "Extra Lipie",
+   "description": "Lipie tortilla proaspata, coapta pentru textura perfecta.",
+   "category": "Extra",
+   "price": 420,
+   "originalPrice": 700
+  },
+  {
+   "name": "Extra Acilie Ezme",
+   "description": "Sos proaspat din rosii si ardei copti, cu un gust intens si picant.30g",
+   "category": "Extra",
+   "price": 360,
+   "originalPrice": 600
+  },
+  {
+   "name": "Sos Maioneza Picanta",
+   "description": "Maioneza cremoasa preparata in casa, cu un plus de iuteala.",
+   "category": "Extra",
+   "price": 360,
+   "originalPrice": 600
+  },
+  {
+   "name": "Extra Sos Curry",
+   "description": "Sos cremos cu curry aromat si note condimentate usor picante.",
+   "category": "Extra",
+   "price": 360,
+   "originalPrice": 600
+  },
+  {
+   "name": "Extra Sos Domates",
+   "description": "Sos din rosii coapte si condimente, cu gust dulce si echilibrat.",
+   "category": "Extra",
+   "price": 360,
+   "originalPrice": 600
+  },
+  {
+   "name": "Extra Sos Hardal",
+   "description": "Sos fin cu mustar dulce, curry aromat si gust echilibrat.",
+   "category": "Extra",
+   "price": 360,
+   "originalPrice": 600
+  },
+  {
+   "name": "Extra Sos Haydari",
+   "description": "Sos cremos cu iaurt si verdeturi aromatice, racoritor si echilibrat.",
+   "category": "Extra",
+   "price": 360,
+   "originalPrice": 600
+  },
+  {
+   "name": "Extra Sos Maioneza cu Usturoi",
+   "description": "Maioneza cremoasa cu usturoi proaspat si gust bogat.",
+   "category": "Extra",
+   "price": 360,
+   "originalPrice": 600
+  },
+  {
+   "name": "Limonada cu Capsune  0.330",
+   "description": "Limonada preparata in casa cu capsune si gust intens de fructe.",
+   "category": "Bauturi",
+   "price": 990,
+   "originalPrice": 1650
+  },
+  {
+   "name": "Limonada cu Mango  0.330",
+   "description": "Limonada preparata in casa cu mango si note exotice.",
+   "category": "Bauturi",
+   "price": 990,
+   "originalPrice": 1650
+  },
+  {
+   "name": "Limonada cu Pepene Rosu 0.330",
+   "description": "Limonada preparata in casa cu pepene rosu, dulce si racoritoare.",
+   "category": "Bauturi",
+   "price": 990,
+   "originalPrice": 1650
+  },
+  {
+   "name": "Ayran 0.330",
+   "description": "Bautura traditionala pe baza de iaurt, perfecta alaturi de kebab.",
+   "category": "Bauturi",
+   "price": 960,
+   "originalPrice": 1600
+  },
+  {
+   "name": "Limonada 0.330",
+   "description": "Limonada proaspata preparata in casa, dulce-acrisoara si racoritoare.",
+   "category": "Bauturi",
+   "price": 900,
+   "originalPrice": 1500
+  },
+  {
+   "name": "Coca Cola 0.330",
+   "description": "Coca Cola 0.33",
+   "category": "Bauturi",
+   "price": 900,
+   "originalPrice": 1500
+  },
+  {
+   "name": "Coca Cola Zero 0.330",
+   "description": "",
+   "category": "Bauturi",
+   "price": 900,
+   "originalPrice": 1500
+  },
+  {
+   "name": "Fanta 0.330",
+   "description": "",
+   "category": "Bauturi",
+   "price": 900,
+   "originalPrice": 1500
+  },
+  {
+   "name": "Fanta Zero 0.330",
+   "description": "",
+   "category": "Bauturi",
+   "price": 900,
+   "originalPrice": 1500
+  },
+  {
+   "name": "Sprite 0.330",
+   "description": "Bautura racoritoare cu gust fresh de lamaie si lime.",
+   "category": "Bauturi",
+   "price": 900,
+   "originalPrice": 1500
+  },
+  {
+   "name": "Apa Plata Dorna & Izvorul Alb 0.500",
+   "description": "Apa de izvor, pura si racoritoare.",
+   "category": "Bauturi",
+   "price": 780,
+   "originalPrice": 1300
+  },
+  {
+   "name": "Apa Minerala Dorna & Izvorul Alb 0.500",
+   "description": "Apa minerala naturala, cu bule fine.",
+   "category": "Bauturi",
+   "price": 780,
+   "originalPrice": 1300
+  }
+ ]
+}

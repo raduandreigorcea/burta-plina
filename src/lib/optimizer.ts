@@ -129,6 +129,14 @@ function undominated(list: MenuItem[]): MenuItem[] {
   );
 }
 
+const FLAVOUR_WORDS = new Set(["picant", "picanta", "nepicant", "nepicanta", "spicy", "hot", "classic", "clasic", "non"]);
+/** The name without what only tells the flavour apart ("Twister Picant" / "Twister Nepicant"). */
+const family = (name: string) =>
+  normalize(name)
+    .split(" ")
+    .filter((t) => !FLAVOUR_WORDS.has(t))
+    .join(" ");
+
 /** Drinks and sauces are paid for but are not "food" in the grams total. */
 const countsAsFood = (kind: MenuItem["kind"]) => kind !== "drink" && kind !== "sauce";
 
@@ -179,14 +187,15 @@ export function optimize(
   // first so their credits exist by the time the extras are added.
   const isExtra = (it: MenuItem) => balanced && it.kind !== "food";
   // Fries asked for explicitly stay available even when other sides are off.
-  // The same product listed in two categories is one product: otherwise the
-  // per-item limit would allow it twice over.
+  // The same product listed in two categories, or in a hot and a mild version at
+  // the same price and weight, is one product: otherwise the per-item limit
+  // would allow it twice over. The first one listed stands for both.
   const listed = new Set<string>();
   const eligible = eligibleItems(
     allItems,
     opts.wantFries ? { ...opts, sides: opts.sides === "none" ? "balanced" : opts.sides } : opts,
   ).filter((it) => {
-    const k = `${normalize(it.name)}|${it.price}|${it.grams}|${it.unitsPerPurchase ?? 1}`;
+    const k = `${family(it.name)}|${it.price}|${it.grams}|${it.unitsPerPurchase ?? 1}`;
     return !listed.has(k) && !!listed.add(k);
   });
   const sidesOff = opts.sides === "none";

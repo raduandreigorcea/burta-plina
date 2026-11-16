@@ -1,0 +1,721 @@
+{
+ "chain": "McDonald's",
+ "platform": "wolt",
+ "venue": "McDonald's Unirea",
+ "savedOn": "2026-11-16",
+ "fees": {
+  "deliveryFee": 379,
+  "minOrder": 0,
+  "basketFeeRanges": [
+   {
+    "min": 0,
+    "max": 3113,
+    "a": 3362,
+    "b": -1,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 3113,
+    "max": 9988,
+    "a": 0,
+    "b": 0.08,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 9988,
+    "max": 0,
+    "a": 799,
+    "b": 0,
+    "flag": null,
+    "custom_distance_ranges": null
+   }
+  ],
+  "notes": []
+ },
+ "offers": [
+  {
+   "kind": "info",
+   "label": "0 RON delivery fee (doar utilizatori noi – neinclus în calcul)"
+  },
+  {
+   "kind": "info",
+   "label": "30% off (up to 30 RON) on orders over 70 RON (doar utilizatori noi – neinclus în calcul)"
+  }
+ ],
+ "items": [
+  {
+   "name": "MENIU MAXI CHICKEN MCNUGGETS™ (6 BUC.)",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 3680
+  },
+  {
+   "name": "MENIU MAXI BIG TASTY™",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Vită",
+   "price": 3990
+  },
+  {
+   "name": "CAFEA AMERICANO REGULAR 180ML",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 850
+  },
+  {
+   "name": "Salatzikos cu pui, salată cu pui crocant, 260 gr + 1 sos",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Salate",
+   "price": 2700
+  },
+  {
+   "name": "HOME MENU",
+   "description": "Ai 2 burgeri la alegere, Big Mac 204 g și McChicken 181 g, 2 porții mari 150 g de cartofi proaspeți, o porție cu 6 McNuggets 107 g  fragezi (1 sos inclus 10 ml) și 2 plăcinte cu vișine 70 g la desert.",
+   "category": "Ediţie limitată şi Noutăţi",
+   "price": 7990
+  },
+  {
+   "name": "Aripioare de pui (3 buc.), produs picant, 100 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 1700
+  },
+  {
+   "name": "MENIU MAXI CHICKEN MCNUGGETS 9 BUCATI",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 4090
+  },
+  {
+   "name": "Ice Latte, cafea rece cu lapte și gheață  300 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1490
+  },
+  {
+   "name": "Caramel Macchiato tall,  300 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1690
+  },
+  {
+   "name": "6 Chicken McNuggets®, bucăţi de pui, 107 gr + 1 sos",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 2420
+  },
+  {
+   "name": "FELII DE MAR 80G",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Happy Meal®",
+   "price": 550
+  },
+  {
+   "name": "Fresh portocale, 300 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1860
+  },
+  {
+   "name": "Aripioare de pui (7 buc.), produs picant, 235 gr",
+   "description": "Aripioare de pui, acoperite uniform intr-un invelis pané crocant (produs picant)",
+   "category": "Pui",
+   "price": 3050
+  },
+  {
+   "name": "Happy Meal™ Hamburger",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Happy Meal®",
+   "price": 1990
+  },
+  {
+   "name": "McToast®, sendviş cu brânză şi şuncă, 94 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Porc şi Peşte",
+   "price": 790
+  },
+  {
+   "name": "Ketchup, 10 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Cartofi prăjiţi şi sosuri",
+   "price": 520
+  },
+  {
+   "name": "MENIU QUARTER POUNDER WITH CHEESE MAXI",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Vită",
+   "price": 3640
+  },
+  {
+   "name": "Latte Macchiato tall, 300 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1490
+  },
+  {
+   "name": "Sos Hot Devil, produs picant, 25 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Cartofi prăjiţi şi sosuri",
+   "price": 520
+  },
+  {
+   "name": "Fresh Deluxe,  burger de vită cu legume, 239 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Vită",
+   "price": 2290
+  },
+  {
+   "name": "Blueberry Cheesecake, tartă cu brânză şi afine, 120 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 1790
+  },
+  {
+   "name": "Filet-o-Fish, sendviş cu peşte, brânză, sos, 136 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Porc şi Peşte",
+   "price": 1700
+  },
+  {
+   "name": "Espresso regular, 30 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 850
+  },
+  {
+   "name": "Strawberry Cake, prăjitură cu căpşune, 146 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 1640
+  },
+  {
+   "name": "Shake cu aromă de ciocolată, 250 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Deserturi",
+   "price": 920
+  },
+  {
+   "name": "Fresh grapefruit, 300 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1860
+  },
+  {
+   "name": "Decaf Cafea Americano regular, 180 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 850
+  },
+  {
+   "name": "Big Tasty, burger de vită cu brânză, legume, sos, 321 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Vită",
+   "price": 3040
+  },
+  {
+   "name": "Cocoa Frappé tall, 300 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1690
+  },
+  {
+   "name": "MENIU ARIPIOARE DE PUI 5 BUCATI MAXI",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 3990
+  },
+  {
+   "name": "Big Mac, burger de vită cu castraveţi muraţi, sos, 240 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Vită",
+   "price": 2120
+  },
+  {
+   "name": "Decaf Cappuccino regular, 200 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1290
+  },
+  {
+   "name": "Cappuccino regular, 200 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1290
+  },
+  {
+   "name": "Cartofi prăjiţi porţie medie, 114 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Cartofi prăjiţi şi sosuri",
+   "price": 1170
+  },
+  {
+   "name": "Brioșă cu aromă de caramel și nuci,120 g",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 1720
+  },
+  {
+   "name": "Cartofi prăjiţi porţie mică, 80 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Cartofi prăjiţi şi sosuri",
+   "price": 790
+  },
+  {
+   "name": "LIMONADA 400ML",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1390
+  },
+  {
+   "name": "Apă minerală carbogazoasă, 500 ml - Plus Garantie Sticla",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Băuturi",
+   "price": 1150
+  },
+  {
+   "name": "McPops®, mix, 66 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 1350
+  },
+  {
+   "name": "Decaf Caramel Macchiato tall,  300 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1690
+  },
+  {
+   "name": "Quarter Pounder with Cheese, burger de vită,  200 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Vită",
+   "price": 2340
+  },
+  {
+   "name": "McPops®, gogoaşă cu aromă de ciocolată albă, 22 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 600
+  },
+  {
+   "name": "Apă minerală plată, 500 ml - Plus Garantie Sticla",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Băuturi",
+   "price": 1150
+  },
+  {
+   "name": "MENIU MAXI FILET-O-FISH™",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Porc şi Peşte",
+   "price": 3280
+  },
+  {
+   "name": "Cartofi prăjiţi porţie mare, 150 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Cartofi prăjiţi şi sosuri",
+   "price": 1390
+  },
+  {
+   "name": "McPuişor, sendviş cu carne de pui, castraveţi muraţi, 109 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 790
+  },
+  {
+   "name": "Espresso Macchiato,  30 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 950
+  },
+  {
+   "name": "Sos usturoi, 25 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Cartofi prăjiţi şi sosuri",
+   "price": 520
+  },
+  {
+   "name": "Lipton lămâie, 250 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Băuturi",
+   "price": 760
+  },
+  {
+   "name": "Suc de mere, 250 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Băuturi",
+   "price": 1100
+  },
+  {
+   "name": "Croissant cu unt, 70 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 790
+  },
+  {
+   "name": "Croissant cu cremă de cacao şi alune de pădure, 75 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 890
+  },
+  {
+   "name": "Mocha Frappé tall, 300 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1700
+  },
+  {
+   "name": "MENIU MAXI McCHICKEN™",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 3190
+  },
+  {
+   "name": "Vanilla Latte tall, 300 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1690
+  },
+  {
+   "name": "Dublu Cheeseburger, 165 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Vită",
+   "price": 1820
+  },
+  {
+   "name": "Caffé Frappé tall, 300 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1690
+  },
+  {
+   "name": "Sos Barbeque, 25 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Cartofi prăjiţi şi sosuri",
+   "price": 520
+  },
+  {
+   "name": "Decaf Espresso Macchiato,  30 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 950
+  },
+  {
+   "name": "\tHappy Meal®  cu McNuggets®",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Happy Meal®",
+   "price": 1990
+  },
+  {
+   "name": "Aripioare de pui (9 buc.), produs picant, 300 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 3620
+  },
+  {
+   "name": "Happy Meal™ McPuisor",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Happy Meal®",
+   "price": 1990
+  },
+  {
+   "name": "Aripioare de pui (5 buc.), produs picant, 180 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 2790
+  },
+  {
+   "name": "MENIU MCCRISPY MAXI",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 3840
+  },
+  {
+   "name": "Hamburger, 100 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Vită",
+   "price": 790
+  },
+  {
+   "name": "Coca-Cola, 250 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Băuturi",
+   "price": 760
+  },
+  {
+   "name": "Profiterol alb, 90 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 1490
+  },
+  {
+   "name": "Cheeseburger, 113 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Vită",
+   "price": 890
+  },
+  {
+   "name": "Cocoa & Cherry Cake, prăjitură cu cacao şi cireşe, 153 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 1690
+  },
+  {
+   "name": "MENIU MAXI BIG MAC™",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Vită",
+   "price": 3290
+  },
+  {
+   "name": "Banana Bread, prăjitură cu banane şi alune, 65 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 1350
+  },
+  {
+   "name": "Decaf Vanilla Latte tall, 300 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1690
+  },
+  {
+   "name": "Croissant cu cremă de fistic, 76 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 1050
+  },
+  {
+   "name": "Maioneză, 20 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Cartofi prăjiţi şi sosuri",
+   "price": 520
+  },
+  {
+   "name": "McCrispy® Fresh, sendviş cu pui, salată, roşie, sos, 210 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 2990
+  },
+  {
+   "name": "MENIU ARIPIOARE DE PUI 9 BUCATI MAXI",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 5420
+  },
+  {
+   "name": "Decaf Caffé Latte regular, 200 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1290
+  },
+  {
+   "name": "Suc de portocale, 250 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Băuturi",
+   "price": 1100
+  },
+  {
+   "name": "Brioșă cu bucăți de ciocolată albă și neagră,120 g",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 1720
+  },
+  {
+   "name": "Caffé Latte regular, 200 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1290
+  },
+  {
+   "name": "Happy Meal™ Cheeseburger",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Happy Meal®",
+   "price": 1990
+  },
+  {
+   "name": "Flat White regular, 200 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1290
+  },
+  {
+   "name": "MENIU FRESH DELUXE MAXI",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Vită",
+   "price": 3690
+  },
+  {
+   "name": "Decaf Latte Macchiato tall, 300 ml",
+   "description": "",
+   "category": "McCafé® Băuturi",
+   "price": 1290
+  },
+  {
+   "name": "HAPPY MEAL™ McTOAST",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Happy Meal®",
+   "price": 1990
+  },
+  {
+   "name": "Sos smântână,  25 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Cartofi prăjiţi şi sosuri",
+   "price": 520
+  },
+  {
+   "name": "Triple Choco Cookie, fursec cacao, 71 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 800
+  },
+  {
+   "name": "Cartofi Criss Cut, 135 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Cartofi prăjiţi şi sosuri",
+   "price": 1390
+  },
+  {
+   "name": "Caramel Caffé Frappé Tall",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1690
+  },
+  {
+   "name": "9 Chicken McNuggets®, bucăţi de pui, 161 gr + 2 sosuri",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 3340
+  },
+  {
+   "name": "MENIU MCCRISPY FRESH MAXI",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 3840
+  },
+  {
+   "name": "Decaf Flat White regular, 200 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 1490
+  },
+  {
+   "name": "Sprite, 250 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Băuturi",
+   "price": 760
+  },
+  {
+   "name": "Cheddar Star, steluțe brânză cheddar, 4 buc, 95g",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Ediţie limitată şi Noutăţi",
+   "price": 1490
+  },
+  {
+   "name": "McPops®, gogoaşă cu aromă de ciocolată şi alune, 22 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 600
+  },
+  {
+   "name": "McCrispy®, sendviş cu pui, cheddar, murături, sos McBacon®, 185 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 2990
+  },
+  {
+   "name": "Coca-Cola Zero Zahăr, 250 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Băuturi",
+   "price": 760
+  },
+  {
+   "name": "Gogoaşă cu glazură din cremă de vanilie, 71 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 960
+  },
+  {
+   "name": "MENIU MAXI ARIPIOARE DE PUI (7 BUC.)",
+   "description": "Meniul contine aripioare de pui picante (7 buc.), o portie mare de cartofi si, la alegere, o bautura, apa sau cafea.",
+   "category": "Pui",
+   "price": 4860
+  },
+  {
+   "name": "Shake cu aromă de vanilie 250 ml,",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Deserturi",
+   "price": 920
+  },
+  {
+   "name": "McPops®, gogoaşă cu aromă de caise, 22 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 600
+  },
+  {
+   "name": "Salată Coleslaw, mix de legume cu sos cremos de lămâie, 200 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Salate",
+   "price": 990
+  },
+  {
+   "name": "Carrot Cake, prăjitură cu morcovi,  153 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 1790
+  },
+  {
+   "name": "Fanta portocale, 250 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Băuturi",
+   "price": 760
+  },
+  {
+   "name": "Decaf Espresso regular, 30 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 850
+  },
+  {
+   "name": "Shake cu aromă de căpşune, 250 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Deserturi",
+   "price": 920
+  },
+  {
+   "name": "Plăcintă cu vişine, 70 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Deserturi",
+   "price": 1090
+  },
+  {
+   "name": "McChicken®, burger cu carne de pui, salată, sos, 181 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Pui",
+   "price": 2120
+  },
+  {
+   "name": "Chocolate Fudge, prăjitură de ciocolată, 81 gr",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Deserturi şi Patiserie",
+   "price": 990
+  },
+  {
+   "name": "Sos dulce-acrişor, 25 ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Cartofi prăjiţi şi sosuri",
+   "price": 520
+  },
+  {
+   "name": "MENIU MAXI DUBLU CHEESEBURGER",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "Vită",
+   "price": 3290
+  },
+  {
+   "name": "Ciocolată de băut caldă cu lapte 300ml",
+   "description": "Pentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta https://www.mcdonalds.ro/alergeni",
+   "category": "McCafé® Băuturi",
+   "price": 2020
+  }
+ ]
+}

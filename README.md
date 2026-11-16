@@ -10,7 +10,13 @@ npm install
 npm run dev        # interfața web, http://localhost:3000
 npm run cli -- "mcdonalds" 50 [lat] [lon]   # verificare rapidă din terminal
 npm test           # teste (fără rețea)
+npm run audit -- kfc "burger king"   # ce crede aplicația despre meniul live: cele mai „ieftine” produse și coșurile
+npm run snapshot   # salvează din nou meniurile reale din tests/menus/ (apoi `npx vitest run -u` și citești diff-ul)
 ```
+
+Lanțurile cunoscute (cele din lista care apare când scrii) sunt în `src/lib/chains.ts`. Pentru fiecare,
+`tests/menus/` ține un meniu real salvat, iar testele verifică pe el coșurile rezultate: dacă o schimbare
+strică un lanț, se vede în `tests/__snapshots__/`.
 
 ## Cum funcționează
 
@@ -36,5 +42,6 @@ npm test           # teste (fără rețea)
   (`deliveryuser.live.boltsvc.net/deliveryClient/public`: `deliverySearch`, `getMenuCategories`,
   `getProviderDetails`), dar adaptorul nu e scris.
 - Ofertele legate de cont (utilizatori noi, Wolt+, Glovo Prime, coduri promo) nu intră în calcul.
-- Glovo: taxa de livrare e cea afișată pe oraș, iar suprataxa pentru coș mic nu e inclusă.
+- Glovo: taxa de livrare e cea afișată pe oraș (la adresa ta poate fi cu 1–2 lei mai mare). Taxa de
+  servicii și suprataxa de coș mic nu sunt publice; sunt cele citite dintr-un coș real (`glovo.ts`).
 - Produsele fără gramaj în meniu sunt excluse (apar listate în rezultat).

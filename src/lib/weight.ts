@@ -59,7 +59,7 @@ function findWeights(text: string): Match[] {
     if (/^\s*de\s+(carne|vita|vită|pui|porc)/.test(after)) continue;
     // "Glucide: 17.18g", "Proteine: 6.67 g": a nutrition table.
     const label = text.slice(Math.max(0, start - 24), start).toLowerCase();
-    if (/(grasimi|grăsimi|saturati|saturați|glucide|carbohidrati|carbohidrați|zaharuri|zahar|zahăr|proteine|sare|fibre)\)?\s*:\s*$/.test(label))
+    if (/(grasimi|grăsimi|saturati|saturați|glucide|carbohidrati|carbohidrați|zaharuri|zahar|zahăr|proteine|sare|fibre)\)?\s*:\s*(?:[a-zăâîșț]+\s*:\s*)?$/.test(label))
       continue;
     const mult = m[1] ? parseInt(m[1], 10) : 1;
     const grams = value * UNIT[unit] * mult;

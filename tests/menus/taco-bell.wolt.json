@@ -1,0 +1,435 @@
+{
+ "chain": "Taco Bell",
+ "platform": "wolt",
+ "venue": "Taco Bell Vulcan",
+ "savedOn": "2026-11-16",
+ "fees": {
+  "deliveryFee": 629,
+  "minOrder": 0,
+  "basketFeeRanges": [
+   {
+    "min": 0,
+    "max": 3500,
+    "a": 3749,
+    "b": -1,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 3500,
+    "max": 4150,
+    "a": 249,
+    "b": 0,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 4150,
+    "max": 13317,
+    "a": 0,
+    "b": 0.06,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 13317,
+    "max": 0,
+    "a": 799,
+    "b": 0,
+    "flag": null,
+    "custom_distance_ranges": null
+   }
+  ],
+  "notes": []
+ },
+ "offers": [
+  {
+   "kind": "info",
+   "label": "0 RON delivery fee (doar utilizatori noi – neinclus în calcul)"
+  },
+  {
+   "kind": "info",
+   "label": "30% off (up to 30 RON) on orders over 70 RON (doar utilizatori noi – neinclus în calcul)"
+  }
+ ],
+ "items": [
+  {
+   "name": "Apă plată Izvorul Alb 0,5L",
+   "description": "Apă plată Izvorul Alb 0,5L",
+   "category": "Băuturi",
+   "price": 950
+  },
+  {
+   "name": "Sos Creamy Jalapeño (sos picant)",
+   "description": "Sos Creamy Jalapeño - 25g.\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Garnituri și sosuri",
+   "price": 520
+  },
+  {
+   "name": "Loaded XL Burrito",
+   "description": "Loaded XL Burrito 400g\nLoaded XL Burrito cu carne de vita condimentata 400g (27E) 949 kJ /227 kcal\nAlergeni: gluten, ou, lapte, dioxidul de sulf şi sulfiţi.\nLoaded XL Burrito cu carne de pui gatita grill 400g (24E) 888 kJ /212 kcal\nAlergeni: gluten, ou, lapte, telina, dioxidul de sulf şi sulfiţi.\nLoaded XL Burrito cu fasole mexicana 400g (22E) 854 kJ /204 kcal\nAlergeni: gluten, ou, lapte, dioxidul de sulf şi sulfiţi.\nPoate contine urme de: arahide, soia,  fructe cu coajă lemnoasă, muştar, seminţe de susan.",
+   "category": "Noutăți",
+   "price": 3390
+  },
+  {
+   "name": "Big Bell Box (preț fără băutură/churros)",
+   "description": "Fajita Burrito 200g, un Taco 65 g, o porție medie de cartofi prăjiți 100 g/ Nachos 55g, Churros cu topping de caramel 35/15 g, o băutură (răcoritoare/apă 500 ml)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Meniuri & box-uri",
+   "price": 5550
+  },
+  {
+   "name": "Naked Chicken Taco",
+   "description": "Naked Chicken Taco 150g (10E)\n 908 kJ / 218 kcal\n\nAlergeni: gluten, soia, lapte\n\nIngrediente:\n Naked Chicken Taco 120g (piept de pui (42%), apă, făină de grâu, ulei de rapiță, amidon de porumb, pesmet (făină de grâu, drojdie, sare), amidon de porumb modificat, sare, concentrat de proteina de soia, fibre de grâu, praf de usturoi, arome (lapte), pudră de ceapă, făină de orez, gluten de grâu, stabilizatori (E450, E451, E461), condimente, maltodextrină, pudră de oțet de malț (orz), acid (E330), extract de drojdie, amidon de cartofi modificat, agenți de creștere (E341, E500), colorant (E160c), pudră de sfeclă, pudră de ardei gras roșu, extract de ardei Capsicum), ulei pentru prăjit (uleiuri vegetale (floarea-soarelui, floarea-soarelui high oleic, rapiță, în proporții variabile), antispumant E900), smântână pasteurizată 20% grăsime (obținută din lapte de vacă, proteine din lapte, culturi lactice selecționate), salată iceberg, roșii tăiate cubulețe, brânza Cheddar rasă (produs din produs congelat), brânza Cheddar colorată (lapte) conține colorant E160b (ii), antiaglomerant amidon de cartofi.*",
+   "category": "Noutăți",
+   "price": 1490
+  },
+  {
+   "name": "Churros cu sos caramel",
+   "description": "Churros cu topping  de caramel - 35/15g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Desert",
+   "price": 1190
+  },
+  {
+   "name": "Chalupa Supreme",
+   "description": "Flatbread, carne (la alegere), salată, mix de 3 tipuri de brânză, roșii, smântână, sos (la alegere)  - 130g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Specialități",
+   "price": 1900
+  },
+  {
+   "name": "Chicken Taco Box (preț fără băutură)",
+   "description": "Chicken Taco Box (3 Chicken Nachos, Crispy Chicken Taco Supreme cartofi/nachos portie mare,racoritoare 0.5 L, Cinnamon Twist)\nChicken Nachos (3x15g) (7E) 1257 kJ/303 kcal\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Meniuri & box-uri",
+   "price": 4540
+  },
+  {
+   "name": "Sprite 0,5L",
+   "description": "Sprite sticlă 0,5L",
+   "category": "Băuturi",
+   "price": 1250
+  },
+  {
+   "name": "Cheesy Bacon Fries Burrito",
+   "description": "Tortilla, carne (la alegere), cartofi prăjiți, bacon, sos Nacho Cheese, smântână, sos (la alegere) - 220g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Tacos & Burritos",
+   "price": 3190
+  },
+  {
+   "name": "Schweppes Kinley 0,5L",
+   "description": "Schweppes Kinley 0,5L",
+   "category": "Băuturi",
+   "price": 1250
+  },
+  {
+   "name": "Cinnamon twist",
+   "description": "Desert twist - 30g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Desert",
+   "price": 790
+  },
+  {
+   "name": "5 Chicken Nachos (produs picant)",
+   "description": "Chicken Nachos (5x15g) + Sos nacho cheese (1x35g) \n\nChicken Nachos (5x15g) (6E) 1035 kJ/249 kcal\nAlergeni: gluten, lactoza\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Specialități",
+   "price": 1790
+  },
+  {
+   "name": "Spicy Chicken Griller",
+   "description": "Tortilla, carne de pui grill, orez mexican, sos Nacho Cheese, ardei Jalapeño (produs picant) -175g\n\nInformatii nutritionale Griller Chicken 100 g Valori nutritionale: valoare energetica ( 896 kJ/213 kcal), Grasimi  6.88 g din care acizi grasi saturati 2.56 g, Glucide 28.38 g din care zaharuri 2.20 g, Fibre 1.52 g, Proteine 8.65 g, Sare 1.41 g\n\nAlergeni: gluten, lapte, telina, sulfiti.\nPoate contine urme de: ouă, arahide, soia, fructe cu coajă lemnoasă, muştar, seminţe de susan.\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Tacos & Burritos",
+   "price": 1850
+  },
+  {
+   "name": "Sos Sour Cream",
+   "description": "Sos Sour Cream - 30g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Garnituri și sosuri",
+   "price": 520
+  },
+  {
+   "name": "Coca-Cola Zero 0,5 L",
+   "description": "Coca Cola Zero sticlă 0,5L",
+   "category": "Băuturi",
+   "price": 1250
+  },
+  {
+   "name": "Griller Beefy",
+   "description": "Tortilla, carne de vită, orez mexican, sos Nacho Cheese, mix de 3 tipuri de brânză  - 175g\n\nInformatii nutritionale Griller Beefy 100 g Valori nutritionale: valoare energetica (999 kJ/238 kcal), Grasimi  8.90 g din care acizi grasi saturati 3.83 g, Glucide 28.29 g din care zaharuri 2.10 g, Fibre  1.52 g, Proteine 10.39 g, Sare 1.44 g\n\nAlergeni: gluten, lapte, sulfiti.\nPoate contine urme de: ouă, arahide, soia, fructe cu coajă lemnoasă, telina, muştar, seminţe de susan.\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Tacos & Burritos",
+   "price": 1850
+  },
+  {
+   "name": "Chicken Burrito Box (preț fără băutură)",
+   "description": "Chicken Burrito Box (3 Chicken Nachos, Crispy Chicken Burrito, cartofi/nachos portie mare,racoritoare 0.5 L, Cinnamon Twist)\nChicken Nachos (3x15g) (7E) 1257 kJ/303 kcal\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Meniuri & box-uri",
+   "price": 5040
+  },
+  {
+   "name": "Meniu Quesadilla Creamy Jalapeño (produs picant)",
+   "description": "Quesadilla Creamy Jalapeño 205g, o porție mare de cartofi prăjiți 130g/Nachos 75g, o băutură (răcoritoare/apă 500ml)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Meniuri & box-uri",
+   "price": 4650
+  },
+  {
+   "name": "Crispy Chicken Burrito (produs picant)",
+   "description": "Piept de pui crocant, tortilla soft, sos Creamy Jalapeño, salată, rosii, branză Cheddar - 210g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Tacos & Burritos",
+   "price": 2800
+  },
+  {
+   "name": "Sos Chipotle (sos picant)",
+   "description": "Sos Chipotle 25g (E6) 1858 kJ / 451 kcal\nAlergeni: gluten\nIngrediente: Ulei vegetal, apă, oțet alb, dextroză din grâu, sare, amidon modificat, zahăr, condimente (ardei iute), stabilizatori (gumă xanthan E415, gumă guar E412), aromă afumată, conservant (sorbat de potasiu E202), extract de condimente (ardei chipotle, ulei de șofrănel, ardei gras), pudră de ceapă, acid (acid lactic E270), extract de drojdie (extract de drojdie, sare), antioxidant (EDTA disodic de calciu și sodiu).\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Garnituri și sosuri",
+   "price": 520
+  },
+  {
+   "name": "Crunchy Box (preț fără băutură)",
+   "description": "1 Crunchwrap supreme 240g, 1 Taco (Crunchy/Soft) 65g, o porție mare de cartofi prăjiți 130g/Nachos 75g, o băutură (răcoritoare/apă 0,5L), Cinnamon twist 30g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Meniuri & box-uri",
+   "price": 5950
+  },
+  {
+   "name": "Quesadilla Creamy Jalapeño (produs picant)",
+   "description": "Tortilla, carne (la alegere), sos Creamy Jalapeño, mix de 3 tipuri de brânză - 205g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Specialități",
+   "price": 2850
+  },
+  {
+   "name": "Nachos Supreme",
+   "description": "Nachos, Guacamole, sos Nacho Cheese, Pico de Gallo, smântână - 260g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Specialități",
+   "price": 3150
+  },
+  {
+   "name": "Meniu 5 Chicken Nachos (produs picant)",
+   "description": "Chicken Nachos (5x15g) + Sos nacho cheese (1x35g) \nChicken Nachos (5x15g) (6E) 1035 kJ/249 kcal\nAlergeni: gluten, lactoza\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Specialități",
+   "price": 3040
+  },
+  {
+   "name": "Cartofi prăjiți - porție mare",
+   "description": "Cartofi prăjiți acoperiți cu faimosul nostru condiment de inspirație mexicană - porție mare - 130g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Garnituri și sosuri",
+   "price": 1350
+  },
+  {
+   "name": "Duo Box  (preț fără băuturi)",
+   "description": "2 Griller Beefy 350g, 1 Quesadilla 205g, Nachos Supreme 250g, 2 băuturi (răcoritoare/apă 500ml)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Oferte de grup",
+   "price": 8450
+  },
+  {
+   "name": "3 Chicken Nachos (produs picant)",
+   "description": "Chicken Nachos (3x15g) + Sos nacho cheese (1x35g) \nChicken Nachos (3x15g) (6E) 1035 kJ/249 kcal\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Specialități",
+   "price": 1200
+  },
+  {
+   "name": "FUZETEA piersică 0,5L",
+   "description": "FUZETEA Piersică 0,5L",
+   "category": "Băuturi",
+   "price": 1250
+  },
+  {
+   "name": "Family Box",
+   "description": "2 Crunchwrap supreme 480g, 2 Griller beefy 350g , 2 Quesadilla (produs picant) 410g, 1 Nachos supreme 250g, 2 Cinnamon twist 60g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Oferte de grup",
+   "price": 14100
+  },
+  {
+   "name": "Chicken Nachos Share Box",
+   "description": "Chicken Nachos (12x15g) + Sos nacho cheese (2x35g) \nChicken Nachos (12x15g) (6E) 1035 kJ/249 kcal\nAlergeni: gluten, lactoza\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Specialități",
+   "price": 3400
+  },
+  {
+   "name": "Fajita Burrito",
+   "description": "Tortilla, carne (la alegere), sos (la alegere), ardei, ceapă, orez mexican, brânză Cheddar și smântană - 200g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Tacos & Burritos",
+   "price": 2550
+  },
+  {
+   "name": "Nacho Fries",
+   "description": "Nacho fries XL\t\t\"Sos Nacho cheese XL: 912 kJ/ 218 kcal\nCartofi, portie mare: 1099 kJ /263 kcal\n\"\t\"Sos Nacho cheese XL: 19.7g\nCartofi, portie mare: 12.32g\n\"\t\"Sos Nacho cheese XL: 15.3g\nCartofi, portie mare: 1.86g\n\"\t\"Sos Nacho cheese XL: 7.9g\nCartofi, portie mare: 31.53g\"\t\"Sos Nacho cheese XL: 5.5g\nCartofi, portie mare: <0.5g \n\"\t\"Sos Nacho cheese XL: 2.29g\nCartofi, portie mare: 4.60g \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Garnituri și sosuri",
+   "price": 2090
+  },
+  {
+   "name": "Izzy Cheezy",
+   "description": "Tortilla, carne (la alegere), mix de 3 tipuri de brânză, sos Nacho Cheese - 145g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Specialități",
+   "price": 1790
+  },
+  {
+   "name": "Ardei Jalapeños",
+   "description": "Ardei Jalapeños-15g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Garnituri și sosuri",
+   "price": 350
+  },
+  {
+   "name": "Taco Doube Box (preț fără băuturi)",
+   "description": "2 Taco Supreme 190g, 2 Grillers (Beefy sau Chicken Grill (produs picant) 350g, 2 porții mari de cartofi prăjiți 260g/ Nachos 150g, 2 băuturi (răcoritoare 500ml + 1 Cinnamon twist 30g         \nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Oferte de grup",
+   "price": 8850
+  },
+  {
+   "name": "FUZETEA Lamâie 0,5L",
+   "description": "FUZETEA Lamâie 0,5L",
+   "category": "Băuturi",
+   "price": 1250
+  },
+  {
+   "name": "Meniu Crunchwrap Supreme (pret fara bautura)",
+   "description": "Crunchwrap Supreme 240g, o porție mare de cartofi prăjiți 130g/Nachos 75g, o băutură (răcoritoare/apă 500ml)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Meniuri & box-uri",
+   "price": 5000
+  },
+  {
+   "name": "Monster 0,5L",
+   "description": "500ml",
+   "category": "Băuturi",
+   "price": 1440
+  },
+  {
+   "name": "Nacho Cheese XL",
+   "description": "Sos Nacho cheese XL\t\t912 kJ/ 218 kcal\t19.7g\t15.3g\t7.9g\t5.5g\t2.29g\t1.2g\t\"ALERGEN: LAPTE\nPoate contine urme de: gluten, ouă, arahide, soia, fructe cu coajă lemnoasă, telina, muştar, seminţe de susan, dioxidul de sulf şi sulfiţi.\"\tE1422, E330, E339, E160b, E100, E415\tIngrediente: apa, 17% uleiuri vegetale (ulei de cocos, ulei de rapita) zer praf (lapte), branza 5% (lapte), amidon de porumb modificat, pasta de ardei jalapenos si de ardei chili (81%), apa, ardei chili (4%), otet de alcool, sare, amidon modificat din porumb ceros, concentrat de suc de lamaie, extract de condimente), corector de aciditate (E330), emulsifiant (E339), concentrat de suc de ardei rosu, sare, coloranti (E160b, E100), stabilizator (E415), arome naturale.\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Garnituri și sosuri",
+   "price": 1490
+  },
+  {
+   "name": "Nachos - porție mare",
+   "description": "Nachos porție mare - 75g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Garnituri și sosuri",
+   "price": 1350
+  },
+  {
+   "name": "Crunchwrap Supreme",
+   "description": "Tortilla, carne (la alegere), roșii, salată Iceberg, sos Nacho Cheese, Tostada crocantă, smântână, sos (la alegere) - 240g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Specialități",
+   "price": 3190
+  },
+  {
+   "name": "Meniu 2 Tacos Supreme (preț fără băutură)",
+   "description": "2 Taco Supreme 190g, o porție mare de cartofi prăjiți 130g/Nachos 75g, o băutură (răcoritoare/apa 500ml)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Meniuri & box-uri",
+   "price": 4500
+  },
+  {
+   "name": "Meniu 2 Chalupas (preț fără băutură)",
+   "description": "2 Chalupas 260g, o porție medie de cartofi prăjiți 100g/Nachos 55g, o băutură (răcoritoare/apă 500ml)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Meniuri & box-uri",
+   "price": 5600
+  },
+  {
+   "name": "Snack Menu Naked Chicken Taco",
+   "description": "Naked Chicken Taco 150g (10E)\n 908 kJ / 218 kcal\n\nAlergeni: gluten, soia, lapte\n\nIngrediente:\n Naked Chicken Taco 120g (piept de pui (42%), apă, făină de grâu, ulei de rapiță, amidon de porumb, pesmet (făină de grâu, drojdie, sare), amidon de porumb modificat, sare, concentrat de proteina de soia, fibre de grâu, praf de usturoi, arome (lapte), pudră de ceapă, făină de orez, gluten de grâu, stabilizatori (E450, E451, E461), condimente, maltodextrină, pudră de oțet de malț (orz), acid (E330), extract de drojdie, amidon de cartofi modificat, agenți de creștere (E341, E500), colorant (E160c), pudră de sfeclă, pudră de ardei gras roșu, extract de ardei Capsicum), ulei pentru prăjit (uleiuri vegetale (floarea-soarelui, floarea-soarelui high oleic, rapiță, în proporții variabile), antispumant E900), smântână pasteurizată 20% grăsime (obținută din lapte de vacă, proteine din lapte, culturi lactice selecționate), salată iceberg, roșii tăiate cubulețe, brânza Cheddar rasă (produs din produs congelat), brânza Cheddar colorată (lapte) conține colorant E160b (ii), antiaglomerant amidon de cartofi.*",
+   "category": "Noutăți",
+   "price": 2190
+  },
+  {
+   "name": "M Mix BOX (preț fără băutură)",
+   "description": "M Mix BOX (preț fără băutură)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Meniuri & box-uri",
+   "price": 5950
+  },
+  {
+   "name": "Meniu Burrito Creamy Jalapeño (produs picant)",
+   "description": "Burrito Creamy Jalapeño 230g, o porție mare de cartofi prăjiți 130g/Nachos 75g, o băutură (răcoritoare/apă 500ml)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Meniuri & box-uri",
+   "price": 4450
+  },
+  {
+   "name": "Meniu Crispy Chicken Taco Supreme (preț fără băutură)",
+   "description": "2 Crispy Chicken Tacos Supreme 250g, o porție mare de cartofi prăjiți 130g/Nachos 75g, o băutură (răcoritoare/apă 500ml)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Meniuri & box-uri",
+   "price": 4500
+  },
+  {
+   "name": "Soft Taco Supreme",
+   "description": "Tortilla soft, carne (la alegere), roșii, salată Iceberg, smântână, brânză Cheddar, sos (la alegere) - 95g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Tacos & Burritos",
+   "price": 1350
+  },
+  {
+   "name": "Sos Guacamole",
+   "description": "Sos Guacamole - 35g",
+   "category": "Garnituri și sosuri",
+   "price": 520
+  },
+  {
+   "name": "Crunchy Taco Supreme",
+   "description": "Tortilla crocantă, carne (la alegere), roșii, salată Iceberg, smântână, brânză Cheddar, sos (la alegere) - 95g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Tacos & Burritos",
+   "price": 1350
+  },
+  {
+   "name": "Meniu Loaded XL Burrito",
+   "description": "Meniu Loaded XL Burrito  (1xLoaded XL Burrito, cartofi/nachos portie mare, racoritoare 0.5 L)  \nLoaded XL Burrito 400g\nLoaded XL Burrito cu carne de vita condimentata 400g (27E) 949 kJ /227 kcal\nAlergeni: gluten, ou, lapte, dioxidul de sulf şi sulfiţi.\nLoaded XL Burrito cu carne de pui gatita grill 400g (24E) 888 kJ /212 kcal\nAlergeni: gluten, ou, lapte, telina, dioxidul de sulf şi sulfiţi.\nLoaded XL Burrito cu fasole mexicana 400g (22E) 854 kJ /204 kcal\nAlergeni: gluten, ou, lapte, dioxidul de sulf şi sulfiţi.\nPoate contine urme de: arahide, soia,  fructe cu coajă lemnoasă, muştar, seminţe de susan.",
+   "category": "Noutăți",
+   "price": 5300
+  },
+  {
+   "name": "Crispy Chicken Taco Supreme (produs picant)",
+   "description": "Piept de pui crocant, tortilla soft, smântană, sos Creamy Jalapeño, rosii, salată, branză Cheddar - 125g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Tacos & Burritos",
+   "price": 1350
+  },
+  {
+   "name": "Coca-Cola 0.5L",
+   "description": "Coca-Cola sticlă 0,5L",
+   "category": "Băuturi",
+   "price": 1250
+  },
+  {
+   "name": "Box Loaded XL Burrito",
+   "description": "BOX BURRITTO (1xLoaded XL Burrito, cartofi/nachos portie mare, racoritoare 0.5 L, Empanada cu mere și caramel)\nLoaded XL Burrito 400g\nLoaded XL Burrito cu carne de vita condimentata 400g (27E) 949 kJ /227 kcal\nAlergeni: gluten, ou, lapte, dioxidul de sulf şi sulfiţi.\nLoaded XL Burrito cu carne de pui gatita grill 400g (24E) 888 kJ /212 kcal\nAlergeni: gluten, ou, lapte, telina, dioxidul de sulf şi sulfiţi.\nLoaded XL Burrito cu fasole mexicana 400g (22E) 854 kJ /204 kcal\nAlergeni: gluten, ou, lapte, dioxidul de sulf şi sulfiţi.\nPoate contine urme de: arahide, soia,  fructe cu coajă lemnoasă, muştar, seminţe de susan.",
+   "category": "Noutăți",
+   "price": 5650
+  },
+  {
+   "name": "Duo Big Bell Box  (preț fără băuturi)",
+   "description": "2 Tacos (Crunchy/Soft) 130g, 2 Fajita Burrito 400g, 1 Nachos Supreme 250g, 2 băuturi (răcoritoare/apă 0,5L)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Oferte de grup",
+   "price": 8850
+  },
+  {
+   "name": "Meniu Fajita Burrito  (preț fără băutură)",
+   "description": "Fajita Burrito 200g, o porție mare de cartofi prăjiți 130g/Nachos 75g, o băutură (răcoritoare/apă 500ml)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Meniuri & box-uri",
+   "price": 4350
+  },
+  {
+   "name": "Apă minerală Dorna 0,5 L",
+   "description": "Apă minerală Dorna 0,5 L",
+   "category": "Băuturi",
+   "price": 950
+  },
+  {
+   "name": "Yummy Fries",
+   "description": "Cartofi prăjiți, carne (la alegere), sos Nacho Cheese, Pico de Gallo, smântână - 390g\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Specialități",
+   "price": 3500
+  },
+  {
+   "name": "Sos Nacho Cheese",
+   "description": "Sos Nacho Cheese - 35g",
+   "category": "Garnituri și sosuri",
+   "price": 520
+  },
+  {
+   "name": "Meniu Cheesy Bacon Fries Burrito",
+   "description": "Cheesy Bacon Fries Burrito 220g, o porție mare de cartofi prăjiți 130g/Nachos 75g, o băutură (răcoritoare/apă 500ml)\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Meniuri & box-uri",
+   "price": 5000
+  },
+  {
+   "name": "Caramel Apple Empanada",
+   "description": "Empanada cu mere și caramel 70g (2E) 1518 kJ/ 364 kcal\nAlergeni: gluten, lapte \nIngrediente: Empanada cu mere și caramel (60g) (*produs/din produs decongelat) (făină de grau, apă, mere (18,3%), zahăr, uleiuri vegetale: ulei de palmier, ulei de rapiță; amidon \nmodificat, unt (1,7%), lapte praf integral (lapte), dextroză, sare, concentrat de lămâie (0,1%), sirop de zahăr caramelizat, aromă natural), ulei pentru prajit [uleiuri vegetale (floarea \nsoarelui, floarea soarelui high oleic, rapita, in proportii variabile), antispumant E900)], cinnamon sugar (zahar (alb), condiment (scortisoara)).\nPentru informatii privind Gramaje, Ingrediente, Alergeni si Nutritie, consulta: https://taco-bell.ro/documente/informatii-produse-meniu-delivery.pdf?v=1",
+   "category": "Desert",
+   "price": 1050
+  },
+  {
+   "name": "Fanta 0,5L",
+   "description": "Fanta sticlă 0,5L",
+   "category": "Băuturi",
+   "price": 1250
+  }
+ ]
+}

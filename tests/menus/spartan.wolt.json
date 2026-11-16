@@ -1,0 +1,613 @@
+{
+ "chain": "Spartan",
+ "platform": "wolt",
+ "venue": "Spartan - Vitan Mall",
+ "savedOn": "2026-11-16",
+ "fees": {
+  "deliveryFee": 499,
+  "minOrder": 0,
+  "basketFeeRanges": [
+   {
+    "min": 0,
+    "max": 3500,
+    "a": 3749,
+    "b": -1,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 3500,
+    "max": 4150,
+    "a": 249,
+    "b": 0,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 4150,
+    "max": 13317,
+    "a": 0,
+    "b": 0.06,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 13317,
+    "max": 0,
+    "a": 799,
+    "b": 0,
+    "flag": null,
+    "custom_distance_ranges": null
+   }
+  ],
+  "notes": []
+ },
+ "offers": [
+  {
+   "kind": "info",
+   "label": "20% off for selected items (aplicat în prețuri)"
+  },
+  {
+   "kind": "info",
+   "label": "0 RON delivery fee (doar utilizatori noi – neinclus în calcul)"
+  },
+  {
+   "kind": "info",
+   "label": "30% off (up to 30 RON) on orders over 70 RON (doar utilizatori noi – neinclus în calcul)"
+  },
+  {
+   "kind": "info",
+   "label": "Lunches below 40 RON (doar în anumite intervale orare – neinclus în calcul)"
+  }
+ ],
+ "items": [
+  {
+   "name": "Papanași cu Nutella",
+   "description": "Papanaşi, smântână, Nutella - 160g",
+   "category": "DESERTURI",
+   "price": 2899
+  },
+  {
+   "name": "Schweppes Mandarin doză",
+   "description": "Schweppes Mandarin Doza 330ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 900
+  },
+  {
+   "name": "Leonidas Puișor",
+   "description": "Carne rotisată de puișor 80g, sos usturoi 40g, salată verde 30g, rosii 35g, sos dulce - acrișor 20g, sos legume 20g, castraveti murați 15, ceapă rosie 10g, pita clasica spartan 120g - 370g",
+   "category": "LEONIDAS",
+   "price": 3899
+  },
+  {
+   "name": "Gyros Puișor",
+   "description": "Carne rotisată de puișor 100gr, cartofi prăjiți 60gr, salată varză 40gr, sos usturoi 40gr, sos dulce - acrișor 20gr, sos legume 10gr, roșii 20gr, castraveti murați 15gr, ceapă rosie 10gr, salată verde 5gr, lipie spartan 120gr - 440g",
+   "category": "GYROS",
+   "price": 4099
+  },
+  {
+   "name": "Gym Box Puișor",
+   "description": "Orez 150g, carne rotisată puișor 120g, roșii 30g, salată verde 20g - 360g",
+   "category": "CRISPY / SNITEL",
+   "price": 3699
+  },
+  {
+   "name": "Meniu Leonidas Puișor",
+   "description": "Carne rotisată de puișor 370g, cartofi prajiti 100g, sos la alegere 40g, băutură la alegere - 510g + 330ml",
+   "category": "LEONIDAS",
+   "price": 5549
+  },
+  {
+   "name": "Fuzetea Lamaie",
+   "description": "500ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 1000
+  },
+  {
+   "name": "Meniu Veggie Bowl",
+   "description": "Veggie Bowl 375g, apa la alegere - 375g + 500ml",
+   "category": "VEGAN/VEGETARIAN",
+   "price": 4349
+  },
+  {
+   "name": "Gyros la farfurie Puișor",
+   "description": "Cartofi prăjiți 120g, carne rotisată puișor 120g, salată de varză 120g, sos usturoi 40g, sos dulce - acrișor 20g, sos legume 20g, sos tzatziki 20g, castraveti murați 15g, roșii 15g, ceapă rosie 10, salată verde 10g, pita clasica spartan 120g - 630g",
+   "category": "GYROS LA FARFURIE",
+   "price": 4169,
+   "originalPrice": 5149
+  },
+  {
+   "name": "Gyros Cheddar Vitel/Purcel/Berbecut",
+   "description": "Carne rotisată amestec (vițel, purcel, berbecuț) 100g, Lipie Spartan 120g, Cartofi Prajiti 60g, Sos Cheddar 20g, Sos Usturoi 20g, Sos Dulce Acrisor 20g, Rosii 20g, Salata Verde 20g, Castraveti Murati 15g, Ceapa Rosie 10g - 405g",
+   "category": "GYROS",
+   "price": 4099
+  },
+  {
+   "name": "Sprite",
+   "description": "500 ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 1000
+  },
+  {
+   "name": "Salată Fresh Vițel-Purcel-Berbecuț",
+   "description": "Lipie , carne rotisată amestec (vițel, purcel, berbecuț), salată, dressing caesar, brânză cubuleţe, roşii, castraveţi fresh, ardei roşu gras sau kapia, măsline negre feliate, ceapă - 370g+70g pita",
+   "category": "SALATE",
+   "price": 4899
+  },
+  {
+   "name": "Ayran",
+   "description": "",
+   "category": "BAUTURI RACORITOARE",
+   "price": 900
+  },
+  {
+   "name": "Meniu Gyros XXL Vițel-Purcel-Berbecuț",
+   "description": "Gyros vitel-purcel-berbecut 490gr, Cartofi prajiti 100gr, Sos la alegere 40gr, bautura racoritoare - 630gr + 330ml",
+   "category": "GYROS",
+   "price": 6649
+  },
+  {
+   "name": "Feta Snitel Gyros",
+   "description": "Șnițel de pui 120g, lipie Spartan 120g, cremă Feta 60g, cartofi prăjiți 60g, salată de varză 60g, sos de usturoi 40g, sos dulce-acrișor 40g, castraveți murați 20g - 520g Alergeni: Gluten (grâu), Lactoză, Ouă, Ţelină, Muştar, Soia, Susan.",
+   "category": "GYROS",
+   "price": 3999
+  },
+  {
+   "name": "Zeus Loaded Fries",
+   "description": "Cartofi prăjiți 200g, sos cheddar 40g, sos de usturoi 40g, ceapă prăjită 10g - 290g Alergeni: Gluten (grâu), Lactoză, Ouă, Ţelină, Muştar, Susan, Arahide, Nuci.",
+   "category": "LOADED FRIES",
+   "price": 2299
+  },
+  {
+   "name": "Fanta Portocale",
+   "description": "500ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 1000
+  },
+  {
+   "name": "Salata greceasca",
+   "description": "Roșii, castravete fresh, brânză feta, măsline kalamata, ceapă fresh, ulei de măsline, oregano - 371g",
+   "category": "SALATE",
+   "price": 3999
+  },
+  {
+   "name": "Meniu Crispy Mediu + băutură răcoritoare",
+   "description": "Crispy Mediu 420g, pita spartan 120g, bautura racoritoare la alegere - 540g + 330ml",
+   "category": "CRISPY / SNITEL",
+   "price": 5799
+  },
+  {
+   "name": "Sos Cheddar",
+   "description": "Apă, cheddar, unt, amidon modificat, săruri de topire : citrați de sodiu și polifosfați, sare, otet din vin, proteine din lapte, agent de îngroșare: gumă xantan, conservant acid sorbic, coloranți:extract de ardei roșu și caroteni - 40g",
+   "category": "EXTRA OPTIUNI",
+   "price": 700
+  },
+  {
+   "name": "Meniu Salată Zeus Șnițel",
+   "description": "Şniţel de puişor, lipie , salată, roşii, sos la alegere, castraveţi fresh, ardei roşu gras sau kapia, măsline negre feliate, ceapă - 440g + 70 pita + apa 500ml",
+   "category": "SALATE",
+   "price": 5449
+  },
+  {
+   "name": "Meniu Feta Snitel Gyros",
+   "description": "Feta Șnițel Gyros 520g, cartofi prăjiți 120g, sos la alegere (Usturoi / Dulce-acrișor / Tzatziki) 40g, băutură răcoritoare (Pepsi / Pepsi Zero / Mirinda / 7up / Mountain Dew / Aqua Carpatica) 500ml - 680g \nAlergeni: Gluten (grâu), Lactoză, Ouă, Ţelină, Muştar, Soia, Susan.",
+   "category": "GYROS",
+   "price": 5749
+  },
+  {
+   "name": "Coca Cola Zero doză",
+   "description": "Coca-Cola Zero Doza 330ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 900
+  },
+  {
+   "name": "Pită",
+   "description": "Făină de grâu (60%), apă, drojdie, sare, ulei de floarea soarelui, emulgator (stearoil -lactat de sodiu), propionat de calciu - 110g",
+   "category": "EXTRA OPTIUNI",
+   "price": 599
+  },
+  {
+   "name": "Crispy Gyros",
+   "description": "Crispy puișor prăjit 100g, cartofi prăjiți 60g, salată varză 60g, sos usturoi 40g, sos dulce - acrișor 20g, castraveti murați 15, lipie spartan 120g - 415g",
+   "category": "CRISPY / SNITEL",
+   "price": 3099
+  },
+  {
+   "name": "Gyros Grecia Puișor",
+   "description": "Carne rotisată de pui 120g, lipie/pita greceasca 145g, cartofi prăjiți 60g, sos tzatziki 60g, roșii 50g, ceapă roșie 20g, sos usturoi 20g - 450g",
+   "category": "GYROS GRECIA",
+   "price": 4099
+  },
+  {
+   "name": "Meniu Gyros Puișor",
+   "description": "Gyros Puisor 440gr, Cartofi prajiti 100gr, Sos la alegere 40gr, bautura racoritoare - 580gr + 330ml",
+   "category": "GYROS",
+   "price": 5949
+  },
+  {
+   "name": "Pită Veggie (Sos Legume)",
+   "description": "Vegie balls, cartofi prăjiți, lipie, salată verde, sos tzatziki, roșii, ceapă roșie - 465g",
+   "category": "VEGAN/VEGETARIAN",
+   "price": 3799
+  },
+  {
+   "name": "Meniu Gyros Grecia XXL Vitel-Purcel-Berbecut",
+   "description": "Gyros Grecia vitel-purcel-berbecut 515gr, Cartofi prajiti 100g, Sos la alegere 40g, bautura racoritoare - 655g + 330ml",
+   "category": "GYROS GRECIA",
+   "price": 6949
+  },
+  {
+   "name": "Leonidas Vițel-Purcel-Berbecuț",
+   "description": "Carne rotisată de vitel-purcel-berbecut 80g, sos usturoi 40g, salată verde 30g, rosii 35g, sos dulce - acrișor 20g, sos legume 20g, castraveti murați 15, ceapă rosie 10g, pita clasica spartan 120g - 370g",
+   "category": "LEONIDAS",
+   "price": 4299
+  },
+  {
+   "name": "Crispy Mediu",
+   "description": "Crispy puișor prăjit 5 bucați 160g, cartofi prăjiți 100g, lipie spartan 120g, salată varză 100g, sos usturoi 40g, sos dulce - acrișor 20g - 540g",
+   "category": "CRISPY / SNITEL",
+   "price": 5049
+  },
+  {
+   "name": "Sos legume - 40g",
+   "description": "Sos legume - 40 g",
+   "category": "EXTRA OPTIUNI",
+   "price": 450
+  },
+  {
+   "name": "Sos dulce acrișor - 40g",
+   "description": "Sos dulce acrișor  40g",
+   "category": "EXTRA OPTIUNI",
+   "price": 450
+  },
+  {
+   "name": "Ceapă prăjită",
+   "description": "Ceapă prăjită - 10g Alergeni: Gluten (grâu).",
+   "category": "EXTRA OPTIUNI",
+   "price": 250
+  },
+  {
+   "name": "Sos Picant",
+   "description": "Sos de legume: Bază tomate aromă: roşii (din concentrat), sirop de fructoză – glucoză, oţet din alcool, amidon modificat, sare, conservanţi (benzoat de sodiu, sorbat de potasiu, aromă), sos roşii, ţelină proapăta, morcovi, ceapă albă, ardei iute, ardei gras roşu, pătrunjel, condiment, Ardei extra iute Haragos Pista: Ardei extra iute tocat (87%), sare, agent de îngroşare (gumă de xantan), acidifiant (acid citric), conservant (sorbat de potasiu).Conține alergeni: susan, ardei iute, telina, mustar - 20g",
+   "category": "EXTRA OPTIUNI",
+   "price": 450
+  },
+  {
+   "name": "Fanta portocale doză",
+   "description": "Fanta Portocale Doza 330ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 900
+  },
+  {
+   "name": "Meniu Crispy Mega + băutură răcoritoare",
+   "description": "Crispy Mega 475g, pita spartan 120g, bautura racoritoare la alegere - 595g + 330ml",
+   "category": "CRISPY / SNITEL",
+   "price": 6299
+  },
+  {
+   "name": "Sos usturoi",
+   "description": "Sos usturoi - 40 g",
+   "category": "EXTRA OPTIUNI",
+   "price": 450
+  },
+  {
+   "name": "Fuzetea Verde",
+   "description": "500ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 1000
+  },
+  {
+   "name": "Sprite doză",
+   "description": "Sprite Doza 330ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 900
+  },
+  {
+   "name": "Sos Mayoneza Picanta",
+   "description": "Sos Mayoneza Picanta 40g",
+   "category": "EXTRA OPTIUNI",
+   "price": 450
+  },
+  {
+   "name": "Meniu Zeus Șnițel",
+   "description": "3 șnițele de pui (produs congelat) 175g, cartofi prăjiți 150, pita spartan 120g, salată varză 100g, sos usturoi 40g - 585g",
+   "category": "CRISPY / SNITEL",
+   "price": 5049
+  },
+  {
+   "name": "Salată Zeus Șnițel",
+   "description": "Şniţel de puişor, lipie , salată, roşii, sos la alegere, castraveţi fresh, ardei roşu gras sau kapia, măsline negre feliate, ceapă - 440g + 70 g pita",
+   "category": "SALATE",
+   "price": 4699
+  },
+  {
+   "name": "Meniu Pită Veggie (Sos Tzatziki)",
+   "description": "Vegie balls, cartofi prăjiți, lipie, salată verde, sos legume, roșii, ceapă roșie, cartofi prăjiți, apă plată sau minerală - 465g + 500ml",
+   "category": "VEGAN/VEGETARIAN",
+   "price": 5249
+  },
+  {
+   "name": "Gyros XXL Puișor",
+   "description": "Carne rotisată de puișor 150gr, cartofi prăjiți 60gr, salată varză 40gr, sos usturoi 40gr, sos dulce - acrișor 20gr, sos legume 10gr, roșii 20gr, castraveti murați 15gr, ceapă rosie 10gr, salată verde 5gr, lipie spartan 120gr - 490g",
+   "category": "GYROS",
+   "price": 4399
+  },
+  {
+   "name": "Papanași Cu Gem Vișine",
+   "description": "Papanași, smântână, dulceață de vișine - 160g",
+   "category": "DESERTURI",
+   "price": 2799
+  },
+  {
+   "name": "Meniu Gyros Grecia XXL Puișor",
+   "description": "Gyros Grecia Puisor 515gr, Cartofi prajiti 100g, Sos la alegere 40g, bautura racoritoare - 655g + 330ml",
+   "category": "GYROS GRECIA",
+   "price": 6549
+  },
+  {
+   "name": "Veggie Bowl",
+   "description": "Veggie balls 120g, cartofi prajiti 120g, salată verde 70g, sos tzatziki 40g, rosii 20g, ceapă roșie 5g - 375g",
+   "category": "VEGAN/VEGETARIAN",
+   "price": 4299
+  },
+  {
+   "name": "Meniu Salată Fresh Vițel-Purcel-Berbecuț",
+   "description": "Lipie, carne rotisată amestec (vițel, purcel, berbecuț), salată, dressing caesar, brânză cubulețe, roșii, castraveți fresh, ardei roșu gras sau kapia, măsline negre feliate, ceapă, apă - 370g + 70g pită + 500ml",
+   "category": "SALATE",
+   "price": 5649
+  },
+  {
+   "name": "Fanta Madness",
+   "description": "500 ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 1000
+  },
+  {
+   "name": "Sos tzatziki",
+   "description": "Sos tzatziki - 40 g",
+   "category": "EXTRA OPTIUNI",
+   "price": 450
+  },
+  {
+   "name": "Salată Fresh Puișor",
+   "description": "Lipie, carne rotisată de puișor, salată, dressing caesar, brânză cubulețe, roșii, castraveți fresh, ardei roșu gras sau kapia, măsline negre feliate, ceapă - 370g + 70g pită",
+   "category": "SALATE",
+   "price": 4499
+  },
+  {
+   "name": "Meniu Gyros Grecia Puișor",
+   "description": "Gyros Grecia Puisor 465gr, Cartofi prajiti 100gr, Sos la alegere 40gr, bautura racoritoare - 605g + 330ml",
+   "category": "GYROS GRECIA",
+   "price": 5949
+  },
+  {
+   "name": "Extra branza",
+   "description": "Extra brânză cubulețe, brânză telemea de vacă (lapte de vacă pasteurizat, sare, culturi lactice) - 50g",
+   "category": "EXTRA OPTIUNI",
+   "price": 600
+  },
+  {
+   "name": "Gyros Vițel-Purcel-Berbecuț",
+   "description": "Carne rotisată (vițel, purcel, berbecuț) 100gr, cartofi prăjiți 60gr, salată varză 40gr, sos usturoi 40gr, sos dulce - acrișor 20gr, sos legume 10gr, roșii 20gr, castraveti murați 15gr, ceapă rosie 10gr, salată verde 5gr, lipie spartan 120gr - 440g",
+   "category": "GYROS",
+   "price": 4499
+  },
+  {
+   "name": "Pită Șnițel",
+   "description": "Șnițel puișor 80g, cartofi prăjiți 60g, salată varză 60g, sos usturoi 40g, sos dulce - acrișor 20g, castraveti murați - 395g",
+   "category": "CRISPY / SNITEL",
+   "price": 2999
+  },
+  {
+   "name": "Fuzetea Piersici",
+   "description": "500 ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 1000
+  },
+  {
+   "name": "Meniu Leonidas Vițel-Purcel-Berbecuț",
+   "description": "Carne rotisată vitel-purcel-berbecut 370g, cartofi prajiti 100g, sos la alegere 40g, băutură la alegere - 510g + 330ml",
+   "category": "LEONIDAS",
+   "price": 5749
+  },
+  {
+   "name": "Meniu Gyros Vițel-Purcel-Berbecuț",
+   "description": "Gyros vitel-purcel-berbecut 440gr, Cartofi prajiti 100gr, Sos la alegere 40gr, bautura racoritoare - 580gr + 330ml",
+   "category": "GYROS",
+   "price": 6349
+  },
+  {
+   "name": "Mythos Fries VPB",
+   "description": "Cartofi prăjiți 150g, carne rotisată amestec (vițel, porc, berbecuț) 50g, sos cheddar 40g, sos de usturoi 40g, ceapă prăjită 10g - 290gAlergeni: Gluten (grâu), Lactoză, Ouă, Ţelină, Muştar, Susan, Arahide, Nuci.",
+   "category": "LOADED FRIES",
+   "price": 2999
+  },
+  {
+   "name": "Cartofi prăjiți",
+   "description": "Cartofi prăjiți - 150g",
+   "category": "EXTRA OPTIUNI",
+   "price": 1699
+  },
+  {
+   "name": "Meniu Pită Veggie (Sos Legume)",
+   "description": "Vegie balls, cartofi prăjiți, lipie, salată verde, sos tzatziki, roșii, ceapă roșie, cartofi prăjiți, apă plată sau minerală - 465g + 500ml",
+   "category": "VEGAN/VEGETARIAN",
+   "price": 5249
+  },
+  {
+   "name": "Apă Dorna",
+   "description": "Apa Dorna 500ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 900
+  },
+  {
+   "name": "Fanta Lamaie",
+   "description": "500ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 1000
+  },
+  {
+   "name": "Gyros La Farfurie Vițel-Purcel-Berbecuț",
+   "description": "Cartofi prăjiți 120g, carne rotisată vitel-purcel-verbecut 120g, salată de varză 120g, sos usturoi 40g, sos dulce - acrișor 20g, sos legume 20g, sos tzatziki 20g, castraveti murați 15g, roșii 15g, ceapă rosie 10, salată verde 10g, pita clasica spartan 120g - 630g",
+   "category": "GYROS LA FARFURIE",
+   "price": 5549
+  },
+  {
+   "name": "Crispy Mega",
+   "description": "Crispy puișor prăjit 7 bucați 215g, cartofi prăjiți 100g, lipie spartan 120g, salată varză 100g, sos usturoi 40g, sos dulce - acrișor 20g - 595g",
+   "category": "CRISPY / SNITEL",
+   "price": 4489,
+   "originalPrice": 5549
+  },
+  {
+   "name": "Gyros Cheddar Pui",
+   "description": "Carne rotisata de pui 100g, Lipie Spartan 120g, Cartofi Prajiti 60g, Sos Cheddar 20g, Sos Usturoi 20g, Sos Dulce Acrisor 20g, Rosii 20g, Salata Verde 20g, Castraveti Murati 15g, Ceapa Rosie 10g - 405g",
+   "category": "GYROS",
+   "price": 3699
+  },
+  {
+   "name": "Meniu Gyros XXL La Farfurie Puișor",
+   "description": "Gyros la farfurie pui 605g + pita clasica spartan 120g + băutură răcoritoare - 725gr + 330ml",
+   "category": "GYROS LA FARFURIE",
+   "price": 6599
+  },
+  {
+   "name": "Gym Box Vițel-Purcel-Berbecuț",
+   "description": "Orez 150g, carne rotisată amestec (vițel, purcel, berbecuț) 120g, roșii 30g, salată verde 20g - 360g",
+   "category": "CRISPY / SNITEL",
+   "price": 3699
+  },
+  {
+   "name": "Meniu Crispy Gyros",
+   "description": "Crispy Gyros 415g, cartofi prajiti 100g, bautura la alegere - 515g + 330ml",
+   "category": "CRISPY / SNITEL",
+   "price": 4449
+  },
+  {
+   "name": "Fuzetea Fructe Padure",
+   "description": "500ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 1000
+  },
+  {
+   "name": "Gyros Grecia Vițel-Purcel-Berbecuț",
+   "description": "Carne rotisată vitel-purcel-berbecut 120g, lipie/pita greceasca 145g, cartofi prăjiți 60g, sos tzatziki 60g, roșii 50g, ceapă roșie 20g, sos usturoi 20g - 450g",
+   "category": "GYROS GRECIA",
+   "price": 4499
+  },
+  {
+   "name": "Papanași Cu Gem Afine",
+   "description": "Papanaşi, smântână, dulceaţă de afine- 160g",
+   "category": "DESERTURI",
+   "price": 2799
+  },
+  {
+   "name": "Gyros Grecia XXL Vițel-Purcel-Berbecuț",
+   "description": "Carne rotisată vitel-purcel-berbecut 190g, lipie/pita greceasca 145g, cartofi prăjiți 60g, sos tzatziki 60g, roșii 50g, ceapă roșie 20g, sos usturoi 20g - 520g",
+   "category": "GYROS GRECIA",
+   "price": 5099
+  },
+  {
+   "name": "Pită Veggie (Sos Tzatziki)",
+   "description": "Vegie Balls 120g, cartofi prăjiţi 100g, salată verde 40g, sos tzatziki 60g, roşii 20g, ceapă roşie 5g, lipie spartan 120g - 465g",
+   "category": "VEGAN/VEGETARIAN",
+   "price": 3799
+  },
+  {
+   "name": "Cremă Feta",
+   "description": "Cremă Feta - 40g Alergeni: Lactoză",
+   "category": "EXTRA OPTIUNI",
+   "price": 700
+  },
+  {
+   "name": "Mythos Fries Pui",
+   "description": "Cartofi prăjiți 150g, carne rotisată de pui 50g, sos cheddar 40g, sos de usturoi 40g, ceapă prăjită 10g - 290g Alergeni: Gluten (grâu), Lactoză, Ouă, Ţelină, Muştar, Susan, Arahide, Nuci.",
+   "category": "LOADED FRIES",
+   "price": 2799
+  },
+  {
+   "name": "Gyros Grecia XXL Puişor",
+   "description": "Carne rotisată de pui 190g, lipie/pita greceasca 145g, cartofi prăjiți 60g, sos tzatziki 60g, roșii 50g, ceapă roșie 20g, sos usturoi 20g - 520g",
+   "category": "GYROS GRECIA",
+   "price": 4699
+  },
+  {
+   "name": "Meniu Gyros XXL La Farfurie Vițel-Purcel-Berbecuț",
+   "description": "Gyros la farfurie vitel-purcel-berbecut 605g + pita clasica spartan 120g + băutură răcoritoare - 725gr + 330ml",
+   "category": "GYROS LA FARFURIE",
+   "price": 6999
+  },
+  {
+   "name": "Gyros XXL Vițel-Purcel-Berbecuț",
+   "description": "Carne rotisată (vițel, purcel, berbecuț) 150gr, cartofi prăjiți 60gr, salată varză 40gr, sos usturoi 40gr, sos dulce - acrișor 20gr, sos legume 10gr, roșii 20gr, castraveti murați 15gr, ceapă rosie 10gr, salată verde 5gr, lipie spartan 120gr - 490g",
+   "category": "GYROS",
+   "price": 4799
+  },
+  {
+   "name": "Gyros la farfurie XXL Puișor",
+   "description": "Cartofi prăjiți 160g, carne rotisată de puișor 160g, salată de varză 130g, sos usturoi 40g, sos dulce - acrișor 20g, sos legume 20g, sos tzatziki 20g, roșii 15g, castraveti murați 15, salată verde 15g, ceapă rosie 10g, pita clasica spartan 120g - 725g",
+   "category": "GYROS LA FARFURIE",
+   "price": 5849
+  },
+  {
+   "name": "Coca Cola doză",
+   "description": "Coca-Cola Doza 330ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 900
+  },
+  {
+   "name": "Gyros La Farfurie XXL Vițel-Purcel-Berbecuț",
+   "description": "Cartofi prăjiți 160g, carne rotisată vitel-purcel-berbecut 160g, salată de varză 130g, sos usturoi 40g, sos dulce - acrișor 20g, sos legume 20g, sos tzatziki 20g, roșii 15g, castraveti murați 15, salată verde 15g, ceapă rosie 10g, pita clasica spartan 120g - 725g",
+   "category": "GYROS LA FARFURIE",
+   "price": 6249
+  },
+  {
+   "name": "Meniu Zeus Șnițel + băutură răcoritoare",
+   "description": "3 șnițele de pui (produs congelat) 175g, cartofi prăjiți 150, pita spartan 120g, salată varză 100g, sos usturoi 40g, bautura la alegere - 585g + 330ml",
+   "category": "CRISPY / SNITEL",
+   "price": 5799
+  },
+  {
+   "name": "Meniu Salată Fresh Puișor",
+   "description": "Lipie, carne rotisată de puișor, salată, dressing caesar, brânză cubulețe, roșii, castraveți fresh, ardei roșu gras sau kapia, măsline negre feliate, ceapă, apă - 370g + 70g pită + 500ml",
+   "category": "SALATE",
+   "price": 5249
+  },
+  {
+   "name": "Schweppes Mandarin",
+   "description": "Schweppes Mandarin 500ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 1000
+  },
+  {
+   "name": "Meniu Gyros XXL Puișor",
+   "description": "Gyros Puisor 490gr, Cartofi prajiti 100gr, Sos la alegere 40gr, bautura racoritoare - 630gr + 330ml",
+   "category": "GYROS",
+   "price": 6249
+  },
+  {
+   "name": "Coca Cola",
+   "description": "500ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 1000
+  },
+  {
+   "name": "Meniu Gyros Grecia Vițel-Purcel-Berbecuț",
+   "description": "Gyros Grecia vitel-purcel-berbecut 465gr, Cartofi prajiti 100gr, Sos la alegere 40gr, bautura racoritoare - 605g + 330ml",
+   "category": "GYROS GRECIA",
+   "price": 6349
+  },
+  {
+   "name": "Gyros Crispy Cheddar",
+   "description": "Crispy Pui 100g, Lipie Spartan 120g, Cartofi Prajiti 60g, Sos Cheddar 40g, Rosii 50g, Ceapa rosie 15g - 385g",
+   "category": "GYROS",
+   "price": 3299
+  },
+  {
+   "name": "Coca Cola Zero",
+   "description": "500 ml",
+   "category": "BAUTURI RACORITOARE",
+   "price": 1000
+  }
+ ]
+}

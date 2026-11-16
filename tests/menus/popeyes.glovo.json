@@ -1,0 +1,777 @@
+{
+ "chain": "Popeyes",
+ "platform": "glovo",
+ "venue": "Popeyes",
+ "savedOn": "2026-11-16",
+ "fees": {
+  "deliveryFee": 299,
+  "minOrder": 0,
+  "serviceFee": {
+   "pct": 10,
+   "min": 199,
+   "max": 1099
+  },
+  "smallOrder": {
+   "threshold": 4000,
+   "mode": "flat",
+   "flat": 599
+  },
+  "notes": [
+   "Glovo: taxa de livrare este cea afișată public pentru oraș; la adresa ta poate diferi.",
+   "Glovo: taxa de servicii (10%, între 1,99 și 10,99 lei) și suprataxa de coș mic (5,99 lei sub 40 lei) sunt cele din coșul Glovo la București, noiembrie 2026."
+  ]
+ },
+ "offers": [],
+ "items": [
+  {
+   "name": "Sandwich&Tenders Combo for 2",
+   "description": "Delivery only: 2 Chicken Sandwiches, 6 Chicken Tenders, and 2 portions of regular fries",
+   "category": "Delivery Combo Deals",
+   "price": 10490
+  },
+  {
+   "name": "Chicken Sandwich Deluxe Large Meal",
+   "description": "Crunchy and juicy chicken breast, with a slice of Emmentaler cheese, pickles, lettuce, fresh tomato and classic mayo, all in a soft brioche bun. Served with large fries and a large drink of your choice. Enjoy your meal",
+   "category": "Popeyes Classics",
+   "price": 5050
+  },
+  {
+   "name": "5 pc. Chicken Tenders",
+   "description": "(195 g) 5 mild chicken tenders marinated for 12 hours in a unique blend of ingredients and Cajun spices, hand-battered and breaded in our buttermilk coating. So tender, yet crispy!",
+   "category": "Popeyes Classics",
+   "price": 3850
+  },
+  {
+   "name": "Chicken & Dip Combo for 2",
+   "description": "Delivery only: 6 Chicken Tenders, 8 Fillet Nuggets, 200 g of Cheese Dip N’Drip, and 2 refreshing cans of Pepsi",
+   "category": "News",
+   "price": 9990
+  },
+  {
+   "name": "Tenders&Dip N’Drip Combo",
+   "description": "5 crispy chicken tenders paired with our rich Bacon & Cheese Dip ’n Drip (200 g) and a refreshing Pepsi Twist Zero Sugar can.",
+   "category": "News",
+   "price": 5490
+  },
+  {
+   "name": "Sandwich & Nuggets Combo",
+   "description": "Delivery only: Chicken Sandwich, 5 Fillet Nuggets, and a refreshing can of Pepsi",
+   "category": "News",
+   "price": 4750
+  },
+  {
+   "name": "Nashville Challenge Pack",
+   "description": "A true challenge for spice lovers! This bundle comes with 3 Nashville-style Chicken Sandwiches - climb the whole ladder of heat, from Medium Hot to Hot, all the way up to the fiery Super Hot! Plus a can of Pepsi to quench your thirst. Take on the full spice range and see if you can handle the biggest fire!",
+   "category": "Nashville Chicken",
+   "price": 9090
+  },
+  {
+   "name": "Supreme Medium Hot Nashville Sandwich",
+   "description": "Juicy Nashville-style chicken kicked up with a pleasant dose of extra spice, paired with crunchy Coleslaw, a buttery brioche bun, mild mayo and 3 pickles. Everything you love in a great chicken sandwich, in a richer Supreme version! The perfect introduction to the world of heat, with a crunchy twist.",
+   "category": "Nashville Chicken",
+   "price": 2990
+  },
+  {
+   "name": "Supreme Hot Nashville Sandwich",
+   "description": "WARNING! EXTREMELY SPICY! Eat at your own risk! Juicy Nashville-style chicken with serious spice, balanced by fresh Coleslaw, tucked into a buttery brioche bun with creamy, mild mayo and bold pickles. Bold character and full flavor in the Supreme version, one you'll simply keep coming back to!",
+   "category": "Nashville Chicken",
+   "price": 2990
+  },
+  {
+   "name": "Supreme Super Hot Nashville Sandwich",
+   "description": "WARNING! EXTREMELY SPICY! Eat at your own risk! Juicy Nashville-style chicken with uncompromising heat, paired with crunchy Coleslaw, spicy mayo, 3 pickles and a buttery brioche bun. Fire turned all the way up, massive flavor and the ultimate challenge!",
+   "category": "Nashville Chicken",
+   "price": 2990
+  },
+  {
+   "name": "Medium Hot Nashville Tenders",
+   "description": "3 juicy Nashville-style chicken tenders, kicked up with a pleasant dose of extra spice! Served with crunchy Coleslaw and a generous portion of bold pickles. Everything you love about juicy chicken, with a gentle bite of heat. The perfect way to start your Nashville-style Tenders adventure!",
+   "category": "Nashville Chicken",
+   "price": 2990
+  },
+  {
+   "name": "Hot Nashville Tenders",
+   "description": "WARNING! EXTREMELY SPICY! Eat at your own risk! 3 crispy, juicy Nashville-style chicken tenders with serious spice, balanced by fresh Coleslaw and a hearty portion of pickles. Bold character, intense flavor and incredible crunch that you'll simply keep coming back for!",
+   "category": "Nashville Chicken",
+   "price": 2990
+  },
+  {
+   "name": "Super Hot Nashville Tenders",
+   "description": "WARNING! EXTREMELY SPICY! Eat at your own risk! 3 juicy Nashville-style chicken tenders served with crunchy Coleslaw and a portion of pickles. A powerful punch of spice and a real challenge for the most demanding heat lovers!",
+   "category": "Nashville Chicken",
+   "price": 2990
+  },
+  {
+   "name": "Medium Hot Nashville Sandwich",
+   "description": "Juicy Nashville-style chicken, a buttery brioche bun, creamy mayo and 3 crunchy pickles. Everything you love in a great chicken sandwich, kicked up with a pleasant dose of extra spice. The perfect start to your Nashville chicken adventure!",
+   "category": "Nashville Chicken",
+   "price": 2790
+  },
+  {
+   "name": "Hot Nashville Sandwich",
+   "description": "WARNING! EXTREMELY SPICY! Eat at your own risk! Juicy Nashville-style chicken, a soft brioche bun, creamy mayo and bold pickles. Serious spice, bold character and a flavor you'll keep coming back for.",
+   "category": "Nashville Chicken",
+   "price": 2790
+  },
+  {
+   "name": "Super Hot Nashville Sandwich",
+   "description": "WARNING! EXTREMELY SPICY! Eat at your own risk! Juicy Nashville-style chicken with uncompromising heat, tucked into a buttery brioche bun with creamy spicy mayo and 3 pickles. Maximum fire, full flavor and a challenge for true spice lovers!",
+   "category": "Nashville Chicken",
+   "price": 2790
+  },
+  {
+   "name": "8 pc. Classic Wings Large Meal",
+   "description": "8 crispy, classic chicken wings. Served with large fries and a large drink of your choice. Enjoy your meal",
+   "category": "Popeyes Classics",
+   "price": 5590
+  },
+  {
+   "name": "Poppy Box",
+   "description": "2 Classic Chicken Tenders + 3 Classic Wings. Served with Small Fries, a Regular Drink and one dip of your choice. Enjoy your meal!",
+   "category": "Popeyes Classics",
+   "price": 3690
+  },
+  {
+   "name": "Spicy Chicken Sandwich",
+   "description": "(214) g Our flagship Chicken Sandwich: a juicy chicken breast fille, marinated for 12 hours in a unique blend of ingredients and Cajun spices, hand-battered and breaded in our buttermilk coating. We add pickles and classic mayo, all in a soft brioche bun.",
+   "category": "Popeyes Classics",
+   "price": 2450
+  },
+  {
+   "name": "The Garlic Sauce (200g)",
+   "description": "(200g) The real garlic sauce, freshly prepared in-house with plenty of garlic, yogurt, creamy mayo, and carefully selected spices.",
+   "category": "Popeyes Classics",
+   "price": 2090
+  },
+  {
+   "name": "Supreme Fries - Cheese&Bacon",
+   "description": "(190 g) A large portion of golden and crispy Cajun Fries combined with cheese sauce and bacon on top. Enjoy yourself or share with others!",
+   "category": "Popeyes Classics",
+   "price": 1990
+  },
+  {
+   "name": "Tenders&Wings Mega Box for 4",
+   "description": "Delivery only: 16 Chicken Tenders, 24 Classic Wings",
+   "category": "Delivery Combo Deals",
+   "price": 19250
+  },
+  {
+   "name": "Sandwich&Wings Combo for 2",
+   "description": "Delivery only: 2 Chicken Sandwiches, 8 Classic Wings, and 2 portions of regular fries",
+   "category": "Delivery Combo Deals",
+   "price": 10490
+  },
+  {
+   "name": "Sandwich&Voodoo Wings for 2",
+   "description": "Delivery only: 2 Chicken Sandwiches, 6 Voodoo Wings, and 2 portions of regular fries",
+   "category": "Delivery Combo Deals",
+   "price": 10350
+  },
+  {
+   "name": "The Chicken Box for 2",
+   "description": "Delivery only: 6 Chicken Tenders, 12 Fillet Nuggets, and 2 portions of large fries",
+   "category": "Delivery Combo Deals",
+   "price": 9990
+  },
+  {
+   "name": "Sandwich&Tenders Combo",
+   "description": "Delivery only: 1 Chicken Sandwich, 2 Chicken Tenders, and regular fries",
+   "category": "Delivery Combo Deals",
+   "price": 5490
+  },
+  {
+   "name": "Sandwich&Wings Combo",
+   "description": "Delivery only: 1 Chicken Sandwich, 3 Classic Wings, and regular fries",
+   "category": "Delivery Combo Deals",
+   "price": 5490
+  },
+  {
+   "name": "Deluxe Chicken Sandwich",
+   "description": "(238 g) Want more from a sandwich? Try the famous Deluxe Sandwich! Chicken Breast marinated for 12 hours and covered in a crunchy coating with Emmentaler cheese, pickles, salad, fresh tomato and classic mayo, all in a soft brioche bun.",
+   "category": "Sandwiches & Wraps",
+   "price": 3050
+  },
+  {
+   "name": "Spicy Deluxe Chicken Sandwich",
+   "description": "(238 g) Want more from a sandwich? Try the famous Deluxe Sandwich! Chicken Breast marinated for 12 hours and covered in a crunchy coating with Emmentaler cheese, pickles, salad, fresh tomato and spicy mayo, all in a soft brioche bun.",
+   "category": "Sandwiches & Wraps",
+   "price": 3050
+  },
+  {
+   "name": "Coleslaw Chicken Sandwich",
+   "description": "(259 g) A must-try! Coarsely chopped Coleslaw salad (red and white cabbage, carrot, and mayonnaise sauce with a pinch of mustard), 12 hours marinated crispy chicken breast, classic mayo and pickles. All in soft brioche bun.",
+   "category": "Sandwiches & Wraps",
+   "price": 2890
+  },
+  {
+   "name": "Spicy Coleslaw Chicken Sandwich",
+   "description": "(259 g) A must-try! Coarsely chopped Coleslaw salad (red and white cabbage, carrot, and mayonnaise sauce with a pinch of mustard), 12 hours marinated crispy chicken breast, spicy mayo and pickles. All in soft brioche bun.",
+   "category": "Sandwiches & Wraps",
+   "price": 2890
+  },
+  {
+   "name": "Naked Chicken Sandwich",
+   "description": "Naked but Still Attractive: Cajun Grilled chicken fillet topped with ranch, pickles, tomatoes, lettuce, cheese, and mayo, all in a soft brioche bun.",
+   "category": "Sandwiches & Wraps",
+   "price": 2690
+  },
+  {
+   "name": "Naked Spicy Chicken Sandwich",
+   "description": "Naked but Still Attractive: Cajun Grilled chicken fillet topped with ranch, pickles, tomatoes, lettuce, cheese, and spicy mayo, all in a soft brioche bun.",
+   "category": "Sandwiches & Wraps",
+   "price": 2690
+  },
+  {
+   "name": "Naked Chicken Wrap",
+   "description": "Naked but Still Attractive: Cajun Grilled chicken fillet topped with ranch, pickles, tomatoes, lettuce, cheese, and mayo, all wrapped in a warm tortilla.",
+   "category": "Sandwiches & Wraps",
+   "price": 2590
+  },
+  {
+   "name": "Naked Spicy Chicken Wrap",
+   "description": "Naked but Still Attractive: Cajun Grilled chicken fillet topped with ranch, pickles, tomatoes, lettuce, cheese, and spicy mayo, all wrapped in a warm tortilla.",
+   "category": "Sandwiches & Wraps",
+   "price": 2590
+  },
+  {
+   "name": "Chicken Wrap",
+   "description": "(210 g) 2 pieces of chicken tenders marinated for 12 hours in bold Cajun seasonings, classic mayo, lettuce, and fresh tomato. All covered with a tortilla.",
+   "category": "Sandwiches & Wraps",
+   "price": 2550
+  },
+  {
+   "name": "Spicy Chicken Wrap",
+   "description": "(210 g) 2 pieces of chicken tenders marinated  for 12 hours in bold Cajun seasonings, spicy mayo, lettuce, and fresh tomato. All covered with a tortilla.",
+   "category": "Sandwiches & Wraps",
+   "price": 2550
+  },
+  {
+   "name": "Chicken Sandwich",
+   "description": "(214 g) Our flagship Chicken Sandwich: a juicy chicken breast fille, marinated for 12 hours in a unique blend of ingredients and Cajun spices, hand-battered and breaded in our buttermilk coating. We add pickles and classic mayo, all in a soft brioche bun.",
+   "category": "Sandwiches & Wraps",
+   "price": 2450
+  },
+  {
+   "name": "8 pc. Chicken Tenders Large Meal",
+   "description": "8 mild and juicy chicken tenders in a crunchy coating. Served with large fries and a large drink of your choice. Enjoy your meal",
+   "category": "Meals",
+   "price": 7090
+  },
+  {
+   "name": "8 pc. Spicy Chicken Tenders Large Meal",
+   "description": "8 spicy and juicy chicken tenders in a crunchy coating. Served with large fries and a large drink of your choice. Enjoy your meal",
+   "category": "Meals",
+   "price": 7090
+  },
+  {
+   "name": "8 pc. Sauce´d Wings Large Meal",
+   "description": "You’ve chosen 8 crispy wings with Large Fries and a Drink of your choice. Now all that’s left is to pick one of the 6 sauces in the next step: Our limited Red Hot Honey, Hot Lemon Pepper, Swing Onion, Garlic&Parmesan, Voodoo or Bold BBQ! Saucify that Chicken!",
+   "category": "Meals",
+   "price": 6750
+  },
+  {
+   "name": "8 pc. Sauce´d Nuggets Large Meal",
+   "description": "You’ve chosen 8 crispy nuggets with Large Fries and a Drink of your choice. Now all that’s left is to pick one of the 6 sauces in the next step: Our limited Red Hot Honey, Hot Lemon Pepper, Swing Onion, Garlic&Parmesan, Voodoo or Bold BBQ! Saucify that Chicken!",
+   "category": "Meals",
+   "price": 6450
+  },
+  {
+   "name": "5 pc. Chicken Tenders Large Meal",
+   "description": "5 mild and juicy chicken tenders in a crunchy coating. Served with large fries and a large drink of your choice. Enjoy your meal",
+   "category": "Meals",
+   "price": 5850
+  },
+  {
+   "name": "5 pc. Spicy Chicken Tenders Large Meal",
+   "description": "5 spicy and juicy chicken tenders  in a crunchy coating. Served with large fries and a large drink of your choice. Enjoy your meal",
+   "category": "Meals",
+   "price": 5850
+  },
+  {
+   "name": "5 pc. Sauced Wings Large Meal",
+   "description": "You’ve chosen 5 crispy wings with Large Fries and a Drink of your choice. Now all that’s left is to pick one of the 6 sauces in the next step: Our limited Red Hot Honey, Hot Lemon Pepper, Swing Onion, Garlic&Parmesan, Voodoo or Bold BBQ! Saucify that Chicken!",
+   "category": "Meals",
+   "price": 5150
+  },
+  {
+   "name": "8 pc. Fillet Nuggets Large Meal",
+   "description": "8 mild chicken breast  pieces. Served with large fries and a large drink. Enjoy your meal!",
+   "category": "Meals",
+   "price": 5150
+  },
+  {
+   "name": "Spicy Chicken Sandwich Deluxe Large Meal",
+   "description": "Crunchy and juicy chicken breast, with a slice of Emmentaler cheese, pickles, lettuce, fresh tomato and spicy mayo, all in a soft brioche bun. Served with large fries and a large drink of your choice. Enjoy your meal",
+   "category": "Meals",
+   "price": 5050
+  },
+  {
+   "name": "Supreme Medium Hot Nashville Sandwich Large Meal",
+   "description": "Juicy Nashville-style chicken kicked up with a pleasant dose of extra spice, paired with crunchy Coleslaw, a buttery brioche bun, mild mayo and 3 pickles. Everything you love in a great chicken sandwich, in a richer Supreme version! The perfect introduction to the world of heat, with a crunchy twist. With large Fries and a Drink of your choice.",
+   "category": "Meals",
+   "price": 4990
+  },
+  {
+   "name": "Supreme Hot Nashville Sandwich Large Meal",
+   "description": "WARNING! EXTREMELY SPICY! Eat at your own risk! Juicy Nashville-style chicken with serious spice, balanced by fresh Coleslaw, tucked into a buttery brioche bun with creamy, mild mayo and bold pickles. Bold character and full flavor in the Supreme version, one you'll simply keep coming back to! With large Fries and a Drink of your choice.",
+   "category": "Meals",
+   "price": 4990
+  },
+  {
+   "name": "Supreme Super Hot Nashville Sandwich Large Meal",
+   "description": "WARNING! EXTREMELY SPICY! Eat at your own risk! Juicy Nashville-style chicken with uncompromising heat, paired with crunchy Coleslaw, spicy mayo, 3 pickles and a buttery brioche bun. Fire turned all the way up, massive flavor and the ultimate challenge! Now served as a meal with large Fries and your choice of Drink.",
+   "category": "Meals",
+   "price": 4990
+  },
+  {
+   "name": "Medium Hot Nashville Tenders Large Meal",
+   "description": "3 juicy Nashville-style chicken tenders, kicked up with a pleasant dose of extra spice! Served with crunchy Coleslaw and a generous portion of bold pickles. Everything you love about juicy chicken, with a gentle bite of heat. The perfect way to start your Nashville-style Tenders adventure! With large Fries and a Drink of your choice.",
+   "category": "Meals",
+   "price": 4990
+  },
+  {
+   "name": "Hot Nashville Tenders Large Meal",
+   "description": "WARNING! EXTREMELY SPICY! Eat at your own risk! 3 crispy, juicy Nashville-style chicken tenders with serious spice, balanced by fresh Coleslaw and a hearty portion of pickles. Bold character, intense flavor and incredible crunch that you'll simply keep coming back for! With large Fries and a Drink of your choice.",
+   "category": "Meals",
+   "price": 4990
+  },
+  {
+   "name": "Super Hot Nashville Tenders Large Meal",
+   "description": "WARNING! EXTREMELY SPICY! Eat at your own risk! 3 juicy Nashville-style chicken tenders served with crunchy Coleslaw and a portion of pickles. A powerful punch of spice and a real challenge for the most demanding heat lovers! Now served as a meal with large Fries and your choice of Drink.",
+   "category": "Meals",
+   "price": 4990
+  },
+  {
+   "name": "5 pc. Sauced Nuggets Large Meal",
+   "description": "You’ve chosen 5 crispy nuggets with Large Fries and a Drink of your choice. Now all that’s left is to pick one of the 6 sauces in the next step: Our limited Red Hot Honey, Hot Lemon Pepper, Swing Onion, Garlic&Parmesan, Voodoo or Bold BBQ! Saucify that Chicken!",
+   "category": "Meals",
+   "price": 4950
+  },
+  {
+   "name": "5 pc. Classic Wings Large Meal",
+   "description": "5 crispy, classic chicken wings. Served with large fries and a large drink of your choice. Enjoy your meal",
+   "category": "Meals",
+   "price": 4890
+  },
+  {
+   "name": "Spicy Coleslaw Chicken Sandwich Large Meal",
+   "description": "Crunchy and juicy chicken breast with Coleslaw salad, spicy mayo sauce, pickles, and soft brioche bun. With large fries and a large drink of your choice.",
+   "category": "Meals",
+   "price": 4890
+  },
+  {
+   "name": "Coleslaw Chicken Sandwich Large Meal",
+   "description": "Crunchy and juicy chicken breast with Coleslaw salad,, mayo sauce, pickles, and soft brioche bun. With large fries and a large drink of your choice.",
+   "category": "Meals",
+   "price": 4890
+  },
+  {
+   "name": "Medium Hot Nashville Sandwich Large Meal",
+   "description": "Juicy Nashville-style chicken, a buttery brioche bun, creamy mayo and 3 crunchy pickles. Everything you love in a great chicken sandwich, kicked up with a pleasant dose of extra spice. The perfect start to your Nashville chicken adventure! With large Fries and a Drink of your choice.",
+   "category": "Meals",
+   "price": 4790
+  },
+  {
+   "name": "Hot Nashville Sandwich Large Meal",
+   "description": "WARNING! EXTREMELY SPICY! Eat at your own risk! Juicy Nashville-style chicken, a soft brioche bun, creamy mayo and bold pickles. Serious spice, bold character and a flavor you'll keep coming back for. With large Fries and a Drink of your choice.",
+   "category": "Meals",
+   "price": 4790
+  },
+  {
+   "name": "Super Hot Nashville Sandwich Large Meal",
+   "description": "WARNING! EXTREMELY SPICY! Eat at your own risk! Juicy Nashville-style chicken with uncompromising heat, tucked into a buttery brioche bun with creamy spicy mayo and 3 pickles. Maximum fire, full flavor and a challenge for true spice lovers! Now served as a meal with large Fries and your choice of Drink.",
+   "category": "Meals",
+   "price": 4790
+  },
+  {
+   "name": "Naked Chicken Sandwich Large Meal",
+   "description": "Naked but Still Attractive: Cajun Grilled chicken fillet topped with ranch, pickles, tomatoes, lettuce, cheese, and mayo, all in a soft brioche bun. Served with large fries and a drink of your choice.",
+   "category": "Meals",
+   "price": 4690
+  },
+  {
+   "name": "Naked Spicy Chicken Sandwich Large Meal",
+   "description": "Naked but Still Attractive: Cajun Grilled chicken fillet topped with ranch, pickles, tomatoes, lettuce, cheese, and spicy mayo, all in a soft brioche bun. Served with large fries and a drink of your choice.",
+   "category": "Meals",
+   "price": 4690
+  },
+  {
+   "name": "Naked Chicken Wrap Large Meal",
+   "description": "Naked but Still Attractive: Cajun Grilled chicken fillet topped with ranch, pickles, tomatoes, lettuce, cheese, and mayo, all wrapped in a warm tortilla. Served with large fries and a drink of your choice.",
+   "category": "Meals",
+   "price": 4590
+  },
+  {
+   "name": "Naked Spicy Chicken Wrap Large Meal",
+   "description": "Naked but Still Attractive: Cajun Grilled chicken fillet topped with ranch, pickles, tomatoes, lettuce, cheese, and spicy mayo, all wrapped in a warm tortilla. Served with large fries and a drink of your choice.",
+   "category": "Meals",
+   "price": 4590
+  },
+  {
+   "name": "Chicken Wrap Large Meal",
+   "description": "2 pieces of chicken tenders, classic mayo, lettuce, fresh tomato, and a soft tortilla. With large fries and a regular drink of your choice.",
+   "category": "Meals",
+   "price": 4550
+  },
+  {
+   "name": "Spicy Chicken Wrap Large Meal",
+   "description": "2 pieces of chicken tenders, spicy mayo, lettuce, fresh tomato, and a soft tortilla. With large fries and a regular drink of your choice.",
+   "category": "Meals",
+   "price": 4550
+  },
+  {
+   "name": "5 pc. Fillet Nuggets Large Meal",
+   "description": "5 mild chicken breast  pieces. Served with large fries and a large drink. Enjoy your meal!",
+   "category": "Meals",
+   "price": 4450
+  },
+  {
+   "name": "Chicken Sandwich Large Meal",
+   "description": "A juicy and crunchy chicken breast fillet, classic mayo, pickle slices, and buttery toasted brioche bun. Served with large fries and a large drink of your choice. Enjoy your meal",
+   "category": "Meals",
+   "price": 4450
+  },
+  {
+   "name": "Spicy Chicken Sandwich Large Meal",
+   "description": "A juicy and crunchy chicken breast fillet, spicy mayo, pickle slices, and buttery toasted brioche bun. Served with large fries and a large drink of your choice. Enjoy your meal",
+   "category": "Meals",
+   "price": 4450
+  },
+  {
+   "name": "Box For You Large",
+   "description": "3 Chicken Tenders + 4 Classic Wings. Served with large fries and a large drink of your choice. Enjoy your meal!",
+   "category": "Boxes",
+   "price": 5290
+  },
+  {
+   "name": "Crunch Box",
+   "description": "A box of 3 Crunchers of your choice (Classic, Spicy, or BBQ).",
+   "category": "Boxes",
+   "price": 3690
+  },
+  {
+   "name": "Poppy Kids Meal",
+   "description": "Small snack for big adventurers: 4 Fillet Nuggets/2 Chicken Tenders/Mini Wrap/Cruncher Classic, small fries and a drink. Also, add some fun to your meal with one of our very cool toys.",
+   "category": "Boxes",
+   "price": 2090
+  },
+  {
+   "name": "5 pc. Voodoo Wings",
+   "description": "(214 g) 5 pieces of freshly prepared wings, marinated for 12 hours in bold Cajun seasoning, glazed in Voodoo Sweet Chili sauce. Juicy&Spicy!",
+   "category": "Sauce'd",
+   "price": 3150
+  },
+  {
+   "name": "5 pc. Bold BBQ Wings",
+   "description": "(189 g) 5 pieces of freshly prepared wings, marinated for 12 hours in bold Cajun seasoning, glazed in smoky BBQ sauce. American Classic!",
+   "category": "Sauce'd",
+   "price": 3150
+  },
+  {
+   "name": "5 pc. Voodoo Fillet Nuggets",
+   "description": "(200 g) 5 crispy chicken breast pieces, hand-battered and breaded in our buttermilk coating, glazed in Voodoo Sweet Chilli sauce. Juicy&Spicy!",
+   "category": "Sauce'd",
+   "price": 2950
+  },
+  {
+   "name": "5 pc. Bold BBQ Fillet Nuggets",
+   "description": "(175 g) 5 crispy chicken breast pieces, hand-battered and breaded in our buttermilk coating, glazed in smoky BBQ sauce. American Classic!",
+   "category": "Sauce'd",
+   "price": 2950
+  },
+  {
+   "name": "5 pc. Hot Lemon Pepper Wings",
+   "description": "(174 g) 5 crispy wings tossed in a bold mix of citrus zest, cracked black pepper and tangy flavor, with a peppery kick in every bite.",
+   "category": "Sauce'd",
+   "price": 2890
+  },
+  {
+   "name": "5 pc. Garlic Parmesan Wings",
+   "description": "(174 g) 5 crispy wings coated in a creamy garlic sauce with rich parmesan flavor.",
+   "category": "Sauce'd",
+   "price": 2890
+  },
+  {
+   "name": "5 pc. Onion Swing Wings",
+   "description": "(174 g) 5 crispy wings tossed in a bold, tangy onion dip-style sauce.",
+   "category": "Sauce'd",
+   "price": 2890
+  },
+  {
+   "name": "5 pc. Hot Lemon Pepper Fillet Nuggets",
+   "description": "(160 g) 5 crispy chicken breast pieces tossed in a bold mix of citrus zest, cracked black pepper and tangy flavor, with a peppery kick in every bite.",
+   "category": "Sauce'd",
+   "price": 2890
+  },
+  {
+   "name": "5 pc. Garlic Parmesan Fillet Nuggets",
+   "description": "(160 g) 5 crispy chicken breast pieces coated in a creamy garlic sauce with rich parmesan flavor.",
+   "category": "Sauce'd",
+   "price": 2890
+  },
+  {
+   "name": "5 pc. Onion Swing Fillet Nuggets",
+   "description": "(160 g) 5 crispy chicken breast pieces tossed in a bold, tangy onion dip-style sauce.",
+   "category": "Sauce'd",
+   "price": 2890
+  },
+  {
+   "name": "8 pc. Chicken Tenders",
+   "description": "(312 g) 8 mild chicken tenders marinated for 12 hours in a unique blend of ingredients and Cajun spices, hand-battered and breaded in our buttermilk coating. So tender, yet crispy!",
+   "category": "Chicken Tenders",
+   "price": 5090
+  },
+  {
+   "name": "8 pc. Spicy Chicken Tenders",
+   "description": "(312 g) 8 spicy chicken tenders marinated for 12 hours in a unique blend of ingredients and Cajun spices, hand-battered and breaded in our buttermilk coating. So tender, yet crispy!",
+   "category": "Chicken Tenders",
+   "price": 5090
+  },
+  {
+   "name": "5 pc. Spicy Chicken Tenders",
+   "description": "(195 g) 5 spicy chicken tenders marinated for 12 hours in a unique blend of ingredients and Cajun spices, hand-battered and breaded in our buttermilk coating. So tender, yet crispy!",
+   "category": "Chicken Tenders",
+   "price": 3850
+  },
+  {
+   "name": "8 pc. Classic Wings",
+   "description": "(192 g) 8 pieces of crispy chicken wings, marinated for 12 hours in bold Cajun seasoning, then hand-battered and breaded, in a mild version.",
+   "category": "Classic Wings",
+   "price": 3590
+  },
+  {
+   "name": "5 pc. Classic Wings",
+   "description": "(114 g) 5 pieces of crispy chicken wings, marinated for 12 hours in bold Cajun seasoning, then hand-battered and breaded, in a mild version.",
+   "category": "Classic Wings",
+   "price": 2890
+  },
+  {
+   "name": "8 pc. Fillet Nuggets",
+   "description": "(160 g) 5 mild juicy chicken breast pieces, freshly prepared, hand-battered and breaded in our buttermilk coating. A party in your mouth!",
+   "category": "Fillet Nuggets",
+   "price": 3150
+  },
+  {
+   "name": "5 pc. Fillet Nuggets",
+   "description": "(100 g) 5 mild juicy chicken breast pieces, freshly prepared, hand-battered and breaded in our buttermilk coating. A party in your mouth!",
+   "category": "Fillet Nuggets",
+   "price": 2450
+  },
+  {
+   "name": "Ranch Dip N'Drip 200g",
+   "description": "(200g) Sos ranch fin și cremos, perfect pentru a scufunda puiul, cartofii prăjiți, ba chiar și un Chicken Sandwich.",
+   "category": "Dip N’Drip",
+   "price": 2090
+  },
+  {
+   "name": "Cheese Dip N'Drip 200g",
+   "description": "(200g) Sos de brânză fin și cremos - transformă puiul, sandvișurile și cartofii prăjiți într-o experiență savuroasă de top.",
+   "category": "Dip N’Drip",
+   "price": 2090
+  },
+  {
+   "name": "Voodoo Dip N'Drip 200 g",
+   "description": "(200g) Sos Voodoo dulce-picant - alegerea perfectă pentru cei care caută un strop de magie în fiecare mușcătură.",
+   "category": "Dip N’Drip",
+   "price": 2090
+  },
+  {
+   "name": "Swing Onion Dip N'Drip 200g",
+   "description": "(200g) Sos de ceapă intens și ușor acrișor - perfect pentru cei care iubesc gusturile îndrăznețe.",
+   "category": "Dip N’Drip",
+   "price": 2090
+  },
+  {
+   "name": "Cheese Chicken Loaded Fries",
+   "description": "Popeyes Cajun Fries topped with 5 crispy Fillet Nuggets, creamy cheese sauce, crispy bacon and fresh chives.",
+   "category": "Sides",
+   "price": 3290
+  },
+  {
+   "name": "Cheese&BBQ Chicken Loaded Fries",
+   "description": "Popeyes Cajun Fries topped with 5 crispy Fillet Nuggets, creamy cheese sauce, smoky BBQ sauce and crispy bacon.",
+   "category": "Sides",
+   "price": 3290
+  },
+  {
+   "name": "Cheese&Ranch Chicken Loaded Fries",
+   "description": "Popeyes Cajun Fries topped with 5 crispy Fillet Nuggets, creamy cheese sauce, smooth ranch sauce and fresh chives.",
+   "category": "Sides",
+   "price": 3290
+  },
+  {
+   "name": "Supreme Fries - Cheese&Spring Onion",
+   "description": "(190 g) A large portion of golden and crispy Cajun Fries combined with cheese sauce and fresh chives on top. Enjoy yourself or share with others!",
+   "category": "Sides",
+   "price": 1890
+  },
+  {
+   "name": "Large Cajun Fries",
+   "description": "(140 g) A large portion of golden and crispy fries coated in a generous layer of Louisiana spices. That makes them 100% Cajun. - perfect as a snack, even better in the set.",
+   "category": "Sides",
+   "price": 1490
+  },
+  {
+   "name": "Large Fries",
+   "description": "(140 g) A large portion of golden and crispy fries with Cajun spice - perfect as a hot snack, even better in the set.",
+   "category": "Sides",
+   "price": 1450
+  },
+  {
+   "name": "Regular Cajun Fries",
+   "description": "(100 g) A medium portion of golden and crispy fries coated in a generous layer of Louisiana spices. That makes them 100% Cajun. - perfect as a snack, even better in the set.",
+   "category": "Sides",
+   "price": 1390
+  },
+  {
+   "name": "Regular Fries",
+   "description": "(100 g) A regular portion of golden and crispy fries with Cajun spice - perfect as a hot snack, even better in the set.",
+   "category": "Sides",
+   "price": 1350
+  },
+  {
+   "name": "Coleslaw",
+   "description": "(125 g) Coarsely chopped salad of red and white cabbage, onion, carrot, and mayonnaise sauce with a pinch of mustard. Straight from New Orleans!",
+   "category": "Sides",
+   "price": 1050
+  },
+  {
+   "name": "Spicy Mango Lemonade 400ml",
+   "description": "(400 ml) Popeyes’ Signature lemonade with a sweet spicy mango kick!",
+   "category": "Drinks",
+   "price": 1550
+  },
+  {
+   "name": "Cherry Lemonade 400ml",
+   "description": "(400 ml) Popeyes’ Signature lemonade with a tangy cherry kick!",
+   "category": "Drinks",
+   "price": 1550
+  },
+  {
+   "name": "Pepsi Raspberry 500ml",
+   "description": "(500 ml) Pepsi Rasperry PET",
+   "category": "Drinks",
+   "price": 1450
+  },
+  {
+   "name": "Pepsi 500ml",
+   "description": "(500 ml) Pepsi PET bottle",
+   "category": "Drinks",
+   "price": 1450
+  },
+  {
+   "name": "Pepsi Zero Sugar 500ml",
+   "description": "(500 ml) Pepsi Zero Sugar PET bottle",
+   "category": "Drinks",
+   "price": 1450
+  },
+  {
+   "name": "Lipton Peach 500ml",
+   "description": "(500 ml) Lipton Peach PET",
+   "category": "Drinks",
+   "price": 1450
+  },
+  {
+   "name": "Lipton Lemon 500ml",
+   "description": "(500 ml) Lipton Lemon PET",
+   "category": "Drinks",
+   "price": 1450
+  },
+  {
+   "name": "Homestyle Lemonade 400ml",
+   "description": "(400 ml) Refreshing Popeyes’ Signature lemonade with ice cubes.",
+   "category": "Drinks",
+   "price": 1350
+  },
+  {
+   "name": "Water 500ml",
+   "description": "(500 ml) Mineral still water, in PET bottle",
+   "category": "Drinks",
+   "price": 1250
+  },
+  {
+   "name": "Saprkling Water 500ml",
+   "description": "(500 ml) Mineral sparkling water, in PET bottle",
+   "category": "Drinks",
+   "price": 1250
+  },
+  {
+   "name": "Pepsi Twist Zero Sugar 500ml",
+   "description": "(500 ml) Pepsi Zero Sugar Twist PET bottle",
+   "category": "Drinks",
+   "price": 1150
+  },
+  {
+   "name": "Pepsi Strawberries ’N’ Cream Zero Sugar 330 ml",
+   "description": "(330 ml) Pepsi Strawberries ’N’ Cream Zero Sugar can",
+   "category": "Drinks",
+   "price": 990
+  },
+  {
+   "name": "Pepsi Zero Sugar Lemon 330ml",
+   "description": "(330 ml) Pepsi Zero Sugar Lemon can",
+   "category": "Drinks",
+   "price": 990
+  },
+  {
+   "name": "Pepsi 330ml",
+   "description": "(330 ml) Pepsi can",
+   "category": "Drinks",
+   "price": 990
+  },
+  {
+   "name": "Pepsi Twist Zero Sugar 330ml",
+   "description": "(330 ml) Pepsi can",
+   "category": "Drinks",
+   "price": 990
+  },
+  {
+   "name": "5 dip set",
+   "description": "A set of 5 Popeyes dips of your choosing between: Mardi Gras dip, NOLA dip, BBQ dip, Buffalo dip, and Garlic Mayo dip. A perfect match to our chicken or Cajun fries.",
+   "category": "Dips",
+   "price": 1890
+  },
+  {
+   "name": "Mardi Gras dip",
+   "description": "(25 g) Sweetened traditional creole mustard dipping sauce",
+   "category": "Dips",
+   "price": 550
+  },
+  {
+   "name": "NOLA dip",
+   "description": "(25 g) Classic dip straight from New Orleans, a mix of mustard, ketchup and mayonnaise.",
+   "category": "Dips",
+   "price": 550
+  },
+  {
+   "name": "Bold BBQ dip",
+   "description": "(25 g) A delicious BBQ sauce a tangy, sour, sweet and spicy ingredients.",
+   "category": "Dips",
+   "price": 550
+  },
+  {
+   "name": "Bayou Buffalo dip",
+   "description": "(25 g)A cayenne pepper hot souce blended with butter, celery and Cajun Seasonings.",
+   "category": "Dips",
+   "price": 550
+  },
+  {
+   "name": "Garlic Mayo",
+   "description": "(25 g) Creamy mayonnaise with garlic, always matches perfectly to any meal you chose.",
+   "category": "Dips",
+   "price": 550
+  },
+  {
+   "name": "Ketchup",
+   "description": "(9,5 g) Tomato sauce, a perfect combination with fries, chicken and any meals.",
+   "category": "Dips",
+   "price": 250
+  },
+  {
+   "name": "Mayo",
+   "description": "(9,5 g) Creamy, traditional mayonnaise, always matches perfectly to any meal you chose.",
+   "category": "Dips",
+   "price": 250
+  }
+ ]
+}

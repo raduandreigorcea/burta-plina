@@ -1,0 +1,703 @@
+{
+ "chain": "Mesopotamia",
+ "platform": "wolt",
+ "venue": "Mesopotamia - Magheru",
+ "savedOn": "2026-11-16",
+ "fees": {
+  "deliveryFee": 899,
+  "minOrder": 0,
+  "basketFeeRanges": [
+   {
+    "min": 0,
+    "max": 3113,
+    "a": 3362,
+    "b": -1,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 3113,
+    "max": 9988,
+    "a": 0,
+    "b": 0.08,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 9988,
+    "max": 0,
+    "a": 799,
+    "b": 0,
+    "flag": null,
+    "custom_distance_ranges": null
+   }
+  ],
+  "notes": []
+ },
+ "offers": [
+  {
+   "kind": "info",
+   "label": "0 RON delivery fee (doar utilizatori noi – neinclus în calcul)"
+  },
+  {
+   "kind": "info",
+   "label": "30% off (up to 30 RON) on orders over 70 RON (doar utilizatori noi – neinclus în calcul)"
+  }
+ ],
+ "items": [
+  {
+   "name": "Meniu Doner pui Twister mare",
+   "description": "Carne kebab pui rotisată, cartofi twister(ușor picantă), panini, sos alb, sos roz, salată verde, roșii, ceapă roșie, pătrunjel + băutură (500ml) la alegere - 480g",
+   "category": "Kebab Pui",
+   "price": 5449
+  },
+  {
+   "name": "Pizza Mesopotamia",
+   "description": "Blat pizza, mozzarella, șuncă Praga, sos roșu, ciuperci, salam Milano - 300g",
+   "category": "Pizza Mică",
+   "price": 4099
+  },
+  {
+   "name": "Pizza Kebab",
+   "description": "Blat pizza, carne rotisata amestec curcan și vițel sau carne rotisata pui, mozzarella, sos roșu, sos alb, salată verde - 300g",
+   "category": "Pizza Mică",
+   "price": 4099
+  },
+  {
+   "name": "Fresh Măr",
+   "description": "Fresh 100% fructe 300 ml",
+   "category": "Meso Cafe",
+   "price": 1599
+  },
+  {
+   "name": "Smart Combo Curcan cu  doză 330ml",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), sos alb, salată verde, roșii, ceapă roșie - 230g,o doză 330ml. Băutura conține garanție SGR.",
+   "category": "Kebab Curcan",
+   "price": 3149
+  },
+  {
+   "name": "Fresh Portocale",
+   "description": "Fresh 100% fructe 300 ml",
+   "category": "Meso Cafe",
+   "price": 1599
+  },
+  {
+   "name": "Salată Șuncă",
+   "description": "Salată verde, roșii, șuncă, sos alb, măsline, brânză feta, ceapă, ardei, pătrunjel 410 g",
+   "category": "Salată",
+   "price": 4099
+  },
+  {
+   "name": "Cheesy Dip",
+   "description": "100 g",
+   "category": "Sosuri",
+   "price": 1399
+  },
+  {
+   "name": "Fanta Portocale",
+   "description": "500 ml",
+   "category": "Băuturi",
+   "price": 1050
+  },
+  {
+   "name": "Royal Chessy Curcan DEAL MENU",
+   "description": "Royal Chessy Curcan - Gramaj 230gr, cartofi prăjiti 130gr si o Coca-Cola 330ml. Băutura conține garanție SGR.\n\nIngrediente: Carne kebab rotisată (curcan și vițel amestec) 45gr, cartofi prăjiţi, sos cheddar, salată verde, ceapă roșie, panini rotund, roșii",
+   "category": "Kebab Curcan",
+   "price": 3849
+  },
+  {
+   "name": "Pizza Kinder",
+   "description": "Blat pizza, mozzarella, șuncă Praga, sos roșu, porumb - 500 g",
+   "category": "Pizza Medie",
+   "price": 5099
+  },
+  {
+   "name": "Meniu Box Kebab curcan",
+   "description": "Carne kebab rotisată (curcan și vițel amestec), salată verde, roșii, ceapă roșie, pătrunjel, apă 500 ml 270 g",
+   "category": "Kebab Curcan",
+   "price": 4849
+  },
+  {
+   "name": "Royal Chessy Curcan",
+   "description": "Royal Chessy Curcan - Gramaj 230gr\n\nIngrediente: Carne kebab rotisată (curcan și vițel amestec) 45gr, cartofi prăjiţi, sos cheddar, salată verde, ceapă roșie, panini rotund, roșii",
+   "category": "Kebab Curcan",
+   "price": 2399
+  },
+  {
+   "name": "Meniu Box Kebab pui",
+   "description": "Carne rotisată pui(ușor picantă), salată verde, roșii, ceapă roșie, pătrunjel, apă 500ml - 270g. Băutura conține garanție SGR.",
+   "category": "Kebab Pui",
+   "price": 4849
+  },
+  {
+   "name": "Pizza Tonno e cipolla",
+   "description": "Blat pizza, mozzarella, ton, sos roșu, ceapă, lămâie - 300g",
+   "category": "Pizza Mică",
+   "price": 4099
+  },
+  {
+   "name": "Box Kebab curcan",
+   "description": "Carne kebab rotisată (curcan și vițel amestec), salată verde, roșii, ceapă roșie, pătrunjel 270 g",
+   "category": "Kebab Curcan",
+   "price": 4299
+  },
+  {
+   "name": "Pizza Mexicana",
+   "description": "Blat pizza, mozzarella, sos roșu, salam picant, măsline, ardei jalapeño - 300g",
+   "category": "Pizza Mică",
+   "price": 4099
+  },
+  {
+   "name": "Pizza Mesocapriciosa",
+   "description": "Blat pizza, mozzarella, șuncă Praga, sos roșu, ciuperci, ardei, măsline - 300g",
+   "category": "Pizza Mică",
+   "price": 4099
+  },
+  {
+   "name": "Pizza Pepperoni",
+   "description": "Blat pizza, mozzarella, sos roșu, salam picant - 450g",
+   "category": "Pizza Medie",
+   "price": 5099
+  },
+  {
+   "name": "Dorna - apă minerală",
+   "description": "500 ml",
+   "category": "Băuturi",
+   "price": 950
+  },
+  {
+   "name": "Crepes cu ciocolată albă și fistic",
+   "description": "Clătită umplută cu ciocolată albă și fistic - 160gr",
+   "category": "Meso Cafe",
+   "price": 2599
+  },
+  {
+   "name": "Royal Chessy PUI Combo Cartofi",
+   "description": "Royal Chessy PUI - Gramaj 230gr,  cartofi prăjiti 130gr\n\nIngrediente: Carne kebab rotisată (pui) 45gr, cartofi prăjiţi, sos cheddar, salată verde, ceapă roșie, panini rotund, roșii",
+   "category": "Kebab Pui",
+   "price": 3099
+  },
+  {
+   "name": "Pizza Tonno e cipolla",
+   "description": "Blat pizza, mozzarella, ton, sos roșu, ceapă, lămâie - 500g",
+   "category": "Pizza Medie",
+   "price": 5099
+  },
+  {
+   "name": "Crepes cu Nuttela si banană",
+   "description": "Clătită umplută cu Nuttela și banană 180 g",
+   "category": "Meso Cafe",
+   "price": 2299
+  },
+  {
+   "name": "Cartofi Twister",
+   "description": "Cartofi twister, înveliș, ulei de floarea soarelui - 110g",
+   "category": "Kebab Pui",
+   "price": 1399
+  },
+  {
+   "name": "Schweppes Mandarin",
+   "description": "500 ml",
+   "category": "Băuturi",
+   "price": 1050
+  },
+  {
+   "name": "Roll Kebab pui mare",
+   "description": "Lipie, carne rotisată pui(ușor picantă), sos roz și usturoi, varză, roșii, ceapă, cartofi prăjiți, salată de varză - 480g",
+   "category": "Kebab Pui",
+   "price": 4499
+  },
+  {
+   "name": "Mango lemonade",
+   "description": "Apă, lămâie, piure mango, gheață, mentă (270ml)",
+   "category": "Meso Cafe",
+   "price": 1599
+  },
+  {
+   "name": "Fuzetea Piersici",
+   "description": "500 ml",
+   "category": "Băuturi",
+   "price": 1050
+  },
+  {
+   "name": "Fresh Grapefruit",
+   "description": "Fresh 100% fructe 300 ml",
+   "category": "Meso Cafe",
+   "price": 1599
+  },
+  {
+   "name": "Fresh Portocale-Grapefruit",
+   "description": "Fresh 100% fructe 300 ml",
+   "category": "Meso Cafe",
+   "price": 1599
+  },
+  {
+   "name": "Cartofi prăjiți",
+   "description": "130 g",
+   "category": "Kebab Curcan",
+   "price": 1399
+  },
+  {
+   "name": "Sos Roșu",
+   "description": "70 g",
+   "category": "Sosuri",
+   "price": 499
+  },
+  {
+   "name": "Doner Kebab curcan - mare",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), sos alb și roz, salată verde, roșii, ceapă roșie, pătrunjel 370 g",
+   "category": "Kebab Curcan",
+   "price": 4499
+  },
+  {
+   "name": "Fanta Struguri",
+   "description": "500 ml",
+   "category": "Băuturi",
+   "price": 1050
+  },
+  {
+   "name": "Roll Kebab pui - mediu",
+   "description": "Lipie, carne rotisată pui(ușor picantă), sos roz și usturoi, varză, roșii, ceapă, cartofi prăjiți, salată de varză - 400g",
+   "category": "Kebab Pui",
+   "price": 3999
+  },
+  {
+   "name": "Royal Chessy Curcan Combo Cartofi",
+   "description": "Royal Chessy Curcan - Gramaj 230gr,  cartofi prăjiti 130gr\n\nIngrediente: Carne kebab rotisată (curcan și vițel amestec) 45gr, cartofi prăjiţi, sos cheddar, salată verde, ceapă roșie, panini rotund, roșii",
+   "category": "Kebab Curcan",
+   "price": 3099
+  },
+  {
+   "name": "Coca-Cola",
+   "description": "500 ml",
+   "category": "Băuturi",
+   "price": 1050
+  },
+  {
+   "name": "Schweppes Bitter lemon",
+   "description": "500 ml",
+   "category": "Băuturi",
+   "price": 1050
+  },
+  {
+   "name": "Meniu Doner curcan - mediu",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, sos alb și roz, salată verde, roșii, ceapă roșie, pătrunjel - 430g si o Coca-Cola 250ml. Băutura conține garanție SGR.",
+   "category": "Kebab Curcan",
+   "price": 4949
+  },
+  {
+   "name": "Meniu Doner pui - mediu",
+   "description": "Panini, cartofi prăjiți, carne rotisată pui(ușor picantă), sos roz și usturoi, salată verde, roșii, ceapă roșie, pătrunjel, Coca-Cola 330ml  - 330g. Băutura conține garanție SGR.",
+   "category": "Kebab Pui",
+   "price": 4949
+  },
+  {
+   "name": "Coca Cola Zero-Zero-Zero 330ml",
+   "description": "Zero cofeina, zero zahar, zero calorii - 330ml",
+   "category": "Băuturi",
+   "price": 950
+  },
+  {
+   "name": "Royal Chessy PUI Combo Băutură",
+   "description": "Royal Chessy PUI - Gramaj 230gr, o doză 330ml. Băutura conține garanție SGR.\n\nIngrediente: Carne kebab rotisată (pui) 45gr, cartofi prăjiţi, sos cheddar, salată verde, ceapă roșie, panini rotund, roșii",
+   "category": "Kebab Pui",
+   "price": 3149
+  },
+  {
+   "name": "Roll Kebab curcan - mediu",
+   "description": "Carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, lipie, sos alb și de usturoi, salată verde, roșii, ceapă roșie, pătrunjel 320 g",
+   "category": "Kebab Curcan",
+   "price": 3999
+  },
+  {
+   "name": "Pizza Mexicana",
+   "description": "Blat pizza, mozzarella, sos roșu, salam picant, măsline, ardei jalapeño - 500g",
+   "category": "Pizza Medie",
+   "price": 5099
+  },
+  {
+   "name": "Piatto Kebab pui mare",
+   "description": "Carne rotisată pui(ușor picantă), cartofi prăjiți, salată de varză, salată verde, roșii, ceapa roșie, pătrunjel, sos usturoi, panini - 540g",
+   "category": "Kebab Pui",
+   "price": 5299
+  },
+  {
+   "name": "Sprite",
+   "description": "500 ml",
+   "category": "Băuturi",
+   "price": 1050
+  },
+  {
+   "name": "Limonadã cu mentă",
+   "description": "Limonadă cu mentă 270 ml",
+   "category": "Meso Cafe",
+   "price": 1299
+  },
+  {
+   "name": "Sos Picant",
+   "description": "70 g",
+   "category": "Sosuri",
+   "price": 499
+  },
+  {
+   "name": "Cartofi Twister",
+   "description": "Cartofi prăjiți twister, 110 g",
+   "category": "Kebab Curcan",
+   "price": 1399
+  },
+  {
+   "name": "Smart Doner Curcan",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, sos alb, salată verde, roșii, ceapă roșie,. 230gr.",
+   "category": "Kebab Curcan",
+   "price": 2399
+  },
+  {
+   "name": "Pizza Quattro Formaggi",
+   "description": "Blat pizza, mozzarella, sos roșu, emmentaler, danish blue, Gorgonzola - 280g",
+   "category": "Pizza Mică",
+   "price": 4099
+  },
+  {
+   "name": "Meniu Doner pui Twister mediu",
+   "description": "Carne kebab pui rotisată(ușor picantă), cartofi twister, panini, sos alb, sos roz, salată verde, roșii, ceapă roșie, pătrunjel + băutură (330ml) la alegere - 410g",
+   "category": "Kebab Pui",
+   "price": 4949
+  },
+  {
+   "name": "Meniu doner curcan twister mediu",
+   "description": "Amestec carne kebab rotisată,  cartofi twister prăjiți,  panini,  sos alb,  sos roz, salată verde, roșii, ceapă roșie, pătrunjel + băutură - 410g",
+   "category": "Kebab Curcan",
+   "price": 4949
+  },
+  {
+   "name": "Dorna - apă plată",
+   "description": "500 ml",
+   "category": "Băuturi",
+   "price": 950
+  },
+  {
+   "name": "Cherry lemonade",
+   "description": "Apă, lămâie, piure cireșe, gheață, mentă (270ml)",
+   "category": "Meso Cafe",
+   "price": 1599
+  },
+  {
+   "name": "Passion fruit lemonade",
+   "description": "Apă, lămâie, piure fructul pasiunii, gheață, mentă (270ml)",
+   "category": "Meso Cafe",
+   "price": 1599
+  },
+  {
+   "name": "Smart Combo Pui cu  doză 330ml",
+   "description": "Panini, carne kebab rotisată (pui - ușor picant), sos alb, salată verde, roșii, ceapă roșie - 230g,o doză 330ml. Băutura conține garanție SGR.",
+   "category": "Kebab Pui",
+   "price": 3149
+  },
+  {
+   "name": "Salată Kebab curcan",
+   "description": "Salată verde, roșii, carne kebab rotisată (curcan și vițel amestec), sos alb, măsline, brânză feta, ceapă, ardei, pătrunjel 410 g",
+   "category": "Salată",
+   "price": 4499
+  },
+  {
+   "name": "Schweppes Kinley",
+   "description": "500 ml",
+   "category": "Băuturi",
+   "price": 1050
+  },
+  {
+   "name": "Fanta Portocale 330ml",
+   "description": "330 ml",
+   "category": "Băuturi",
+   "price": 950
+  },
+  {
+   "name": "Pizza Mesopotamia",
+   "description": "Blat pizza, mozzarella, șuncă Praga, sos roșu, ciuperci, salam Milano - 500g",
+   "category": "Pizza Medie",
+   "price": 5099
+  },
+  {
+   "name": "Pizza Kebab",
+   "description": "Blat pizza, carne rotisata amestec curcan și vițel sau carne rotisata pui, mozzarella, sos roșu, sos alb, salată verde - 500g",
+   "category": "Pizza Medie",
+   "price": 5099
+  },
+  {
+   "name": "Pizza Salami",
+   "description": "Blat pizza, mozzarella, sos roșu, salam Milano - 450g",
+   "category": "Pizza Medie",
+   "price": 5099
+  },
+  {
+   "name": "Panini",
+   "description": "100g",
+   "category": "Kebab Pui",
+   "price": 599
+  },
+  {
+   "name": "Sos Usturoi",
+   "description": "70 g",
+   "category": "Sosuri",
+   "price": 499
+  },
+  {
+   "name": "Salată Ton",
+   "description": "Salată verde, roșii, ton, măsline, lămâie, brânză feta, ceapă, ardei, pătrunjel 340 g",
+   "category": "Salată",
+   "price": 4499
+  },
+  {
+   "name": "Royal Chessy Curcan Combo Băutură",
+   "description": "Royal Chessy Curcan - Gramaj 230gr,o doză 330ml. Băutura conține garanție SGR.\n\nIngrediente: Carne kebab rotisată (curcan și vițel amestec) 45gr, cartofi prăjiţi, sos cheddar, salată verde, ceapă roșie, panini rotund, roșii",
+   "category": "Kebab Curcan",
+   "price": 3149
+  },
+  {
+   "name": "Coca-Cola 330ml",
+   "description": "330 ml",
+   "category": "Băuturi",
+   "price": 950
+  },
+  {
+   "name": "Cartofi prăjiți",
+   "description": "130g",
+   "category": "Kebab Pui",
+   "price": 1399
+  },
+  {
+   "name": "Smart Combo Curcan cu cartofi prăjiți",
+   "description": "Panini, carne kebab rotisată (pui - ușor picant), sos alb, salată verde, roșii, ceapă roșie - 230g, cartofi prăjiti 130gr .",
+   "category": "Kebab Pui",
+   "price": 3099
+  },
+  {
+   "name": "Coca-Cola Zero",
+   "description": "500 ml",
+   "category": "Băuturi",
+   "price": 1050
+  },
+  {
+   "name": "Pizza Kinder",
+   "description": "Blat pizza, mozzarella, șuncă Praga, sos roșu, porumb - 300 g",
+   "category": "Pizza Mică",
+   "price": 4099
+  },
+  {
+   "name": "Fresh Portocale-Măr",
+   "description": "Fresh 100% fructe - 300ml",
+   "category": "Meso Cafe",
+   "price": 1599
+  },
+  {
+   "name": "Pizza Margherita",
+   "description": "Blat pizza, mozzarella, sos roșu, busuioc - 280g",
+   "category": "Pizza Mică",
+   "price": 4099
+  },
+  {
+   "name": "Smart Menu Pui",
+   "description": "Panini, carne kebab rotisată (pui - puțin picantă), sos alb, salată verde, roșii, ceapă roșie - 230g, cartofi prăjiti 130gr si o Coca-Cola 330ml. Băutura conține garanție SGR.",
+   "category": "Kebab Pui",
+   "price": 3849
+  },
+  {
+   "name": "Pizza Salami",
+   "description": "Blat pizza, mozzarella, sos roșu, salam Milano - 280g",
+   "category": "Pizza Mică",
+   "price": 4099
+  },
+  {
+   "name": "Smart Combo Curcan cu cartofi prăjiți",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), sos alb, salată verde, roșii, ceapă roșie - 230g, cartofi prăjiti 130gr .",
+   "category": "Kebab Curcan",
+   "price": 3099
+  },
+  {
+   "name": "Pizza Pepperoni",
+   "description": "Blat pizza, mozzarella, sos roșu, salam picant - 280g",
+   "category": "Pizza Mică",
+   "price": 4099
+  },
+  {
+   "name": "Sprite 330 ml",
+   "description": "330ml",
+   "category": "Băuturi",
+   "price": 950
+  },
+  {
+   "name": "Doner Kebab pui mare",
+   "description": "Carne rotisată pui (ușor picantă), panini, sos roz și usturoi, salată verde, roșii, ceapă roșie, pătrunjel - 370g",
+   "category": "Kebab Pui",
+   "price": 4499
+  },
+  {
+   "name": "Fuzetea Lemon",
+   "description": "500 ml",
+   "category": "Băuturi",
+   "price": 1050
+  },
+  {
+   "name": "Royal Chessy Pui",
+   "description": "Royal Chessy Pui - Gramaj 230gr\n\nIngrediente: Carne kebab rotisată (pui) 45gr, cartofi prăjiţi, sos cheddar, salată verde, ceapă roșie, panini rotund, roșii",
+   "category": "Kebab Pui",
+   "price": 2399
+  },
+  {
+   "name": "Sos Roz",
+   "description": "70 g",
+   "category": "Sosuri",
+   "price": 499
+  },
+  {
+   "name": "Meniu Doner curcan - mare",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, sos alb și roz, salată verde, roșii, ceapă roșie, pătrunjel, coca-cola 500 ml 500 g",
+   "category": "Kebab Curcan",
+   "price": 5449
+  },
+  {
+   "name": "Piatto Kebab curcan - mediu",
+   "description": "Cartofi prăjiți, carne kebab rotisată (curcan și vițel amestec), panini, sos alb, salată de varză, salată verde, roșii, ceapă roșie, pătrunjel 430 g",
+   "category": "Kebab Curcan",
+   "price": 4699
+  },
+  {
+   "name": "Salată Veggie",
+   "description": "Salată verde, roșii, măsline, brânză feta, ceapă, ardei, pătrunjel 270 g",
+   "category": "Salată",
+   "price": 3999
+  },
+  {
+   "name": "Crepes",
+   "description": "Clătită umplută cu: zmeură de pădure/ afine/ fructe de pădure/ căpșuni/ cireșe amare/ Nuttela - 160g",
+   "category": "Meso Cafe",
+   "price": 2199
+  },
+  {
+   "name": "Piatto Kebab pui - mediu",
+   "description": "Carne rotisată pui(ușor picantă), cartofi prăjiți, salată de varză, salată verde, roșii, ceapa roșie, pătrunjel, sos usturoi, panini - 430g",
+   "category": "Kebab Pui",
+   "price": 4699
+  },
+  {
+   "name": "Pizza Mesocapriciosa",
+   "description": "Blat pizza, mozzarella, șuncă Praga, sos roșu, ciuperci, ardei, măsline - 500g",
+   "category": "Pizza Medie",
+   "price": 5099
+  },
+  {
+   "name": "Fresh Portocale-Lămâie",
+   "description": "Fresh 100% fructe 300 ml",
+   "category": "Meso Cafe",
+   "price": 1599
+  },
+  {
+   "name": "Panini",
+   "description": "100 g",
+   "category": "Kebab Curcan",
+   "price": 599
+  },
+  {
+   "name": "Meniu Doner pui mare",
+   "description": "Panini, cartofi prăjiți, carne rotisată pui(ușor picantă), sos roz și usturoi, salată verde, roșii, ceapă roșie, pătrunjel, Coca-Cola 500ml - 500g. Băutura conține garanție SGR.",
+   "category": "Kebab Pui",
+   "price": 5449
+  },
+  {
+   "name": "Smart Menu Curcan",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), sos alb, salată verde, roșii, ceapă roșie - 230g, cartofi prăjiti 130gr si o Coca-Cola 330ml. Băutura conține garanție SGR.",
+   "category": "Kebab Curcan",
+   "price": 3849
+  },
+  {
+   "name": "Pizza Margherita",
+   "description": "Blat pizza, mozzarella, sos roșu, busuioc - 450g",
+   "category": "Pizza Medie",
+   "price": 5099
+  },
+  {
+   "name": "Pizza Sunca si salam",
+   "description": "Blat pizza, mozzarella, sos roșu, salam Milano, șuncă Praga - 300g",
+   "category": "Pizza Mică",
+   "price": 4099
+  },
+  {
+   "name": "Doner Kebab pui - mediu",
+   "description": "Carne rotisată pui(ușor picantă), panini, sos roz și usturoi, salată verde, roșii, ceapă roșie, pătrunjel - 300g",
+   "category": "Kebab Pui",
+   "price": 3999
+  },
+  {
+   "name": "Meniu doner curcan twister mare",
+   "description": "Amestec carne kebab rotisată, cartofi twister prăjiți, panini, sos alb, sos roz, salată verde, roșii, ceapă roșie, pătrunjel + băutură (500ml) la alegere - 480g",
+   "category": "Kebab Curcan",
+   "price": 5449
+  },
+  {
+   "name": "Smart Doner Pui",
+   "description": "Panini, carne kebab rotisată (pui - puțin picantă), cartofi prăjiți, sos alb, salată verde, roșii, ceapă roșie,. 230gr.",
+   "category": "Kebab Pui",
+   "price": 2399
+  },
+  {
+   "name": "Sos Alb",
+   "description": "70 g",
+   "category": "Sosuri",
+   "price": 499
+  },
+  {
+   "name": "Sos chilli harrisa",
+   "description": "",
+   "category": "Sosuri",
+   "price": 499
+  },
+  {
+   "name": "Roll Kebab curcan - mare",
+   "description": "Carne kebab rotisată (curcan și vițel amestec), cartofi prăjiți, lipie, sos alb și de usturoi, salată verde, roșii, ceapă roșie, pătrunjel 400 g",
+   "category": "Kebab Curcan",
+   "price": 4499
+  },
+  {
+   "name": "Salată Kebab pui",
+   "description": "Salată verde, roșii, carne kebab rotisată (pui), sos alb, măsline, brânză feta, ceapă, ardei, pătrunjel 410 g",
+   "category": "Salată",
+   "price": 4499
+  },
+  {
+   "name": "Royal Chessy Pui DEAL MENU",
+   "description": "Royal Chessy Pui - Gramaj 230gr, cartofi prăjiti 130gr si o Coca-Cola 330ml. Băutura conține garanție SGR.\n\nIngrediente: Carne kebab rotisată (pui) 45gr, cartofi prăjiţi, sos cheddar, salată verde, ceapă roșie, panini rotund, roșii",
+   "category": "Kebab Pui",
+   "price": 3849
+  },
+  {
+   "name": "Piatto Kebab curcan - mare",
+   "description": "Cartofi prăjiți, carne kebab rotisată (curcan și vițel amestec), panini, sos alb, salată de varză, salată verde, roșii, ceapă roșie, pătrunjel 540 g",
+   "category": "Kebab Curcan",
+   "price": 5299
+  },
+  {
+   "name": "Pizza Quattro Formaggi",
+   "description": "Blat pizza, mozzarella, sos roșu, emmentaler, danish blue, Gorgonzola - 450g",
+   "category": "Pizza Medie",
+   "price": 5099
+  },
+  {
+   "name": "Pizza Sunca si salam",
+   "description": "Blat pizza, mozzarella, sos roșu, salam Milano, șuncă Praga - 500g",
+   "category": "Pizza Medie",
+   "price": 5099
+  },
+  {
+   "name": "Doner Kebab curcan - mediu",
+   "description": "Panini, carne kebab rotisată (curcan și vițel amestec), sos alb și roz, salată verde, roșii, ceapă roșie, pătrunjel 300 g",
+   "category": "Kebab Curcan",
+   "price": 3999
+  },
+  {
+   "name": "Box Kebab pui",
+   "description": "Carne rotisată pui(ușor picantă), salată verde, roșii, ceapa roșie, pătrunjel - 270g",
+   "category": "Kebab Pui",
+   "price": 4299
+  }
+ ]
+}

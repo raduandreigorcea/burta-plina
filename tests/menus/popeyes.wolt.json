@@ -1,0 +1,711 @@
+{
+ "chain": "Popeyes",
+ "platform": "wolt",
+ "venue": "Popeyes - Razoare",
+ "savedOn": "2026-11-16",
+ "fees": {
+  "deliveryFee": 829,
+  "minOrder": 0,
+  "basketFeeRanges": [
+   {
+    "min": 0,
+    "max": 3500,
+    "a": 3749,
+    "b": -1,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 3500,
+    "max": 4150,
+    "a": 249,
+    "b": 0,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 4150,
+    "max": 13317,
+    "a": 0,
+    "b": 0.06,
+    "flag": null,
+    "custom_distance_ranges": null
+   },
+   {
+    "min": 13317,
+    "max": 0,
+    "a": 799,
+    "b": 0,
+    "flag": null,
+    "custom_distance_ranges": null
+   }
+  ],
+  "notes": []
+ },
+ "offers": [
+  {
+   "kind": "info",
+   "label": "0 RON delivery fee (doar utilizatori noi – neinclus în calcul)"
+  },
+  {
+   "kind": "info",
+   "label": "30% off (up to 30 RON) on orders over 70 RON (doar utilizatori noi – neinclus în calcul)"
+  }
+ ],
+ "items": [
+  {
+   "name": "Supreme Medium Hot Nashville Sandwich",
+   "description": "Pui suculent în stil Nashville, cu un plus plăcut de iuțeală, salată Coleslaw crocantă, chiflă brioche pufoasă, maioneză și 3 felii de castraveți murați. Tot ce iubești la un sandviș delicios cu pui, într-o versiune Supreme, și mai bogată în gust! Introducerea perfectă în lumea preparatelor picante, cu un plus de savoare și textură crocantă.",
+   "category": "Nashville Chicken",
+   "price": 2990
+  },
+  {
+   "name": "Supreme Hot Nashville Sandwich",
+   "description": "ATENȚIE! FOARTE PICANT! Se încinge atmosfera, iar experiența devine și mai crocantă! Pui suculent în stil Nashville, cu o iuțeală intensă, echilibrat de salata Coleslaw proaspătă, într-o chiflă brioche pufoasă, cu maioneză cremoasă și castraveți murați. Personalitate puternică și savoare din plin, într-o versiune Supreme de care te vei îndrăgosti și la care vei reveni iar și iar!",
+   "category": "Nashville Chicken",
+   "price": 2990
+  },
+  {
+   "name": "Chicken Wrap Meniu Mare",
+   "description": "2 fâșiii de piept de pui, maioneză clasică, salată și roșii proaspete, toate învelite într-o tortilla servită împreună cu o porție mare de cartofi prăjiți și o bautură răcoritoare mare, la alegere. Poftă bună! !",
+   "category": "Meniuri",
+   "price": 4550
+  },
+  {
+   "name": "8 buc. Chicken Tenders Meniu Mare",
+   "description": "8 fășii din piept de pui nepicante, crocante la exterior și suculente la interior. Servite împreună cu o porție mare de cartofi prăjiți și o bautură răcoritoare mare, la alegere. Poftă bună!",
+   "category": "Meniuri",
+   "price": 7090
+  },
+  {
+   "name": "Pepsi Twist Zero Zahăr 500ml",
+   "description": "(500 ml) Pepsi Zero Zahăr Twist la PET",
+   "category": "Băuturi",
+   "price": 1150
+  },
+  {
+   "name": "Voodoo Dip N'Drip 200 g",
+   "description": "(200 g) Sos Voodoo dulce-picant - alegerea perfectă pentru cei care caută un strop de magie în fiecare mușcătură.",
+   "category": "Dip N’Drip",
+   "price": 2090
+  },
+  {
+   "name": "Cheese Chicken Loaded Fries",
+   "description": "Cartofi prăjiți Cajun, 5 bucăți de Fillet Nuggets crocante, sos cremos de brânză, bacon crocant și ceapă verde.",
+   "category": "Sides",
+   "price": 3290
+  },
+  {
+   "name": "Coleslaw Chicken Sandwich",
+   "description": "(259 g) Un sandviș ce merită încercat! Salată Coleslaw (salată de varză roșie și albă, ceapă, morcov, și sos de maioneză cu un strop de muștar), Piept de Pui marinat 12 ore și învelit într-o crustă crocantă, castraveți murați si maioneză clasică, toate așezate într-o chiflă brioșată.",
+   "category": "Sandvișuri & Wrap-uri",
+   "price": 2890
+  },
+  {
+   "name": "5 buc. Hot Lemon Pepper Fillet Nuggets",
+   "description": "(160 g) 5 bucăți crocante de fillet din piept de pui glazurate cu un amestec îndrăzneț de coajă de citrice, piper negru măcinat și arome acrișoare, ce dau o notă picantă cu fiecare mușcătură.",
+   "category": "Sauce'd",
+   "price": 2890
+  },
+  {
+   "name": "Supreme Medium Hot Nashville Sandwich Meniu Mare",
+   "description": "Pui suculent în stil Nashville, cu un plus plăcut de iuțeală, salată Coleslaw crocantă, chiflă brioche pufoasă, maioneză și 3 felii de castraveți murați. Tot ce iubești la un sandviș delicios cu pui, într-o versiune Supreme, și mai bogată în gust! Introducerea perfectă în lumea preparatelor picante, cu un plus de savoare și textură crocantă. Servit alături de o porție mare de cartofi prăjiți și băutura preferată.",
+   "category": "Meniuri",
+   "price": 4990
+  },
+  {
+   "name": "5 buc. Spicy Chicken Tenders",
+   "description": "(195 g) 5 fâșii din piept de pui picante, marinate 12 ore într-un mix unic de ingrediente și condimente Cajun și date manual prin făină. Atât de fragede, dar și crocante!",
+   "category": "Chicken Tenders",
+   "price": 3850
+  },
+  {
+   "name": "Lipton Lemon 500ml",
+   "description": "(500 ml) Lipton Lemon la PET",
+   "category": "Băuturi",
+   "price": 1450
+  },
+  {
+   "name": "Naked Spicy Chicken Sandwich Meniu Mare",
+   "description": "Naked but Still Attractive: File de pui la grătar în stil Cajun, acoperit cu sos ranch, castraveți murați, roșii, salată verde, brânză și maioneză picantă, servit într-o chiflă brioche pufoasă. Servit cu porție mare de cartofi prăjiți și o băutură la alegere.",
+   "category": "Meniuri",
+   "price": 4690
+  },
+  {
+   "name": "Ketchup",
+   "description": "(9,5 g) Sos de roșii ce merge perfect în combinație cu cartofi prăjiți, pui și orice fel de mâncare.",
+   "category": "Sosuri",
+   "price": 250
+  },
+  {
+   "name": "Pepsi Raspberry 500ml",
+   "description": "(500 ml) Pepsi Rasperry la PET",
+   "category": "Băuturi",
+   "price": 1450
+  },
+  {
+   "name": "5 buc. Swing Onion Wings",
+   "description": "(174 g) 5 aripioare crocante, învăluite într-un sos cremos de ceapă, cu un gust acrișor și intens.",
+   "category": "Sauce'd",
+   "price": 2890
+  },
+  {
+   "name": "Supreme Hot Nashville Sandwich Meniu Mare",
+   "description": "ATENȚIE! FOARTE PICANT! Se încinge atmosfera, iar experiența devine și mai crocantă! Pui suculent în stil Nashville, cu o iuțeală intensă, echilibrat de salata Coleslaw proaspătă, într-o chiflă brioche pufoasă, cu maioneză cremoasă și castraveți murați. Personalitate puternică și savoare din plin, într-o versiune Supreme de care te vei îndrăgosti și la care vei reveni iar și iar! Servit alături de o porție marede cartofi prăjiți și băutura preferată.",
+   "category": "Meniuri",
+   "price": 4990
+  },
+  {
+   "name": "Sandwich&Voodoo Wings for 2",
+   "description": "Doar pentru livrare: 2 Chicken Sandwiches, 6 Voodoo Wings și 2 porții medii de cartofi prăjiți",
+   "category": "Delivery Combo Deals",
+   "price": 10350
+  },
+  {
+   "name": "8 buc. Spicy Chicken Tenders Meniu Mare",
+   "description": "8 fășii din piept de pui picante, crocante la exterior și suculente la interior. Servite împreună cu o porție mare de cartofi prăjiți și o bautură răcoritoare mare, la alegere. Poftă bună!",
+   "category": "Meniuri",
+   "price": 7090
+  },
+  {
+   "name": "Pepsi 330ml",
+   "description": "(330 ml) Pepsi la doză",
+   "category": "Băuturi",
+   "price": 990
+  },
+  {
+   "name": "5 buc. Spicy Chicken Tenders Meniu Mare",
+   "description": "5 fășii din piept de pui picante, crocante la exterior și suculente la interior. Servite împreună cu o porție mare de cartofi prăjiți și o bautură răcoritoare mare, la alegere. Poftă bună!",
+   "category": "Meniuri",
+   "price": 5850
+  },
+  {
+   "name": "Bold BBQ",
+   "description": "(25 g) Un delicios sos BBQ cu o armonie perfectă de arome acrișoare, dulci și picante .",
+   "category": "Sosuri",
+   "price": 550
+  },
+  {
+   "name": "Nashville Challenge Pack",
+   "description": "O adevărată provocare pentru iubitorii de picant! Acest meniu include 3 sandwich-uri cu pui în stil Nashville, cu toate nivelurile de iuțeală: de la Medium Hot la Hot, până la explozivul Super Hot! În plus, primești și o doză de Pepsi, perfectă pentru a-ți potoli setea. Încearcă toate nivelurile de iuțeală și vezi dacă poți face față celui mai intens sandwich!",
+   "category": "Nashville Chicken",
+   "price": 9090
+  },
+  {
+   "name": "Medium Hot Nashville Tenders Meniu Mare",
+   "description": "3 tenders suculente de pui în stil Nashville, cu un plus plăcut de iuțeală! Servite alături de salată Coleslaw crocantă și o porție generoasă de castraveți murați. Tot ce iubești la puiul fraged și suculent, completat de o notă picantă. Începutul perfect pentru aventura ta în lumea Tenders-urilor în stil Nashville! Servite alături de o porție mare de cartofi prăjiți și băutura preferată.",
+   "category": "Meniuri",
+   "price": 4990
+  },
+  {
+   "name": "Sandwich&Wings Combo for 2",
+   "description": "Doar pentru livrare: 2 Chicken Sandwiches, 8 Classic Wings și 2 porții medii de cartofi prăjiți",
+   "category": "Delivery Combo Deals",
+   "price": 10490
+  },
+  {
+   "name": "Cheese Dip N'Drip 200g",
+   "description": "(200g) Sos de brânză fin și cremos - transformă puiul, sandvișurile și cartofii prăjiți într-o experiență savuroasă de top.",
+   "category": "Dip N’Drip",
+   "price": 2090
+  },
+  {
+   "name": "Coleslaw Chicken Sandwich Meniu Mare",
+   "description": "Piept de pui proaspăt și suculent într-un înveliș crocant, salata Coleslaw, maioneză clasică, castraveți murați și o chiflă brioșată rumenită. Servit împreună cu o porție mare de cartofi prăjiți și o bautură răcoritoare mare, la alegere. Poftă bună!",
+   "category": "Meniuri",
+   "price": 4890
+  },
+  {
+   "name": "The Chicken Box for 2",
+   "description": "Doar pentru livrare: 6 Chicken Tenders, 12 Fillet Nuggets și 2 porții mari de cartofi prăjiți",
+   "category": "Delivery Combo Deals",
+   "price": 9990
+  },
+  {
+   "name": "Chicken Wrap",
+   "description": "(210 g) 2 fâșiii de piept de pui marinate 12 ore într-un amestec unic de condimente Cajun, maioneză clasică, salată și roșii proaspete, toate învelite într-o tortilla. Delicios!",
+   "category": "Sandvișuri & Wrap-uri",
+   "price": 2550
+  },
+  {
+   "name": "Hot Nashville Sandwich Meniu Mare",
+   "description": "ATENȚIE! FOARTE PICANT! Se încinge atmosfera! Pui suculent în stil Nashville, chiflă brioche pufoasă, maioneză cremoasă și castraveți murați. Iuțeală pe bune, personalitate din plin și o aromă la care vei reveni iar și iar. Servit alături de o porție mare de cartofi prăjiți și băutura preferată.",
+   "category": "Meniuri",
+   "price": 4790
+  },
+  {
+   "name": "Naked Chicken Wrap",
+   "description": "Naked but Still Attractive: File de pui la grătar în stil Cajun, acoperit cu sos ranch, castraveți murați, roșii, salată verde, brânză și maioneză, toate învelite într-o tortilla caldă.",
+   "category": "Sandvișuri & Wrap-uri",
+   "price": 2590
+  },
+  {
+   "name": "Naked Chicken Sandwich Meniu Mare",
+   "description": "Naked but Still Attractive: File de pui la grătar în stil Cajun, acoperit cu sos ranch, castraveți murați, roșii, salată verde, brânză și maioneză, servit într-o chiflă brioche pufoasă. Servit cu porție mare de cartofi prăjiți și o băutură la alegere.",
+   "category": "Meniuri",
+   "price": 4690
+  },
+  {
+   "name": "Supreme Fries - Cheese&Spring Onion",
+   "description": "(190 g) O porție mare de cartofi prajiti aurii și crocanți acoperiți de un strat generos de sos de branză, cu ceapă verde proaspătă presărată deasupra. Îndrăznește să îi savurezi, sunt absolut delicioși!",
+   "category": "Sides",
+   "price": 1890
+  },
+  {
+   "name": "Mayo",
+   "description": "(9,5 g) Maioneză tradițională, cremoasă ce se potrivește întotdeauna perfect oricărui fel de mâncare.",
+   "category": "Sosuri",
+   "price": 250
+  },
+  {
+   "name": "Lipton Peach 500ml",
+   "description": "(500 ml) Lipton Peach la PET",
+   "category": "Băuturi",
+   "price": 1450
+  },
+  {
+   "name": "Chicken Sandwich Meniu Mare",
+   "description": "Piept de pui proaspăt și suculent într-un inveliș crocant, maioneză clasică, castraveți murați și o chiflă brioșată rumenită. Servit împreună cu o porție mare de cartofi prăjiți și o bautură răcoritoare mare, la alegere. Poftă bună!",
+   "category": "Meniuri",
+   "price": 4450
+  },
+  {
+   "name": "NOLA",
+   "description": "(25 g) Sos clasic direct din New Orleans, o combinație de muștar, ketchup și maioneză.",
+   "category": "Sosuri",
+   "price": 550
+  },
+  {
+   "name": "Super Hot Nashville Tenders",
+   "description": "ATENȚIE! FOARTE PICANT! Iuțeală la maximum și fără compromisuri! 3 tenders de pui în stil Nashville, suculenți și plini de savoare, serviți alături de salată Coleslaw și o porție de castraveți murați. Un val intens de condimente și o adevărată provocare pentru cei mai înfocați iubitori ai gustului picant! Iar ca să-ți potolești setea, îți oferim din partea casei un milkshake mic cu vanilie!",
+   "category": "Nashville Chicken",
+   "price": 2990
+  },
+  {
+   "name": "Hot Nashville Tenders",
+   "description": "ATENȚIE! FOARTE PICANT! Se încing lucrurile! 3 tenders de pui în stil Nashville, crocanți la exterior, suculenți la interior și cu un nivel serios de iuțeală, echilibrați de salată Coleslaw și o porție generoasă de castraveți murați. Personalitate puternică, gust intens și o crustă incredibil de crocantă, căreia pur și simplu nu-i vei putea rezista!",
+   "category": "Nashville Chicken",
+   "price": 2990
+  },
+  {
+   "name": "Spicy Coleslaw Chicken Sandwich Meniu Mare",
+   "description": "Piept de pui proaspăt și suculent într-un înveliș crocant, salata Coleslaw, maioneză picantă, castraveți murați și o chiflă brioșată rumenită. Servit împreună cu o porție mare de cartofi prăjiți și o bautură răcoritoare mare, la alegere. Poftă bună!",
+   "category": "Meniuri",
+   "price": 4890
+  },
+  {
+   "name": "Mardi Gras",
+   "description": "(25 g) Sos tradițional de muștar creol îndulcit.",
+   "category": "Sosuri",
+   "price": 550
+  },
+  {
+   "name": "Naked Spicy Chicken Wrap",
+   "description": "Naked but Still Attractive: File de pui la grătar în stil Cajun, acoperit cu sos ranch, castraveți murați, roșii, salată verde, brânză și maioneză picantă, toate învelite într-o tortilla caldă.",
+   "category": "Sandvișuri & Wrap-uri",
+   "price": 2590
+  },
+  {
+   "name": "Crunch Box",
+   "description": "Box cu 3 Crunchers sau Mini Wrap-uri la alegere (Classic, Spicy sau BBQ).",
+   "category": "Boxes",
+   "price": 3690
+  },
+  {
+   "name": "Medium Hot Nashville Sandwich",
+   "description": "Pui suculent în stil Nashville, chiflă brioche pufoasă, maioneză cremoasă și 3 felii de castraveți murați. Tot ce iubești la un sandviș cu pui, completat de un plus de iuțeală, cât să-ți trezească papilele gustative. Începutul perfect pentru aventura ta în lumea puiului Nashville!",
+   "category": "Nashville Chicken",
+   "price": 2790
+  },
+  {
+   "name": "8 Fâșii din Piept de Pui",
+   "description": "(312 g) 8 fâșii din piept de pui nepicante, marinate 12 ore într-un mix unic de ingrediente și condimente Cajun și date manual prin făină. Atât de fragede, dar și crocante!",
+   "category": "Chicken Tenders",
+   "price": 5090
+  },
+  {
+   "name": "Chicken Sandwich",
+   "description": "(214 g) Faimosul Chicken Sandwich este aici! Piept de pui proaspăt, marinat 12 ore într-un amestec unic de condimente Cajun, dat manual prin făină și învelit într-o crustă delicioasă. Adăugăm castraveți murați, maioneză clasică și așezăm totul într-o chiflă brioșată rumenită.",
+   "category": "Sandvișuri & Wrap-uri",
+   "price": 2450
+  },
+  {
+   "name": "Spicy Coleslaw Chicken Sandwich",
+   "description": "(259 g) Un sandviș ce merită încercat! Salată Coleslaw (salată de varză roșie și albă, ceapă, morcov, și sos de maioneză cu un strop de muștar), Piept de Pui marinat 12 ore și învelit într-o crustă crocantă, castraveți murați si maioneză picantă, toate așezate într-o chiflă brioșată.",
+   "category": "Sandvișuri & Wrap-uri",
+   "price": 2890
+  },
+  {
+   "name": "5 buc. Bold BBQ Wings",
+   "description": "(189 g) 5 aripioare de pui, marinate timp de 12 ore într-un amestec unic de condimente Cajun, glazurate cu sos BBQ cu aroma de fum. Un clasic american!",
+   "category": "Sauce'd",
+   "price": 3150
+  },
+  {
+   "name": "Spicy Chicken Sandwich Deluxe Meniu Mare",
+   "description": "Piept de Pui proaspăt și suculent într-un înveliș crocant, cu brânză Emmentaler, castraveți murați, salată, roșie proaspătă și maioneză picantă, toate puse într-o chiflă brioșată. Servit împreună cu o porție mare de cartofi prăjiți și o bautură răcoritoare mare, la alegere. Poftă bună!",
+   "category": "Meniuri",
+   "price": 5050
+  },
+  {
+   "name": "5 buc. Voodoo Wings",
+   "description": "(214 g) 5 aripioare de pui, marinate timp de 12 ore într-un amestec unic de condimente Cajun, glazurate cu sos dulce-picant Voodoo. Suculente și picante!",
+   "category": "Sauce'd",
+   "price": 3150
+  },
+  {
+   "name": "5 buc. Bold BBQ Fillet Nuggets",
+   "description": "(175 g) 5 cuburi din piept de pui marinate 12 ore într-un amestec unic de condimente Cajun și date manual prin făină, glazurate cu sos BBQ cu aroma de fum. Un clasic american!",
+   "category": "Sauce'd",
+   "price": 2950
+  },
+  {
+   "name": "Sandwich&Tenders Combo",
+   "description": "Doar pentru livrare: 1 Chicken Sandwich, 2 Chicken Tenders și o porție medie de cartofi prăjiți",
+   "category": "Delivery Combo Deals",
+   "price": 5490
+  },
+  {
+   "name": "Naked Chicken Wrap Meniu Mare",
+   "description": "Naked but Still Attractive: File de pui la grătar în stil Cajun, acoperit cu sos ranch, castraveți murați, roșii, salată verde, brânză și maioneză, învelit într-o tortilla caldă. Servit cu porție mare de cartofi prăjiți și o băutură la alegere.",
+   "category": "Meniuri",
+   "price": 4590
+  },
+  {
+   "name": "Medium Hot Nashville Tenders",
+   "description": "3 tenders suculente de pui în stil Nashville, cu un plus plăcut de iuțeală! Servite alături de salată Coleslaw crocantă și o porție generoasă de castraveți murați. Tot ce iubești la puiul fraged și suculent, completat de o notă picantă. Începutul perfect pentru aventura ta în lumea Tenders-urilor în stil Nashville!",
+   "category": "Nashville Chicken",
+   "price": 2990
+  },
+  {
+   "name": "Medium Hot Nashville Sandwich Meniu Mare",
+   "description": "Pui suculent în stil Nashville, chiflă brioche pufoasă, maioneză cremoasă și 3 felii de castraveți murați. Tot ce iubești un sandviș delicios cu pui, completat de un plus de iuțeală, cât să-ți răsfețe papilele gustative. Începutul perfect pentru aventura ta în lumea puiului Nashville! Servit alături de o porție mare de cartofi prăjiți și băutura preferată.",
+   "category": "Meniuri",
+   "price": 4790
+  },
+  {
+   "name": "5 buc. Garlic&Parmesan Fillet Nuggets",
+   "description": "(160 g) 5 bucăți crocante de fillet din piept de pui glazurate cu un sos cremos de usturoi și aromă intensă de parmezan.",
+   "category": "Sauce'd",
+   "price": 2890
+  },
+  {
+   "name": "Super Hot Nashville Tenders Meniu Mare",
+   "description": "ATENȚIE! FOARTE PICANT! Iuțeală la maximum și fără compromisuri! 3 tenders de pui în stil Nashville, suculenți și plini de savoare, serviți alături de salată Coleslaw și o porție de castraveți murați. Un val intens de condimente și o adevărată provocare pentru cei mai înfocați iubitori ai gustului picant! Servite alături de o porție mare de cartofi prăjiți și băutura preferată. Iar ca să-ți potolești setea, îți oferim din partea casei un milkshake mic cu vanilie!",
+   "category": "Meniuri",
+   "price": 4990
+  },
+  {
+   "name": "Cartofi Cajun porție medie",
+   "description": "(100 g) O porție medie de cartofi prăjiți aurii și crocanți, înveliți într-un strat generos de condimente din Louisiana. Asta îi face 100% Cajun. Perfecți pentru o gustare caldă sau ca parte dintr-un festin gustos.",
+   "category": "Sides",
+   "price": 1390
+  },
+  {
+   "name": "Garlic Mayo",
+   "description": "(25 g) Maioneză cremoasă cu usturoi ce se potrivește întotdeauna perfect oricărui fel de mâncare.",
+   "category": "Sosuri",
+   "price": 550
+  },
+  {
+   "name": "Naked Spicy Chicken Wrap Large Meniu Mare",
+   "description": "Naked but Still Attractive: File de pui la grătar în stil Cajun, acoperit cu sos ranch, castraveți murați, roșii, salată verde, brânză și maioneză picantă, învelit într-o tortilla caldă. Servit cu porție mare de cartofi prăjiți și o băutură la alegere.",
+   "category": "Meniuri",
+   "price": 4590
+  },
+  {
+   "name": "5 buc. Classic Wings",
+   "description": "(114 g) 5 aripioare de pui nepicante, marinate 12 ore într-un mix exploziv de condimente Cajun și date manual prin făină. O explozie de savoare!",
+   "category": "Classic Wings",
+   "price": 2890
+  },
+  {
+   "name": "Hot Nashville Sandwich",
+   "description": "ATENȚIE! FOARTE PICANT! Se încinge atmosfera! Pui suculent în stil Nashville, chiflă brioche pufoasă, maioneză cremoasă și castraveți murați. Iuțeală pe bune, personalitate din plin și o aromă la care vei reveni iar și iar.",
+   "category": "Nashville Chicken",
+   "price": 2790
+  },
+  {
+   "name": "Super Hot Nashville Sandwich",
+   "description": "ATENȚIE! FOARTE PICANT! Pui suculent în stil Nashville, cu o iuțeală intensă, într-o chiflă brioche pufoasă, cu maioneză picantă și 3 felii de castraveți murați. Iuțeală la maximum, gust din plin și o adevărată provocare pentru iubitorii de senzații picante! Iar pentru a domoli iuțeala, te răsplătim cu un milkshake mic de vanilie din partea casei.",
+   "category": "Nashville Chicken",
+   "price": 2790
+  },
+  {
+   "name": "Box for You Mare",
+   "description": "3 Chicken Tenders + 4 Classic Wings. Servite împreună cu o porție mare de cartofi prăjiți și o bautură răcoritoare mare, la alegere. Poftă bună!",
+   "category": "Boxes",
+   "price": 5290
+  },
+  {
+   "name": "Pepsi Zero Sugar Lemon 330ml",
+   "description": "(330 ml) Pepsi Zero Zahăr Twist la doză",
+   "category": "Băuturi",
+   "price": 990
+  },
+  {
+   "name": "Apă minerală",
+   "description": "(500 ml) Apă minerală la PET",
+   "category": "Băuturi",
+   "price": 1250
+  },
+  {
+   "name": "Naked Spicy Chicken Sandwich",
+   "description": "Naked but Still Attractive: File de pui la grătar în stil Cajun, acoperit cu sos ranch, castraveți murați, roșii, salată verde, brânză și maioneză picantă, servit într-o chiflă brioche pufoasă.",
+   "category": "Sandvișuri & Wrap-uri",
+   "price": 2690
+  },
+  {
+   "name": "5 buc. Swing Onion Fillet Nuggets",
+   "description": "(160 g) 5 bucăți crocante de fillet din piept de pui învăluite într-un sos cremos de ceapă, cu un gust acrișor și intens.",
+   "category": "Sauce'd",
+   "price": 2890
+  },
+  {
+   "name": "8 buc. Classic Wings",
+   "description": "(192 g) 8 aripioare de pui nepicante, marinate 12 ore într-un mix exploziv de condimente Cajun și date manual prin făină. O explozie de savoare!",
+   "category": "Classic Wings",
+   "price": 3590
+  },
+  {
+   "name": "Naked Chicken Sandwich",
+   "description": "Naked but Still Attractive: File de pui la grătar în stil Cajun, acoperit cu sos ranch, castraveți murați, roșii, salată verde, brânză și maioneză, servit într-o chiflă brioche pufoasă.",
+   "category": "Sandvișuri & Wrap-uri",
+   "price": 2690
+  },
+  {
+   "name": "Chicken & Dip Combo for 2",
+   "description": "Doar pentru livrare: 6 Chicken Tenders, 8 Fillet Nuggets, un Cheese Dip N’ Drip de 200g și 2 doze răcoritoare de Pepsi",
+   "category": "News",
+   "price": 9990
+  },
+  {
+   "name": "5 buc. Fillet Nuggets",
+   "description": "(100 g) 5 cuburi din piept de pui nepicante, marinate 12 ore într-un amestec unic de condimente Cajun și date manual prin făină, fragede la interior și crocante la exterior. O explozie de savoare!",
+   "category": "Fillet Nuggets",
+   "price": 2450
+  },
+  {
+   "name": "Coleslaw",
+   "description": "(125 g) Salată de varză roșie și albă, ceapă, morcov, și sos de maioneză cu un strop de muștar. Direct din New Orleans!",
+   "category": "Sides",
+   "price": 1050
+  },
+  {
+   "name": "Cherry Lemonade 400ml",
+   "description": "(400 ml) Limonada a la Popeyes, cu gust intens de cireșe.",
+   "category": "Băuturi",
+   "price": 1550
+  },
+  {
+   "name": "Pepsi Zero Zahăr 500ml",
+   "description": "(500 ml) Pepsi Zero Zahăr la PET",
+   "category": "Băuturi",
+   "price": 1450
+  },
+  {
+   "name": "Cheese&BBQ Chicken Loaded Fries",
+   "description": "Cartofi prăjiți Cajun, 5 bucăți de Fillet Nuggets crocante, sos cremos de brânză, sos BBQ afumat și bacon crocant.",
+   "category": "Sides",
+   "price": 3290
+  },
+  {
+   "name": "Pepsi 500ml",
+   "description": "(500 ml) Pepsi la PET",
+   "category": "Băuturi",
+   "price": 1450
+  },
+  {
+   "name": "Ranch Dip N'Drip 200g",
+   "description": "(200g) Sos ranch fin și cremos, perfect pentru a scufunda puiul, cartofii prăjiți, ba chiar și un Chicken Sandwich.",
+   "category": "Dip N’Drip",
+   "price": 2090
+  },
+  {
+   "name": "Spicy Chicken Wrap Meniu Mare",
+   "description": "2 fâșiii de piept de pui, maioneză clasică, salată și roșii proaspete, toate învelite într-o tortilla servită împreună cu o porție mare de cartofi prăjiți și o bautură răcoritoare mare, la alegere. Poftă bună!",
+   "category": "Meniuri",
+   "price": 4550
+  },
+  {
+   "name": "Spicy Deluxe Chicken Sandwich",
+   "description": "(238 g) Vrei mai mult de la un sandviș? Încearcă faimosul Deluxe Chicken Sandwich! Piept de pui marinat 12 ore și învelit într-o crustă crocantă, cu brânză Emmentaler, castraveți murați, salată, roșie proaspătă și maioneză picantă, toate așezate într-o chiflă brioșată.",
+   "category": "Sandvișuri & Wrap-uri",
+   "price": 3050
+  },
+  {
+   "name": "Spicy Chicken Sandwich Meniu Mare",
+   "description": "Piept de pui proaspăt și suculent într-un înveliș crocant, maioneză picantă, castraveți murați și o chiflă brioșată rumenită. Servit împreună cu o porție mare de cartofi prăjiți și o bautură răcoritoare mare, la alegere. Poftă bună!",
+   "category": "Meniuri",
+   "price": 4450
+  },
+  {
+   "name": "5 buc. Voodoo Fillet Nuggets",
+   "description": "(200 g) 5 cuburi din piept de pui marinate 12 ore într-un amestec unic de condimente Cajun și date manual prin făină, glazurate cu sos dulce-picant Voodoo. Suculente și picante!",
+   "category": "Sauce'd",
+   "price": 2950
+  },
+  {
+   "name": "Cartofi Cajun porție mare",
+   "description": "(140 g) O porție medie de cartofi prăjiți aurii și crocanți, înveliți într-un strat generos de condimente din Louisiana. Asta îi face 100% Cajun. Perfecți pentru o gustare caldă sau ca parte dintr-un festin gustos.",
+   "category": "Sides",
+   "price": 1490
+  },
+  {
+   "name": "Spicy Mango Lemonade 400ml",
+   "description": "(400 ml) Limonada a la Popeyes, cu gust dulce-picant de mango.",
+   "category": "Băuturi",
+   "price": 1550
+  },
+  {
+   "name": "Cheese&Ranch Chicken Loaded Fries",
+   "description": "Cartofi prăjiți Cajun, 5 bucăți de Fillet Nuggets crocante, sos cremos de brânză, sos ranch și ceapa verde.",
+   "category": "Sides",
+   "price": 3290
+  },
+  {
+   "name": "Homestyle Lemonade 400ml",
+   "description": "(400 ml) Limonadă răcoritoare a la Popeyes cu cuburi de gheață.",
+   "category": "Băuturi",
+   "price": 1350
+  },
+  {
+   "name": "5 buc. Hot Lemon Pepper Wings",
+   "description": "(174 g) 5 crispy wings tossed in a bold mix of citrus zest, cracked black pepper and tangy flavor, with a peppery kick in every bite.",
+   "category": "Sauce'd",
+   "price": 2890
+  },
+  {
+   "name": "Super Hot Nashville Sandwich Meniu Mare",
+   "description": "ATENȚIE! FOARTE PICANT! Pui suculent în stil Nashville, cu o iuțeală intensă, într-o chiflă brioche pufoasă, cu maioneză picantă și 3 felii de castraveți murați. Iuțeală la maximum, gust din plin și o adevărată provocare pentru iubitorii de senzații picante! Servit alături de o porție mare de cartofi prăjiți și băutura preferată.Iar pentru a domoli iuțeala, te răsplătim cu un milkshake mic de vanilie din partea casei.",
+   "category": "Meniuri",
+   "price": 4790
+  },
+  {
+   "name": "Sandwich&Wings Combo",
+   "description": "Doar pentru livrare: 1 Chicken Sandwich, 3 Classic Wings și o porție medie de cartofi prăjiți",
+   "category": "Delivery Combo Deals",
+   "price": 5490
+  },
+  {
+   "name": "Deluxe Chicken Sandwich",
+   "description": "(238 g) Vrei mai mult de la un sandviș? Încearcă faimosul Deluxe Chicken Sandwich! Piept de pui marinat 12 ore și învelit într-o crustă crocantă, cu brânză Emmentaler, castraveți murați, salată, roșie proaspătă și maioneză clasică, toate aașezate într-o chiflă brioșată.",
+   "category": "Sandvișuri & Wrap-uri",
+   "price": 3050
+  },
+  {
+   "name": "8 buc. Spicy Chicken Tenders",
+   "description": "(312 g) 8 fâșii din piept de pui picante, marinate 12 ore într-un mix unic de ingrediente și condimente Cajun și date manual prin făină. Atât de fragede, dar și crocante!",
+   "category": "Chicken Tenders",
+   "price": 5090
+  },
+  {
+   "name": "5 buc. Chicken Tenders Meniu Mare",
+   "description": "5 fășii din piept de pui nepicante, crocante la exterior și suculente la interior. Servite împreună cu o porție mare de cartofi prăjiți și o bautură răcoritoare mare, la alegere. Poftă bună!",
+   "category": "Meniuri",
+   "price": 5850
+  },
+  {
+   "name": "Apă plată",
+   "description": "(500 ml) Apă plată la PET",
+   "category": "Băuturi",
+   "price": 1250
+  },
+  {
+   "name": "Tenders&Wings Mega Box for 4",
+   "description": "Doar pentru livrare: 16 Chicken Tenders, 24 Classic Wings",
+   "category": "Delivery Combo Deals",
+   "price": 19250
+  },
+  {
+   "name": "Bayou Buffalo",
+   "description": "(25 g) Un sos picant de ardei cayenne amestecat cu unt, țelină și condimente Cajun.",
+   "category": "Sosuri",
+   "price": 550
+  },
+  {
+   "name": "5 buc. Garlic&Parmesan Wings",
+   "description": "(174 g) 5 aripioare crocante, glazurate  cu un sos cremos de usturoi și aromă intensă de parmezan.",
+   "category": "Sauce'd",
+   "price": 2890
+  },
+  {
+   "name": "Sandwich&Tenders Combo for 2",
+   "description": "Doar pentru livrare: 2 Chicken Sandwiches, 6 Chicken Tenders și 2 porții medii de cartofi prăjiți",
+   "category": "Delivery Combo Deals",
+   "price": 10490
+  },
+  {
+   "name": "Pepsi Twist Zero Zahăr 330ml",
+   "description": "(330 ml) Pepsi la doză",
+   "category": "Băuturi",
+   "price": 990
+  },
+  {
+   "name": "Supreme Super Hot Nashville Sandwich Meniu Mare",
+   "description": "ATENȚIE! FOARTE PICANT! Versiunea supremă pentru cei care caută provocări adevărate! Pui suculent în stil Nashville, cu o iuțeală extremă, salată Coleslaw crocantă, maioneză picantă, 3 felii de castraveți murați și o chiflă brioche pufoasă. Iuțeală la maximum, gust intens și provocarea supremă pentru iubitorii de picant! Servit alături de o porție mare de cartofi prăjiți și băutura preferată. Iar pentru a domoli iuțeala, te răsplătim cu un milkshake mic de vanilie din partea casei.",
+   "category": "Meniuri",
+   "price": 4990
+  },
+  {
+   "name": "Swing Onion Dip N'Drip 200g",
+   "description": "(200g) Sos de ceapă intens și ușor acrișor - perfect pentru cei care iubesc gusturile îndrăznețe.",
+   "category": "Dip N’Drip",
+   "price": 2090
+  },
+  {
+   "name": "Hot Nashville Tenders Meniu Mare",
+   "description": "ATENȚIE! FOARTE PICANT! Se încing lucrurile! 3 tenders de pui în stil Nashville, crocanți la exterior, suculenți la interior și cu un nivel serios de iuțeală, echilibrați de salată Coleslaw și o porție generoasă de castraveți murați. Personalitate puternică, gust intens și o crustă incredibil de crocantă, căreia pur și simplu nu-i vei putea rezista! Servite alături de o porție mare de cartofi prăjiți și băutura preferată.",
+   "category": "Meniuri",
+   "price": 4990
+  },
+  {
+   "name": "Pepsi Zero cu gust de Căpșuni și Frișcă 330 ml",
+   "description": "(330 ml) Pepsi Zero cu gust de căpșuni și frișcă la doză",
+   "category": "Băuturi",
+   "price": 990
+  },
+  {
+   "name": "8 buc. Fillet Nuggets",
+   "description": "(160 g) 8 cuburi din piept de pui nepicante, marinate 12 ore într-un amestec unic de condimente Cajun și date manual prin făină, fragede la interior și crocante la exterior. O explozie de savoare!",
+   "category": "Fillet Nuggets",
+   "price": 3150
+  },
+  {
+   "name": "Sandwich & Nuggets Combo",
+   "description": "Doar pentru livrare: Chicken Sandwich, 5 Fillet Nuggets și o doză răcoritoare de Pepsi",
+   "category": "News",
+   "price": 4750
+  },
+  {
+   "name": "5 Sosuri",
+   "description": "Un set de 5 sosuri Popeyes, la alegerea ta, dintre: sos Mardi Gras, sos NOLA, sos BBQ, sos Buffalo, sos de Maioneză cu Usturoi. O potrivire perfectă pentru puiul nostru sau cartofii prăjiți Cajun.",
+   "category": "Sosuri",
+   "price": 1890
+  },
+  {
+   "name": "Supreme Super Hot Nashville Sandwich",
+   "description": "ATENȚIE! FOARTE PICANT! Versiunea supremă pentru cei care caută provocări adevărate! Pui suculent în stil Nashville, cu o iuțeală extremă, salată Coleslaw crocantă, maioneză picantă, 3 felii de castraveți murați și o chiflă brioche pufoasă. Iuțeală la maximum, gust intens și provocarea supremă pentru iubitorii de picant! Iar pentru a domoli iuțeala, te răsplătim cu un milkshake mic de vanilie din partea casei.",
+   "category": "Nashville Chicken",
+   "price": 2990
+  },
+  {
+   "name": "Cartofi Prajiti porție medie",
+   "description": "(100 g) O porție medie de cartofi prăjiți aurii și crocanți, înveliți în condiment Cajun. Perfecți pentru o gustare caldă sau ca parte dintr-un festin gustos.",
+   "category": "Sides",
+   "price": 1350
+  },
+  {
+   "name": "Spicy Chicken Wrap",
+   "description": "(210 g) 2 fâșiii de piept de pui marinate 12 ore într-un amestec unic de condimente Cajun, maioneză picantă, salată și roșii proaspete, toate învelite într-o tortilla. Delicios!",
+   "category": "Sandvișuri & Wrap-uri",
+   "price": 2550
+  },
+  {
+   "name": "Cartofi Prajiti porție mare",
+   "description": "(140 g) O porție medie de cartofi prăjiți aurii și crocanți, înveliți în condiment Cajun. Perfecți pentru o gustare caldă sau ca parte dintr-un festin gustos.",
+   "category": "Sides",
+   "price": 1450
+  }
+ ]
+}
